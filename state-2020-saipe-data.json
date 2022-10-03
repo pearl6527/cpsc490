@@ -1,0 +1,206 @@
+{
+  "Alabama": {
+    "Poverty rate": 14.9,
+    "Median household income": 53958
+  },
+  "Alaska": {
+    "Poverty rate": 9.6,
+    "Median household income": 79961
+  },
+  "Arizona": {
+    "Poverty rate": 12.8,
+    "Median household income": 64652
+  },
+  "Arkansas": {
+    "Poverty rate": 15.2,
+    "Median household income": 51146
+  },
+  "California": {
+    "Poverty rate": 11.5,
+    "Median household income": 83001
+  },
+  "Colorado": {
+    "Poverty rate": 9.0,
+    "Median household income": 77688
+  },
+  "Connecticut": {
+    "Poverty rate": 9.7,
+    "Median household income": 79723
+  },
+  "Delaware": {
+    "Poverty rate": 10.9,
+    "Median household income": 71335
+  },
+  "District of Columbia": {
+    "Poverty rate": 15.0,
+    "Median household income": 91957
+  },
+  "Florida": {
+    "Poverty rate": 12.4,
+    "Median household income": 61724
+  },
+  "Georgia": {
+    "Poverty rate": 14.0,
+    "Median household income": 62800
+  },
+  "Hawaii": {
+    "Poverty rate": 8.9,
+    "Median household income": 86878
+  },
+  "Idaho": {
+    "Poverty rate": 10.1,
+    "Median household income": 62603
+  },
+  "Illinois": {
+    "Poverty rate": 11.0,
+    "Median household income": 71243
+  },
+  "Indiana": {
+    "Poverty rate": 11.6,
+    "Median household income": 60794
+  },
+  "Iowa": {
+    "Poverty rate": 10.2,
+    "Median household income": 62362
+  },
+  "Kansas": {
+    "Poverty rate": 10.6,
+    "Median household income": 63214
+  },
+  "Kentucky": {
+    "Poverty rate": 14.9,
+    "Median household income": 54074
+  },
+  "Louisiana": {
+    "Poverty rate": 17.8,
+    "Median household income": 51730
+  },
+  "Maine": {
+    "Poverty rate": 10.6,
+    "Median household income": 59145
+  },
+  "Maryland": {
+    "Poverty rate": 9.0,
+    "Median household income": 88589
+  },
+  "Massachusetts": {
+    "Poverty rate": 9.4,
+    "Median household income": 87288
+  },
+  "Michigan": {
+    "Poverty rate": 12.6,
+    "Median household income": 61352
+  },
+  "Minnesota": {
+    "Poverty rate": 8.3,
+    "Median household income": 75489
+  },
+  "Mississippi": {
+    "Poverty rate": 18.7,
+    "Median household income": 47368
+  },
+  "Missouri": {
+    "Poverty rate": 12.1,
+    "Median household income": 58812
+  },
+  "Montana": {
+    "Poverty rate": 12.4,
+    "Median household income": 57730
+  },
+  "Nebraska": {
+    "Poverty rate": 9.2,
+    "Median household income": 64735
+  },
+  "Nevada": {
+    "Poverty rate": 12.5,
+    "Median household income": 64608
+  },
+  "New Hampshire": {
+    "Poverty rate": 7.0,
+    "Median household income": 81415
+  },
+  "New Jersey": {
+    "Poverty rate": 9.4,
+    "Median household income": 87095
+  },
+  "New Mexico": {
+    "Poverty rate": 16.8,
+    "Median household income": 52285
+  },
+  "New York": {
+    "Poverty rate": 12.7,
+    "Median household income": 73354
+  },
+  "North Carolina": {
+    "Poverty rate": 12.9,
+    "Median household income": 59616
+  },
+  "North Dakota": {
+    "Poverty rate": 10.2,
+    "Median household income": 64289
+  },
+  "Ohio": {
+    "Poverty rate": 12.6,
+    "Median household income": 60360
+  },
+  "Oklahoma": {
+    "Poverty rate": 14.3,
+    "Median household income": 54512
+  },
+  "Oregon": {
+    "Poverty rate": 11.0,
+    "Median household income": 67832
+  },
+  "Pennsylvania": {
+    "Poverty rate": 10.9,
+    "Median household income": 64898
+  },
+  "Rhode Island": {
+    "Poverty rate": 10.6,
+    "Median household income": 73919
+  },
+  "South Carolina": {
+    "Poverty rate": 13.8,
+    "Median household income": 57216
+  },
+  "South Dakota": {
+    "Poverty rate": 11.6,
+    "Median household income": 61149
+  },
+  "Tennessee": {
+    "Poverty rate": 13.6,
+    "Median household income": 56962
+  },
+  "Texas": {
+    "Poverty rate": 13.4,
+    "Median household income": 66048
+  },
+  "Utah": {
+    "Poverty rate": 7.3,
+    "Median household income": 77785
+  },
+  "Vermont": {
+    "Poverty rate": 9.4,
+    "Median household income": 67717
+  },
+  "Virginia": {
+    "Poverty rate": 9.2,
+    "Median household income": 79154
+  },
+  "Washington": {
+    "Poverty rate": 9.5,
+    "Median household income": 80319
+  },
+  "West Virginia": {
+    "Poverty rate": 15.8,
+    "Median household income": 49202
+  },
+  "Wisconsin": {
+    "Poverty rate": 10.0,
+    "Median household income": 64901
+  },
+  "Wyoming": {
+    "Poverty rate": 9.2,
+    "Median household income": 67284
+  }
+}
