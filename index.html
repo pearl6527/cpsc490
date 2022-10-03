@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 6</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="module">
+      import { transition } from "https://cdn.skypack.dev/d3-transition@3";
+
+      const t = transition();
+    </script>
+    <style type="text/css">
+      h1 {
+        padding-left: 0.5em;
+        font-family: sans-serif;
+      }
+      svg {
+        margin: 1em;
+      }
+      div.caption {
+        margin-left: 3em;
+        font-family: monospace;
+        font-size: 1em;
+      }
+      input[type="radio"] {
+        margin-left: 3em;
+      }
+      p {
+        font-family: Helvetica, sans-serif;
+        margin-top: none;
+        margin-bottom: none;
+        line-height: 0.9em;
+      }
+      #tooltip {
+        position: absolute;
+        width: auto;
+        height: auto;
+        padding: 5px 7px;
+        background-color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+        opacity: 0.9;
+      }
+      #tooltip3 {
+        position: absolute;
+        width: 80px;
+        height: auto;
+        padding: 5px 7px;
+        background-color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+        opacity: 0.9;
+      }
+      #tooltip2 {
+        position: absolute;
+        width: 80px;
+        height: auto;
+        padding: 5px 7px;
+        background-color: white;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        border-radius: 4px;
+        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+        pointer-events: none;
+        opacity: 0.9;
+      }
+      #statetooltip {
+        position: absolute;
+        width: 215px;
+        height: auto;
+        padding: 5px 7px;
+        left: 320px;
+        top: 275px;
+      }
+
+      #tooltip.hidden {
+        display: none;
+      }
+      #tooltip3.hidden,
+      #tooltip2.hidden {
+        display: none;
+      }
+      #tooltip p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+      }
+      #tooltip3 p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+      }
+      #tooltip2 p {
+        margin: 0;
+        font-family: sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+      }
+      #statetooltip p {
+        margin: 0;
+        width: 215px;
+        font-family: sans-serif;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Assignment 6</h1>
+    <div class="caption">
+      <p>
+        Fatal police shootings data from 2015 up until November 16, 2021 from
+        <a href="https://github.com/washingtonpost/data-police-shootings"
+          >https://github.com/washingtonpost/data-police-shootings</a
+        >.
+      </p>
+      <p>
+        <strong
+          >The U.S. white population is more than 3 times the size of the U.S.
+          black population.</strong
+        >
+      </p>
+    </div>
+    <p>
+      <input
+        class="genderFilter"
+        type="radio"
+        name="filterPreset"
+        value="clear"
+        checked="true"
+      />
+      All
+      <input
+        class="genderFilter"
+        type="radio"
+        name="filterPreset"
+        value="female"
+      />
+      Female
+      <input
+        class="genderFilter"
+        type="radio"
+        name="filterPreset"
+        value="male"
+      />
+      Male
+    </p>
+
+    <script type="text/javascript" src="map_viz.js"></script>
+    <div id="statetooltip">
+      <p>
+        <strong><span id="statename">United States</span></strong>
+      </p>
+      <p>
+        <span id="shootings">6,735</span>
+        <span id="state_gender">total</span> shootings
+      </p>
+    </div>
+    <div id="tooltip" class="hidden">
+      <p>
+        <strong><span id="tooltipname">name</span></strong>
+      </p>
+      <p>
+        <span id="age">00</span>-y.o. <span id="race">race</span
+        ><span id="gender">gender</span>
+      </p>
+      <p>
+        <em><span id="date">date</span></em>
+      </p>
+    </div>
+    <div id="tooltip2" class="hidden">
+      <p>
+        <strong><span id="num">n</span></strong>
+        <span id="racial">race</span> deaths in <span id="year">year</span>
+      </p>
+    </div>
+    <div id="tooltip3" class="hidden">
+      <p>
+        <strong
+          ><span id="gendergroup">gender</span>
+          <span id="agegroup">age</span></strong
+        >
+      </p>
+      <p><span id="cases">n</span> deaths</p>
+    </div>
+  </body>
+</html>
