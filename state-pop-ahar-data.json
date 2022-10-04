@@ -1,0 +1,257 @@
+{
+  "Alabama": {
+    "pop": 5024279,
+    "homeless": 3351,
+    "homeless_percent": 0.067
+  },
+  "Alaska": {
+    "pop": 733391,
+    "homeless": 1949,
+    "homeless_percent": 0.266
+  },
+  "Arizona": {
+    "pop": 7151502,
+    "homeless": 10979,
+    "homeless_percent": 0.154
+  },
+  "Arkansas": {
+    "pop": 3011524,
+    "homeless": 2366,
+    "homeless_percent": 0.079
+  },
+  "California": {
+    "pop": 39538223,
+    "homeless": 161548,
+    "homeless_percent": 0.409
+  },
+  "Colorado": {
+    "pop": 5773714,
+    "homeless": 9846,
+    "homeless_percent": 0.171
+  },
+  "Connecticut": {
+    "pop": 3605944,
+    "homeless": 2905,
+    "homeless_percent": 0.081
+  },
+  "Delaware": {
+    "pop": 989948,
+    "homeless": 1165,
+    "homeless_percent": 0.118
+  },
+  "District of Columbia": {
+    "pop": 689545,
+    "homeless": 6380,
+    "homeless_percent": 0.925
+  },
+  "Florida": {
+    "pop": 21538187,
+    "homeless": 27487,
+    "homeless_percent": 0.128
+  },
+  "Georgia": {
+    "pop": 10711908,
+    "homeless": 10234,
+    "homeless_percent": 0.096
+  },
+  "Hawaii": {
+    "pop": 1455271,
+    "homeless": 6458,
+    "homeless_percent": 0.444
+  },
+  "Idaho": {
+    "pop": 1839106,
+    "homeless": 2315,
+    "homeless_percent": 0.126
+  },
+  "Illinois": {
+    "pop": 12812508,
+    "homeless": 10431,
+    "homeless_percent": 0.081
+  },
+  "Indiana": {
+    "pop": 6785528,
+    "homeless": 5625,
+    "homeless_percent": 0.083
+  },
+  "Iowa": {
+    "pop": 3190369,
+    "homeless": 2647,
+    "homeless_percent": 0.083
+  },
+  "Kansas": {
+    "pop": 2937880,
+    "homeless": 2449,
+    "homeless_percent": 0.083
+  },
+  "Kentucky": {
+    "pop": 4505836,
+    "homeless": 4011,
+    "homeless_percent": 0.089
+  },
+  "Louisiana": {
+    "pop": 4657757,
+    "homeless": 3173,
+    "homeless_percent": 0.068
+  },
+  "Maine": {
+    "pop": 1362359,
+    "homeless": 2097,
+    "homeless_percent": 0.154
+  },
+  "Maryland": {
+    "pop": 6177224,
+    "homeless": 6360,
+    "homeless_percent": 0.103
+  },
+  "Massachusetts": {
+    "pop": 7029917,
+    "homeless": 17975,
+    "homeless_percent": 0.256
+  },
+  "Michigan": {
+    "pop": 10077331,
+    "homeless": 8638,
+    "homeless_percent": 0.086
+  },
+  "Minnesota": {
+    "pop": 5706494,
+    "homeless": 7940,
+    "homeless_percent": 0.139
+  },
+  "Mississippi": {
+    "pop": 2961279,
+    "homeless": 1107,
+    "homeless_percent": 0.037
+  },
+  "Missouri": {
+    "pop": 6154913,
+    "homeless": 6527,
+    "homeless_percent": 0.106
+  },
+  "Montana": {
+    "pop": 1084225,
+    "homeless": 1545,
+    "homeless_percent": 0.142
+  },
+  "Nebraska": {
+    "pop": 1961504,
+    "homeless": 2404,
+    "homeless_percent": 0.123
+  },
+  "Nevada": {
+    "pop": 3104614,
+    "homeless": 6900,
+    "homeless_percent": 0.222
+  },
+  "New Hampshire": {
+    "pop": 1377529,
+    "homeless": 1675,
+    "homeless_percent": 0.122
+  },
+  "New Jersey": {
+    "pop": 9288994,
+    "homeless": 9662,
+    "homeless_percent": 0.104
+  },
+  "New Mexico": {
+    "pop": 2117522,
+    "homeless": 3333,
+    "homeless_percent": 0.157
+  },
+  "New York": {
+    "pop": 20201249,
+    "homeless": 91271,
+    "homeless_percent": 0.452
+  },
+  "North Carolina": {
+    "pop": 10439388,
+    "homeless": 9280,
+    "homeless_percent": 0.089
+  },
+  "North Dakota": {
+    "pop": 779094,
+    "homeless": 541,
+    "homeless_percent": 0.069
+  },
+  "Ohio": {
+    "pop": 11799448,
+    "homeless": 10655,
+    "homeless_percent": 0.09
+  },
+  "Oklahoma": {
+    "pop": 3959353,
+    "homeless": 3932,
+    "homeless_percent": 0.099
+  },
+  "Oregon": {
+    "pop": 4237256,
+    "homeless": 14655,
+    "homeless_percent": 0.346
+  },
+  "Pennsylvania": {
+    "pop": 13002700,
+    "homeless": 13375,
+    "homeless_percent": 0.103
+  },
+  "Rhode Island": {
+    "pop": 1097379,
+    "homeless": 1104,
+    "homeless_percent": 0.101
+  },
+  "South Carolina": {
+    "pop": 5118425,
+    "homeless": 4287,
+    "homeless_percent": 0.084
+  },
+  "South Dakota": {
+    "pop": 886667,
+    "homeless": 1058,
+    "homeless_percent": 0.119
+  },
+  "Tennessee": {
+    "pop": 6910840,
+    "homeless": 7256,
+    "homeless_percent": 0.105
+  },
+  "Texas": {
+    "pop": 29145505,
+    "homeless": 27229,
+    "homeless_percent": 0.093
+  },
+  "Utah": {
+    "pop": 3271616,
+    "homeless": 3131,
+    "homeless_percent": 0.096
+  },
+  "Vermont": {
+    "pop": 643077,
+    "homeless": 1110,
+    "homeless_percent": 0.173
+  },
+  "Virginia": {
+    "pop": 8631393,
+    "homeless": 5957,
+    "homeless_percent": 0.069
+  },
+  "Washington": {
+    "pop": 7705281,
+    "homeless": 22923,
+    "homeless_percent": 0.297
+  },
+  "West Virginia": {
+    "pop": 1793716,
+    "homeless": 1341,
+    "homeless_percent": 0.075
+  },
+  "Wisconsin": {
+    "pop": 5893718,
+    "homeless": 4515,
+    "homeless_percent": 0.077
+  },
+  "Wyoming": {
+    "pop": 576851,
+    "homeless": 612,
+    "homeless_percent": 0.106
+  }
+}
