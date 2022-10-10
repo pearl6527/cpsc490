@@ -1,11 +1,11 @@
 let w = 1400;
-let h = 900;
+let h = 700;
 let padding = 40;
 
 let height_adj = 30;
 
 let v1_w = 800;
-let v1_h = 700;
+let v1_h = 600;
 
 let projection = d3
   .geoAlbersUsa()
@@ -15,11 +15,14 @@ let path = d3.geoPath().projection(projection);
 // 95821437
 // 182181408
 const logScale = d3.scaleLog().domain(PLS_SUM_DATA_RANGE.VISITS);
+const linScale = d3.scaleLinear().domain(PLS_SUM_DATA_RANGE.BKVOL);
+let curr_scale = logScale;
 let color = d3.scaleSequential().domain([0, 1])
   .interpolator(d3.interpolatePurples);
 
 // console.log(logScale.domain());
 let curr_stat = 'VISITS';
+let curr_year = 2020;
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
 let v1 = d3.select("svg").append("g").attr("id", "v1");
@@ -39,11 +42,11 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     // .attr("fill", "#EEE")
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[2020][d.properties.name][curr_stat];
-      console.log(d.properties.name, value, logScale(value));
+      let value = PLS_SUM_DATA[curr_year][d.properties.name][curr_stat];
+      console.log(d.properties.name, value, curr_scale(value));
 
       if (value) {
-        return color(logScale(value));
+        return color(curr_scale(value));
       } else {
         return "#eee";
       }
@@ -60,22 +63,28 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
 });
 
 let changeStatistic = function (statistic) {
-  logScale.domain(PLS_SUM_DATA_RANGE[statistic]);
-  console.log(logScale.domain());
+  if (statistic == 'BKVOL') {
+    linScale.domain(PLS_SUM_DATA_RANGE[statistic]);
+    curr_scale = linScale;
+  } else {
+    logScale.domain(PLS_SUM_DATA_RANGE[statistic]);
+    curr_scale = logScale;
+  }
+  // console.log(logScale.domain());
   v1.selectAll(".us-map")
     .transition()
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[2020][d.properties.name][statistic];
+      let value = PLS_SUM_DATA[curr_year][d.properties.name][statistic];
       console.log(d.properties.name, statistic, value, logScale(value));
 
-      if (value) {
+      if (value && value != -1) {
         return color(logScale(value));
       } else {
         return "#eee";
       }
     });
-    curr_stat = statistic
+  curr_stat = statistic;
 }
 
 let changeYear = function (year) {
@@ -84,12 +93,13 @@ let changeYear = function (year) {
     .style("fill", (d) => {
       
       let value = PLS_SUM_DATA[year][d.properties.name][curr_stat];
-      console.log(d.properties.name, statistic, value, logScale(value));
+      // console.log(d.properties.name, curr_stat, value, logScale(value));
 
-      if (value) {
+      if (value && value != -1) {
         return color(logScale(value));
       } else {
         return "#eee";
       }
     });
+  curr_year = year;
 }

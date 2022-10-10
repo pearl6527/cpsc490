@@ -9,116 +9,8 @@
 
       const t = transition();
     </script>
-    <style type="text/css">
-      h1 {
-        padding-left: 0.5em;
-        font-family: sans-serif;
-      }
-      svg {
-        margin: 1em;
-      }
-      div.caption {
-        margin-left: 3em;
-        font-family: monospace;
-        font-size: 1em;
-      }
-      input[type="radio"] {
-        margin-left: 3em;
-      }
-      p {
-        font-family: Helvetica, sans-serif;
-        margin-top: none;
-        margin-bottom: none;
-        line-height: 0.9em;
-      }
-      #tooltip {
-        position: absolute;
-        width: auto;
-        height: auto;
-        padding: 5px 7px;
-        background-color: white;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        pointer-events: none;
-        opacity: 0.9;
-      }
-      #tooltip3 {
-        position: absolute;
-        width: 80px;
-        height: auto;
-        padding: 5px 7px;
-        background-color: white;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        pointer-events: none;
-        opacity: 0.9;
-      }
-      #tooltip2 {
-        position: absolute;
-        width: 80px;
-        height: auto;
-        padding: 5px 7px;
-        background-color: white;
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        border-radius: 4px;
-        -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-        pointer-events: none;
-        opacity: 0.9;
-      }
-      #statetooltip {
-        position: absolute;
-        width: 215px;
-        height: auto;
-        padding: 5px 7px;
-        left: 320px;
-        top: 275px;
-      }
-
-      #tooltip.hidden {
-        display: none;
-      }
-      #tooltip3.hidden,
-      #tooltip2.hidden {
-        display: none;
-      }
-      #tooltip p {
-        margin: 0;
-        font-family: sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-      }
-      #tooltip3 p {
-        margin: 0;
-        font-family: sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-      }
-      #tooltip2 p {
-        margin: 0;
-        font-family: sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-      }
-      #statetooltip p {
-        margin: 0;
-        width: 215px;
-        font-family: sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rs-style.css">
   </head>
   <body>
     <h1>CPSC 490</h1>
@@ -163,6 +55,44 @@
     <script type="text/javascript" src="state-pls-sum-data.js"></script>
     <script type="text/javascript" src="state-pls-sum-data-range.js"></script>
     <script type="text/javascript" src="name-abbr.js"></script>
+    <div class="range-slider">
+      <!-- courtesy of https://codepen.io/mayuMPH/pen/ZjxGEY -->
+      <input id="rs-range-line" class="rs-range" type="range" value="2020" min="1998" max="2020">
+    </div>
+    <div class="box-minmax">
+      <span>1998</span><span>2020</span>
+    </div>
+    <script type="text/javascript">
+      let yearSlider = document.getElementById("rs-range-line");
+      yearSlider.addEventListener("input", showSliderValue, false);
+
+      function showSliderValue() {
+        document.getElementById("year-text").innerHTML = yearSlider.value;
+        changeYear(yearSlider.value);
+      }
+
+    </script>
+    <select name="statistic" id="map-dropdown">
+      <option value="VISITS">Visits</option>
+      <option value="REFERENC">References</option>
+      <option value="REGBOR">Registered borrowers</option>
+      <option value="BKVOL">Book volume</option>
+    </select>
+    <script type="text/javascript">
+      let statSelector = document.getElementById("map-dropdown");
+      statSelector.addEventListener("input", toggleStatistic, false);
+      function toggleStatistic() {
+        let statNameElt = document.getElementById("stat-name");
+        switch (statSelector.value) {
+          case 'VISITS': statNameElt.innerHTML = 'visits'; break;
+          case 'REFERENC': statNameElt.innerHTML = 'references'; break;
+          case 'REGBOR': statNameElt.innerHTML = 'registered borrowers'; break;
+          case 'BKVOL': statNameElt.innerHTML = 'books'; break;
+        }
+        changeStatistic(statSelector.value);
+      }
+
+    </script>
     <script type="text/javascript" src="v1.js"></script>
     <div id="statetooltip">
       <p>
@@ -170,9 +100,10 @@
       </p>
       <p>
         <span id="shootings">----</span>
-        total <span id="stat_name">visits</span> in <span id="year_text">2020</span>
+        total <span id="stat-name">visits</span> in <span id="year-text">2020</span>
       </p>
     </div>
+
     <div id="tooltip" class="hidden">
       <p>
         <strong><span id="tooltipname">name</span></strong>
@@ -200,5 +131,6 @@
       </p>
       <p><span id="cases">n</span> deaths</p>
     </div>
+    
   </body>
 </html>
