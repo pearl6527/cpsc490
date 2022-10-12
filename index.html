@@ -16,15 +16,13 @@
     <h1>CPSC 490</h1>
     <div class="caption">
       <p>
-        Fatal police shootings data from 2015 up until November 16, 2021 from
-        <a href="https://github.com/washingtonpost/data-police-shootings"
-          >https://github.com/washingtonpost/data-police-shootings</a
-        >.
+        Public Libraries Survey data from 1998 to 2020 from the
+        <a href="https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey"
+          >Public Libraries Survey</a> conducted by the <a href="https://www.imls.gov/">Institute of Museum and Library Services</a>.
       </p>
       <p>
         <strong
-          >The U.S. white population is more than 3 times the size of the U.S.
-          black population.</strong
+          >Use the slider to view data from different years and the dropdown to select various statistics.</strong
         >
       </p>
     </div>
@@ -54,6 +52,7 @@
     </p>
     <script type="text/javascript" src="state-pls-sum-data.js"></script>
     <script type="text/javascript" src="state-pls-sum-data-range.js"></script>
+    <script type="text/javascript" src="pls-stat-units.js"></script>
     <script type="text/javascript" src="name-abbr.js"></script>
     <div class="range-slider">
       <!-- courtesy of https://codepen.io/mayuMPH/pen/ZjxGEY -->
@@ -74,9 +73,13 @@
     </script>
     <select name="statistic" id="map-dropdown">
       <option value="VISITS">Visits</option>
-      <option value="REFERENC">References</option>
-      <option value="REGBOR">Registered borrowers</option>
-      <option value="BKVOL">Book volume</option>
+      <option value="REFERENC">Reference Transactions</option>
+      <option value="REGBOR">Registered Borrowers</option>
+      <option value="BKVOL">Print Materials</option>
+      <option value="TOTINCM">Income</option>
+      <option value="TOTOPEXP">Operating Expenditure</option>
+      <option value="TOTCIR">Circulation</option>
+      <option value="HRS_OPEN">Service Hours</option>
     </select>
     <script type="text/javascript">
       let statSelector = document.getElementById("map-dropdown");
@@ -85,9 +88,13 @@
         let statNameElt = document.getElementById("stat-name");
         switch (statSelector.value) {
           case 'VISITS': statNameElt.innerHTML = 'visits'; break;
-          case 'REFERENC': statNameElt.innerHTML = 'references'; break;
+          case 'REFERENC': statNameElt.innerHTML = 'reference transactions'; break;
           case 'REGBOR': statNameElt.innerHTML = 'registered borrowers'; break;
-          case 'BKVOL': statNameElt.innerHTML = 'books'; break;
+          case 'BKVOL': statNameElt.innerHTML = 'print materials'; break;
+          case 'TOTINCM': statNameElt.innerHTML = 'dollars in income'; break;
+          case 'TOTOPEXP': statNameElt.innerHTML = 'dollars in expenditure'; break;
+          case 'TOTCIR': statNameElt.innerHTML = 'circulation transactions'; break;
+          case 'HRS_OPEN': statNameElt.innerHTML = 'service hours'; break;
         }
         changeStatistic(statSelector.value);
       }
@@ -99,7 +106,7 @@
         <strong><span id="statename">United States</span></strong>
       </p>
       <p>
-        <span id="shootings">----</span>
+        <span id="stat-value">732,356,964</span>
         total <span id="stat-name">visits</span> in <span id="year-text">2020</span>
       </p>
     </div>

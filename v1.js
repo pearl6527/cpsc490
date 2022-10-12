@@ -22,10 +22,21 @@ let color = d3.scaleSequential().domain([0, 1])
 
 // console.log(logScale.domain());
 let curr_stat = 'VISITS';
+let curr_stat_unit = STAT_UNIT_MAP[curr_stat];
 let curr_year = 2020;
+let curr_total = sumStatistic(curr_stat, curr_year);
+// console.log(curr_total);
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
 let v1 = d3.select("svg").append("g").attr("id", "v1");
+
+function sumStatistic(statistic, year) {
+  let total = 0;
+  for (state in PLS_SUM_DATA[year]) {
+    total += PLS_SUM_DATA[year][state][statistic];
+  }
+  return total;
+}
 
 d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.json").then(function (geojson) {
   v1.selectAll("path.outlines")
@@ -35,7 +46,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     .attr("d", path)
     .attr("class", "us-map")
     .attr("id", (d) => {
-      return STATE_ABBR_MAP[d.properties.name] + "path";
+      return d.properties.name + "-path";
     })
     .attr("stroke", "#444")
     .attr("stroke-width", 0.5)
@@ -53,24 +64,47 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     })
     .on("mouseover", function (event, d) {
       d3.select(this).attr("stroke-width", 1.5).attr("fill", "#DEDEDE");
+      updateStateTooltip(d.properties.name, PLS_SUM_DATA[curr_year][d.properties.name][curr_stat]);
+      
     })
     .on("mouseout", function () {
       d3.select(this).attr("stroke-width", 0.5).attr("fill", "#EEE");
+      updateStateTooltip("United States", curr_total);
     })
-    .on("click", (d) => {
-      changeStatistic('REFERENC');
+    .append("title")
+    .text((d)=> {
+      return formatTooltipString(d);
     });
 });
 
-let changeStatistic = function (statistic) {
-  if (statistic == 'BKVOL') {
-    linScale.domain(PLS_SUM_DATA_RANGE[statistic]);
-    curr_scale = linScale;
+let updateStateTooltip = function (state, value) {
+  let statetool = d3.select("#statetooltip");
+  statetool.select("#statename")
+    .text(state);
+  statetool.select("#stat-value")
+    .text(value ? value.toLocaleString() : "--");
+}
+
+let formatTooltipString = function (d) {
+  let string = d.properties.name + "\n";
+  if (PLS_SUM_DATA[curr_year][d.properties.name][curr_stat] === undefined) {
+    string += "-- " + curr_stat_unit;
   } else {
+    string += PLS_SUM_DATA[curr_year][d.properties.name][curr_stat].toLocaleString() + " " + curr_stat_unit;
+  }
+  return string;
+}
+
+let changeStatistic = function (statistic) {
+  // if (statistic == 'BKVOL') {
+  //   linScale.domain(PLS_SUM_DATA_RANGE[statistic]);
+  //   curr_scale = linScale;
+  // } else {
     logScale.domain(PLS_SUM_DATA_RANGE[statistic]);
     curr_scale = logScale;
-  }
+  // }
   // console.log(logScale.domain());
+  v1.selectAll(".us-map").selectAll("title").remove();
   v1.selectAll(".us-map")
     .transition()
     .style("fill", (d) => {
@@ -79,12 +113,21 @@ let changeStatistic = function (statistic) {
       console.log(d.properties.name, statistic, value, logScale(value));
 
       if (value && value != -1) {
-        return color(logScale(value));
+        return color(curr_scale(value));
       } else {
         return "#eee";
       }
     });
+
   curr_stat = statistic;
+  curr_stat_unit = STAT_UNIT_MAP[curr_stat];
+  curr_total = sumStatistic(statistic, curr_year);
+  updateStateTooltip("United States", curr_total);
+  v1.selectAll(".us-map")
+    .append("title")
+    .text((d) => {
+      return formatTooltipString(d);
+    })
 }
 
 let changeYear = function (year) {
@@ -96,10 +139,18 @@ let changeYear = function (year) {
       // console.log(d.properties.name, curr_stat, value, logScale(value));
 
       if (value && value != -1) {
-        return color(logScale(value));
+        return color(curr_scale(value));
       } else {
         return "#eee";
       }
     });
   curr_year = year;
+  curr_total = sumStatistic(curr_stat, year);
+  updateStateTooltip("United States", curr_total);
+  v1.selectAll(".us-map").selectAll("title").remove();
+  v1.selectAll(".us-map")
+    .append("title")
+    .text((d) => {
+      return formatTooltipString(d);
+    })
 }
