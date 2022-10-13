@@ -82,7 +82,8 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae
     .data(json)
     .enter()
     .append("circle")
-    .attr("id", (d) => { 
+    .attr("id", (d) => {
+      console.log(d.id);
       return d.id;
     })
     .attr("cx", (d) => {
