@@ -2,8 +2,7 @@ let w = 1400;
 let h = 700;
 let padding = 40;
 
-let height_adj = 30;
-
+let AE_SET = new Set(AE_LIST);
 let v1_w = 800;
 let v1_h = 600;
 let state_w = 300;
@@ -106,9 +105,9 @@ let magnifyState = function(event, d) {
     .attr("stroke-width", 0.5)
     .attr("fill", "#eee");
 
-  d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae-data-by-state.json").then((json) => {
+  d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/pls-outlet-data-by-state.json").then((json) => {
     const stateLibs = json[d.properties.name];
-    console.log(stateLibs.length);
+    // console.log(stateLibs.length);
     v2.selectAll("circle")
       .data(stateLibs)
       .enter()
@@ -139,100 +138,31 @@ let magnifyState = function(event, d) {
         return "blue";
       })
       .attr("opacity", 0)
-      .transition()
-      .attr("opacity", 0.4)
       .style("stroke-width", 0.5)
       .style("cursor", "crosshair")
-  //   .style("visibility", (d) => {
-  //     return "hidden";
-  //   })
-  //   .on("mouseover", function (event, d) {
-  //     // d3.select("#" + d.state + "path")
-  //     //   .attr("stroke-width", 1.5)
-  //     //   .attr("fill", "#DEDEDE");
-
-  //     // let statetool = d3.select("#statetooltip");
-
-  //     // let result = json.features.filter((obj) => {
-  //     //   return obj.properties.abbr == d.state;
-  //     // });
-  //     // // console.log(result);
-
-  //     // statetool.select("#statename").text(result[0].properties.name);
-
-  //     // let c = getStateCount(
-  //     //   result[0].properties.value,
-  //     //   result[0].properties.male,
-  //     //   result[0].properties.female
-  //     // );
-
-  //     // statetool.select("#shootings").text(formatAsThousands(c));
-
-  //     // d3.select(this)
-  //     //   .transition()
-  //     //   .duration(100)
-  //     //   .attr("stroke-width", 0)
-  //     //   .attr("opacity", 0.8)
-  //     //   .attr("r", 9);
-
-  //     // let xPosition = parseFloat(d3.select(this).attr("cx")) + 40;
-  //     // let yPosition =
-  //     //   parseFloat(d3.select(this).attr("cy")) + 100 + height_adj;
-  //     // // console.log(xPosition, yPosition)
-
-  //     // let toolt = d3
-  //     //   .select("#tooltip")
-  //     //   .style("left", xPosition + "px")
-  //     //   .style("top", yPosition + "px");
-
-  //     // toolt.select("#tooltipname").text(d.name == "" ? "Unknown" : d.name);
-
-  //     // let r = getRace(d.race);
-  //     // toolt
-  //     //   .select("#race")
-  //     //   .text(() => {
-  //     //     if (r == "NativeAmerican") {
-  //     //       return "Native American ";
-  //     //     }
-  //     //     if (r == "Other") {
-  //     //       return "";
-  //     //     }
-  //     //     return r + " ";
-  //     //   })
-  //     //   .style(
-  //     //     "color",
-  //     //     getRaceCol(r == "NativeAmerican" ? "Native American" : r)
-  //     //   );
-
-  //     // toolt.select("#age").text(isNaN(d.age) ? "?" : d.age);
-
-  //     // toolt.select("#gender").text(getGender(d.gender));
-
-  //     // toolt.select("#date").text(formatDate(d.date));
-
-  //     // d3.select("#tooltip").classed("hidden", false);
-  //   })
-  //   .on("mouseout", function (event, d) {
-  //     // d3.select(this)
-  //     //   .transition()
-  //     //   .duration(100)
-  //     //   .attr("stroke-width", 0.5)
-  //     //   .attr("opacity", 0.4)
-  //     //   .attr("r", 3);
-
-  //     // d3.select("#" + d.state + "path")
-  //     //   .attr("stroke-width", 0.5)
-  //     //   .attr("fill", "#EEE");
-
-  //     // let statetool = d3.select("#statetooltip");
-
-  //     // statetool.select("#statename").text("United States");
-
-  //     // let c = getStateCount(total, maCount, feCount);
-  //     // statetool.select("#shootings").text(formatAsThousands(c));
-
-  //     // d3.select("#tooltip").classed("hidden", true);
-  //   });
+      .on("mouseover", function (event, dd) {
+        d3.select(this)
+          .transition()
+          .duration(100)
+          .attr("stroke-width", 0)
+          .attr("color", "yellow")
+          .attr("opacity", 0.8)
+          .attr("r", 9);
+        
+        if (AE_SET.has(dd.id)) {
+          console.log(dd.LIBNAME);
+        }
+      })
+      .on("mouseout", function (event, d) {
+        d3.select(this)
+          .transition()
+          .duration(100)
+          .attr("stroke-width", 0.5)
+          .attr("opacity", 0.4)
+          .attr("r", 3);
+      })
+      .transition()
+      .attr("opacity", 0.4);
   })
 }
 
