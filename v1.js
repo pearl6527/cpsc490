@@ -6,11 +6,15 @@ let height_adj = 30;
 
 let v1_w = 800;
 let v1_h = 600;
+let state_w = 300;
+let state_h = 300;
 
+let projScale = v1_w + 100;
 let projection = d3.geoAlbersUsa()
   .translate([v1_w / 2, v1_h / 2])
-  .scale([v1_w + 100]);
+  .scale([projScale]);
 let path = d3.geoPath().projection(projection);
+
 // 95821437
 // 182181408
 const logScale = d3.scaleLog().domain(PLS_SUM_DATA_RANGE.VISITS);
@@ -28,6 +32,7 @@ let curr_total = sumStatistic(curr_stat, curr_year);
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
 let v1 = d3.select("svg").append("g").attr("id", "v1");
+let v2 = d3.select("svg").append("g").attr("id", "v2").attr("viewBox", [0, 0, state_w, state_h]);
 
 function sumStatistic(statistic, year) {
   let total = 0;
@@ -63,6 +68,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     })
     .on("mouseover", function (event, d) {
       d3.select(this).attr("stroke-width", 1.5).attr("fill", "#DEDEDE");
+      d3.select(this).raise();
       updateStateTooltip(d.properties.name, PLS_SUM_DATA[curr_year][d.properties.name][curr_stat]);
       
     })
@@ -70,137 +76,190 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
       d3.select(this).attr("stroke-width", 0.5).attr("fill", "#EEE");
       updateStateTooltip("United States", curr_total);
     })
-    .append("title")
-    .text((d)=> {
-      return formatTooltipString(d);
-    });
+    .on("click", magnifyState);
 
-    v1.selectAll("circle")
-    .data(PLS_AE_DIR)
-    .enter()
-    .append("circle")
-    .attr("id", (d) => {
-      // console.log(d.id);
-      return d.id;
-    })
-    .attr("cx", (d) => {
-      if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
-        return -1000;
-      } else {
-        let proj = projection([d.LONGITUD, d.LATITUDE]);
-        return proj !== null ? proj[0] : -1000;
-      }
-    })
-    .attr("cy", (d) => {
-      if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
-        return -1000;
-      } else {
-        let proj = projection([d.LONGITUD, d.LATITUDE]);
-        return proj !== null ? proj[1] : -1000;
-      }
-    })
-    .attr("r", 3)
-    .attr("fill", (d) => {
-      return "blue";
-    })
-    .attr("stroke", (d) => {
-      return "blue";
-    })
-    .attr("opacity", 0.4)
-    .style("stroke-width", 0.5)
-    .style("cursor", "crosshair")
-    .style("visibility", (d) => {
-      return "hidden";
-    })
-    .on("mouseover", function (event, d) {
-      // d3.select("#" + d.state + "path")
-      //   .attr("stroke-width", 1.5)
-      //   .attr("fill", "#DEDEDE");
-
-      // let statetool = d3.select("#statetooltip");
-
-      // let result = json.features.filter((obj) => {
-      //   return obj.properties.abbr == d.state;
-      // });
-      // // console.log(result);
-
-      // statetool.select("#statename").text(result[0].properties.name);
-
-      // let c = getStateCount(
-      //   result[0].properties.value,
-      //   result[0].properties.male,
-      //   result[0].properties.female
-      // );
-
-      // statetool.select("#shootings").text(formatAsThousands(c));
-
-      // d3.select(this)
-      //   .transition()
-      //   .duration(100)
-      //   .attr("stroke-width", 0)
-      //   .attr("opacity", 0.8)
-      //   .attr("r", 9);
-
-      // let xPosition = parseFloat(d3.select(this).attr("cx")) + 40;
-      // let yPosition =
-      //   parseFloat(d3.select(this).attr("cy")) + 100 + height_adj;
-      // // console.log(xPosition, yPosition)
-
-      // let toolt = d3
-      //   .select("#tooltip")
-      //   .style("left", xPosition + "px")
-      //   .style("top", yPosition + "px");
-
-      // toolt.select("#tooltipname").text(d.name == "" ? "Unknown" : d.name);
-
-      // let r = getRace(d.race);
-      // toolt
-      //   .select("#race")
-      //   .text(() => {
-      //     if (r == "NativeAmerican") {
-      //       return "Native American ";
-      //     }
-      //     if (r == "Other") {
-      //       return "";
-      //     }
-      //     return r + " ";
-      //   })
-      //   .style(
-      //     "color",
-      //     getRaceCol(r == "NativeAmerican" ? "Native American" : r)
-      //   );
-
-      // toolt.select("#age").text(isNaN(d.age) ? "?" : d.age);
-
-      // toolt.select("#gender").text(getGender(d.gender));
-
-      // toolt.select("#date").text(formatDate(d.date));
-
-      // d3.select("#tooltip").classed("hidden", false);
-    })
-    .on("mouseout", function (event, d) {
-      // d3.select(this)
-      //   .transition()
-      //   .duration(100)
-      //   .attr("stroke-width", 0.5)
-      //   .attr("opacity", 0.4)
-      //   .attr("r", 3);
-
-      // d3.select("#" + d.state + "path")
-      //   .attr("stroke-width", 0.5)
-      //   .attr("fill", "#EEE");
-
-      // let statetool = d3.select("#statetooltip");
-
-      // statetool.select("#statename").text("United States");
-
-      // let c = getStateCount(total, maCount, feCount);
-      // statetool.select("#shootings").text(formatAsThousands(c));
-
-      // d3.select("#tooltip").classed("hidden", true);
-    });
 });
 
+let magnifyState = function(event, d) {
+  v2.selectAll(".us-map.individual-state").remove();
+  let [[left, top], [right, bottom]] = path.bounds(d);
+
+  let width = right - left;
+  let height = bottom - top;
+  let factor = state_w / (width > height ? width : height);
+
+  let stateProjection = d3.geoAlbersUsa()
+    .translate([50 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 100])
+    .scale([projScale * factor]);
+  let statePath = d3.geoPath().projection(stateProjection);
+  
+  v2.selectAll("path.outlines.state")
+    .data([d])
+    .enter()
+    .append("path")
+    .attr("d", statePath)
+    .attr("class", "us-map individual-state")
+    .attr("id", (dd) => {
+      return dd.properties.name + "-path-created";
+    })
+    .attr("stroke", "#444")
+    .attr("stroke-width", 0.5)
+    .attr("fill", "#eee");
+
+  d3.json()
+  // v2.selectAll("circle")
+  //   .data(PLS_AE_DIR)
+  //   .enter()
+  //   .append("circle")
+  //   .attr("id", (d) => {
+  //     // console.log(d.id);
+  //     return d.id;
+  //   })
+  //   .attr("cx", (d) => {
+  //     if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
+  //       return -1000;
+  //     } else {
+  //       let proj = projection([d.LONGITUD, d.LATITUDE]);
+  //       return proj !== null ? proj[0] : -1000;
+  //     }
+  //   })
+  //   .attr("cy", (d) => {
+  //     if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
+  //       return -1000;
+  //     } else {
+  //       let proj = projection([d.LONGITUD, d.LATITUDE]);
+  //       return proj !== null ? proj[1] : -1000;
+  //     }
+  //   })
+  //   .attr("r", 3)
+  //   .attr("fill", (d) => {
+  //     return "blue";
+  //   })
+  //   .attr("stroke", (d) => {
+  //     return "blue";
+  //   })
+  //   .attr("opacity", 0.4)
+  //   .style("stroke-width", 0.5)
+  //   .style("cursor", "crosshair")
+  //   .style("visibility", (d) => {
+  //     return "hidden";
+  //   })
+  //   .on("mouseover", function (event, d) {
+  //     // d3.select("#" + d.state + "path")
+  //     //   .attr("stroke-width", 1.5)
+  //     //   .attr("fill", "#DEDEDE");
+
+  //     // let statetool = d3.select("#statetooltip");
+
+  //     // let result = json.features.filter((obj) => {
+  //     //   return obj.properties.abbr == d.state;
+  //     // });
+  //     // // console.log(result);
+
+  //     // statetool.select("#statename").text(result[0].properties.name);
+
+  //     // let c = getStateCount(
+  //     //   result[0].properties.value,
+  //     //   result[0].properties.male,
+  //     //   result[0].properties.female
+  //     // );
+
+  //     // statetool.select("#shootings").text(formatAsThousands(c));
+
+  //     // d3.select(this)
+  //     //   .transition()
+  //     //   .duration(100)
+  //     //   .attr("stroke-width", 0)
+  //     //   .attr("opacity", 0.8)
+  //     //   .attr("r", 9);
+
+  //     // let xPosition = parseFloat(d3.select(this).attr("cx")) + 40;
+  //     // let yPosition =
+  //     //   parseFloat(d3.select(this).attr("cy")) + 100 + height_adj;
+  //     // // console.log(xPosition, yPosition)
+
+  //     // let toolt = d3
+  //     //   .select("#tooltip")
+  //     //   .style("left", xPosition + "px")
+  //     //   .style("top", yPosition + "px");
+
+  //     // toolt.select("#tooltipname").text(d.name == "" ? "Unknown" : d.name);
+
+  //     // let r = getRace(d.race);
+  //     // toolt
+  //     //   .select("#race")
+  //     //   .text(() => {
+  //     //     if (r == "NativeAmerican") {
+  //     //       return "Native American ";
+  //     //     }
+  //     //     if (r == "Other") {
+  //     //       return "";
+  //     //     }
+  //     //     return r + " ";
+  //     //   })
+  //     //   .style(
+  //     //     "color",
+  //     //     getRaceCol(r == "NativeAmerican" ? "Native American" : r)
+  //     //   );
+
+  //     // toolt.select("#age").text(isNaN(d.age) ? "?" : d.age);
+
+  //     // toolt.select("#gender").text(getGender(d.gender));
+
+  //     // toolt.select("#date").text(formatDate(d.date));
+
+  //     // d3.select("#tooltip").classed("hidden", false);
+  //   })
+  //   .on("mouseout", function (event, d) {
+  //     // d3.select(this)
+  //     //   .transition()
+  //     //   .duration(100)
+  //     //   .attr("stroke-width", 0.5)
+  //     //   .attr("opacity", 0.4)
+  //     //   .attr("r", 3);
+
+  //     // d3.select("#" + d.state + "path")
+  //     //   .attr("stroke-width", 0.5)
+  //     //   .attr("fill", "#EEE");
+
+  //     // let statetool = d3.select("#statetooltip");
+
+  //     // statetool.select("#statename").text("United States");
+
+  //     // let c = getStateCount(total, maCount, feCount);
+  //     // statetool.select("#shootings").text(formatAsThousands(c));
+
+  //     // d3.select("#tooltip").classed("hidden", true);
+  //   });
+}
+
+let findBoundingBox = function(coords) {
+  let min_x = coords[0][0];
+  let min_y = coords[0][1];
+  let max_x = min_x;
+  let max_y = min_y;
+  for (let coord of coords) {
+    min_x = coord[0] < min_x ? coord[0] : min_x;
+    max_x = coord[0] > max_x ? coord[0] : max_x;
+    min_y = coord[0] < min_y ? coord[0] : min_y;
+    max_y = coord[0] > max_y ? coord[0] : max_y;
+  }
+  return {left: min_x, right: max_x, top: max_y, bottom: min_y, width: max_x - min_x, height: max_y - min_y};
+}
+
+let getProjectedCoords = function(vals) {
+  let coords = []
+  for (const e of vals) {
+    if (Array.isArray(e[0])) {
+      for (const f of e) {
+        coords.push(projection(f));
+      }
+    } else {
+      coords.push(projection(e));
+    }
+  }
+  return coords;
+}
 
 let updateStateTooltip = function (state, value) {
   let statetool = d3.select("#statetooltip");
