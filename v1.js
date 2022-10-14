@@ -79,6 +79,9 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
 
 });
 
+let branchOutline = "rgba(70, 205, 200, 0.9)";
+let branchFill = "rgba(64, 200, 197, 0.7)";
+
 let magnifyState = function(event, d) {
   v2.selectAll(".individual-state").remove();
   let [[left, top], [right, bottom]] = path.bounds(d);
@@ -132,10 +135,13 @@ let magnifyState = function(event, d) {
       })
       .attr("r", 3)
       .attr("fill", (d) => {
-        return "blue";
+        if (d['C_OUT_TY'] === 'CE') {
+          return ""
+        }
+        return branchFill;
       })
       .attr("stroke", (d) => {
-        return "blue";
+        return branchOutline;
       })
       .attr("opacity", 0)
       .style("stroke-width", 0.5)
@@ -149,8 +155,8 @@ let magnifyState = function(event, d) {
           .attr("opacity", 0.8)
           .attr("r", 9);
         
-        if (AE_SET.has(dd.LIBID)) {
-          console.log(dd.LIBNAME);
+        if (AE_SET.has(dd.id)) {
+          // console.log(dd.LIBNAME);
         }
       })
       .on("mouseout", function (event, d) {
