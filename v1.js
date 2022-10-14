@@ -78,6 +78,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
 });
 
 d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae-data.json").then(function (json) {
+  console.log("a");
   v1.selectAll("circle")
     .data(json)
     .enter()
