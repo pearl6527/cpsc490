@@ -149,7 +149,7 @@ let magnifyState = function(event, d) {
           .attr("opacity", 0.8)
           .attr("r", 9);
         
-        if (AE_SET.has(dd.id)) {
+        if (AE_SET.has(dd.LIBID)) {
           console.log(dd.LIBNAME);
         }
       })
