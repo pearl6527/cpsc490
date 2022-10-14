@@ -81,7 +81,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
 });
 
 let magnifyState = function(event, d) {
-  v2.selectAll(".us-map.individual-state").remove();
+  v2.selectAll(".individual-state").remove();
   let [[left, top], [right, bottom]] = path.bounds(d);
 
   let width = right - left;
@@ -106,41 +106,43 @@ let magnifyState = function(event, d) {
     .attr("stroke-width", 0.5)
     .attr("fill", "#eee");
 
-  d3.json()
-  // v2.selectAll("circle")
-  //   .data(PLS_AE_DIR)
-  //   .enter()
-  //   .append("circle")
-  //   .attr("id", (d) => {
-  //     // console.log(d.id);
-  //     return d.id;
-  //   })
-  //   .attr("cx", (d) => {
-  //     if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
-  //       return -1000;
-  //     } else {
-  //       let proj = projection([d.LONGITUD, d.LATITUDE]);
-  //       return proj !== null ? proj[0] : -1000;
-  //     }
-  //   })
-  //   .attr("cy", (d) => {
-  //     if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
-  //       return -1000;
-  //     } else {
-  //       let proj = projection([d.LONGITUD, d.LATITUDE]);
-  //       return proj !== null ? proj[1] : -1000;
-  //     }
-  //   })
-  //   .attr("r", 3)
-  //   .attr("fill", (d) => {
-  //     return "blue";
-  //   })
-  //   .attr("stroke", (d) => {
-  //     return "blue";
-  //   })
-  //   .attr("opacity", 0.4)
-  //   .style("stroke-width", 0.5)
-  //   .style("cursor", "crosshair")
+  d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae-data-by-state.json").then((json) => {
+    const stateLibs = json[d.properties.name];
+    console.log(stateLibs.length);
+    v2.selectAll("circle")
+      .data(stateLibs)
+      .enter()
+      .append("circle")
+      .attr("id", (d) => d.id)
+      .attr("class", "individual-state")
+      .attr("cx", (d) => {
+        if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
+          return -1000;
+        } else {
+          let proj = stateProjection([d.LONGITUD, d.LATITUDE]);
+          return proj !== null ? proj[0] : -1000;
+        }
+      })
+      .attr("cy", (d) => {
+        if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
+          return -1000;
+        } else {
+          let proj = stateProjection([d.LONGITUD, d.LATITUDE]);
+          return proj !== null ? proj[1] : -1000;
+        }
+      })
+      .attr("r", 3)
+      .attr("fill", (d) => {
+        return "blue";
+      })
+      .attr("stroke", (d) => {
+        return "blue";
+      })
+      .attr("opacity", 0)
+      .transition()
+      .attr("opacity", 0.4)
+      .style("stroke-width", 0.5)
+      .style("cursor", "crosshair")
   //   .style("visibility", (d) => {
   //     return "hidden";
   //   })
@@ -231,6 +233,7 @@ let magnifyState = function(event, d) {
 
   //     // d3.select("#tooltip").classed("hidden", true);
   //   });
+  })
 }
 
 let findBoundingBox = function(coords) {
