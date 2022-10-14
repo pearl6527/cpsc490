@@ -7,8 +7,7 @@ let height_adj = 30;
 let v1_w = 800;
 let v1_h = 600;
 
-let projection = d3
-  .geoAlbersUsa()
+let projection = d3.geoAlbersUsa()
   .translate([v1_w / 2, v1_h / 2])
   .scale([v1_w + 100]);
 let path = d3.geoPath().projection(projection);
@@ -75,30 +74,29 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     .text((d)=> {
       return formatTooltipString(d);
     });
-});
 
-d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae-data.json").then(function (json) {
-  console.log("a");
-  v1.selectAll("circle")
-    .data(json)
+    v1.selectAll("circle")
+    .data(PLS_AE_DIR)
     .enter()
     .append("circle")
     .attr("id", (d) => {
-      console.log(d.id);
+      // console.log(d.id);
       return d.id;
     })
     .attr("cx", (d) => {
-      if (isNaN(d.lon) || isNaN(d.lat)) {
+      if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
         return -1000;
       } else {
-        return projection([d.lon, d.lat])[0];
+        let proj = projection([d.LONGITUD, d.LATITUDE]);
+        return proj !== null ? proj[0] : -1000;
       }
     })
     .attr("cy", (d) => {
-      if (isNaN(d.lon) || isNaN(d.lat)) {
+      if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
         return -1000;
       } else {
-        return projection([d.lon, d.lat])[1];
+        let proj = projection([d.LONGITUD, d.LATITUDE]);
+        return proj !== null ? proj[1] : -1000;
       }
     })
     .attr("r", 3)
@@ -112,7 +110,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae
     .style("stroke-width", 0.5)
     .style("cursor", "crosshair")
     .style("visibility", (d) => {
-      return isNaN(d.lon) || isNaN(d.lat) ? "hidden" : "visible";
+      return "hidden";
     })
     .on("mouseover", function (event, d) {
       // d3.select("#" + d.state + "path")
@@ -201,8 +199,8 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/state-pls-ae
 
       // d3.select("#tooltip").classed("hidden", true);
     });
-
 });
+
 
 let updateStateTooltip = function (state, value) {
   let statetool = d3.select("#statetooltip");
