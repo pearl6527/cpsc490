@@ -27,7 +27,7 @@ let curr_stat = 'VISITS';
 let curr_stat_unit = STAT_UNIT_MAP[curr_stat];
 let curr_year = 2020;
 let curr_total = sumStatistic(curr_stat, curr_year);
-// console.log(curr_total);
+let stat_per_capita = false;
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
 let v1 = d3.select("svg").append("g").attr("id", "v1");
@@ -79,8 +79,22 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
 
 });
 
-let branchOutline = "rgba(70, 205, 200, 0.9)";
-let branchFill = "rgba(64, 200, 197, 0.7)";
+let hideStateInfo = function() {
+  v2.selectAll(".individual-state")
+    .transition()
+    .duration(100)
+    .attr("opacity", 0)
+    .remove();
+  d3.select("#side-statetooltip").classed("hidden", true);
+};
+let hideLibraryInfo = function() {
+  d3.select("#tooltip").classed("hidden", true);
+};
+
+let branchOutline = "rgba(23, 148, 155, 1)";
+let branchFill = "rgba(20, 175, 183, 0.8)";
+let centralOutline = "rgba(85, 70, 105, 1)";
+let centralFill = "rgba(89, 74, 212, 0.8)";
 
 let magnifyState = function(event, d) {
   v2.selectAll(".individual-state").remove();
@@ -91,7 +105,7 @@ let magnifyState = function(event, d) {
   let factor = state_w / (width > height ? width : height);
 
   let stateProjection = d3.geoAlbersUsa()
-    .translate([50 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 100])
+    .translate([25 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
     .scale([projScale * factor]);
   let statePath = d3.geoPath().projection(stateProjection);
   
@@ -106,60 +120,76 @@ let magnifyState = function(event, d) {
     })
     .attr("stroke", "#444")
     .attr("stroke-width", 0.5)
-    .attr("fill", "#eee");
+    .attr("fill", "#eee")
+    .on("click", () => {
+      hold_lib_tooltip = !hold_lib_tooltip;
+    });
+  
+  updateSideStateTooltip(d.properties.name);
+  d3.select("#side-statetooltip").classed("hidden", false);
+  overlayLibraries(d, stateProjection);
+  console.log(PLS_SUM_DATA[d.properties.name]);
+}
 
+let overlayLibraries = function (d, stateProjection) {
   d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/pls-outlet-data-by-state.json").then((json) => {
     const stateLibs = json[d.properties.name];
-    // console.log(stateLibs.length);
     v2.selectAll("circle")
       .data(stateLibs)
       .enter()
       .append("circle")
-      .attr("id", (d) => d.id)
+      .attr("id", (dd) => {
+        return dd.id
+      })
       .attr("class", "individual-state")
-      .attr("cx", (d) => {
-        if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
+      .attr("cx", (dd) => {
+        if (isNaN(dd.LONGITUD) || isNaN(dd.LATITUDE)) {
           return -1000;
         } else {
-          let proj = stateProjection([d.LONGITUD, d.LATITUDE]);
+          let proj = stateProjection([dd.LONGITUD, dd.LATITUDE]);
           return proj !== null ? proj[0] : -1000;
         }
       })
-      .attr("cy", (d) => {
-        if (isNaN(d.LONGITUD) || isNaN(d.LATITUDE)) {
+      .attr("cy", (dd) => {
+        if (isNaN(dd.LONGITUD) || isNaN(dd.LATITUDE)) {
           return -1000;
         } else {
-          let proj = stateProjection([d.LONGITUD, d.LATITUDE]);
+          let proj = stateProjection([dd.LONGITUD, dd.LATITUDE]);
           return proj !== null ? proj[1] : -1000;
         }
       })
       .attr("r", 3)
-      .attr("fill", (d) => {
-        if (d['C_OUT_TY'] === 'CE') {
-          return ""
+      .attr("fill", (dd) => {
+        if (dd['C_OUT_TY'] === 'CE') {
+          return centralFill;
         }
         return branchFill;
       })
-      .attr("stroke", (d) => {
+      .attr("stroke", (dd) => {
+        if (dd['C_OUT_TY'] === 'CE') {
+          return centralOutline;
+        }
         return branchOutline;
       })
       .attr("opacity", 0)
       .style("stroke-width", 0.5)
       .style("cursor", "crosshair")
       .on("mouseover", function (event, dd) {
+        // console.log(event.pageX, event.pageY)
         d3.select(this)
           .transition()
           .duration(100)
           .attr("stroke-width", 0)
-          .attr("color", "yellow")
           .attr("opacity", 0.8)
           .attr("r", 9);
         
         if (AE_SET.has(dd.id)) {
           // console.log(dd.LIBNAME);
         }
+        displayLibraryTooltip(dd, d.properties.name, d3.select(this));
       })
-      .on("mouseout", function (event, d) {
+      .on("mouseout", function (event, dd) {
+        hideLibraryInfo();
         d3.select(this)
           .transition()
           .duration(100)
@@ -168,11 +198,11 @@ let magnifyState = function(event, d) {
           .attr("r", 3);
       })
       .transition()
-      .attr("opacity", 0.4);
-  })
+      .attr("opacity", 0.7);
+  });
 }
 
-let findBoundingBox = function(coords) {
+let findBoundingBox = function (coords) {
   let min_x = coords[0][0];
   let min_y = coords[0][1];
   let max_x = min_x;
@@ -186,7 +216,7 @@ let findBoundingBox = function(coords) {
   return {left: min_x, right: max_x, top: max_y, bottom: min_y, width: max_x - min_x, height: max_y - min_y};
 }
 
-let getProjectedCoords = function(vals) {
+let getProjectedCoords = function (vals) {
   let coords = []
   for (const e of vals) {
     if (Array.isArray(e[0])) {
@@ -208,12 +238,42 @@ let updateStateTooltip = function (state, value) {
     .text(value ? value.toLocaleString() : "--");
 }
 
+let updateSideStateTooltip = function (state) {
+  let statetool = d3.select("#side-statetooltip");
+  statetool.select("#side-statename").text(state);
+}
+
+let buildId = function(idBase, prefix) {
+  return "#" + prefix + idBase;
+}
+let displayLibraryTooltip = function(d, state, circ) {
+  const xPos = parseFloat(circ.attr("cx"));
+  const yPos = parseFloat(circ.attr("cy")) + 210;
+
+  let toolt = d3.select("#tooltip").style("top", yPos + "px");;
+  if (xPos > 1000) {
+    toolt.style("right", xPos + "px")
+  } else {
+    toolt.style("left", xPos + "px")
+  }
+
+  toolt.select("#tooltipname").text(d.LIBNAME);
+
+  let addrCol = d['C_OUT_TY'] === 'CE' ? centralOutline : branchOutline;
+  toolt.select("#address").text(d.ADDRESS.toLowerCase() + ", " + d.CITY.toLowerCase() + ",")
+    .style("color", addrCol);
+  toolt.select("#address2").text(state + " " + d.ZIP + (d.ZIP4 !== "M" ? "-" + d.ZIP4 : ""))
+    .style("color", addrCol);
+
+  d3.select("#tooltip").classed("hidden", false);
+}
+
 let formatTooltipString = function (d) {
   let string = d.properties.name + "\n";
-  if (PLS_SUM_DATA[curr_year][d.properties.name][curr_stat] === undefined) {
+  if (PLS_SUM_DATA[d.properties.name][curr_year][curr_stat] === undefined) {
     string += "-- " + curr_stat_unit;
   } else {
-    string += PLS_SUM_DATA[curr_year][d.properties.name][curr_stat].toLocaleString() + " " + curr_stat_unit;
+    string += PLS_SUM_DATA[d.properties.name][curr_year][curr_stat].toLocaleString() + " " + curr_stat_unit;
   }
   return string;
 }
@@ -232,7 +292,7 @@ let changeStatistic = function (statistic) {
     .transition()
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[curr_year][d.properties.name][statistic];
+      let value = PLS_SUM_DATA[d.properties.name][curr_year][statistic];
       console.log(d.properties.name, statistic, value, logScale(value));
 
       if (value && value != -1) {
@@ -258,7 +318,7 @@ let changeYear = function (year) {
     .transition()
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[year][d.properties.name][curr_stat];
+      let value = PLS_SUM_DATA[d.properties.name][year][curr_stat];
       // console.log(d.properties.name, curr_stat, value, logScale(value));
 
       if (value && value != -1) {

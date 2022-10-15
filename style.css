@@ -28,9 +28,9 @@ p {
   margin-bottom: none;
   line-height: 0.9em;
 }
-#tooltip {
+#tooltip, #perm-tooltip {
   position: absolute;
-  width: auto;
+  width: 180px;
   height: auto;
   padding: 5px 7px;
   background-color: white;
@@ -41,7 +41,7 @@ p {
   -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
   pointer-events: none;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 #tooltip3 {
   position: absolute;
@@ -81,29 +81,43 @@ p {
   left: 320px;
   top: 275px;
 }
-#statetooltip p {
+#statetooltip p, #side-statetooltip p {
   margin: 0;
   /* width: 300px; */
   font-family: sans-serif;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
+  /* text-align: center; */
+}
+#statetooltip p {
+  text-align: center; 
+}
+#hide-state {
+  top: 350px;
 }
 #stat-name {
   color: rgb(109, 72, 187);
 }
-#tooltip.hidden {
+.hidden {
   display: none;
 }
-#tooltip3.hidden,
+#side-statetooltip {
+  position: absolute;
+  top: 275px;
+  left: 825px;
+}
+/* #tooltip3.hidden,
 #tooltip2.hidden {
   display: none;
-}
-#tooltip p {
+} */
+#tooltip p, #perm-tooltip p {
   margin: 0;
   font-family: sans-serif;
   font-size: 12px;
   line-height: 16px;
+}
+.addr {
+  text-transform: capitalize;
 }
 #tooltip3 p {
   margin: 0;

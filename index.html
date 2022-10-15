@@ -28,27 +28,20 @@
     </div>
     <p>
       <input
-        class="genderFilter"
+        class="perCapitaToggle"
         type="radio"
         name="filterPreset"
         value="clear"
         checked="true"
       />
-      All
+      Total count
       <input
-        class="genderFilter"
+        class="perCapitaToggle"
         type="radio"
         name="filterPreset"
-        value="female"
+        value="percapita"
       />
-      Female
-      <input
-        class="genderFilter"
-        type="radio"
-        name="filterPreset"
-        value="male"
-      />
-      Male
+      Normalized by population
     </p>
     <script type="text/javascript" src="state-pls-sum-data.js"></script>
     <script type="text/javascript" src="state-pls-sum-data-range.js"></script>
@@ -68,6 +61,7 @@
 
       function showSliderValue() {
         document.getElementById("year-text").innerHTML = yearSlider.value;
+        // document.getElementById("side-year-text").innerHTML = yearSlider.value;
         changeYear(yearSlider.value);
       }
 
@@ -112,23 +106,27 @@
         total <span id="stat-name">visits</span> in <span id="year-text">2020</span>
       </p>
     </div>
+    <div id="side-statetooltip" class="hidden">
+      <p> <strong><span id="side-statename">STATE</span></strong> from 1998 - 2020<br>
+        <button id="hide-state" onclick="hideStateInfo()">Hide</button></p>
+    </div>
     <script type="text/javascript" src="state-pls-ae-data.js"></script>
     <div id="tooltip" class="hidden">
       <p>
-        <strong><span id="tooltipname">name</span></strong>
+        <strong><span id="tooltipname">Library Name</span></strong>
       </p>
-      <p>
-        <span id="age">00</span>-y.o. <span id="race">race</span
-        ><span id="gender">gender</span>
-      </p>
-      <p>
-        <em><span id="date">date</span></em>
+      <p class="addr">
+        <span id="address">0000 XXX Rd</span>
+        <span id="address2">City, State</span>
       </p>
     </div>
-    <div id="tooltip2" class="hidden">
+    <div id="perm-tooltip" class="hidden">
       <p>
-        <strong><span id="num">n</span></strong>
-        <span id="racial">race</span> deaths in <span id="year">year</span>
+        <strong><span id="perm-tooltipname">Library Name</span></strong>
+      </p>
+      <p class="addr">
+        <span id="perm-address">0000 XXX Rd</span><br>
+        <span id="perm-address2">City, State</span>
       </p>
     </div>
     <div id="tooltip3" class="hidden">
