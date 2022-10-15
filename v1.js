@@ -35,8 +35,8 @@ let v2 = d3.select("svg").append("g").attr("id", "v2").attr("viewBox", [0, 0, st
 
 function sumStatistic(statistic, year) {
   let total = 0;
-  for (state in PLS_SUM_DATA[year]) {
-    total += PLS_SUM_DATA[year][state][statistic];
+  for (state in STATE_ABBR_MAP) {
+    total += PLS_SUM_DATA[state][year][statistic];
   }
   return total;
 }
@@ -56,8 +56,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     // .attr("fill", "#EEE")
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[curr_year][d.properties.name][curr_stat];
-      console.log(d.properties.name, value, curr_scale(value));
+      let value = PLS_SUM_DATA[d.properties.name][curr_year][curr_stat];
 
       if (value) {
         return color(curr_scale(value));
@@ -68,7 +67,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     .on("mouseover", function (event, d) {
       d3.select(this).attr("stroke-width", 1.5).attr("fill", "#DEDEDE");
       d3.select(this).raise();
-      updateStateTooltip(d.properties.name, PLS_SUM_DATA[curr_year][d.properties.name][curr_stat]);
+      updateStateTooltip(d.properties.name, PLS_SUM_DATA[d.properties.name][curr_year][curr_stat]);
       
     })
     .on("mouseout", function () {
@@ -202,33 +201,33 @@ let overlayLibraries = function (d, stateProjection) {
   });
 }
 
-let findBoundingBox = function (coords) {
-  let min_x = coords[0][0];
-  let min_y = coords[0][1];
-  let max_x = min_x;
-  let max_y = min_y;
-  for (let coord of coords) {
-    min_x = coord[0] < min_x ? coord[0] : min_x;
-    max_x = coord[0] > max_x ? coord[0] : max_x;
-    min_y = coord[0] < min_y ? coord[0] : min_y;
-    max_y = coord[0] > max_y ? coord[0] : max_y;
-  }
-  return {left: min_x, right: max_x, top: max_y, bottom: min_y, width: max_x - min_x, height: max_y - min_y};
-}
+// let findBoundingBox = function (coords) {
+//   let min_x = coords[0][0];
+//   let min_y = coords[0][1];
+//   let max_x = min_x;
+//   let max_y = min_y;
+//   for (let coord of coords) {
+//     min_x = coord[0] < min_x ? coord[0] : min_x;
+//     max_x = coord[0] > max_x ? coord[0] : max_x;
+//     min_y = coord[0] < min_y ? coord[0] : min_y;
+//     max_y = coord[0] > max_y ? coord[0] : max_y;
+//   }
+//   return {left: min_x, right: max_x, top: max_y, bottom: min_y, width: max_x - min_x, height: max_y - min_y};
+// }
 
-let getProjectedCoords = function (vals) {
-  let coords = []
-  for (const e of vals) {
-    if (Array.isArray(e[0])) {
-      for (const f of e) {
-        coords.push(projection(f));
-      }
-    } else {
-      coords.push(projection(e));
-    }
-  }
-  return coords;
-}
+// let getProjectedCoords = function (vals) {
+//   let coords = []
+//   for (const e of vals) {
+//     if (Array.isArray(e[0])) {
+//       for (const f of e) {
+//         coords.push(projection(f));
+//       }
+//     } else {
+//       coords.push(projection(e));
+//     }
+//   }
+//   return coords;
+// }
 
 let updateStateTooltip = function (state, value) {
   let statetool = d3.select("#statetooltip");
@@ -293,9 +292,8 @@ let changeStatistic = function (statistic) {
     .style("fill", (d) => {
       
       let value = PLS_SUM_DATA[d.properties.name][curr_year][statistic];
-      console.log(d.properties.name, statistic, value, logScale(value));
 
-      if (value && value != -1) {
+      if (value && value >= 0) {
         return color(curr_scale(value));
       } else {
         return "#eee";
@@ -319,9 +317,8 @@ let changeYear = function (year) {
     .style("fill", (d) => {
       
       let value = PLS_SUM_DATA[d.properties.name][year][curr_stat];
-      // console.log(d.properties.name, curr_stat, value, logScale(value));
 
-      if (value && value != -1) {
+      if (value && value >= 0) {
         return color(curr_scale(value));
       } else {
         return "#eee";

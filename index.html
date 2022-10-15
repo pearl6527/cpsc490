@@ -71,6 +71,7 @@
       <option value="REFERENC">Reference Transactions</option>
       <option value="REGBOR">Registered Borrowers</option>
       <option value="BKVOL">Print Materials</option>
+      <option value="OTHMAT">Other Materials (electronic/audio/video)</option>
       <option value="TOTINCM">Income</option>
       <option value="TOTOPEXP">Operating Expenditure</option>
       <option value="TOTCIR">Circulation</option>
@@ -90,6 +91,7 @@
           case 'TOTOPEXP': statNameElt.innerHTML = 'dollars in expenditure'; break;
           case 'TOTCIR': statNameElt.innerHTML = 'circulation transactions'; break;
           case 'HRS_OPEN': statNameElt.innerHTML = 'service hours'; break;
+          case 'OTHMAT': statNameElt.innerHTML = 'non-print materials'; break;
         }
         changeStatistic(statSelector.value);
       }
