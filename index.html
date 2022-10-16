@@ -31,7 +31,7 @@
         class="perCapitaToggle"
         type="radio"
         name="filterPreset"
-        value="clear"
+        value="total"
         checked="true"
       />
       Total count
@@ -83,15 +83,15 @@
       function toggleStatistic() {
         let statNameElt = document.getElementById("stat-name");
         switch (statSelector.value) {
-          case 'VISITS': statNameElt.innerHTML = 'visits'; break;
-          case 'REFERENC': statNameElt.innerHTML = 'reference transactions'; break;
-          case 'REGBOR': statNameElt.innerHTML = 'registered borrowers'; break;
-          case 'BKVOL': statNameElt.innerHTML = 'print materials'; break;
-          case 'TOTINCM': statNameElt.innerHTML = 'dollars in income'; break;
-          case 'TOTOPEXP': statNameElt.innerHTML = 'dollars in expenditure'; break;
-          case 'TOTCIR': statNameElt.innerHTML = 'circulation transactions'; break;
-          case 'HRS_OPEN': statNameElt.innerHTML = 'service hours'; break;
-          case 'OTHMAT': statNameElt.innerHTML = 'non-print materials'; break;
+          case 'VISITS': statNameElt.innerHTML = 'visit(s)'; break;
+          case 'REFERENC': statNameElt.innerHTML = 'reference transaction(s)'; break;
+          case 'REGBOR': statNameElt.innerHTML = 'registered borrower(s)'; break;
+          case 'BKVOL': statNameElt.innerHTML = 'print material(s)'; break;
+          case 'TOTINCM': statNameElt.innerHTML = 'dollar(s) in income'; break;
+          case 'TOTOPEXP': statNameElt.innerHTML = 'dollar(s) in expenditure'; break;
+          case 'TOTCIR': statNameElt.innerHTML = 'circulation transaction(s)'; break;
+          case 'HRS_OPEN': statNameElt.innerHTML = 'service hour(s)'; break;
+          case 'OTHMAT': statNameElt.innerHTML = 'non-print material(s)'; break;
         }
         changeStatistic(statSelector.value);
       }
@@ -105,7 +105,8 @@
       </p>
       <p>
         <span id="stat-value">732,356,964</span>
-        total <span id="stat-name">visits</span> in <span id="year-text">2020</span>
+        <span id="stat-name">visits</span><br> <span id="per-cap-label">total</span>
+         in <span id="year-text">2020</span>
       </p>
     </div>
     <div id="side-statetooltip" class="hidden">

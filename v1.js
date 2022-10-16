@@ -17,28 +17,33 @@ let path = d3.geoPath().projection(projection);
 // 95821437
 // 182181408
 const logScale = d3.scaleLog().domain(PLS_SUM_DATA_RANGE.VISITS);
-const linScale = d3.scaleLinear().domain(PLS_SUM_DATA_RANGE.BKVOL);
+const linScale = d3.scaleLinear().domain([0, 10]);
 let curr_scale = logScale;
 let color = d3.scaleSequential().domain([0, 1])
   .interpolator(d3.interpolatePurples);
 
-// console.log(logScale.domain());
+let stat_per_capita = false;
 let curr_stat = 'VISITS';
 let curr_stat_unit = STAT_UNIT_MAP[curr_stat];
 let curr_year = 2020;
 let curr_total = sumStatistic(curr_stat, curr_year);
-let stat_per_capita = false;
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
 let v1 = d3.select("svg").append("g").attr("id", "v1");
 let v2 = d3.select("svg").append("g").attr("id", "v2").attr("viewBox", [0, 0, state_w, state_h]);
 
+function roundDecimal(n, place) {
+  const pow = Math.pow(10, place);
+  return Math.round(pow * n, 1) / pow;
+}
 function sumStatistic(statistic, year) {
   let total = 0;
+  let popu = 0;
   for (state in STATE_ABBR_MAP) {
     total += PLS_SUM_DATA[state][year][statistic];
+    popu += PLS_SUM_DATA[state][year]['POPU'];
   }
-  return total;
+  return stat_per_capita ? roundDecimal(total / popu, 1) : total;
 }
 
 d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.json").then(function (geojson) {
@@ -56,7 +61,8 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     // .attr("fill", "#EEE")
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[d.properties.name][curr_year][curr_stat];
+      let value = getStatValue(d.properties.name, curr_year, curr_stat);
+      d.currVal = value;
 
       if (value) {
         return color(curr_scale(value));
@@ -67,7 +73,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     .on("mouseover", function (event, d) {
       d3.select(this).attr("stroke-width", 1.5).attr("fill", "#DEDEDE");
       d3.select(this).raise();
-      updateStateTooltip(d.properties.name, PLS_SUM_DATA[d.properties.name][curr_year][curr_stat]);
+      updateStateTooltip(d.properties.name, d.currVal);
       
     })
     .on("mouseout", function () {
@@ -234,7 +240,7 @@ let updateStateTooltip = function (state, value) {
   statetool.select("#statename")
     .text(state);
   statetool.select("#stat-value")
-    .text(value ? value.toLocaleString() : "--");
+    .text(value && value >= 0 ? value.toLocaleString() : "--");
 }
 
 let updateSideStateTooltip = function (state) {
@@ -277,21 +283,29 @@ let formatTooltipString = function (d) {
   return string;
 }
 
+let getStatValue = function (state, year, statistic) {
+  if (stat_per_capita) {
+    // console.log(roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 1));
+    return roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 1);
+  }
+  return PLS_SUM_DATA[state][year][statistic];
+}
+
 let changeStatistic = function (statistic) {
-  // if (statistic == 'BKVOL') {
-  //   linScale.domain(PLS_SUM_DATA_RANGE[statistic]);
-  //   curr_scale = linScale;
-  // } else {
+  if (stat_per_capita) {
+    linScale.domain(PLS_SUM_DATA_RANGE[statistic + '_percap']);
+    curr_scale = linScale;
+  } else {
     logScale.domain(PLS_SUM_DATA_RANGE[statistic]);
     curr_scale = logScale;
-  // }
-  // console.log(logScale.domain());
+  }
   v1.selectAll(".us-map").selectAll("title").remove();
   v1.selectAll(".us-map")
     .transition()
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[d.properties.name][curr_year][statistic];
+      let value = getStatValue(d.properties.name, curr_year, statistic);
+      d.currVal = value;
 
       if (value && value >= 0) {
         return color(curr_scale(value));
@@ -304,11 +318,11 @@ let changeStatistic = function (statistic) {
   curr_stat_unit = STAT_UNIT_MAP[curr_stat];
   curr_total = sumStatistic(statistic, curr_year);
   updateStateTooltip("United States", curr_total);
-  v1.selectAll(".us-map")
-    .append("title")
-    .text((d) => {
-      return formatTooltipString(d);
-    })
+  // v1.selectAll(".us-map")
+  //   .append("title")
+  //   .text((d) => {
+  //     return formatTooltipString(d);
+  //   })
 }
 
 let changeYear = function (year) {
@@ -316,7 +330,8 @@ let changeYear = function (year) {
     .transition()
     .style("fill", (d) => {
       
-      let value = PLS_SUM_DATA[d.properties.name][year][curr_stat];
+      let value = getStatValue(d.properties.name, year, curr_stat);
+      d.currVal = value;
 
       if (value && value >= 0) {
         return color(curr_scale(value));
@@ -328,9 +343,22 @@ let changeYear = function (year) {
   curr_total = sumStatistic(curr_stat, year);
   updateStateTooltip("United States", curr_total);
   v1.selectAll(".us-map").selectAll("title").remove();
-  v1.selectAll(".us-map")
-    .append("title")
-    .text((d) => {
-      return formatTooltipString(d);
-    })
+  // v1.selectAll(".us-map")
+  //   .append("title")
+  //   .text((d) => {
+  //     return formatTooltipString(d);
+  //   })
 }
+
+d3.selectAll("input.perCapitaToggle").on("click", function () {
+  let cat = d3.select(this).node().value;
+
+  if (cat == "total" && stat_per_capita) {
+    stat_per_capita = false;
+    d3.select("#per-cap-label").text("total");
+  } else if (cat == "percapita" && !stat_per_capita) {
+    stat_per_capita = true;
+    d3.select("#per-cap-label").text("per person");
+  }
+  changeStatistic(curr_stat);
+});

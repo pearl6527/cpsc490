@@ -45,7 +45,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 144758,
       "YAATTEN": -1,
-      "OTHMAT": 140244
+      "OTHMAT": 140244,
+      "POPU": 619932
     },
     "1999": {
       "STABR": "AK",
@@ -92,7 +93,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 177846,
       "YAATTEN": -1,
-      "OTHMAT": 159317
+      "OTHMAT": 159317,
+      "POPU": 624779
     },
     "2000": {
       "STABR": "AK",
@@ -139,7 +141,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 145212,
       "YAATTEN": -1,
-      "OTHMAT": 170075
+      "OTHMAT": 170075,
+      "POPU": 627963
     },
     "2001": {
       "STABR": "AK",
@@ -186,7 +189,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 131583,
       "YAATTEN": -1,
-      "OTHMAT": 191459
+      "OTHMAT": 191459,
+      "POPU": 633714
     },
     "2002": {
       "STABR": "AK",
@@ -233,7 +237,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 130525,
       "YAATTEN": -1,
-      "OTHMAT": 204715
+      "OTHMAT": 204715,
+      "POPU": 642337
     },
     "2003": {
       "STABR": "AK",
@@ -280,7 +285,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 134147,
       "YAATTEN": -1,
-      "OTHMAT": 224960
+      "OTHMAT": 224960,
+      "POPU": 648414
     },
     "2004": {
       "STABR": "AK",
@@ -327,7 +333,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 158271,
       "KIDATTEN": 139012,
       "YAATTEN": -1,
-      "OTHMAT": 242324
+      "OTHMAT": 242324,
+      "POPU": 659286
     },
     "2005": {
       "STABR": "AK",
@@ -374,7 +381,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 179346,
       "KIDATTEN": 149493,
       "YAATTEN": -1,
-      "OTHMAT": 272092
+      "OTHMAT": 272092,
+      "POPU": 666946
     },
     "2006": {
       "STABR": "AK",
@@ -421,7 +429,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 185974,
       "KIDATTEN": 151523,
       "YAATTEN": -1,
-      "OTHMAT": 289264
+      "OTHMAT": 289264,
+      "POPU": 675302
     },
     "2007": {
       "STABR": "AK",
@@ -468,7 +477,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 177429,
       "KIDATTEN": 150878,
       "YAATTEN": -1,
-      "OTHMAT": 305399
+      "OTHMAT": 305399,
+      "POPU": 680300
     },
     "2008": {
       "STABR": "AK",
@@ -515,7 +525,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 192554,
       "KIDATTEN": 161885,
       "YAATTEN": -1,
-      "OTHMAT": 335942
+      "OTHMAT": 335942,
+      "POPU": 687455
     },
     "2009": {
       "STABR": "AK",
@@ -562,7 +573,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 215584,
       "KIDATTEN": 177483,
       "YAATTEN": 9657,
-      "OTHMAT": 363249
+      "OTHMAT": 363249,
+      "POPU": 698895
     },
     "2010": {
       "STABR": "AK",
@@ -609,7 +621,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 222904,
       "KIDATTEN": 171524,
       "YAATTEN": 10219,
-      "OTHMAT": 459208
+      "OTHMAT": 459208,
+      "POPU": 713910
     },
     "2011": {
       "STABR": "AK",
@@ -656,7 +669,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 224292,
       "KIDATTEN": 172922,
       "YAATTEN": 11664,
-      "OTHMAT": 584034
+      "OTHMAT": 584034,
+      "POPU": 722128
     },
     "2012": {
       "STABR": "AK",
@@ -703,7 +717,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 244417,
       "KIDATTEN": 177733,
       "YAATTEN": 16711,
-      "OTHMAT": 899299
+      "OTHMAT": 899299,
+      "POPU": 730443
     },
     "2013": {
       "STABR": "AK",
@@ -750,7 +765,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 261848,
       "KIDATTEN": 192403,
       "YAATTEN": 19432,
-      "OTHMAT": 1024202
+      "OTHMAT": 1024202,
+      "POPU": 737068
     },
     "2014": {
       "STABR": "AK",
@@ -797,7 +813,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 279080,
       "KIDATTEN": 202322,
       "YAATTEN": 25902,
-      "OTHMAT": 1120022.0
+      "OTHMAT": 1120022.0,
+      "POPU": 736283
     },
     "2015": {
       "STABR": "AK",
@@ -844,7 +861,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 254172,
       "KIDATTEN": 177102,
       "YAATTEN": 21401,
-      "OTHMAT": 1411816
+      "OTHMAT": 1411816,
+      "POPU": 737498
     },
     "2016": {
       "STABR": "AK",
@@ -891,7 +909,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 266128,
       "KIDATTEN": 184146,
       "YAATTEN": 20136,
-      "OTHMAT": 1507117
+      "OTHMAT": 1507117,
+      "POPU": 741456
     },
     "2017": {
       "STABR": "AK",
@@ -938,7 +957,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 266184,
       "KIDATTEN": 193013,
       "YAATTEN": 20407,
-      "OTHMAT": 2523955
+      "OTHMAT": 2523955,
+      "POPU": 739700
     },
     "2018": {
       "STABR": "AK",
@@ -985,7 +1005,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 294920,
       "KIDATTEN": 210122,
       "YAATTEN": 21955,
-      "OTHMAT": 2949812
+      "OTHMAT": 2949812,
+      "POPU": 735139
     },
     "2019": {
       "STABR": "AK",
@@ -1032,7 +1053,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 295211,
       "KIDATTEN": 213535,
       "YAATTEN": 18255,
-      "OTHMAT": 2702474
+      "OTHMAT": 2702474,
+      "POPU": 731545
     },
     "2020": {
       "STABR": "AK",
@@ -1079,7 +1101,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 245909,
       "KIDATTEN": 172836,
       "YAATTEN": 15480,
-      "OTHMAT": 2950664
+      "OTHMAT": 2950664,
+      "POPU": 733391
     }
   },
   "Alabama": {
@@ -1128,7 +1151,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 468303,
       "YAATTEN": -1,
-      "OTHMAT": 357629
+      "OTHMAT": 357629,
+      "POPU": 4404701
     },
     "1999": {
       "STABR": "AL",
@@ -1175,7 +1199,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 321583,
       "YAATTEN": -1,
-      "OTHMAT": 436148
+      "OTHMAT": 436148,
+      "POPU": 4430141
     },
     "2000": {
       "STABR": "AL",
@@ -1222,7 +1247,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 538378,
       "YAATTEN": -1,
-      "OTHMAT": 483560
+      "OTHMAT": 483560,
+      "POPU": 4452173
     },
     "2001": {
       "STABR": "AL",
@@ -1269,7 +1295,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 720601,
       "YAATTEN": -1,
-      "OTHMAT": 521920
+      "OTHMAT": 521920,
+      "POPU": 4467634
     },
     "2002": {
       "STABR": "AL",
@@ -1316,7 +1343,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 639360,
       "YAATTEN": -1,
-      "OTHMAT": 583071
+      "OTHMAT": 583071,
+      "POPU": 4480089
     },
     "2003": {
       "STABR": "AL",
@@ -1363,7 +1391,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 680903,
       "YAATTEN": -1,
-      "OTHMAT": 1082113
+      "OTHMAT": 1082113,
+      "POPU": 4503491
     },
     "2004": {
       "STABR": "AL",
@@ -1410,7 +1439,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 841891,
       "KIDATTEN": 678731,
       "YAATTEN": -1,
-      "OTHMAT": 1121224
+      "OTHMAT": 1121224,
+      "POPU": 4530729
     },
     "2005": {
       "STABR": "AL",
@@ -1457,7 +1487,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 714009,
       "KIDATTEN": 576583,
       "YAATTEN": -1,
-      "OTHMAT": 1204709
+      "OTHMAT": 1204709,
+      "POPU": 4569805
     },
     "2006": {
       "STABR": "AL",
@@ -1504,7 +1535,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 735469,
       "KIDATTEN": 590754,
       "YAATTEN": -1,
-      "OTHMAT": 1413182
+      "OTHMAT": 1413182,
+      "POPU": 4628981
     },
     "2007": {
       "STABR": "AL",
@@ -1551,7 +1583,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 715092,
       "KIDATTEN": 586253,
       "YAATTEN": -1,
-      "OTHMAT": 1308488
+      "OTHMAT": 1308488,
+      "POPU": 4672840
     },
     "2008": {
       "STABR": "AL",
@@ -1598,7 +1631,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 748065,
       "KIDATTEN": 598140,
       "YAATTEN": -1,
-      "OTHMAT": 1349707
+      "OTHMAT": 1349707,
+      "POPU": 4718206
     },
     "2009": {
       "STABR": "AL",
@@ -1645,7 +1679,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 828928,
       "KIDATTEN": 653994,
       "YAATTEN": 10946,
-      "OTHMAT": 1373156
+      "OTHMAT": 1373156,
+      "POPU": 4757938
     },
     "2010": {
       "STABR": "AL",
@@ -1692,7 +1727,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 993416,
       "KIDATTEN": 579234,
       "YAATTEN": 44138,
-      "OTHMAT": 1459331
+      "OTHMAT": 1459331,
+      "POPU": 4785437
     },
     "2011": {
       "STABR": "AL",
@@ -1739,7 +1775,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 970819,
       "KIDATTEN": 521023,
       "YAATTEN": 54545,
-      "OTHMAT": 1757487
+      "OTHMAT": 1757487,
+      "POPU": 4799069
     },
     "2012": {
       "STABR": "AL",
@@ -1786,7 +1823,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 932723,
       "KIDATTEN": 615254,
       "YAATTEN": 70904,
-      "OTHMAT": 2061642
+      "OTHMAT": 2061642,
+      "POPU": 4815588
     },
     "2013": {
       "STABR": "AL",
@@ -1833,7 +1871,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1015959,
       "KIDATTEN": 682471,
       "YAATTEN": 64289,
-      "OTHMAT": 3199203
+      "OTHMAT": 3199203,
+      "POPU": 4830081
     },
     "2014": {
       "STABR": "AL",
@@ -1880,7 +1919,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1053347,
       "KIDATTEN": 696970,
       "YAATTEN": 77371,
-      "OTHMAT": 4459402.21957672
+      "OTHMAT": 4459402.21957672,
+      "POPU": 4841799
     },
     "2015": {
       "STABR": "AL",
@@ -1927,7 +1967,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1121601,
       "KIDATTEN": 723637,
       "YAATTEN": 93665,
-      "OTHMAT": 5285628
+      "OTHMAT": 5285628,
+      "POPU": 4852347
     },
     "2016": {
       "STABR": "AL",
@@ -1974,7 +2015,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1240450,
       "KIDATTEN": 782555,
       "YAATTEN": 116100,
-      "OTHMAT": 5985274
+      "OTHMAT": 5985274,
+      "POPU": 4863525
     },
     "2017": {
       "STABR": "AL",
@@ -2021,7 +2063,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1273334,
       "KIDATTEN": 807789,
       "YAATTEN": 116403,
-      "OTHMAT": 7386668
+      "OTHMAT": 7386668,
+      "POPU": 4874486
     },
     "2018": {
       "STABR": "AL",
@@ -2068,7 +2111,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1315676,
       "KIDATTEN": 845249,
       "YAATTEN": 135351,
-      "OTHMAT": 12053786
+      "OTHMAT": 12053786,
+      "POPU": 4887681
     },
     "2019": {
       "STABR": "AL",
@@ -2115,7 +2159,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1462840,
       "KIDATTEN": 909660,
       "YAATTEN": 172129,
-      "OTHMAT": 14995453
+      "OTHMAT": 14995453,
+      "POPU": 4903185
     },
     "2020": {
       "STABR": "AL",
@@ -2162,7 +2207,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 894623,
       "KIDATTEN": 577257,
       "YAATTEN": 84059,
-      "OTHMAT": 12879163
+      "OTHMAT": 12879163,
+      "POPU": 5024279
     }
   },
   "Arkansas": {
@@ -2211,7 +2257,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 291173,
       "YAATTEN": -1,
-      "OTHMAT": 134800
+      "OTHMAT": 134800,
+      "POPU": 2626289
     },
     "1999": {
       "STABR": "AR",
@@ -2258,7 +2305,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 277965,
       "YAATTEN": -1,
-      "OTHMAT": 159192
+      "OTHMAT": 159192,
+      "POPU": 2651860
     },
     "2000": {
       "STABR": "AR",
@@ -2305,7 +2353,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 297129,
       "YAATTEN": -1,
-      "OTHMAT": 187355
+      "OTHMAT": 187355,
+      "POPU": 2678588
     },
     "2001": {
       "STABR": "AR",
@@ -2352,7 +2401,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 302038,
       "YAATTEN": -1,
-      "OTHMAT": 217750
+      "OTHMAT": 217750,
+      "POPU": 2691571
     },
     "2002": {
       "STABR": "AR",
@@ -2399,7 +2449,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 337969,
       "YAATTEN": -1,
-      "OTHMAT": 242690
+      "OTHMAT": 242690,
+      "POPU": 2705927
     },
     "2003": {
       "STABR": "AR",
@@ -2446,7 +2497,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 360805,
       "YAATTEN": -1,
-      "OTHMAT": 294552
+      "OTHMAT": 294552,
+      "POPU": 2724816
     },
     "2004": {
       "STABR": "AR",
@@ -2493,7 +2545,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 497109,
       "KIDATTEN": 346553,
       "YAATTEN": -1,
-      "OTHMAT": 345528
+      "OTHMAT": 345528,
+      "POPU": 2749686
     },
     "2005": {
       "STABR": "AR",
@@ -2540,7 +2593,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 516795,
       "KIDATTEN": 405870,
       "YAATTEN": -1,
-      "OTHMAT": 391197
+      "OTHMAT": 391197,
+      "POPU": 2781097
     },
     "2006": {
       "STABR": "AR",
@@ -2587,7 +2641,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 640313,
       "KIDATTEN": 487224,
       "YAATTEN": -1,
-      "OTHMAT": 451872
+      "OTHMAT": 451872,
+      "POPU": 2821761
     },
     "2007": {
       "STABR": "AR",
@@ -2634,7 +2689,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 643057,
       "KIDATTEN": 460461,
       "YAATTEN": -1,
-      "OTHMAT": 479571
+      "OTHMAT": 479571,
+      "POPU": 2848650
     },
     "2008": {
       "STABR": "AR",
@@ -2681,7 +2737,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 624385,
       "KIDATTEN": 490048,
       "YAATTEN": -1,
-      "OTHMAT": 533472
+      "OTHMAT": 533472,
+      "POPU": 2874554
     },
     "2009": {
       "STABR": "AR",
@@ -2728,7 +2785,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 691355,
       "KIDATTEN": 519256,
       "YAATTEN": 30282,
-      "OTHMAT": 540474
+      "OTHMAT": 540474,
+      "POPU": 2896843
     },
     "2010": {
       "STABR": "AR",
@@ -2775,7 +2833,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 730299,
       "KIDATTEN": 559500,
       "YAATTEN": 28803,
-      "OTHMAT": 578581
+      "OTHMAT": 578581,
+      "POPU": 2921964
     },
     "2011": {
       "STABR": "AR",
@@ -2822,7 +2881,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 801084,
       "KIDATTEN": 609354,
       "YAATTEN": 42178,
-      "OTHMAT": 721328
+      "OTHMAT": 721328,
+      "POPU": 2940667
     },
     "2012": {
       "STABR": "AR",
@@ -2869,7 +2929,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 914329,
       "KIDATTEN": 652209,
       "YAATTEN": 64969,
-      "OTHMAT": 955396
+      "OTHMAT": 955396,
+      "POPU": 2952164
     },
     "2013": {
       "STABR": "AR",
@@ -2916,7 +2977,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 899329,
       "KIDATTEN": 642273,
       "YAATTEN": 80980,
-      "OTHMAT": 1088814
+      "OTHMAT": 1088814,
+      "POPU": 2959400
     },
     "2014": {
       "STABR": "AR",
@@ -2963,7 +3025,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 997901,
       "KIDATTEN": 712783,
       "YAATTEN": 88721,
-      "OTHMAT": 1359354.0
+      "OTHMAT": 1359354.0,
+      "POPU": 2967392
     },
     "2015": {
       "STABR": "AR",
@@ -3010,7 +3073,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1050483,
       "KIDATTEN": 738691,
       "YAATTEN": 103945,
-      "OTHMAT": 1426112
+      "OTHMAT": 1426112,
+      "POPU": 2978048
     },
     "2016": {
       "STABR": "AR",
@@ -3057,7 +3121,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1120879,
       "KIDATTEN": 751465,
       "YAATTEN": 109261,
-      "OTHMAT": 1577765
+      "OTHMAT": 1577765,
+      "POPU": 2989918
     },
     "2017": {
       "STABR": "AR",
@@ -3104,7 +3169,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1136567,
       "KIDATTEN": 671586,
       "YAATTEN": 112913,
-      "OTHMAT": 3772703
+      "OTHMAT": 3772703,
+      "POPU": 3001345
     },
     "2018": {
       "STABR": "AR",
@@ -3151,7 +3217,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1314247,
       "KIDATTEN": 731004,
       "YAATTEN": 137404,
-      "OTHMAT": 5423713
+      "OTHMAT": 5423713,
+      "POPU": 3009733
     },
     "2019": {
       "STABR": "AR",
@@ -3198,7 +3265,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1223256,
       "KIDATTEN": 801085,
       "YAATTEN": 144211,
-      "OTHMAT": 7345287
+      "OTHMAT": 7345287,
+      "POPU": 3017804
     },
     "2020": {
       "STABR": "AR",
@@ -3245,7 +3313,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 477651,
       "KIDATTEN": 302869,
       "YAATTEN": 45654,
-      "OTHMAT": 10058815
+      "OTHMAT": 10058815,
+      "POPU": 3011524
     }
   },
   "Arizona": {
@@ -3294,7 +3363,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 730861,
       "YAATTEN": -1,
-      "OTHMAT": 458820
+      "OTHMAT": 458820,
+      "POPU": 4883342
     },
     "1999": {
       "STABR": "AZ",
@@ -3341,7 +3411,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 796998,
       "YAATTEN": -1,
-      "OTHMAT": 518795
+      "OTHMAT": 518795,
+      "POPU": 5023823
     },
     "2000": {
       "STABR": "AZ",
@@ -3388,7 +3459,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 753735,
       "YAATTEN": -1,
-      "OTHMAT": 822968
+      "OTHMAT": 822968,
+      "POPU": 5160586
     },
     "2001": {
       "STABR": "AZ",
@@ -3435,7 +3507,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 775082,
       "YAATTEN": -1,
-      "OTHMAT": 887090
+      "OTHMAT": 887090,
+      "POPU": 5273477
     },
     "2002": {
       "STABR": "AZ",
@@ -3482,7 +3555,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 816231,
       "YAATTEN": -1,
-      "OTHMAT": 928261
+      "OTHMAT": 928261,
+      "POPU": 5396255
     },
     "2003": {
       "STABR": "AZ",
@@ -3529,7 +3603,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 794242,
       "YAATTEN": -1,
-      "OTHMAT": 873119
+      "OTHMAT": 873119,
+      "POPU": 5510364
     },
     "2004": {
       "STABR": "AZ",
@@ -3576,7 +3651,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1001409,
       "KIDATTEN": 749548,
       "YAATTEN": -1,
-      "OTHMAT": 999992
+      "OTHMAT": 999992,
+      "POPU": 5652404
     },
     "2005": {
       "STABR": "AZ",
@@ -3623,7 +3699,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 950233,
       "KIDATTEN": 754428,
       "YAATTEN": -1,
-      "OTHMAT": 1122003
+      "OTHMAT": 1122003,
+      "POPU": 5839077
     },
     "2006": {
       "STABR": "AZ",
@@ -3670,7 +3747,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1028091,
       "KIDATTEN": 770319,
       "YAATTEN": -1,
-      "OTHMAT": 1177213
+      "OTHMAT": 1177213,
+      "POPU": 6029141
     },
     "2007": {
       "STABR": "AZ",
@@ -3717,7 +3795,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1197470,
       "KIDATTEN": 824503,
       "YAATTEN": -1,
-      "OTHMAT": 1470071
+      "OTHMAT": 1470071,
+      "POPU": 6167681
     },
     "2008": {
       "STABR": "AZ",
@@ -3764,7 +3843,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1236259,
       "KIDATTEN": 890442,
       "YAATTEN": -1,
-      "OTHMAT": 1529330
+      "OTHMAT": 1529330,
+      "POPU": 6280362
     },
     "2009": {
       "STABR": "AZ",
@@ -3811,7 +3891,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1201582,
       "KIDATTEN": 903818,
       "YAATTEN": 77415,
-      "OTHMAT": 1687724
+      "OTHMAT": 1687724,
+      "POPU": 6343154
     },
     "2010": {
       "STABR": "AZ",
@@ -3858,7 +3939,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1132727,
       "KIDATTEN": 845208,
       "YAATTEN": 94810,
-      "OTHMAT": 2010169
+      "OTHMAT": 2010169,
+      "POPU": 6407172
     },
     "2011": {
       "STABR": "AZ",
@@ -3905,7 +3987,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1188011,
       "KIDATTEN": 874957,
       "YAATTEN": 74642,
-      "OTHMAT": 3252108
+      "OTHMAT": 3252108,
+      "POPU": 6472643
     },
     "2012": {
       "STABR": "AZ",
@@ -3952,7 +4035,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1284936,
       "KIDATTEN": 944384,
       "YAATTEN": 91829,
-      "OTHMAT": 4106861
+      "OTHMAT": 4106861,
+      "POPU": 6554978
     },
     "2013": {
       "STABR": "AZ",
@@ -3999,7 +4083,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1305936,
       "KIDATTEN": 957785,
       "YAATTEN": 83293,
-      "OTHMAT": 3440536
+      "OTHMAT": 3440536,
+      "POPU": 6632764
     },
     "2014": {
       "STABR": "AZ",
@@ -4046,7 +4131,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1472963,
       "KIDATTEN": 1034731,
       "YAATTEN": 109545,
-      "OTHMAT": 3874160.167359949
+      "OTHMAT": 3874160.167359949,
+      "POPU": 6730413
     },
     "2015": {
       "STABR": "AZ",
@@ -4093,7 +4179,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1526227,
       "KIDATTEN": 1064657,
       "YAATTEN": 100069,
-      "OTHMAT": 4113867
+      "OTHMAT": 4113867,
+      "POPU": 6829676
     },
     "2016": {
       "STABR": "AZ",
@@ -4140,7 +4227,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1652120,
       "KIDATTEN": 1137251,
       "YAATTEN": 114904,
-      "OTHMAT": 16345018
+      "OTHMAT": 16345018,
+      "POPU": 6941072
     },
     "2017": {
       "STABR": "AZ",
@@ -4187,7 +4275,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1708390,
       "KIDATTEN": 1142827,
       "YAATTEN": 139245,
-      "OTHMAT": 10838828
+      "OTHMAT": 10838828,
+      "POPU": 7044008
     },
     "2018": {
       "STABR": "AZ",
@@ -4234,7 +4323,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1751622,
       "KIDATTEN": 1147074,
       "YAATTEN": 148330,
-      "OTHMAT": 13722343
+      "OTHMAT": 13722343,
+      "POPU": 7158024
     },
     "2019": {
       "STABR": "AZ",
@@ -4281,7 +4371,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1726810,
       "KIDATTEN": 1141404,
       "YAATTEN": 118911,
-      "OTHMAT": 18578695
+      "OTHMAT": 18578695,
+      "POPU": 7278717
     },
     "2020": {
       "STABR": "AZ",
@@ -4328,7 +4419,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1219102,
       "KIDATTEN": 830884,
       "YAATTEN": 79174,
-      "OTHMAT": 21403821
+      "OTHMAT": 21403821,
+      "POPU": 7151502
     }
   },
   "California": {
@@ -4377,7 +4469,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 4473413,
       "YAATTEN": -1,
-      "OTHMAT": 3738711
+      "OTHMAT": 3738711,
+      "POPU": 32987675
     },
     "1999": {
       "STABR": "CA",
@@ -4424,7 +4517,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 4487426,
       "YAATTEN": -1,
-      "OTHMAT": 3618023
+      "OTHMAT": 3618023,
+      "POPU": 33499204
     },
     "2000": {
       "STABR": "CA",
@@ -4471,7 +4565,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 4655242,
       "YAATTEN": -1,
-      "OTHMAT": 4578106
+      "OTHMAT": 4578106,
+      "POPU": 33987977
     },
     "2001": {
       "STABR": "CA",
@@ -4518,7 +4613,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 4951451,
       "YAATTEN": -1,
-      "OTHMAT": 4938943
+      "OTHMAT": 4938943,
+      "POPU": 34479458
     },
     "2002": {
       "STABR": "CA",
@@ -4565,7 +4661,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 4882941,
       "YAATTEN": -1,
-      "OTHMAT": 5167322
+      "OTHMAT": 5167322,
+      "POPU": 34871843
     },
     "2003": {
       "STABR": "CA",
@@ -4612,7 +4709,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 5002880,
       "YAATTEN": -1,
-      "OTHMAT": 5699061
+      "OTHMAT": 5699061,
+      "POPU": 35253159
     },
     "2004": {
       "STABR": "CA",
@@ -4659,7 +4757,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5875724,
       "KIDATTEN": 5055678,
       "YAATTEN": -1,
-      "OTHMAT": 6093311
+      "OTHMAT": 6093311,
+      "POPU": 35574576
     },
     "2005": {
       "STABR": "CA",
@@ -4706,7 +4805,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5862422,
       "KIDATTEN": 5059977,
       "YAATTEN": -1,
-      "OTHMAT": 6639953
+      "OTHMAT": 6639953,
+      "POPU": 35827943
     },
     "2006": {
       "STABR": "CA",
@@ -4753,7 +4853,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6275199,
       "KIDATTEN": 5403675,
       "YAATTEN": -1,
-      "OTHMAT": 6953258
+      "OTHMAT": 6953258,
+      "POPU": 36021202
     },
     "2007": {
       "STABR": "CA",
@@ -4800,7 +4901,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6904016,
       "KIDATTEN": 5641393,
       "YAATTEN": -1,
-      "OTHMAT": 7492962
+      "OTHMAT": 7492962,
+      "POPU": 36250311
     },
     "2008": {
       "STABR": "CA",
@@ -4847,7 +4949,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7363498,
       "KIDATTEN": 5912514,
       "YAATTEN": -1,
-      "OTHMAT": 8044294
+      "OTHMAT": 8044294,
+      "POPU": 36604337
     },
     "2009": {
       "STABR": "CA",
@@ -4894,7 +4997,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8309633,
       "KIDATTEN": 6287844,
       "YAATTEN": 455832,
-      "OTHMAT": 8269379
+      "OTHMAT": 8269379,
+      "POPU": 36961229
     },
     "2010": {
       "STABR": "CA",
@@ -4941,7 +5045,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8169284,
       "KIDATTEN": 6075728,
       "YAATTEN": 432741,
-      "OTHMAT": 9408693
+      "OTHMAT": 9408693,
+      "POPU": 37319502
     },
     "2011": {
       "STABR": "CA",
@@ -4988,7 +5093,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8248754,
       "KIDATTEN": 6183763,
       "YAATTEN": 435751,
-      "OTHMAT": 9702387
+      "OTHMAT": 9702387,
+      "POPU": 37638369
     },
     "2012": {
       "STABR": "CA",
@@ -5035,7 +5141,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8627865,
       "KIDATTEN": 6261209,
       "YAATTEN": 480660,
-      "OTHMAT": 10405163
+      "OTHMAT": 10405163,
+      "POPU": 37948800
     },
     "2013": {
       "STABR": "CA",
@@ -5082,7 +5189,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8912356,
       "KIDATTEN": 6436861,
       "YAATTEN": 518697,
-      "OTHMAT": 10945469
+      "OTHMAT": 10945469,
+      "POPU": 38260787
     },
     "2014": {
       "STABR": "CA",
@@ -5129,7 +5237,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 9491467,
       "KIDATTEN": 6909344,
       "YAATTEN": 531379,
-      "OTHMAT": 12348184.105411645
+      "OTHMAT": 12348184.105411645,
+      "POPU": 38596972
     },
     "2015": {
       "STABR": "CA",
@@ -5176,7 +5285,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 9428715,
       "KIDATTEN": 7051832,
       "YAATTEN": 553731,
-      "OTHMAT": 17388994
+      "OTHMAT": 17388994,
+      "POPU": 38918045
     },
     "2016": {
       "STABR": "CA",
@@ -5223,7 +5333,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 9839437,
       "KIDATTEN": 7465975,
       "YAATTEN": 600169,
-      "OTHMAT": 36500418
+      "OTHMAT": 36500418,
+      "POPU": 39167117
     },
     "2017": {
       "STABR": "CA",
@@ -5270,7 +5381,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 10249635,
       "KIDATTEN": 7687968,
       "YAATTEN": 608684,
-      "OTHMAT": 40226054
+      "OTHMAT": 40226054,
+      "POPU": 39358497
     },
     "2018": {
       "STABR": "CA",
@@ -5317,7 +5429,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 11295306,
       "KIDATTEN": 8229400,
       "YAATTEN": 589166,
-      "OTHMAT": 33830004
+      "OTHMAT": 33830004,
+      "POPU": 39461588
     },
     "2019": {
       "STABR": "CA",
@@ -5364,7 +5477,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 11260846,
       "KIDATTEN": 8238260,
       "YAATTEN": 608265,
-      "OTHMAT": 43549071
+      "OTHMAT": 43549071,
+      "POPU": 39512223
     },
     "2020": {
       "STABR": "CA",
@@ -5411,7 +5525,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7555074,
       "KIDATTEN": 5553796,
       "YAATTEN": 485686,
-      "OTHMAT": 64521368
+      "OTHMAT": 64521368,
+      "POPU": 39538223
     }
   },
   "Colorado": {
@@ -5460,7 +5575,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 807703,
       "YAATTEN": -1,
-      "OTHMAT": 630461
+      "OTHMAT": 630461,
+      "POPU": 4116639
     },
     "1999": {
       "STABR": "CO",
@@ -5507,7 +5623,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 765735,
       "YAATTEN": -1,
-      "OTHMAT": 701399
+      "OTHMAT": 701399,
+      "POPU": 4226018
     },
     "2000": {
       "STABR": "CO",
@@ -5554,7 +5671,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 879847,
       "YAATTEN": -1,
-      "OTHMAT": 835586
+      "OTHMAT": 835586,
+      "POPU": 4326921
     },
     "2001": {
       "STABR": "CO",
@@ -5601,7 +5719,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 945363,
       "YAATTEN": -1,
-      "OTHMAT": 949412
+      "OTHMAT": 949412,
+      "POPU": 4425687
     },
     "2002": {
       "STABR": "CO",
@@ -5648,7 +5767,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 998013,
       "YAATTEN": -1,
-      "OTHMAT": 980706
+      "OTHMAT": 980706,
+      "POPU": 4490406
     },
     "2003": {
       "STABR": "CO",
@@ -5695,7 +5815,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1063530,
       "YAATTEN": -1,
-      "OTHMAT": 1467305
+      "OTHMAT": 1467305,
+      "POPU": 4528732
     },
     "2004": {
       "STABR": "CO",
@@ -5742,7 +5863,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1402170,
       "KIDATTEN": 1075441,
       "YAATTEN": -1,
-      "OTHMAT": 1615663
+      "OTHMAT": 1615663,
+      "POPU": 4575013
     },
     "2005": {
       "STABR": "CO",
@@ -5789,7 +5911,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1536426,
       "KIDATTEN": 1193459,
       "YAATTEN": -1,
-      "OTHMAT": 1771347
+      "OTHMAT": 1771347,
+      "POPU": 4631888
     },
     "2006": {
       "STABR": "CO",
@@ -5836,7 +5959,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1668886,
       "KIDATTEN": 1291587,
       "YAATTEN": -1,
-      "OTHMAT": 1876597
+      "OTHMAT": 1876597,
+      "POPU": 4720423
     },
     "2007": {
       "STABR": "CO",
@@ -5883,7 +6007,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1614418,
       "KIDATTEN": 1243235,
       "YAATTEN": -1,
-      "OTHMAT": 2021050
+      "OTHMAT": 2021050,
+      "POPU": 4803868
     },
     "2008": {
       "STABR": "CO",
@@ -5930,7 +6055,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1868567,
       "KIDATTEN": 1443936,
       "YAATTEN": -1,
-      "OTHMAT": 2170592
+      "OTHMAT": 2170592,
+      "POPU": 4889730
     },
     "2009": {
       "STABR": "CO",
@@ -5977,7 +6103,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1871679,
       "KIDATTEN": 1333245,
       "YAATTEN": 102170,
-      "OTHMAT": 2281775
+      "OTHMAT": 2281775,
+      "POPU": 4972195
     },
     "2010": {
       "STABR": "CO",
@@ -6024,7 +6151,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2059033,
       "KIDATTEN": 1363413,
       "YAATTEN": 108278,
-      "OTHMAT": 2492141
+      "OTHMAT": 2492141,
+      "POPU": 5047349
     },
     "2011": {
       "STABR": "CO",
@@ -6071,7 +6199,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2088651,
       "KIDATTEN": 1488966,
       "YAATTEN": 104103,
-      "OTHMAT": 2680988
+      "OTHMAT": 2680988,
+      "POPU": 5121108
     },
     "2012": {
       "STABR": "CO",
@@ -6118,7 +6247,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2265796,
       "KIDATTEN": 1596370,
       "YAATTEN": 115520,
-      "OTHMAT": 3151032
+      "OTHMAT": 3151032,
+      "POPU": 5192647
     },
     "2013": {
       "STABR": "CO",
@@ -6165,7 +6295,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2441278,
       "KIDATTEN": 1810288,
       "YAATTEN": 136509,
-      "OTHMAT": 3849996
+      "OTHMAT": 3849996,
+      "POPU": 5269035
     },
     "2014": {
       "STABR": "CO",
@@ -6212,7 +6343,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2647097,
       "KIDATTEN": 1799469,
       "YAATTEN": 151930,
-      "OTHMAT": 4211389.034150931
+      "OTHMAT": 4211389.034150931,
+      "POPU": 5350101
     },
     "2015": {
       "STABR": "CO",
@@ -6259,7 +6391,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2656302,
       "KIDATTEN": 1894546,
       "YAATTEN": 165387,
-      "OTHMAT": 6229157
+      "OTHMAT": 6229157,
+      "POPU": 5450623
     },
     "2016": {
       "STABR": "CO",
@@ -6306,7 +6439,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2770126,
       "KIDATTEN": 1972231,
       "YAATTEN": 161618,
-      "OTHMAT": 7053283
+      "OTHMAT": 7053283,
+      "POPU": 5539215
     },
     "2017": {
       "STABR": "CO",
@@ -6353,7 +6487,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2849828,
       "KIDATTEN": 2041430,
       "YAATTEN": 157773,
-      "OTHMAT": 7525794
+      "OTHMAT": 7525794,
+      "POPU": 5611885
     },
     "2018": {
       "STABR": "CO",
@@ -6400,7 +6535,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3023516,
       "KIDATTEN": 2181229,
       "YAATTEN": 181189,
-      "OTHMAT": 8925134
+      "OTHMAT": 8925134,
+      "POPU": 5691287
     },
     "2019": {
       "STABR": "CO",
@@ -6447,7 +6583,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3063296,
       "KIDATTEN": 2110329,
       "YAATTEN": 184595,
-      "OTHMAT": 11392702
+      "OTHMAT": 11392702,
+      "POPU": 5758736
     },
     "2020": {
       "STABR": "CO",
@@ -6494,7 +6631,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 464726,
       "KIDATTEN": 309418,
       "YAATTEN": 26967,
-      "OTHMAT": 14422857
+      "OTHMAT": 14422857,
+      "POPU": 5773714
     }
   },
   "Connecticut": {
@@ -6543,7 +6681,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 791737,
       "YAATTEN": -1,
-      "OTHMAT": 783939
+      "OTHMAT": 783939,
+      "POPU": 3365352
     },
     "1999": {
       "STABR": "CT",
@@ -6590,7 +6729,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 889060,
       "YAATTEN": -1,
-      "OTHMAT": 849004
+      "OTHMAT": 849004,
+      "POPU": 3386401
     },
     "2000": {
       "STABR": "CT",
@@ -6637,7 +6777,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 874277,
       "YAATTEN": -1,
-      "OTHMAT": 986587
+      "OTHMAT": 986587,
+      "POPU": 3411777
     },
     "2001": {
       "STABR": "CT",
@@ -6684,7 +6825,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1140223,
       "YAATTEN": -1,
-      "OTHMAT": 1070855
+      "OTHMAT": 1070855,
+      "POPU": 3432835
     },
     "2002": {
       "STABR": "CT",
@@ -6731,7 +6873,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 896130,
       "YAATTEN": -1,
-      "OTHMAT": 1167278
+      "OTHMAT": 1167278,
+      "POPU": 3458749
     },
     "2003": {
       "STABR": "CT",
@@ -6778,7 +6921,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 934212,
       "YAATTEN": -1,
-      "OTHMAT": 1307689
+      "OTHMAT": 1307689,
+      "POPU": 3484336
     },
     "2004": {
       "STABR": "CT",
@@ -6825,7 +6969,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1371172,
       "KIDATTEN": 942926,
       "YAATTEN": -1,
-      "OTHMAT": 1394380
+      "OTHMAT": 1394380,
+      "POPU": 3496094
     },
     "2005": {
       "STABR": "CT",
@@ -6872,7 +7017,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1451875,
       "KIDATTEN": 975902,
       "YAATTEN": -1,
-      "OTHMAT": 1493603
+      "OTHMAT": 1493603,
+      "POPU": 3506956
     },
     "2006": {
       "STABR": "CT",
@@ -6919,7 +7065,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1559132,
       "KIDATTEN": 1015312,
       "YAATTEN": -1,
-      "OTHMAT": 1590493
+      "OTHMAT": 1590493,
+      "POPU": 3517460
     },
     "2007": {
       "STABR": "CT",
@@ -6966,7 +7113,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1603096,
       "KIDATTEN": 1029431,
       "YAATTEN": -1,
-      "OTHMAT": 1725894
+      "OTHMAT": 1725894,
+      "POPU": 3527270
     },
     "2008": {
       "STABR": "CT",
@@ -7013,7 +7161,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1682413,
       "KIDATTEN": 1098144,
       "YAATTEN": -1,
-      "OTHMAT": 1791354
+      "OTHMAT": 1791354,
+      "POPU": 3545579
     },
     "2009": {
       "STABR": "CT",
@@ -7060,7 +7209,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1735319,
       "KIDATTEN": 1085537,
       "YAATTEN": 134782,
-      "OTHMAT": 1893616
+      "OTHMAT": 1893616,
+      "POPU": 3561807
     },
     "2010": {
       "STABR": "CT",
@@ -7107,7 +7257,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1821534,
       "KIDATTEN": 1129130,
       "YAATTEN": 86668,
-      "OTHMAT": 1914246
+      "OTHMAT": 1914246,
+      "POPU": 3579114
     },
     "2011": {
       "STABR": "CT",
@@ -7154,7 +7305,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1848820,
       "KIDATTEN": 1185462,
       "YAATTEN": 92354,
-      "OTHMAT": 2336808
+      "OTHMAT": 2336808,
+      "POPU": 3588283
     },
     "2012": {
       "STABR": "CT",
@@ -7201,7 +7353,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1957413,
       "KIDATTEN": 1237230,
       "YAATTEN": 94861,
-      "OTHMAT": 3593992
+      "OTHMAT": 3593992,
+      "POPU": 3594547
     },
     "2013": {
       "STABR": "CT",
@@ -7248,7 +7401,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1914093,
       "KIDATTEN": 1218054,
       "YAATTEN": 99578,
-      "OTHMAT": 3903543
+      "OTHMAT": 3903543,
+      "POPU": 3594841
     },
     "2014": {
       "STABR": "CT",
@@ -7295,7 +7449,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2003864,
       "KIDATTEN": 1226174,
       "YAATTEN": 112501,
-      "OTHMAT": 4300726.0
+      "OTHMAT": 4300726.0,
+      "POPU": 3594524
     },
     "2015": {
       "STABR": "CT",
@@ -7342,7 +7497,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2081898,
       "KIDATTEN": 1268778,
       "YAATTEN": 110945,
-      "OTHMAT": 4651409
+      "OTHMAT": 4651409,
+      "POPU": 3587122
     },
     "2016": {
       "STABR": "CT",
@@ -7389,7 +7545,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2221234,
       "KIDATTEN": 1355906,
       "YAATTEN": 115739,
-      "OTHMAT": 2031440
+      "OTHMAT": 2031440,
+      "POPU": 3578141
     },
     "2017": {
       "STABR": "CT",
@@ -7436,7 +7593,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2196828,
       "KIDATTEN": 1348421,
       "YAATTEN": 111497,
-      "OTHMAT": 5491915
+      "OTHMAT": 5491915,
+      "POPU": 3573297
     },
     "2018": {
       "STABR": "CT",
@@ -7483,7 +7641,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2257675,
       "KIDATTEN": 1333492,
       "YAATTEN": 119125,
-      "OTHMAT": 6091067
+      "OTHMAT": 6091067,
+      "POPU": 3571520
     },
     "2019": {
       "STABR": "CT",
@@ -7530,7 +7689,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2347830,
       "KIDATTEN": 1394836,
       "YAATTEN": 134633,
-      "OTHMAT": 6130068
+      "OTHMAT": 6130068,
+      "POPU": 3565287
     },
     "2020": {
       "STABR": "CT",
@@ -7577,7 +7737,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1881234,
       "KIDATTEN": 1067925,
       "YAATTEN": 105483,
-      "OTHMAT": 6041947
+      "OTHMAT": 6041947,
+      "POPU": 3605944
     }
   },
   "District of Columbia": {
@@ -7626,7 +7787,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 120592,
       "YAATTEN": -1,
-      "OTHMAT": 334035
+      "OTHMAT": 334035,
+      "POPU": 565230
     },
     "1999": {
       "STABR": "DC",
@@ -7673,7 +7835,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 146515,
       "YAATTEN": -1,
-      "OTHMAT": 279086
+      "OTHMAT": 279086,
+      "POPU": 570213
     },
     "2000": {
       "STABR": "DC",
@@ -7720,7 +7883,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 114012,
       "YAATTEN": -1,
-      "OTHMAT": 256493
+      "OTHMAT": 256493,
+      "POPU": 572046
     },
     "2001": {
       "STABR": "DC",
@@ -7767,7 +7931,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 115439,
       "YAATTEN": -1,
-      "OTHMAT": 315374
+      "OTHMAT": 315374,
+      "POPU": 574504
     },
     "2002": {
       "STABR": "DC",
@@ -7814,7 +7979,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 120883,
       "YAATTEN": -1,
-      "OTHMAT": 87691
+      "OTHMAT": 87691,
+      "POPU": 573158
     },
     "2003": {
       "STABR": "DC",
@@ -7861,7 +8027,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 135921,
       "YAATTEN": -1,
-      "OTHMAT": 85931
+      "OTHMAT": 85931,
+      "POPU": 568502
     },
     "2004": {
       "STABR": "DC",
@@ -7908,7 +8075,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 222930,
       "KIDATTEN": 177699,
       "YAATTEN": -1,
-      "OTHMAT": 84560
+      "OTHMAT": 84560,
+      "POPU": 567754
     },
     "2005": {
       "STABR": "DC",
@@ -7955,7 +8123,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 202594,
       "KIDATTEN": 165619,
       "YAATTEN": -1,
-      "OTHMAT": 89554
+      "OTHMAT": 89554,
+      "POPU": 567136
     },
     "2006": {
       "STABR": "DC",
@@ -8002,7 +8171,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 214480,
       "KIDATTEN": 167051,
       "YAATTEN": -1,
-      "OTHMAT": 136734
+      "OTHMAT": 136734,
+      "POPU": 570681
     },
     "2007": {
       "STABR": "DC",
@@ -8049,7 +8219,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 204334,
       "KIDATTEN": 147267,
       "YAATTEN": -1,
-      "OTHMAT": 135755
+      "OTHMAT": 135755,
+      "POPU": 574404
     },
     "2008": {
       "STABR": "DC",
@@ -8096,7 +8267,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 192441,
       "KIDATTEN": 145817,
       "YAATTEN": -1,
-      "OTHMAT": 161502
+      "OTHMAT": 161502,
+      "POPU": 580236
     },
     "2009": {
       "STABR": "DC",
@@ -8143,7 +8315,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 194240,
       "KIDATTEN": 150391,
       "YAATTEN": 18179,
-      "OTHMAT": 231225
+      "OTHMAT": 231225,
+      "POPU": 592228
     },
     "2010": {
       "STABR": "DC",
@@ -8190,7 +8363,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 197282,
       "KIDATTEN": 142959,
       "YAATTEN": 16795,
-      "OTHMAT": 245824
+      "OTHMAT": 245824,
+      "POPU": 605226
     },
     "2011": {
       "STABR": "DC",
@@ -8237,7 +8411,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 228825,
       "KIDATTEN": 177050,
       "YAATTEN": 14907,
-      "OTHMAT": 243060
+      "OTHMAT": 243060,
+      "POPU": 619800
     },
     "2012": {
       "STABR": "DC",
@@ -8284,7 +8459,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 259320,
       "KIDATTEN": 189412,
       "YAATTEN": 12956,
-      "OTHMAT": 249253
+      "OTHMAT": 249253,
+      "POPU": 634924
     },
     "2013": {
       "STABR": "DC",
@@ -8331,7 +8507,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 264799,
       "KIDATTEN": 214484,
       "YAATTEN": 12716,
-      "OTHMAT": 320236
+      "OTHMAT": 320236,
+      "POPU": 650581
     },
     "2014": {
       "STABR": "DC",
@@ -8378,7 +8555,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 284969,
       "KIDATTEN": 225815,
       "YAATTEN": 15624,
-      "OTHMAT": 421126.0
+      "OTHMAT": 421126.0,
+      "POPU": 662328
     },
     "2015": {
       "STABR": "DC",
@@ -8425,7 +8603,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 327719,
       "KIDATTEN": 258051,
       "YAATTEN": 14039,
-      "OTHMAT": 449578
+      "OTHMAT": 449578,
+      "POPU": 675400
     },
     "2016": {
       "STABR": "DC",
@@ -8472,7 +8651,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 317699,
       "KIDATTEN": 259633,
       "YAATTEN": 9282,
-      "OTHMAT": 449578
+      "OTHMAT": 449578,
+      "POPU": 685815
     },
     "2017": {
       "STABR": "DC",
@@ -8519,7 +8699,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 361280,
       "KIDATTEN": 270831,
       "YAATTEN": 8921,
-      "OTHMAT": 148629
+      "OTHMAT": 148629,
+      "POPU": 694906
     },
     "2018": {
       "STABR": "DC",
@@ -8566,7 +8747,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 392777,
       "KIDATTEN": 285406,
       "YAATTEN": 9410,
-      "OTHMAT": 161289
+      "OTHMAT": 161289,
+      "POPU": 701547
     },
     "2019": {
       "STABR": "DC",
@@ -8613,7 +8795,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 407560,
       "KIDATTEN": 271890,
       "YAATTEN": 9081,
-      "OTHMAT": 149474
+      "OTHMAT": 149474,
+      "POPU": 705749
     },
     "2020": {
       "STABR": "DC",
@@ -8660,7 +8843,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 237373,
       "KIDATTEN": 164165,
       "YAATTEN": 7518,
-      "OTHMAT": 76353
+      "OTHMAT": 76353,
+      "POPU": 689545
     }
   },
   "Delaware": {
@@ -8709,7 +8893,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 74247,
       "YAATTEN": -1,
-      "OTHMAT": 70404
+      "OTHMAT": 70404,
+      "POPU": 763335
     },
     "1999": {
       "STABR": "DE",
@@ -8756,7 +8941,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 133364,
       "YAATTEN": -1,
-      "OTHMAT": 80874
+      "OTHMAT": 80874,
+      "POPU": 774990
     },
     "2000": {
       "STABR": "DE",
@@ -8803,7 +8989,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 166094,
       "YAATTEN": -1,
-      "OTHMAT": 110669
+      "OTHMAT": 110669,
+      "POPU": 786373
     },
     "2001": {
       "STABR": "DE",
@@ -8850,7 +9037,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 175358,
       "YAATTEN": -1,
-      "OTHMAT": 113303
+      "OTHMAT": 113303,
+      "POPU": 795699
     },
     "2002": {
       "STABR": "DE",
@@ -8897,7 +9085,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 169913,
       "YAATTEN": -1,
-      "OTHMAT": 125530
+      "OTHMAT": 125530,
+      "POPU": 806169
     },
     "2003": {
       "STABR": "DE",
@@ -8944,7 +9133,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 163941,
       "YAATTEN": -1,
-      "OTHMAT": 146237
+      "OTHMAT": 146237,
+      "POPU": 818003
     },
     "2004": {
       "STABR": "DE",
@@ -8991,7 +9181,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 202253,
       "KIDATTEN": 180242,
       "YAATTEN": -1,
-      "OTHMAT": 162838
+      "OTHMAT": 162838,
+      "POPU": 830803
     },
     "2005": {
       "STABR": "DE",
@@ -9038,7 +9229,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 188649,
       "KIDATTEN": 161471,
       "YAATTEN": -1,
-      "OTHMAT": 184136
+      "OTHMAT": 184136,
+      "POPU": 845150
     },
     "2006": {
       "STABR": "DE",
@@ -9085,7 +9277,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 209511,
       "KIDATTEN": 176269,
       "YAATTEN": -1,
-      "OTHMAT": 197430
+      "OTHMAT": 197430,
+      "POPU": 859268
     },
     "2007": {
       "STABR": "DE",
@@ -9132,7 +9325,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 196879,
       "KIDATTEN": 145009,
       "YAATTEN": -1,
-      "OTHMAT": 225591
+      "OTHMAT": 225591,
+      "POPU": 871749
     },
     "2008": {
       "STABR": "DE",
@@ -9179,7 +9373,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 208720,
       "KIDATTEN": 166690,
       "YAATTEN": -1,
-      "OTHMAT": 238566
+      "OTHMAT": 238566,
+      "POPU": 883874
     },
     "2009": {
       "STABR": "DE",
@@ -9226,7 +9421,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 203048,
       "KIDATTEN": 155282,
       "YAATTEN": 2404,
-      "OTHMAT": 243064
+      "OTHMAT": 243064,
+      "POPU": 891730
     },
     "2010": {
       "STABR": "DE",
@@ -9273,7 +9469,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 197767,
       "KIDATTEN": 139702,
       "YAATTEN": 7143,
-      "OTHMAT": 260251
+      "OTHMAT": 260251,
+      "POPU": 899593
     },
     "2011": {
       "STABR": "DE",
@@ -9320,7 +9517,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 204460,
       "KIDATTEN": 146136,
       "YAATTEN": 7875,
-      "OTHMAT": 275228
+      "OTHMAT": 275228,
+      "POPU": 907381
     },
     "2012": {
       "STABR": "DE",
@@ -9367,7 +9565,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 235326,
       "KIDATTEN": 165960,
       "YAATTEN": 14055,
-      "OTHMAT": 715948
+      "OTHMAT": 715948,
+      "POPU": 915179
     },
     "2013": {
       "STABR": "DE",
@@ -9414,7 +9613,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 206522,
       "KIDATTEN": 122231,
       "YAATTEN": 9148,
-      "OTHMAT": 573573
+      "OTHMAT": 573573,
+      "POPU": 923576
     },
     "2014": {
       "STABR": "DE",
@@ -9461,7 +9661,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 256274,
       "KIDATTEN": 175335,
       "YAATTEN": 17349,
-      "OTHMAT": 759277.0
+      "OTHMAT": 759277.0,
+      "POPU": 932487
     },
     "2015": {
       "STABR": "DE",
@@ -9508,7 +9709,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 257997,
       "KIDATTEN": 114009,
       "YAATTEN": 18058,
-      "OTHMAT": 939659
+      "OTHMAT": 939659,
+      "POPU": 941252
     },
     "2016": {
       "STABR": "DE",
@@ -9555,7 +9757,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 322230,
       "KIDATTEN": 199135,
       "YAATTEN": 26754,
-      "OTHMAT": 964212
+      "OTHMAT": 964212,
+      "POPU": 948921
     },
     "2017": {
       "STABR": "DE",
@@ -9602,7 +9805,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 346503,
       "KIDATTEN": 201539,
       "YAATTEN": 32323,
-      "OTHMAT": 1005017
+      "OTHMAT": 1005017,
+      "POPU": 956823
     },
     "2018": {
       "STABR": "DE",
@@ -9649,7 +9853,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 407876,
       "KIDATTEN": 208312,
       "YAATTEN": 29558,
-      "OTHMAT": 974442
+      "OTHMAT": 974442,
+      "POPU": 965479
     },
     "2019": {
       "STABR": "DE",
@@ -9696,7 +9901,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 350797,
       "KIDATTEN": 158908,
       "YAATTEN": 21801,
-      "OTHMAT": 1032088
+      "OTHMAT": 1032088,
+      "POPU": 973764
     },
     "2020": {
       "STABR": "DE",
@@ -9743,7 +9949,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 286249,
       "KIDATTEN": 147709,
       "YAATTEN": 10537,
-      "OTHMAT": 1135578
+      "OTHMAT": 1135578,
+      "POPU": 989948
     }
   },
   "Florida": {
@@ -9792,7 +9999,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2401518,
       "YAATTEN": -1,
-      "OTHMAT": 1953126
+      "OTHMAT": 1953126,
+      "POPU": 15486559
     },
     "1999": {
       "STABR": "FL",
@@ -9839,7 +10047,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2205686,
       "YAATTEN": -1,
-      "OTHMAT": 2180765
+      "OTHMAT": 2180765,
+      "POPU": 15759421
     },
     "2000": {
       "STABR": "FL",
@@ -9886,7 +10095,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2335275,
       "YAATTEN": -1,
-      "OTHMAT": 2289284
+      "OTHMAT": 2289284,
+      "POPU": 16047515
     },
     "2001": {
       "STABR": "FL",
@@ -9933,7 +10143,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2431690,
       "YAATTEN": -1,
-      "OTHMAT": 2582789
+      "OTHMAT": 2582789,
+      "POPU": 16356966
     },
     "2002": {
       "STABR": "FL",
@@ -9980,7 +10191,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2646546,
       "YAATTEN": -1,
-      "OTHMAT": 2990122
+      "OTHMAT": 2990122,
+      "POPU": 16689370
     },
     "2003": {
       "STABR": "FL",
@@ -10027,7 +10239,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2746641,
       "YAATTEN": -1,
-      "OTHMAT": 3796520
+      "OTHMAT": 3796520,
+      "POPU": 17004085
     },
     "2004": {
       "STABR": "FL",
@@ -10074,7 +10287,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3757721,
       "KIDATTEN": 2887765,
       "YAATTEN": -1,
-      "OTHMAT": 4309322
+      "OTHMAT": 4309322,
+      "POPU": 17415318
     },
     "2005": {
       "STABR": "FL",
@@ -10121,7 +10335,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3876735,
       "KIDATTEN": 2719312,
       "YAATTEN": -1,
-      "OTHMAT": 5008305
+      "OTHMAT": 5008305,
+      "POPU": 17842038
     },
     "2006": {
       "STABR": "FL",
@@ -10168,7 +10383,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3912498,
       "KIDATTEN": 2861663,
       "YAATTEN": -1,
-      "OTHMAT": 5572255
+      "OTHMAT": 5572255,
+      "POPU": 18166990
     },
     "2007": {
       "STABR": "FL",
@@ -10215,7 +10431,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4212107,
       "KIDATTEN": 2908246,
       "YAATTEN": -1,
-      "OTHMAT": 5769306
+      "OTHMAT": 5769306,
+      "POPU": 18367842
     },
     "2008": {
       "STABR": "FL",
@@ -10262,7 +10479,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4263196,
       "KIDATTEN": 2875484,
       "YAATTEN": -1,
-      "OTHMAT": 6277385
+      "OTHMAT": 6277385,
+      "POPU": 18527305
     },
     "2009": {
       "STABR": "FL",
@@ -10309,7 +10527,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4473365,
       "KIDATTEN": 2973055,
       "YAATTEN": 290496,
-      "OTHMAT": 6293225
+      "OTHMAT": 6293225,
+      "POPU": 18652644
     },
     "2010": {
       "STABR": "FL",
@@ -10356,7 +10575,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4377179,
       "KIDATTEN": 2877421,
       "YAATTEN": 261215,
-      "OTHMAT": 6647771
+      "OTHMAT": 6647771,
+      "POPU": 18845537
     },
     "2011": {
       "STABR": "FL",
@@ -10403,7 +10623,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4252062,
       "KIDATTEN": 2568102,
       "YAATTEN": 245096,
-      "OTHMAT": 7246811
+      "OTHMAT": 7246811,
+      "POPU": 19053237
     },
     "2012": {
       "STABR": "FL",
@@ -10450,7 +10671,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3993671,
       "KIDATTEN": 2450386,
       "YAATTEN": 246541,
-      "OTHMAT": 7826220
+      "OTHMAT": 7826220,
+      "POPU": 19297822
     },
     "2013": {
       "STABR": "FL",
@@ -10497,7 +10719,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4201714,
       "KIDATTEN": 2581805,
       "YAATTEN": 276482,
-      "OTHMAT": 7174911
+      "OTHMAT": 7174911,
+      "POPU": 19545621
     },
     "2014": {
       "STABR": "FL",
@@ -10544,7 +10767,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4611959,
       "KIDATTEN": 2928059,
       "YAATTEN": 314348,
-      "OTHMAT": 8231343.434077904
+      "OTHMAT": 8231343.434077904,
+      "POPU": 19845911
     },
     "2015": {
       "STABR": "FL",
@@ -10591,7 +10815,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4823312,
       "KIDATTEN": 3009888,
       "YAATTEN": 338911,
-      "OTHMAT": 19101033
+      "OTHMAT": 19101033,
+      "POPU": 20209042
     },
     "2016": {
       "STABR": "FL",
@@ -10638,7 +10863,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5038587,
       "KIDATTEN": 3058289,
       "YAATTEN": 361749,
-      "OTHMAT": 21257154
+      "OTHMAT": 21257154,
+      "POPU": 20613477
     },
     "2017": {
       "STABR": "FL",
@@ -10685,7 +10911,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5119536,
       "KIDATTEN": 3012248,
       "YAATTEN": 357999,
-      "OTHMAT": 29329937
+      "OTHMAT": 29329937,
+      "POPU": 20963613
     },
     "2018": {
       "STABR": "FL",
@@ -10732,7 +10959,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5200403,
       "KIDATTEN": 3016153,
       "YAATTEN": 396334,
-      "OTHMAT": 165730251
+      "OTHMAT": 165730251,
+      "POPU": 21244317
     },
     "2019": {
       "STABR": "FL",
@@ -10779,7 +11007,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5776780,
       "KIDATTEN": 3331722,
       "YAATTEN": 440523,
-      "OTHMAT": 62960071
+      "OTHMAT": 62960071,
+      "POPU": 21477737
     },
     "2020": {
       "STABR": "FL",
@@ -10826,7 +11055,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3510997,
       "KIDATTEN": 1756125,
       "YAATTEN": 355797,
-      "OTHMAT": 54797071
+      "OTHMAT": 54797071,
+      "POPU": 21538187
     }
   },
   "Georgia": {
@@ -10875,7 +11105,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1129687,
       "YAATTEN": -1,
-      "OTHMAT": 750929
+      "OTHMAT": 750929,
+      "POPU": 7863536
     },
     "1999": {
       "STABR": "GA",
@@ -10922,7 +11153,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1227110,
       "YAATTEN": -1,
-      "OTHMAT": 751142
+      "OTHMAT": 751142,
+      "POPU": 8045965
     },
     "2000": {
       "STABR": "GA",
@@ -10969,7 +11201,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1188509,
       "YAATTEN": -1,
-      "OTHMAT": 762413
+      "OTHMAT": 762413,
+      "POPU": 8227303
     },
     "2001": {
       "STABR": "GA",
@@ -11016,7 +11249,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1266444,
       "YAATTEN": -1,
-      "OTHMAT": 822123
+      "OTHMAT": 822123,
+      "POPU": 8377038
     },
     "2002": {
       "STABR": "GA",
@@ -11063,7 +11297,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1270856,
       "YAATTEN": -1,
-      "OTHMAT": 871217
+      "OTHMAT": 871217,
+      "POPU": 8508256
     },
     "2003": {
       "STABR": "GA",
@@ -11110,7 +11345,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1355848,
       "YAATTEN": -1,
-      "OTHMAT": 963410
+      "OTHMAT": 963410,
+      "POPU": 8622793
     },
     "2004": {
       "STABR": "GA",
@@ -11157,7 +11393,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1430333,
       "KIDATTEN": 1308881,
       "YAATTEN": -1,
-      "OTHMAT": 1056431
+      "OTHMAT": 1056431,
+      "POPU": 8769252
     },
     "2005": {
       "STABR": "GA",
@@ -11204,7 +11441,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1679013,
       "KIDATTEN": 1459481,
       "YAATTEN": -1,
-      "OTHMAT": 1044974
+      "OTHMAT": 1044974,
+      "POPU": 8925922
     },
     "2006": {
       "STABR": "GA",
@@ -11251,7 +11489,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1610983,
       "KIDATTEN": 1424412,
       "YAATTEN": -1,
-      "OTHMAT": 1287918
+      "OTHMAT": 1287918,
+      "POPU": 9155813
     },
     "2007": {
       "STABR": "GA",
@@ -11298,7 +11537,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1678127,
       "KIDATTEN": 1477126,
       "YAATTEN": -1,
-      "OTHMAT": 1274544
+      "OTHMAT": 1274544,
+      "POPU": 9349988
     },
     "2008": {
       "STABR": "GA",
@@ -11345,7 +11585,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1710336,
       "KIDATTEN": 1455226,
       "YAATTEN": -1,
-      "OTHMAT": 1533336
+      "OTHMAT": 1533336,
+      "POPU": 9504843
     },
     "2009": {
       "STABR": "GA",
@@ -11392,7 +11633,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1761338,
       "KIDATTEN": 1484647,
       "YAATTEN": 19293,
-      "OTHMAT": 1490343
+      "OTHMAT": 1490343,
+      "POPU": 9620846
     },
     "2010": {
       "STABR": "GA",
@@ -11439,7 +11681,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1820266,
       "KIDATTEN": 1472212,
       "YAATTEN": 21789,
-      "OTHMAT": 1584933
+      "OTHMAT": 1584933,
+      "POPU": 9711881
     },
     "2011": {
       "STABR": "GA",
@@ -11486,7 +11729,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1814206,
       "KIDATTEN": 1457320,
       "YAATTEN": 104564,
-      "OTHMAT": 1904624
+      "OTHMAT": 1904624,
+      "POPU": 9802431
     },
     "2012": {
       "STABR": "GA",
@@ -11533,7 +11777,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1698753,
       "KIDATTEN": 1331694,
       "YAATTEN": 82924,
-      "OTHMAT": 2178733
+      "OTHMAT": 2178733,
+      "POPU": 9901430
     },
     "2013": {
       "STABR": "GA",
@@ -11580,7 +11825,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1745121,
       "KIDATTEN": 1345017,
       "YAATTEN": 91054,
-      "OTHMAT": 2065744
+      "OTHMAT": 2065744,
+      "POPU": 9972479
     },
     "2014": {
       "STABR": "GA",
@@ -11627,7 +11873,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1876992,
       "KIDATTEN": 1466586,
       "YAATTEN": 113464,
-      "OTHMAT": 2121448.534854254
+      "OTHMAT": 2121448.534854254,
+      "POPU": 10067278
     },
     "2015": {
       "STABR": "GA",
@@ -11674,7 +11921,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2313151,
       "KIDATTEN": 1561116,
       "YAATTEN": 120874,
-      "OTHMAT": 2259357
+      "OTHMAT": 2259357,
+      "POPU": 10178447
     },
     "2016": {
       "STABR": "GA",
@@ -11721,7 +11969,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2446445,
       "KIDATTEN": 1559642,
       "YAATTEN": 134469,
-      "OTHMAT": 2759045
+      "OTHMAT": 2759045,
+      "POPU": 10301890
     },
     "2017": {
       "STABR": "GA",
@@ -11768,7 +12017,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2858298,
       "KIDATTEN": 1891540,
       "YAATTEN": 229883,
-      "OTHMAT": 2749274
+      "OTHMAT": 2749274,
+      "POPU": 10410330
     },
     "2018": {
       "STABR": "GA",
@@ -11815,7 +12065,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2698768,
       "KIDATTEN": 1755682,
       "YAATTEN": 227373,
-      "OTHMAT": 3458322
+      "OTHMAT": 3458322,
+      "POPU": 10511131
     },
     "2019": {
       "STABR": "GA",
@@ -11862,7 +12113,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2548648,
       "KIDATTEN": 1675232,
       "YAATTEN": 162292,
-      "OTHMAT": 4218301
+      "OTHMAT": 4218301,
+      "POPU": 10617423
     },
     "2020": {
       "STABR": "GA",
@@ -11909,7 +12161,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1809232,
       "KIDATTEN": 1042797,
       "YAATTEN": 116044,
-      "OTHMAT": 6872906
+      "OTHMAT": 6872906,
+      "POPU": 10711908
     }
   },
   "Hawaii": {
@@ -11958,7 +12211,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 157639,
       "YAATTEN": -1,
-      "OTHMAT": 245482
+      "OTHMAT": 245482,
+      "POPU": 1215233
     },
     "1999": {
       "STABR": "HI",
@@ -12005,7 +12259,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 154025,
       "YAATTEN": -1,
-      "OTHMAT": 252712
+      "OTHMAT": 252712,
+      "POPU": 1210300
     },
     "2000": {
       "STABR": "HI",
@@ -12052,7 +12307,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 184340,
       "YAATTEN": -1,
-      "OTHMAT": 254957
+      "OTHMAT": 254957,
+      "POPU": 1213519
     },
     "2001": {
       "STABR": "HI",
@@ -12099,7 +12355,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 207278,
       "YAATTEN": -1,
-      "OTHMAT": 246754
+      "OTHMAT": 246754,
+      "POPU": 1225948
     },
     "2002": {
       "STABR": "HI",
@@ -12146,7 +12403,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 126262,
       "YAATTEN": -1,
-      "OTHMAT": 289718
+      "OTHMAT": 289718,
+      "POPU": 1239613
     },
     "2003": {
       "STABR": "HI",
@@ -12193,7 +12451,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 123005,
       "YAATTEN": -1,
-      "OTHMAT": 319682
+      "OTHMAT": 319682,
+      "POPU": 1251154
     },
     "2004": {
       "STABR": "HI",
@@ -12240,7 +12499,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 79636,
       "KIDATTEN": 59315,
       "YAATTEN": -1,
-      "OTHMAT": 295423
+      "OTHMAT": 295423,
+      "POPU": 1273569
     },
     "2005": {
       "STABR": "HI",
@@ -12287,7 +12547,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 72693,
       "KIDATTEN": 50548,
       "YAATTEN": -1,
-      "OTHMAT": 305673
+      "OTHMAT": 305673,
+      "POPU": 1292729
     },
     "2006": {
       "STABR": "HI",
@@ -12334,7 +12595,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 114715,
       "KIDATTEN": 90015,
       "YAATTEN": -1,
-      "OTHMAT": 237800
+      "OTHMAT": 237800,
+      "POPU": 1309731
     },
     "2007": {
       "STABR": "HI",
@@ -12381,7 +12643,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 151425,
       "KIDATTEN": 112291,
       "YAATTEN": -1,
-      "OTHMAT": 259888
+      "OTHMAT": 259888,
+      "POPU": 1315675
     },
     "2008": {
       "STABR": "HI",
@@ -12428,7 +12691,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 164543,
       "KIDATTEN": 133930,
       "YAATTEN": -1,
-      "OTHMAT": 276455
+      "OTHMAT": 276455,
+      "POPU": 1332213
     },
     "2009": {
       "STABR": "HI",
@@ -12475,7 +12739,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 302895,
       "KIDATTEN": 175172,
       "YAATTEN": 37524,
-      "OTHMAT": 286701
+      "OTHMAT": 286701,
+      "POPU": 1346717
     },
     "2010": {
       "STABR": "HI",
@@ -12522,7 +12787,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 240403,
       "KIDATTEN": 122218,
       "YAATTEN": 13559,
-      "OTHMAT": 262919
+      "OTHMAT": 262919,
+      "POPU": 1363963
     },
     "2011": {
       "STABR": "HI",
@@ -12569,7 +12835,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 239355,
       "KIDATTEN": 163373,
       "YAATTEN": 42038,
-      "OTHMAT": 415914
+      "OTHMAT": 415914,
+      "POPU": 1379329
     },
     "2012": {
       "STABR": "HI",
@@ -12616,7 +12883,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 253738,
       "KIDATTEN": 180422,
       "YAATTEN": 47171,
-      "OTHMAT": 432010
+      "OTHMAT": 432010,
+      "POPU": 1394804
     },
     "2013": {
       "STABR": "HI",
@@ -12663,7 +12931,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 273516,
       "KIDATTEN": 182054,
       "YAATTEN": 53177,
-      "OTHMAT": 410545
+      "OTHMAT": 410545,
+      "POPU": 1408243
     },
     "2014": {
       "STABR": "HI",
@@ -12710,7 +12979,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 275229,
       "KIDATTEN": 198898,
       "YAATTEN": 46832,
-      "OTHMAT": 420426.0
+      "OTHMAT": 420426.0,
+      "POPU": 1414538
     },
     "2015": {
       "STABR": "HI",
@@ -12757,7 +13027,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 279966,
       "KIDATTEN": 206485,
       "YAATTEN": 45615,
-      "OTHMAT": 449407
+      "OTHMAT": 449407,
+      "POPU": 1422052
     },
     "2016": {
       "STABR": "HI",
@@ -12804,7 +13075,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 286319,
       "KIDATTEN": 212831,
       "YAATTEN": 40034,
-      "OTHMAT": 458479
+      "OTHMAT": 458479,
+      "POPU": 1427559
     },
     "2017": {
       "STABR": "HI",
@@ -12851,7 +13123,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 289744,
       "KIDATTEN": 215406,
       "YAATTEN": 43247,
-      "OTHMAT": 392830
+      "OTHMAT": 392830,
+      "POPU": 1424393
     },
     "2018": {
       "STABR": "HI",
@@ -12898,7 +13171,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 283451,
       "KIDATTEN": 214226,
       "YAATTEN": 36127,
-      "OTHMAT": 463366
+      "OTHMAT": 463366,
+      "POPU": 1420593
     },
     "2019": {
       "STABR": "HI",
@@ -12945,7 +13219,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 293135,
       "KIDATTEN": 220152,
       "YAATTEN": 35080,
-      "OTHMAT": 422989
+      "OTHMAT": 422989,
+      "POPU": 1415872
     },
     "2020": {
       "STABR": "HI",
@@ -12992,7 +13267,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 212347,
       "KIDATTEN": 160838,
       "YAATTEN": 21346,
-      "OTHMAT": 463760
+      "OTHMAT": 463760,
+      "POPU": 1455271
     }
   },
   "Iowa": {
@@ -13041,7 +13317,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 819201,
       "YAATTEN": -1,
-      "OTHMAT": 670049
+      "OTHMAT": 670049,
+      "POPU": 2902872
     },
     "1999": {
       "STABR": "IA",
@@ -13088,7 +13365,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 849848,
       "YAATTEN": -1,
-      "OTHMAT": 718736
+      "OTHMAT": 718736,
+      "POPU": 2917634
     },
     "2000": {
       "STABR": "IA",
@@ -13135,7 +13413,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 873824,
       "YAATTEN": -1,
-      "OTHMAT": 776466
+      "OTHMAT": 776466,
+      "POPU": 2929067
     },
     "2001": {
       "STABR": "IA",
@@ -13182,7 +13461,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 868155,
       "YAATTEN": -1,
-      "OTHMAT": 862351
+      "OTHMAT": 862351,
+      "POPU": 2931997
     },
     "2002": {
       "STABR": "IA",
@@ -13229,7 +13509,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 907705,
       "YAATTEN": -1,
-      "OTHMAT": 926728
+      "OTHMAT": 926728,
+      "POPU": 2934234
     },
     "2003": {
       "STABR": "IA",
@@ -13276,7 +13557,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 905153,
       "YAATTEN": -1,
-      "OTHMAT": 1007806
+      "OTHMAT": 1007806,
+      "POPU": 2941999
     },
     "2004": {
       "STABR": "IA",
@@ -13323,7 +13605,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1061838,
       "KIDATTEN": 907538,
       "YAATTEN": -1,
-      "OTHMAT": 1097398
+      "OTHMAT": 1097398,
+      "POPU": 2953635
     },
     "2005": {
       "STABR": "IA",
@@ -13370,7 +13653,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1078354,
       "KIDATTEN": 932298,
       "YAATTEN": -1,
-      "OTHMAT": 1182528
+      "OTHMAT": 1182528,
+      "POPU": 2964454
     },
     "2006": {
       "STABR": "IA",
@@ -13417,7 +13701,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1191546,
       "KIDATTEN": 1016344,
       "YAATTEN": -1,
-      "OTHMAT": 1266855
+      "OTHMAT": 1266855,
+      "POPU": 2982644
     },
     "2007": {
       "STABR": "IA",
@@ -13464,7 +13749,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1243107,
       "KIDATTEN": 1052164,
       "YAATTEN": -1,
-      "OTHMAT": 1344236
+      "OTHMAT": 1344236,
+      "POPU": 2999212
     },
     "2008": {
       "STABR": "IA",
@@ -13511,7 +13797,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1257180,
       "KIDATTEN": 1059088,
       "YAATTEN": -1,
-      "OTHMAT": 1380996
+      "OTHMAT": 1380996,
+      "POPU": 3016734
     },
     "2009": {
       "STABR": "IA",
@@ -13558,7 +13845,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1363390,
       "KIDATTEN": 1144431,
       "YAATTEN": 49652,
-      "OTHMAT": 1545721
+      "OTHMAT": 1545721,
+      "POPU": 3032870
     },
     "2010": {
       "STABR": "IA",
@@ -13605,7 +13893,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1384575,
       "KIDATTEN": 1140451,
       "YAATTEN": 65172,
-      "OTHMAT": 1489638
+      "OTHMAT": 1489638,
+      "POPU": 3050745
     },
     "2011": {
       "STABR": "IA",
@@ -13652,7 +13941,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1468667,
       "KIDATTEN": 1203238,
       "YAATTEN": 68521,
-      "OTHMAT": 2114422
+      "OTHMAT": 2114422,
+      "POPU": 3066336
     },
     "2012": {
       "STABR": "IA",
@@ -13699,7 +13989,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1542751,
       "KIDATTEN": 1246382,
       "YAATTEN": 80692,
-      "OTHMAT": 4641003
+      "OTHMAT": 4641003,
+      "POPU": 3076190
     },
     "2013": {
       "STABR": "IA",
@@ -13746,7 +14037,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1533929,
       "KIDATTEN": 1226488,
       "YAATTEN": 85933,
-      "OTHMAT": 6354667
+      "OTHMAT": 6354667,
+      "POPU": 3092997
     },
     "2014": {
       "STABR": "IA",
@@ -13793,7 +14085,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1620467,
       "KIDATTEN": 1281377,
       "YAATTEN": 94146,
-      "OTHMAT": 8790213.0
+      "OTHMAT": 8790213.0,
+      "POPU": 3109350
     },
     "2015": {
       "STABR": "IA",
@@ -13840,7 +14133,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1718736,
       "KIDATTEN": 1349438,
       "YAATTEN": 101078,
-      "OTHMAT": 10792944
+      "OTHMAT": 10792944,
+      "POPU": 3120960
     },
     "2016": {
       "STABR": "IA",
@@ -13887,7 +14181,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1860493,
       "KIDATTEN": 1434928,
       "YAATTEN": 116166,
-      "OTHMAT": 14509338
+      "OTHMAT": 14509338,
+      "POPU": 3131371
     },
     "2017": {
       "STABR": "IA",
@@ -13934,7 +14229,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1943040,
       "KIDATTEN": 1488194,
       "YAATTEN": 113969,
-      "OTHMAT": 23301352
+      "OTHMAT": 23301352,
+      "POPU": 3141550
     },
     "2018": {
       "STABR": "IA",
@@ -13981,7 +14277,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2108157,
       "KIDATTEN": 1555974,
       "YAATTEN": 128090,
-      "OTHMAT": 30806813
+      "OTHMAT": 30806813,
+      "POPU": 3148618
     },
     "2019": {
       "STABR": "IA",
@@ -14028,7 +14325,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2159842,
       "KIDATTEN": 1556283,
       "YAATTEN": 138292,
-      "OTHMAT": 34199844
+      "OTHMAT": 34199844,
+      "POPU": 3155070
     },
     "2020": {
       "STABR": "IA",
@@ -14075,7 +14373,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1571407,
       "KIDATTEN": 1106245,
       "YAATTEN": 92210,
-      "OTHMAT": 41726070
+      "OTHMAT": 41726070,
+      "POPU": 3190369
     }
   },
   "Idaho": {
@@ -14124,7 +14423,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 294086,
       "YAATTEN": -1,
-      "OTHMAT": 164921
+      "OTHMAT": 164921,
+      "POPU": 1252330
     },
     "1999": {
       "STABR": "ID",
@@ -14171,7 +14471,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 324384,
       "YAATTEN": -1,
-      "OTHMAT": 185499
+      "OTHMAT": 185499,
+      "POPU": 1275674
     },
     "2000": {
       "STABR": "ID",
@@ -14218,7 +14519,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 279876,
       "YAATTEN": -1,
-      "OTHMAT": 206975
+      "OTHMAT": 206975,
+      "POPU": 1299430
     },
     "2001": {
       "STABR": "ID",
@@ -14265,7 +14567,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 286050,
       "YAATTEN": -1,
-      "OTHMAT": 232191
+      "OTHMAT": 232191,
+      "POPU": 1319962
     },
     "2002": {
       "STABR": "ID",
@@ -14312,7 +14615,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 303909,
       "YAATTEN": -1,
-      "OTHMAT": 260135
+      "OTHMAT": 260135,
+      "POPU": 1340372
     },
     "2003": {
       "STABR": "ID",
@@ -14359,7 +14663,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 323334,
       "YAATTEN": -1,
-      "OTHMAT": 286745
+      "OTHMAT": 286745,
+      "POPU": 1363380
     },
     "2004": {
       "STABR": "ID",
@@ -14406,7 +14711,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 395057,
       "KIDATTEN": 350684,
       "YAATTEN": -1,
-      "OTHMAT": 328944
+      "OTHMAT": 328944,
+      "POPU": 1391802
     },
     "2005": {
       "STABR": "ID",
@@ -14453,7 +14759,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 458895,
       "KIDATTEN": 396275,
       "YAATTEN": -1,
-      "OTHMAT": 372124
+      "OTHMAT": 372124,
+      "POPU": 1428241
     },
     "2006": {
       "STABR": "ID",
@@ -14500,7 +14807,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 482314,
       "KIDATTEN": 406274,
       "YAATTEN": -1,
-      "OTHMAT": 389121
+      "OTHMAT": 389121,
+      "POPU": 1468669
     },
     "2007": {
       "STABR": "ID",
@@ -14547,7 +14855,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 536497,
       "KIDATTEN": 465121,
       "YAATTEN": -1,
-      "OTHMAT": 422938
+      "OTHMAT": 422938,
+      "POPU": 1505105
     },
     "2008": {
       "STABR": "ID",
@@ -14594,7 +14903,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 579390,
       "KIDATTEN": 513199,
       "YAATTEN": -1,
-      "OTHMAT": 452993
+      "OTHMAT": 452993,
+      "POPU": 1534320
     },
     "2009": {
       "STABR": "ID",
@@ -14641,7 +14951,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 630107,
       "KIDATTEN": 531847,
       "YAATTEN": 33100,
-      "OTHMAT": 491016
+      "OTHMAT": 491016,
+      "POPU": 1554439
     },
     "2010": {
       "STABR": "ID",
@@ -14688,7 +14999,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 617941,
       "KIDATTEN": 516828,
       "YAATTEN": 26344,
-      "OTHMAT": 503897
+      "OTHMAT": 503897,
+      "POPU": 1570746
     },
     "2011": {
       "STABR": "ID",
@@ -14735,7 +15047,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 634576,
       "KIDATTEN": 529104,
       "YAATTEN": 40548,
-      "OTHMAT": 567377
+      "OTHMAT": 567377,
+      "POPU": 1583910
     },
     "2012": {
       "STABR": "ID",
@@ -14782,7 +15095,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 660217,
       "KIDATTEN": 547548,
       "YAATTEN": 43761,
-      "OTHMAT": 607790
+      "OTHMAT": 607790,
+      "POPU": 1595324
     },
     "2013": {
       "STABR": "ID",
@@ -14829,7 +15143,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 706818,
       "KIDATTEN": 589236,
       "YAATTEN": 43954,
-      "OTHMAT": 673714
+      "OTHMAT": 673714,
+      "POPU": 1611206
     },
     "2014": {
       "STABR": "ID",
@@ -14876,7 +15191,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 767031,
       "KIDATTEN": 631032,
       "YAATTEN": 53030,
-      "OTHMAT": 859565.0
+      "OTHMAT": 859565.0,
+      "POPU": 1631112
     },
     "2015": {
       "STABR": "ID",
@@ -14923,7 +15239,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 792062,
       "KIDATTEN": 624334,
       "YAATTEN": 68787,
-      "OTHMAT": 1205386
+      "OTHMAT": 1205386,
+      "POPU": 1651059
     },
     "2016": {
       "STABR": "ID",
@@ -14970,7 +15287,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 858115,
       "KIDATTEN": 657135,
       "YAATTEN": 62751,
-      "OTHMAT": 1283600
+      "OTHMAT": 1283600,
+      "POPU": 1682380
     },
     "2017": {
       "STABR": "ID",
@@ -15017,7 +15335,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 967082,
       "KIDATTEN": 726418,
       "YAATTEN": 52485,
-      "OTHMAT": 1425245
+      "OTHMAT": 1425245,
+      "POPU": 1717715
     },
     "2018": {
       "STABR": "ID",
@@ -15064,7 +15383,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1017725,
       "KIDATTEN": 737261,
       "YAATTEN": 61532,
-      "OTHMAT": 1591342
+      "OTHMAT": 1591342,
+      "POPU": 1750536
     },
     "2019": {
       "STABR": "ID",
@@ -15111,7 +15431,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1027183,
       "KIDATTEN": 709017,
       "YAATTEN": 66539,
-      "OTHMAT": 1835040
+      "OTHMAT": 1835040,
+      "POPU": 1787065
     },
     "2020": {
       "STABR": "ID",
@@ -15158,7 +15479,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 481782,
       "KIDATTEN": 325952,
       "YAATTEN": 29743,
-      "OTHMAT": 2373083
+      "OTHMAT": 2373083,
+      "POPU": 1839106
     }
   },
   "Illinois": {
@@ -15207,7 +15529,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2374181,
       "YAATTEN": -1,
-      "OTHMAT": 2904600
+      "OTHMAT": 2904600,
+      "POPU": 12271847
     },
     "1999": {
       "STABR": "IL",
@@ -15254,7 +15577,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2433489,
       "YAATTEN": -1,
-      "OTHMAT": 3138130
+      "OTHMAT": 3138130,
+      "POPU": 12359020
     },
     "2000": {
       "STABR": "IL",
@@ -15301,7 +15625,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2495728,
       "YAATTEN": -1,
-      "OTHMAT": 3441890
+      "OTHMAT": 3441890,
+      "POPU": 12434161
     },
     "2001": {
       "STABR": "IL",
@@ -15348,7 +15673,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2517486,
       "YAATTEN": -1,
-      "OTHMAT": 3712370
+      "OTHMAT": 3712370,
+      "POPU": 12488445
     },
     "2002": {
       "STABR": "IL",
@@ -15395,7 +15721,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2573142,
       "YAATTEN": -1,
-      "OTHMAT": 3756147
+      "OTHMAT": 3756147,
+      "POPU": 12525556
     },
     "2003": {
       "STABR": "IL",
@@ -15442,7 +15769,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2568229,
       "YAATTEN": -1,
-      "OTHMAT": 3797209
+      "OTHMAT": 3797209,
+      "POPU": 12556006
     },
     "2004": {
       "STABR": "IL",
@@ -15489,7 +15817,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3352477,
       "KIDATTEN": 2682995,
       "YAATTEN": -1,
-      "OTHMAT": 4640884
+      "OTHMAT": 4640884,
+      "POPU": 12589773
     },
     "2005": {
       "STABR": "IL",
@@ -15536,7 +15865,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2741267,
       "KIDATTEN": 2744358,
       "YAATTEN": -1,
-      "OTHMAT": 5269059
+      "OTHMAT": 5269059,
+      "POPU": 12609903
     },
     "2006": {
       "STABR": "IL",
@@ -15583,7 +15913,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3518859,
       "KIDATTEN": 2859199,
       "YAATTEN": -1,
-      "OTHMAT": 5520514
+      "OTHMAT": 5520514,
+      "POPU": 12643955
     },
     "2007": {
       "STABR": "IL",
@@ -15630,7 +15961,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3606581,
       "KIDATTEN": 2913043,
       "YAATTEN": -1,
-      "OTHMAT": 6019284
+      "OTHMAT": 6019284,
+      "POPU": 12695866
     },
     "2008": {
       "STABR": "IL",
@@ -15677,7 +16009,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3442450,
       "KIDATTEN": 2701218,
       "YAATTEN": -1,
-      "OTHMAT": 5857637
+      "OTHMAT": 5857637,
+      "POPU": 12747038
     },
     "2009": {
       "STABR": "IL",
@@ -15724,7 +16057,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3669946,
       "KIDATTEN": 2863830,
       "YAATTEN": 0,
-      "OTHMAT": 6228654
+      "OTHMAT": 6228654,
+      "POPU": 12796778
     },
     "2010": {
       "STABR": "IL",
@@ -15771,7 +16105,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4173219,
       "KIDATTEN": 3104381,
       "YAATTEN": 208961,
-      "OTHMAT": 6530651
+      "OTHMAT": 6530651,
+      "POPU": 12840503
     },
     "2011": {
       "STABR": "IL",
@@ -15818,7 +16153,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4290060,
       "KIDATTEN": 3110625,
       "YAATTEN": 293799,
-      "OTHMAT": 8497579
+      "OTHMAT": 8497579,
+      "POPU": 12867454
     },
     "2012": {
       "STABR": "IL",
@@ -15865,7 +16201,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4469284,
       "KIDATTEN": 3177562,
       "YAATTEN": 315193,
-      "OTHMAT": 10221484
+      "OTHMAT": 10221484,
+      "POPU": 12882510
     },
     "2013": {
       "STABR": "IL",
@@ -15912,7 +16249,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4771547,
       "KIDATTEN": 3374839,
       "YAATTEN": 324673,
-      "OTHMAT": 11853195
+      "OTHMAT": 11853195,
+      "POPU": 12895129
     },
     "2014": {
       "STABR": "IL",
@@ -15959,7 +16297,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4693071,
       "KIDATTEN": 3293369,
       "YAATTEN": 316295,
-      "OTHMAT": 15789963.987802306
+      "OTHMAT": 15789963.987802306,
+      "POPU": 12884493
     },
     "2015": {
       "STABR": "IL",
@@ -16006,7 +16345,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4841882,
       "KIDATTEN": 3446474,
       "YAATTEN": 348304,
-      "OTHMAT": 21209495
+      "OTHMAT": 21209495,
+      "POPU": 12858913
     },
     "2016": {
       "STABR": "IL",
@@ -16053,7 +16393,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5091153,
       "KIDATTEN": 3541515,
       "YAATTEN": 363185,
-      "OTHMAT": 26148160
+      "OTHMAT": 26148160,
+      "POPU": 12820527
     },
     "2017": {
       "STABR": "IL",
@@ -16100,7 +16441,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5212490,
       "KIDATTEN": 3588877,
       "YAATTEN": 365431,
-      "OTHMAT": 36596443
+      "OTHMAT": 36596443,
+      "POPU": 12778828
     },
     "2018": {
       "STABR": "IL",
@@ -16147,7 +16489,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5402864,
       "KIDATTEN": 3619265,
       "YAATTEN": 396543,
-      "OTHMAT": 48711753
+      "OTHMAT": 48711753,
+      "POPU": 12723071
     },
     "2019": {
       "STABR": "IL",
@@ -16194,7 +16537,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5522573,
       "KIDATTEN": 3709927,
       "YAATTEN": 422014,
-      "OTHMAT": 57346778
+      "OTHMAT": 57346778,
+      "POPU": 12671821
     },
     "2020": {
       "STABR": "IL",
@@ -16241,7 +16585,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4959555,
       "KIDATTEN": 3305756,
       "YAATTEN": 368356,
-      "OTHMAT": 74271790
+      "OTHMAT": 74271790,
+      "POPU": 12812508
     }
   },
   "Indiana": {
@@ -16290,7 +16635,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1275642,
       "YAATTEN": -1,
-      "OTHMAT": 1789433
+      "OTHMAT": 1789433,
+      "POPU": 5998880
     },
     "1999": {
       "STABR": "IN",
@@ -16337,7 +16683,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1491228,
       "YAATTEN": -1,
-      "OTHMAT": 1943641
+      "OTHMAT": 1943641,
+      "POPU": 6044969
     },
     "2000": {
       "STABR": "IN",
@@ -16384,7 +16731,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1424493,
       "YAATTEN": -1,
-      "OTHMAT": 2081345
+      "OTHMAT": 2081345,
+      "POPU": 6091866
     },
     "2001": {
       "STABR": "IN",
@@ -16431,7 +16779,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1547537,
       "YAATTEN": -1,
-      "OTHMAT": 2286305
+      "OTHMAT": 2286305,
+      "POPU": 6127760
     },
     "2002": {
       "STABR": "IN",
@@ -16478,7 +16827,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1535479,
       "YAATTEN": -1,
-      "OTHMAT": 2504040
+      "OTHMAT": 2504040,
+      "POPU": 6155967
     },
     "2003": {
       "STABR": "IN",
@@ -16525,7 +16875,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1615974,
       "YAATTEN": -1,
-      "OTHMAT": 2635013
+      "OTHMAT": 2635013,
+      "POPU": 6196638
     },
     "2004": {
       "STABR": "IN",
@@ -16572,7 +16923,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2578402,
       "KIDATTEN": 1610829,
       "YAATTEN": -1,
-      "OTHMAT": 2809040
+      "OTHMAT": 2809040,
+      "POPU": 6233007
     },
     "2005": {
       "STABR": "IN",
@@ -16619,7 +16971,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2565355,
       "KIDATTEN": 1567696,
       "YAATTEN": -1,
-      "OTHMAT": 2988058
+      "OTHMAT": 2988058,
+      "POPU": 6278616
     },
     "2006": {
       "STABR": "IN",
@@ -16666,7 +17019,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2538556,
       "KIDATTEN": 1651090,
       "YAATTEN": -1,
-      "OTHMAT": 3184098
+      "OTHMAT": 3184098,
+      "POPU": 6332669
     },
     "2007": {
       "STABR": "IN",
@@ -16713,7 +17067,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2551844,
       "KIDATTEN": 1622248,
       "YAATTEN": -1,
-      "OTHMAT": 3419339
+      "OTHMAT": 3419339,
+      "POPU": 6379599
     },
     "2008": {
       "STABR": "IN",
@@ -16760,7 +17115,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2808031,
       "KIDATTEN": 1775817,
       "YAATTEN": -1,
-      "OTHMAT": 3509974
+      "OTHMAT": 3509974,
+      "POPU": 6424806
     },
     "2009": {
       "STABR": "IN",
@@ -16807,7 +17163,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2873215,
       "KIDATTEN": 1810957,
       "YAATTEN": 192777,
-      "OTHMAT": 3638504
+      "OTHMAT": 3638504,
+      "POPU": 6459325
     },
     "2010": {
       "STABR": "IN",
@@ -16854,7 +17211,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2874287,
       "KIDATTEN": 1876381,
       "YAATTEN": 212974,
-      "OTHMAT": 3773924
+      "OTHMAT": 3773924,
+      "POPU": 6490432
     },
     "2011": {
       "STABR": "IN",
@@ -16901,7 +17259,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3117856,
       "KIDATTEN": 1993766,
       "YAATTEN": 118793,
-      "OTHMAT": 4015862
+      "OTHMAT": 4015862,
+      "POPU": 6516528
     },
     "2012": {
       "STABR": "IN",
@@ -16948,7 +17307,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3059716,
       "KIDATTEN": 1993095,
       "YAATTEN": 198877,
-      "OTHMAT": 5190300
+      "OTHMAT": 5190300,
+      "POPU": 6537703
     },
     "2013": {
       "STABR": "IN",
@@ -16995,7 +17355,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3088686,
       "KIDATTEN": 1991724,
       "YAATTEN": 203286,
-      "OTHMAT": 6113912
+      "OTHMAT": 6113912,
+      "POPU": 6568713
     },
     "2014": {
       "STABR": "IN",
@@ -17042,7 +17403,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2974236,
       "KIDATTEN": 1933209,
       "YAATTEN": 195244,
-      "OTHMAT": 8670750.0
+      "OTHMAT": 8670750.0,
+      "POPU": 6593644
     },
     "2015": {
       "STABR": "IN",
@@ -17089,7 +17451,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3061291,
       "KIDATTEN": 1972807,
       "YAATTEN": 208783,
-      "OTHMAT": 10284361
+      "OTHMAT": 10284361,
+      "POPU": 6608422
     },
     "2016": {
       "STABR": "IN",
@@ -17136,7 +17499,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3322800,
       "KIDATTEN": 2228610,
       "YAATTEN": 206720,
-      "OTHMAT": 12913188
+      "OTHMAT": 12913188,
+      "POPU": 6634304
     },
     "2017": {
       "STABR": "IN",
@@ -17183,7 +17547,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3434855,
       "KIDATTEN": 2212475,
       "YAATTEN": 230098,
-      "OTHMAT": 15430893
+      "OTHMAT": 15430893,
+      "POPU": 6658078
     },
     "2018": {
       "STABR": "IN",
@@ -17230,7 +17595,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3280838,
       "KIDATTEN": 2186889,
       "YAATTEN": 226280,
-      "OTHMAT": 15485473
+      "OTHMAT": 15485473,
+      "POPU": 6695497
     },
     "2019": {
       "STABR": "IN",
@@ -17277,7 +17643,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3132114,
       "KIDATTEN": 1889355,
       "YAATTEN": 231946,
-      "OTHMAT": 20181696
+      "OTHMAT": 20181696,
+      "POPU": 6732219
     },
     "2020": {
       "STABR": "IN",
@@ -17324,7 +17691,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 961400,
       "KIDATTEN": 568337,
       "YAATTEN": 66075,
-      "OTHMAT": 25141110
+      "OTHMAT": 25141110,
+      "POPU": 6785528
     }
   },
   "Kansas": {
@@ -17373,7 +17741,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 494052,
       "YAATTEN": -1,
-      "OTHMAT": 564473
+      "OTHMAT": 564473,
+      "POPU": 2660598
     },
     "1999": {
       "STABR": "KS",
@@ -17420,7 +17789,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 500884,
       "YAATTEN": -1,
-      "OTHMAT": 625960
+      "OTHMAT": 625960,
+      "POPU": 2678338
     },
     "2000": {
       "STABR": "KS",
@@ -17467,7 +17837,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 546097,
       "YAATTEN": -1,
-      "OTHMAT": 691348
+      "OTHMAT": 691348,
+      "POPU": 2693681
     },
     "2001": {
       "STABR": "KS",
@@ -17514,7 +17885,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 559958,
       "YAATTEN": -1,
-      "OTHMAT": 771045
+      "OTHMAT": 771045,
+      "POPU": 2702162
     },
     "2002": {
       "STABR": "KS",
@@ -17561,7 +17933,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 573045,
       "YAATTEN": -1,
-      "OTHMAT": 856609
+      "OTHMAT": 856609,
+      "POPU": 2713535
     },
     "2003": {
       "STABR": "KS",
@@ -17608,7 +17981,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 657966,
       "YAATTEN": -1,
-      "OTHMAT": 926394
+      "OTHMAT": 926394,
+      "POPU": 2723004
     },
     "2004": {
       "STABR": "KS",
@@ -17655,7 +18029,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 837718,
       "KIDATTEN": 723166,
       "YAATTEN": -1,
-      "OTHMAT": 1023720
+      "OTHMAT": 1023720,
+      "POPU": 2734373
     },
     "2005": {
       "STABR": "KS",
@@ -17702,7 +18077,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 846337,
       "KIDATTEN": 716089,
       "YAATTEN": -1,
-      "OTHMAT": 1106702
+      "OTHMAT": 1106702,
+      "POPU": 2745299
     },
     "2006": {
       "STABR": "KS",
@@ -17749,7 +18125,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 957041,
       "KIDATTEN": 805631,
       "YAATTEN": -1,
-      "OTHMAT": 1161717
+      "OTHMAT": 1161717,
+      "POPU": 2762931
     },
     "2007": {
       "STABR": "KS",
@@ -17796,7 +18173,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 961659,
       "KIDATTEN": 785643,
       "YAATTEN": -1,
-      "OTHMAT": 1205876
+      "OTHMAT": 1205876,
+      "POPU": 2783785
     },
     "2008": {
       "STABR": "KS",
@@ -17843,7 +18221,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 957277,
       "KIDATTEN": 781882,
       "YAATTEN": -1,
-      "OTHMAT": 1221847
+      "OTHMAT": 1221847,
+      "POPU": 2808076
     },
     "2009": {
       "STABR": "KS",
@@ -17890,7 +18269,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1000271,
       "KIDATTEN": 768139,
       "YAATTEN": 62410,
-      "OTHMAT": 1245418
+      "OTHMAT": 1245418,
+      "POPU": 2832704
     },
     "2010": {
       "STABR": "KS",
@@ -17937,7 +18317,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1016911,
       "KIDATTEN": 786831,
       "YAATTEN": 70661,
-      "OTHMAT": 1256234
+      "OTHMAT": 1256234,
+      "POPU": 2858190
     },
     "2011": {
       "STABR": "KS",
@@ -17984,7 +18365,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1003342,
       "KIDATTEN": 763959,
       "YAATTEN": 62162,
-      "OTHMAT": 1254859
+      "OTHMAT": 1254859,
+      "POPU": 2869225
     },
     "2012": {
       "STABR": "KS",
@@ -18031,7 +18413,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1096225,
       "KIDATTEN": 804649,
       "YAATTEN": 71951,
-      "OTHMAT": 1288183
+      "OTHMAT": 1288183,
+      "POPU": 2885257
     },
     "2013": {
       "STABR": "KS",
@@ -18078,7 +18461,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1103696,
       "KIDATTEN": 833352,
       "YAATTEN": 70447,
-      "OTHMAT": 1481158
+      "OTHMAT": 1481158,
+      "POPU": 2893212
     },
     "2014": {
       "STABR": "KS",
@@ -18125,7 +18509,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1240790,
       "KIDATTEN": 871178,
       "YAATTEN": 80953,
-      "OTHMAT": 1666231.9713182466
+      "OTHMAT": 1666231.9713182466,
+      "POPU": 2900475
     },
     "2015": {
       "STABR": "KS",
@@ -18172,7 +18557,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1185783,
       "KIDATTEN": 861950,
       "YAATTEN": 90636,
-      "OTHMAT": 50703650
+      "OTHMAT": 50703650,
+      "POPU": 2909011
     },
     "2016": {
       "STABR": "KS",
@@ -18219,7 +18605,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1165797,
       "KIDATTEN": 880647,
       "YAATTEN": 86251,
-      "OTHMAT": 38821368
+      "OTHMAT": 38821368,
+      "POPU": 2910844
     },
     "2017": {
       "STABR": "KS",
@@ -18266,7 +18653,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1354936,
       "KIDATTEN": 988363,
       "YAATTEN": 107986,
-      "OTHMAT": 42850683
+      "OTHMAT": 42850683,
+      "POPU": 2908718
     },
     "2018": {
       "STABR": "KS",
@@ -18313,7 +18701,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1423850,
       "KIDATTEN": 1020007,
       "YAATTEN": 136406,
-      "OTHMAT": 48114349
+      "OTHMAT": 48114349,
+      "POPU": 2911359
     },
     "2019": {
       "STABR": "KS",
@@ -18360,7 +18749,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1452413,
       "KIDATTEN": 1045745,
       "YAATTEN": 135394,
-      "OTHMAT": 55856421
+      "OTHMAT": 55856421,
+      "POPU": 2913314
     },
     "2020": {
       "STABR": "KS",
@@ -18407,7 +18797,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 780756,
       "KIDATTEN": 528597,
       "YAATTEN": 65588,
-      "OTHMAT": 161040905
+      "OTHMAT": 161040905,
+      "POPU": 2937880
     }
   },
   "Kentucky": {
@@ -18456,7 +18847,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 558992,
       "YAATTEN": -1,
-      "OTHMAT": 348236
+      "OTHMAT": 348236,
+      "POPU": 3985390
     },
     "1999": {
       "STABR": "KY",
@@ -18503,7 +18895,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 768220,
       "YAATTEN": -1,
-      "OTHMAT": 391863
+      "OTHMAT": 391863,
+      "POPU": 4018053
     },
     "2000": {
       "STABR": "KY",
@@ -18550,7 +18943,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 752860,
       "YAATTEN": -1,
-      "OTHMAT": 454745
+      "OTHMAT": 454745,
+      "POPU": 4049021
     },
     "2001": {
       "STABR": "KY",
@@ -18597,7 +18991,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 718963,
       "YAATTEN": -1,
-      "OTHMAT": 506165
+      "OTHMAT": 506165,
+      "POPU": 4068132
     },
     "2002": {
       "STABR": "KY",
@@ -18644,7 +19039,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 702756,
       "YAATTEN": -1,
-      "OTHMAT": 575006
+      "OTHMAT": 575006,
+      "POPU": 4089875
     },
     "2003": {
       "STABR": "KY",
@@ -18691,7 +19087,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 798972,
       "YAATTEN": -1,
-      "OTHMAT": 617366
+      "OTHMAT": 617366,
+      "POPU": 4117170
     },
     "2004": {
       "STABR": "KY",
@@ -18738,7 +19135,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1091755,
       "KIDATTEN": 905130,
       "YAATTEN": -1,
-      "OTHMAT": 742133
+      "OTHMAT": 742133,
+      "POPU": 4146101
     },
     "2005": {
       "STABR": "KY",
@@ -18785,7 +19183,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1186810,
       "KIDATTEN": 674265,
       "YAATTEN": -1,
-      "OTHMAT": 812027
+      "OTHMAT": 812027,
+      "POPU": 4182742
     },
     "2006": {
       "STABR": "KY",
@@ -18832,7 +19231,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1302849,
       "KIDATTEN": 1031788,
       "YAATTEN": -1,
-      "OTHMAT": 944041
+      "OTHMAT": 944041,
+      "POPU": 4219239
     },
     "2007": {
       "STABR": "KY",
@@ -18879,7 +19279,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1347678,
       "KIDATTEN": 1047614,
       "YAATTEN": -1,
-      "OTHMAT": 1049563
+      "OTHMAT": 1049563,
+      "POPU": 4256672
     },
     "2008": {
       "STABR": "KY",
@@ -18926,7 +19327,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1435557,
       "KIDATTEN": 1097754,
       "YAATTEN": -1,
-      "OTHMAT": 1141268
+      "OTHMAT": 1141268,
+      "POPU": 4289878
     },
     "2009": {
       "STABR": "KY",
@@ -18973,7 +19375,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1470618,
       "KIDATTEN": 1138685,
       "YAATTEN": 69900,
-      "OTHMAT": 1290021
+      "OTHMAT": 1290021,
+      "POPU": 4317074
     },
     "2010": {
       "STABR": "KY",
@@ -19020,7 +19423,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1494550,
       "KIDATTEN": 1134758,
       "YAATTEN": 84972,
-      "OTHMAT": 1374575
+      "OTHMAT": 1374575,
+      "POPU": 4348181
     },
     "2011": {
       "STABR": "KY",
@@ -19067,7 +19471,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1622439,
       "KIDATTEN": 1226340,
       "YAATTEN": 89498,
-      "OTHMAT": 1819506
+      "OTHMAT": 1819506,
+      "POPU": 4369821
     },
     "2012": {
       "STABR": "KY",
@@ -19114,7 +19519,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1672857,
       "KIDATTEN": 1269546,
       "YAATTEN": 84635,
-      "OTHMAT": 5187080
+      "OTHMAT": 5187080,
+      "POPU": 4386346
     },
     "2013": {
       "STABR": "KY",
@@ -19161,7 +19567,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1877496,
       "KIDATTEN": 1379209,
       "YAATTEN": 93481,
-      "OTHMAT": 9207805
+      "OTHMAT": 9207805,
+      "POPU": 4404659
     },
     "2014": {
       "STABR": "KY",
@@ -19208,7 +19615,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2006238,
       "KIDATTEN": 1426392,
       "YAATTEN": 113081,
-      "OTHMAT": 11179801.364179105
+      "OTHMAT": 11179801.364179105,
+      "POPU": 4414349
     },
     "2015": {
       "STABR": "KY",
@@ -19255,7 +19663,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2209558,
       "KIDATTEN": 1481367,
       "YAATTEN": 126791,
-      "OTHMAT": 12573939
+      "OTHMAT": 12573939,
+      "POPU": 4425976
     },
     "2016": {
       "STABR": "KY",
@@ -19302,7 +19711,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2441195,
       "KIDATTEN": 1220996,
       "YAATTEN": 145008,
-      "OTHMAT": 15854814
+      "OTHMAT": 15854814,
+      "POPU": 4438182
     },
     "2017": {
       "STABR": "KY",
@@ -19349,7 +19759,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2569916,
       "KIDATTEN": 1277306,
       "YAATTEN": 163586,
-      "OTHMAT": 17548220
+      "OTHMAT": 17548220,
+      "POPU": 4452268
     },
     "2018": {
       "STABR": "KY",
@@ -19396,7 +19807,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2625711,
       "KIDATTEN": 1275346,
       "YAATTEN": 171207,
-      "OTHMAT": 21009460
+      "OTHMAT": 21009460,
+      "POPU": 4461153
     },
     "2019": {
       "STABR": "KY",
@@ -19443,7 +19855,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2648873,
       "KIDATTEN": 1331456,
       "YAATTEN": 208538,
-      "OTHMAT": 23321441
+      "OTHMAT": 23321441,
+      "POPU": 4467673
     },
     "2020": {
       "STABR": "KY",
@@ -19490,7 +19903,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2521547,
       "KIDATTEN": 1006830,
       "YAATTEN": 154565,
-      "OTHMAT": 26537981
+      "OTHMAT": 26537981,
+      "POPU": 4505836
     }
   },
   "Louisiana": {
@@ -19539,7 +19953,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 744535,
       "YAATTEN": -1,
-      "OTHMAT": 367477
+      "OTHMAT": 367477,
+      "POPU": 4440344
     },
     "1999": {
       "STABR": "LA",
@@ -19586,7 +20001,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 734340,
       "YAATTEN": -1,
-      "OTHMAT": 422657
+      "OTHMAT": 422657,
+      "POPU": 4460811
     },
     "2000": {
       "STABR": "LA",
@@ -19633,7 +20049,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 698582,
       "YAATTEN": -1,
-      "OTHMAT": 495090
+      "OTHMAT": 495090,
+      "POPU": 4471885
     },
     "2001": {
       "STABR": "LA",
@@ -19680,7 +20097,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 743437,
       "YAATTEN": -1,
-      "OTHMAT": 552092
+      "OTHMAT": 552092,
+      "POPU": 4477875
     },
     "2002": {
       "STABR": "LA",
@@ -19727,7 +20145,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 752932,
       "YAATTEN": -1,
-      "OTHMAT": 614495
+      "OTHMAT": 614495,
+      "POPU": 4497267
     },
     "2003": {
       "STABR": "LA",
@@ -19774,7 +20193,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 809133,
       "YAATTEN": -1,
-      "OTHMAT": 650558
+      "OTHMAT": 650558,
+      "POPU": 4521042
     },
     "2004": {
       "STABR": "LA",
@@ -19821,7 +20241,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1066350,
       "KIDATTEN": 881688,
       "YAATTEN": -1,
-      "OTHMAT": 756014
+      "OTHMAT": 756014,
+      "POPU": 4552238
     },
     "2005": {
       "STABR": "LA",
@@ -19868,7 +20289,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 912772,
       "KIDATTEN": 764912,
       "YAATTEN": -1,
-      "OTHMAT": 789317
+      "OTHMAT": 789317,
+      "POPU": 4576628
     },
     "2006": {
       "STABR": "LA",
@@ -19915,7 +20337,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 855514,
       "KIDATTEN": 682484,
       "YAATTEN": -1,
-      "OTHMAT": 857072
+      "OTHMAT": 857072,
+      "POPU": 4302665
     },
     "2007": {
       "STABR": "LA",
@@ -19962,7 +20385,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 921524,
       "KIDATTEN": 700594,
       "YAATTEN": -1,
-      "OTHMAT": 991248
+      "OTHMAT": 991248,
+      "POPU": 4375581
     },
     "2008": {
       "STABR": "LA",
@@ -20009,7 +20433,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 960155,
       "KIDATTEN": 751503,
       "YAATTEN": -1,
-      "OTHMAT": 1065823
+      "OTHMAT": 1065823,
+      "POPU": 4435586
     },
     "2009": {
       "STABR": "LA",
@@ -20056,7 +20481,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1085910,
       "KIDATTEN": 814575,
       "YAATTEN": 77508,
-      "OTHMAT": 1144417
+      "OTHMAT": 1144417,
+      "POPU": 4491648
     },
     "2010": {
       "STABR": "LA",
@@ -20103,7 +20529,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1250074,
       "KIDATTEN": 842491,
       "YAATTEN": 139743,
-      "OTHMAT": 1159847
+      "OTHMAT": 1159847,
+      "POPU": 4544532
     },
     "2011": {
       "STABR": "LA",
@@ -20150,7 +20577,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1222718,
       "KIDATTEN": 829453,
       "YAATTEN": 102294,
-      "OTHMAT": 1421999
+      "OTHMAT": 1421999,
+      "POPU": 4575625
     },
     "2012": {
       "STABR": "LA",
@@ -20197,7 +20625,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1419652,
       "KIDATTEN": 928825,
       "YAATTEN": 165907,
-      "OTHMAT": 1784963
+      "OTHMAT": 1784963,
+      "POPU": 4600972
     },
     "2013": {
       "STABR": "LA",
@@ -20244,7 +20673,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1562864,
       "KIDATTEN": 1035852,
       "YAATTEN": 161497,
-      "OTHMAT": 2173640
+      "OTHMAT": 2173640,
+      "POPU": 4624527
     },
     "2014": {
       "STABR": "LA",
@@ -20291,7 +20721,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1800229,
       "KIDATTEN": 1133928,
       "YAATTEN": 169931,
-      "OTHMAT": 2741869.0
+      "OTHMAT": 2741869.0,
+      "POPU": 4644013
     },
     "2015": {
       "STABR": "LA",
@@ -20338,7 +20769,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1816617,
       "KIDATTEN": 1066136,
       "YAATTEN": 208680,
-      "OTHMAT": 3897943
+      "OTHMAT": 3897943,
+      "POPU": 4664628
     },
     "2016": {
       "STABR": "LA",
@@ -20385,7 +20817,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1890538,
       "KIDATTEN": 1022273,
       "YAATTEN": 179905,
-      "OTHMAT": 4525095
+      "OTHMAT": 4525095,
+      "POPU": 4678135
     },
     "2017": {
       "STABR": "LA",
@@ -20432,7 +20865,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2045166,
       "KIDATTEN": 1163686,
       "YAATTEN": 235040,
-      "OTHMAT": 6637603
+      "OTHMAT": 6637603,
+      "POPU": 4670560
     },
     "2018": {
       "STABR": "LA",
@@ -20479,7 +20913,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1903088,
       "KIDATTEN": 1169896,
       "YAATTEN": 169475,
-      "OTHMAT": 40980116
+      "OTHMAT": 40980116,
+      "POPU": 4659690
     },
     "2019": {
       "STABR": "LA",
@@ -20526,7 +20961,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2241664,
       "KIDATTEN": 1195209,
       "YAATTEN": 277961,
-      "OTHMAT": 16325231
+      "OTHMAT": 16325231,
+      "POPU": 4648794
     },
     "2020": {
       "STABR": "LA",
@@ -20573,7 +21009,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 807646,
       "KIDATTEN": 529594,
       "YAATTEN": 85543,
-      "OTHMAT": 11981577
+      "OTHMAT": 11981577,
+      "POPU": 4657757
     }
   },
   "Massachusetts": {
@@ -20622,7 +21059,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1285682,
       "YAATTEN": -1,
-      "OTHMAT": 1152725
+      "OTHMAT": 1152725,
+      "POPU": 6271838
     },
     "1999": {
       "STABR": "MA",
@@ -20669,7 +21107,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1305711,
       "YAATTEN": -1,
-      "OTHMAT": 1285672
+      "OTHMAT": 1285672,
+      "POPU": 6317345
     },
     "2000": {
       "STABR": "MA",
@@ -20716,7 +21155,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1388772,
       "YAATTEN": -1,
-      "OTHMAT": 1468871
+      "OTHMAT": 1468871,
+      "POPU": 6361104
     },
     "2001": {
       "STABR": "MA",
@@ -20763,7 +21203,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1417764,
       "YAATTEN": -1,
-      "OTHMAT": 1638366
+      "OTHMAT": 1638366,
+      "POPU": 6397634
     },
     "2002": {
       "STABR": "MA",
@@ -20810,7 +21251,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1452277,
       "YAATTEN": -1,
-      "OTHMAT": 1837160
+      "OTHMAT": 1837160,
+      "POPU": 6417206
     },
     "2003": {
       "STABR": "MA",
@@ -20857,7 +21299,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1393457,
       "YAATTEN": -1,
-      "OTHMAT": 1930892
+      "OTHMAT": 1930892,
+      "POPU": 6422565
     },
     "2004": {
       "STABR": "MA",
@@ -20904,7 +21347,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1783955,
       "KIDATTEN": 1403987,
       "YAATTEN": -1,
-      "OTHMAT": 2152258
+      "OTHMAT": 2152258,
+      "POPU": 6412281
     },
     "2005": {
       "STABR": "MA",
@@ -20951,7 +21395,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1856545,
       "KIDATTEN": 1422117,
       "YAATTEN": -1,
-      "OTHMAT": 2347085
+      "OTHMAT": 2347085,
+      "POPU": 6403290
     },
     "2006": {
       "STABR": "MA",
@@ -20998,7 +21443,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1932917,
       "KIDATTEN": 1435024,
       "YAATTEN": -1,
-      "OTHMAT": 2561778
+      "OTHMAT": 2561778,
+      "POPU": 6410084
     },
     "2007": {
       "STABR": "MA",
@@ -21045,7 +21491,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2064912,
       "KIDATTEN": 1482249,
       "YAATTEN": -1,
-      "OTHMAT": 2795850
+      "OTHMAT": 2795850,
+      "POPU": 6431559
     },
     "2008": {
       "STABR": "MA",
@@ -21092,7 +21539,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2142595,
       "KIDATTEN": 1512302,
       "YAATTEN": -1,
-      "OTHMAT": 3292752
+      "OTHMAT": 3292752,
+      "POPU": 6468967
     },
     "2009": {
       "STABR": "MA",
@@ -21139,7 +21587,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2159105,
       "KIDATTEN": 1493227,
       "YAATTEN": 105470,
-      "OTHMAT": 3515377
+      "OTHMAT": 3515377,
+      "POPU": 6517613
     },
     "2010": {
       "STABR": "MA",
@@ -21186,7 +21635,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2185484,
       "KIDATTEN": 1522354,
       "YAATTEN": 110490,
-      "OTHMAT": 3823441
+      "OTHMAT": 3823441,
+      "POPU": 6566307
     },
     "2011": {
       "STABR": "MA",
@@ -21233,7 +21683,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2240020,
       "KIDATTEN": 1555289,
       "YAATTEN": 107172,
-      "OTHMAT": 5176274
+      "OTHMAT": 5176274,
+      "POPU": 6613583
     },
     "2012": {
       "STABR": "MA",
@@ -21280,7 +21731,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2371141,
       "KIDATTEN": 1636104,
       "YAATTEN": 106667,
-      "OTHMAT": 6723843
+      "OTHMAT": 6723843,
+      "POPU": 6663005
     },
     "2013": {
       "STABR": "MA",
@@ -21327,7 +21779,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2397801,
       "KIDATTEN": 1657132,
       "YAATTEN": 122367,
-      "OTHMAT": 8290250
+      "OTHMAT": 8290250,
+      "POPU": 6713315
     },
     "2014": {
       "STABR": "MA",
@@ -21374,7 +21827,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2565482,
       "KIDATTEN": 1767577,
       "YAATTEN": 122424,
-      "OTHMAT": 12822396.82836879
+      "OTHMAT": 12822396.82836879,
+      "POPU": 6762596
     },
     "2015": {
       "STABR": "MA",
@@ -21421,7 +21875,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2649669,
       "KIDATTEN": 1814954,
       "YAATTEN": 134318,
-      "OTHMAT": 21846259
+      "OTHMAT": 21846259,
+      "POPU": 6794228
     },
     "2016": {
       "STABR": "MA",
@@ -21468,7 +21923,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2870977,
       "KIDATTEN": 1936398,
       "YAATTEN": 154576,
-      "OTHMAT": 35369198
+      "OTHMAT": 35369198,
+      "POPU": 6823608
     },
     "2017": {
       "STABR": "MA",
@@ -21515,7 +21971,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3013804,
       "KIDATTEN": 2002732,
       "YAATTEN": 178602,
-      "OTHMAT": 27823221
+      "OTHMAT": 27823221,
+      "POPU": 6859789
     },
     "2018": {
       "STABR": "MA",
@@ -21562,7 +22019,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3251764,
       "KIDATTEN": 2112573,
       "YAATTEN": 212353,
-      "OTHMAT": 28678218
+      "OTHMAT": 28678218,
+      "POPU": 6882635
     },
     "2019": {
       "STABR": "MA",
@@ -21609,7 +22067,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3380240,
       "KIDATTEN": 2163489,
       "YAATTEN": 217311,
-      "OTHMAT": 27539327
+      "OTHMAT": 27539327,
+      "POPU": 6892503
     },
     "2020": {
       "STABR": "MA",
@@ -21656,7 +22115,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2417489,
       "KIDATTEN": 1517222,
       "YAATTEN": 150016,
-      "OTHMAT": 36095174
+      "OTHMAT": 36095174,
+      "POPU": 7029917
     }
   },
   "Maryland": {
@@ -21705,7 +22165,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 675382,
       "YAATTEN": -1,
-      "OTHMAT": 1004750
+      "OTHMAT": 1004750,
+      "POPU": 5204464
     },
     "1999": {
       "STABR": "MD",
@@ -21752,7 +22213,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 684646,
       "YAATTEN": -1,
-      "OTHMAT": 1053457
+      "OTHMAT": 1053457,
+      "POPU": 5254509
     },
     "2000": {
       "STABR": "MD",
@@ -21799,7 +22261,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 710515,
       "YAATTEN": -1,
-      "OTHMAT": 1124339
+      "OTHMAT": 1124339,
+      "POPU": 5311034
     },
     "2001": {
       "STABR": "MD",
@@ -21846,7 +22309,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 792910,
       "YAATTEN": -1,
-      "OTHMAT": 1222414
+      "OTHMAT": 1222414,
+      "POPU": 5374691
     },
     "2002": {
       "STABR": "MD",
@@ -21893,7 +22357,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 821634,
       "YAATTEN": -1,
-      "OTHMAT": 1319177
+      "OTHMAT": 1319177,
+      "POPU": 5440389
     },
     "2003": {
       "STABR": "MD",
@@ -21940,7 +22405,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 879119,
       "YAATTEN": -1,
-      "OTHMAT": 1413211
+      "OTHMAT": 1413211,
+      "POPU": 5496269
     },
     "2004": {
       "STABR": "MD",
@@ -21987,7 +22453,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1506658,
       "KIDATTEN": 1167385,
       "YAATTEN": -1,
-      "OTHMAT": 1563323
+      "OTHMAT": 1563323,
+      "POPU": 5546935
     },
     "2005": {
       "STABR": "MD",
@@ -22034,7 +22501,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1476746,
       "KIDATTEN": 1136659,
       "YAATTEN": -1,
-      "OTHMAT": 1697551
+      "OTHMAT": 1697551,
+      "POPU": 5592379
     },
     "2006": {
       "STABR": "MD",
@@ -22081,7 +22549,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1510252,
       "KIDATTEN": 1038447,
       "YAATTEN": -1,
-      "OTHMAT": 1655263
+      "OTHMAT": 1655263,
+      "POPU": 5627367
     },
     "2007": {
       "STABR": "MD",
@@ -22128,7 +22597,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1500239,
       "KIDATTEN": 1070610,
       "YAATTEN": -1,
-      "OTHMAT": 1717988
+      "OTHMAT": 1717988,
+      "POPU": 5653408
     },
     "2008": {
       "STABR": "MD",
@@ -22175,7 +22645,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1626860,
       "KIDATTEN": 1143262,
       "YAATTEN": -1,
-      "OTHMAT": 1888280
+      "OTHMAT": 1888280,
+      "POPU": 5684965
     },
     "2009": {
       "STABR": "MD",
@@ -22222,7 +22693,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1524888,
       "KIDATTEN": 1152856,
       "YAATTEN": 97707,
-      "OTHMAT": 1979314
+      "OTHMAT": 1979314,
+      "POPU": 5730388
     },
     "2010": {
       "STABR": "MD",
@@ -22269,7 +22741,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1479903,
       "KIDATTEN": 1122713,
       "YAATTEN": 102992,
-      "OTHMAT": 2586282
+      "OTHMAT": 2586282,
+      "POPU": 5788645
     },
     "2011": {
       "STABR": "MD",
@@ -22316,7 +22789,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1509428,
       "KIDATTEN": 1187049,
       "YAATTEN": 120703,
-      "OTHMAT": 2835398
+      "OTHMAT": 2835398,
+      "POPU": 5839419
     },
     "2012": {
       "STABR": "MD",
@@ -22363,7 +22837,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1598797,
       "KIDATTEN": 1227120,
       "YAATTEN": 121969,
-      "OTHMAT": 3453359
+      "OTHMAT": 3453359,
+      "POPU": 5886992
     },
     "2013": {
       "STABR": "MD",
@@ -22410,7 +22885,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1684815,
       "KIDATTEN": 1278095,
       "YAATTEN": 123577,
-      "OTHMAT": 4367894
+      "OTHMAT": 4367894,
+      "POPU": 5923188
     },
     "2014": {
       "STABR": "MD",
@@ -22457,7 +22933,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1784890,
       "KIDATTEN": 1274009,
       "YAATTEN": 132072,
-      "OTHMAT": 5568069.0
+      "OTHMAT": 5568069.0,
+      "POPU": 5957283
     },
     "2015": {
       "STABR": "MD",
@@ -22504,7 +22981,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2062215,
       "KIDATTEN": 1528224,
       "YAATTEN": 186462,
-      "OTHMAT": 6770445
+      "OTHMAT": 6770445,
+      "POPU": 5985562
     },
     "2016": {
       "STABR": "MD",
@@ -22551,7 +23029,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2286298,
       "KIDATTEN": 1662551,
       "YAATTEN": 203773,
-      "OTHMAT": 4533842
+      "OTHMAT": 4533842,
+      "POPU": 6003323
     },
     "2017": {
       "STABR": "MD",
@@ -22598,7 +23077,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2388759,
       "KIDATTEN": 1790337,
       "YAATTEN": 211032,
-      "OTHMAT": 4825222
+      "OTHMAT": 4825222,
+      "POPU": 6023868
     },
     "2018": {
       "STABR": "MD",
@@ -22645,7 +23125,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2432830,
       "KIDATTEN": 1715764,
       "YAATTEN": 206638,
-      "OTHMAT": 6612499
+      "OTHMAT": 6612499,
+      "POPU": 6035802
     },
     "2019": {
       "STABR": "MD",
@@ -22692,7 +23173,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2591245,
       "KIDATTEN": 1732393,
       "YAATTEN": 218429,
-      "OTHMAT": 7075199
+      "OTHMAT": 7075199,
+      "POPU": 6045680
     },
     "2020": {
       "STABR": "MD",
@@ -22739,7 +23221,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1959528,
       "KIDATTEN": 1178251,
       "YAATTEN": 151472,
-      "OTHMAT": 8766273
+      "OTHMAT": 8766273,
+      "POPU": 6177224
     }
   },
   "Maine": {
@@ -22788,7 +23271,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 216585,
       "YAATTEN": -1,
-      "OTHMAT": 180207
+      "OTHMAT": 180207,
+      "POPU": 1259127
     },
     "1999": {
       "STABR": "ME",
@@ -22835,7 +23319,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 213286,
       "YAATTEN": -1,
-      "OTHMAT": 197595
+      "OTHMAT": 197595,
+      "POPU": 1266808
     },
     "2000": {
       "STABR": "ME",
@@ -22882,7 +23367,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 229736,
       "YAATTEN": -1,
-      "OTHMAT": 220511
+      "OTHMAT": 220511,
+      "POPU": 1277072
     },
     "2001": {
       "STABR": "ME",
@@ -22929,7 +23415,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 254461,
       "YAATTEN": -1,
-      "OTHMAT": 263233
+      "OTHMAT": 263233,
+      "POPU": 1285692
     },
     "2002": {
       "STABR": "ME",
@@ -22976,7 +23463,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 265490,
       "YAATTEN": -1,
-      "OTHMAT": 293115
+      "OTHMAT": 293115,
+      "POPU": 1295960
     },
     "2003": {
       "STABR": "ME",
@@ -23023,7 +23511,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 289798,
       "YAATTEN": -1,
-      "OTHMAT": 333378
+      "OTHMAT": 333378,
+      "POPU": 1306513
     },
     "2004": {
       "STABR": "ME",
@@ -23070,7 +23559,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 372538,
       "KIDATTEN": 299493,
       "YAATTEN": -1,
-      "OTHMAT": 361554
+      "OTHMAT": 361554,
+      "POPU": 1313688
     },
     "2005": {
       "STABR": "ME",
@@ -23117,7 +23607,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 388266,
       "KIDATTEN": 313242,
       "YAATTEN": -1,
-      "OTHMAT": 412612
+      "OTHMAT": 412612,
+      "POPU": 1318787
     },
     "2006": {
       "STABR": "ME",
@@ -23164,7 +23655,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 457775,
       "KIDATTEN": 339842,
       "YAATTEN": -1,
-      "OTHMAT": 468574
+      "OTHMAT": 468574,
+      "POPU": 1323619
     },
     "2007": {
       "STABR": "ME",
@@ -23211,7 +23703,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 519828,
       "KIDATTEN": 362668,
       "YAATTEN": -1,
-      "OTHMAT": 510598
+      "OTHMAT": 510598,
+      "POPU": 1327040
     },
     "2008": {
       "STABR": "ME",
@@ -23258,7 +23751,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 506570,
       "KIDATTEN": 371145,
       "YAATTEN": -1,
-      "OTHMAT": 509631
+      "OTHMAT": 509631,
+      "POPU": 1330509
     },
     "2009": {
       "STABR": "ME",
@@ -23305,7 +23799,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 511028,
       "KIDATTEN": 362410,
       "YAATTEN": 16594,
-      "OTHMAT": 658765
+      "OTHMAT": 658765,
+      "POPU": 1329590
     },
     "2010": {
       "STABR": "ME",
@@ -23352,7 +23847,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 511746,
       "KIDATTEN": 346892,
       "YAATTEN": 20458,
-      "OTHMAT": 871895
+      "OTHMAT": 871895,
+      "POPU": 1327629
     },
     "2011": {
       "STABR": "ME",
@@ -23399,7 +23895,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 540986,
       "KIDATTEN": 344484,
       "YAATTEN": 22097,
-      "OTHMAT": 1167923
+      "OTHMAT": 1167923,
+      "POPU": 1328284
     },
     "2012": {
       "STABR": "ME",
@@ -23446,7 +23943,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 545109,
       "KIDATTEN": 349840,
       "YAATTEN": 22461,
-      "OTHMAT": 1733649
+      "OTHMAT": 1733649,
+      "POPU": 1327729
     },
     "2013": {
       "STABR": "ME",
@@ -23493,7 +23991,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 560240,
       "KIDATTEN": 355697,
       "YAATTEN": 23376,
-      "OTHMAT": 2386292
+      "OTHMAT": 2386292,
+      "POPU": 1328009
     },
     "2014": {
       "STABR": "ME",
@@ -23540,7 +24039,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 581480,
       "KIDATTEN": 352537,
       "YAATTEN": 24162,
-      "OTHMAT": 2669760.0
+      "OTHMAT": 2669760.0,
+      "POPU": 1330513
     },
     "2015": {
       "STABR": "ME",
@@ -23587,7 +24087,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 601168,
       "KIDATTEN": 369084,
       "YAATTEN": 28692,
-      "OTHMAT": 3422723
+      "OTHMAT": 3422723,
+      "POPU": 1328262
     },
     "2016": {
       "STABR": "ME",
@@ -23634,7 +24135,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 672062,
       "KIDATTEN": 394102,
       "YAATTEN": 34028,
-      "OTHMAT": 4182356
+      "OTHMAT": 4182356,
+      "POPU": 1331317
     },
     "2017": {
       "STABR": "ME",
@@ -23681,7 +24183,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 715290,
       "KIDATTEN": 413856,
       "YAATTEN": 44765,
-      "OTHMAT": 4261123
+      "OTHMAT": 4261123,
+      "POPU": 1334612
     },
     "2018": {
       "STABR": "ME",
@@ -23728,7 +24231,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 737259,
       "KIDATTEN": 431697,
       "YAATTEN": 40101,
-      "OTHMAT": 4673982
+      "OTHMAT": 4673982,
+      "POPU": 1339057
     },
     "2019": {
       "STABR": "ME",
@@ -23775,7 +24279,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 732253,
       "KIDATTEN": 417778,
       "YAATTEN": 43142,
-      "OTHMAT": 5377527
+      "OTHMAT": 5377527,
+      "POPU": 1344212
     },
     "2020": {
       "STABR": "ME",
@@ -23822,7 +24327,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 588753,
       "KIDATTEN": 225579,
       "YAATTEN": 22898,
-      "OTHMAT": 8871560
+      "OTHMAT": 8871560,
+      "POPU": 1362359
     }
   },
   "Michigan": {
@@ -23871,7 +24377,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1266463,
       "YAATTEN": -1,
-      "OTHMAT": 1658954
+      "OTHMAT": 1658954,
+      "POPU": 9847942
     },
     "1999": {
       "STABR": "MI",
@@ -23918,7 +24425,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1315076,
       "YAATTEN": -1,
-      "OTHMAT": 1770519
+      "OTHMAT": 1770519,
+      "POPU": 9897116
     },
     "2000": {
       "STABR": "MI",
@@ -23965,7 +24473,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1354863,
       "YAATTEN": -1,
-      "OTHMAT": 1962829
+      "OTHMAT": 1962829,
+      "POPU": 9952450
     },
     "2001": {
       "STABR": "MI",
@@ -24012,7 +24521,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1357679,
       "YAATTEN": -1,
-      "OTHMAT": 2362276
+      "OTHMAT": 2362276,
+      "POPU": 9991120
     },
     "2002": {
       "STABR": "MI",
@@ -24059,7 +24569,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1502255,
       "YAATTEN": -1,
-      "OTHMAT": 2548546
+      "OTHMAT": 2548546,
+      "POPU": 10015710
     },
     "2003": {
       "STABR": "MI",
@@ -24106,7 +24617,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1525856,
       "YAATTEN": -1,
-      "OTHMAT": 2604956
+      "OTHMAT": 2604956,
+      "POPU": 10041152
     },
     "2004": {
       "STABR": "MI",
@@ -24153,7 +24665,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2208347,
       "KIDATTEN": 1610082,
       "YAATTEN": -1,
-      "OTHMAT": 3032490
+      "OTHMAT": 3032490,
+      "POPU": 10055315
     },
     "2005": {
       "STABR": "MI",
@@ -24200,7 +24713,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2119130,
       "KIDATTEN": 1489109,
       "YAATTEN": -1,
-      "OTHMAT": 3237862
+      "OTHMAT": 3237862,
+      "POPU": 10051137
     },
     "2006": {
       "STABR": "MI",
@@ -24247,7 +24761,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2315602,
       "KIDATTEN": 1550055,
       "YAATTEN": -1,
-      "OTHMAT": 3543827
+      "OTHMAT": 3543827,
+      "POPU": 10036081
     },
     "2007": {
       "STABR": "MI",
@@ -24294,7 +24809,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2465621,
       "KIDATTEN": 1609743,
       "YAATTEN": -1,
-      "OTHMAT": 3705326
+      "OTHMAT": 3705326,
+      "POPU": 10001284
     },
     "2008": {
       "STABR": "MI",
@@ -24341,7 +24857,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2572044,
       "KIDATTEN": 1672844,
       "YAATTEN": -1,
-      "OTHMAT": 4099499
+      "OTHMAT": 4099499,
+      "POPU": 9946889
     },
     "2009": {
       "STABR": "MI",
@@ -24388,7 +24905,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2820222,
       "KIDATTEN": 1781301,
       "YAATTEN": 169011,
-      "OTHMAT": 4341836
+      "OTHMAT": 4341836,
+      "POPU": 9901591
     },
     "2010": {
       "STABR": "MI",
@@ -24435,7 +24953,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2889643,
       "KIDATTEN": 1783028,
       "YAATTEN": 169292,
-      "OTHMAT": 4619724
+      "OTHMAT": 4619724,
+      "POPU": 9877510
     },
     "2011": {
       "STABR": "MI",
@@ -24482,7 +25001,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2776360,
       "KIDATTEN": 1737805,
       "YAATTEN": 161772,
-      "OTHMAT": 5132988
+      "OTHMAT": 5132988,
+      "POPU": 9882412
     },
     "2012": {
       "STABR": "MI",
@@ -24529,7 +25049,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2967714,
       "KIDATTEN": 1467896,
       "YAATTEN": 148686,
-      "OTHMAT": 6013977
+      "OTHMAT": 6013977,
+      "POPU": 9897145
     },
     "2013": {
       "STABR": "MI",
@@ -24576,7 +25097,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3066289,
       "KIDATTEN": 2011273,
       "YAATTEN": 194492,
-      "OTHMAT": 7148698
+      "OTHMAT": 7148698,
+      "POPU": 9913065
     },
     "2014": {
       "STABR": "MI",
@@ -24623,7 +25145,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3167988,
       "KIDATTEN": 2100613,
       "YAATTEN": 203240,
-      "OTHMAT": 8242382.481566021
+      "OTHMAT": 8242382.481566021,
+      "POPU": 9929848
     },
     "2015": {
       "STABR": "MI",
@@ -24670,7 +25193,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3345035,
       "KIDATTEN": 2157058,
       "YAATTEN": 224132,
-      "OTHMAT": 10028961
+      "OTHMAT": 10028961,
+      "POPU": 9931715
     },
     "2016": {
       "STABR": "MI",
@@ -24717,7 +25241,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3548117,
       "KIDATTEN": 2229995,
       "YAATTEN": 229947,
-      "OTHMAT": 13546543
+      "OTHMAT": 13546543,
+      "POPU": 9950571
     },
     "2017": {
       "STABR": "MI",
@@ -24764,7 +25289,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3632723,
       "KIDATTEN": 2353062,
       "YAATTEN": 230581,
-      "OTHMAT": 18341152
+      "OTHMAT": 18341152,
+      "POPU": 9973114
     },
     "2018": {
       "STABR": "MI",
@@ -24811,7 +25337,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3961837,
       "KIDATTEN": 2533120,
       "YAATTEN": 254708,
-      "OTHMAT": 24231979
+      "OTHMAT": 24231979,
+      "POPU": 9984072
     },
     "2019": {
       "STABR": "MI",
@@ -24858,7 +25385,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4103312,
       "KIDATTEN": 2537427,
       "YAATTEN": 267628,
-      "OTHMAT": 30438850
+      "OTHMAT": 30438850,
+      "POPU": 9986857
     },
     "2020": {
       "STABR": "MI",
@@ -24905,7 +25433,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4170942,
       "KIDATTEN": 2267173,
       "YAATTEN": 254973,
-      "OTHMAT": 42865574
+      "OTHMAT": 42865574,
+      "POPU": 10077331
     }
   },
   "Minnesota": {
@@ -24954,7 +25483,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 856724,
       "YAATTEN": -1,
-      "OTHMAT": 900071
+      "OTHMAT": 900071,
+      "POPU": 4813412
     },
     "1999": {
       "STABR": "MN",
@@ -25001,7 +25531,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 869878,
       "YAATTEN": -1,
-      "OTHMAT": 998132
+      "OTHMAT": 998132,
+      "POPU": 4873481
     },
     "2000": {
       "STABR": "MN",
@@ -25048,7 +25579,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 890970,
       "YAATTEN": -1,
-      "OTHMAT": 1128653
+      "OTHMAT": 1128653,
+      "POPU": 4933692
     },
     "2001": {
       "STABR": "MN",
@@ -25095,7 +25627,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 846598,
       "YAATTEN": -1,
-      "OTHMAT": 1156002
+      "OTHMAT": 1156002,
+      "POPU": 4982796
     },
     "2002": {
       "STABR": "MN",
@@ -25142,7 +25675,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 817007,
       "YAATTEN": -1,
-      "OTHMAT": 1369842
+      "OTHMAT": 1369842,
+      "POPU": 5018935
     },
     "2003": {
       "STABR": "MN",
@@ -25189,7 +25723,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 858590,
       "YAATTEN": -1,
-      "OTHMAT": 2989848
+      "OTHMAT": 2989848,
+      "POPU": 5053572
     },
     "2004": {
       "STABR": "MN",
@@ -25236,7 +25771,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 990169,
       "KIDATTEN": 786264,
       "YAATTEN": -1,
-      "OTHMAT": 3351515
+      "OTHMAT": 3351515,
+      "POPU": 5087713
     },
     "2005": {
       "STABR": "MN",
@@ -25283,7 +25819,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 997715,
       "KIDATTEN": 829805,
       "YAATTEN": -1,
-      "OTHMAT": 3706206
+      "OTHMAT": 3706206,
+      "POPU": 5119598
     },
     "2006": {
       "STABR": "MN",
@@ -25330,7 +25867,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 957329,
       "KIDATTEN": 825885,
       "YAATTEN": -1,
-      "OTHMAT": 3643247
+      "OTHMAT": 3643247,
+      "POPU": 5163555
     },
     "2007": {
       "STABR": "MN",
@@ -25377,7 +25915,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1047267,
       "KIDATTEN": 889575,
       "YAATTEN": -1,
-      "OTHMAT": 3821837
+      "OTHMAT": 3821837,
+      "POPU": 5207203
     },
     "2008": {
       "STABR": "MN",
@@ -25424,7 +25963,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1157274,
       "KIDATTEN": 899677,
       "YAATTEN": -1,
-      "OTHMAT": 3801171
+      "OTHMAT": 3801171,
+      "POPU": 5247018
     },
     "2009": {
       "STABR": "MN",
@@ -25471,7 +26011,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1200246,
       "KIDATTEN": 884874,
       "YAATTEN": 62780,
-      "OTHMAT": 3754980
+      "OTHMAT": 3754980,
+      "POPU": 5281203
     },
     "2010": {
       "STABR": "MN",
@@ -25518,7 +26059,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1283872,
       "KIDATTEN": 886477,
       "YAATTEN": 75633,
-      "OTHMAT": 4126795
+      "OTHMAT": 4126795,
+      "POPU": 5310828
     },
     "2011": {
       "STABR": "MN",
@@ -25565,7 +26107,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1226748,
       "KIDATTEN": 866850,
       "YAATTEN": 70797,
-      "OTHMAT": 4451885
+      "OTHMAT": 4451885,
+      "POPU": 5346143
     },
     "2012": {
       "STABR": "MN",
@@ -25612,7 +26155,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1334197,
       "KIDATTEN": 951121,
       "YAATTEN": 70891,
-      "OTHMAT": 4983904
+      "OTHMAT": 4983904,
+      "POPU": 5376643
     },
     "2013": {
       "STABR": "MN",
@@ -25659,7 +26203,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1354195,
       "KIDATTEN": 990543,
       "YAATTEN": 73114,
-      "OTHMAT": 5589974
+      "OTHMAT": 5589974,
+      "POPU": 5413479
     },
     "2014": {
       "STABR": "MN",
@@ -25706,7 +26251,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1396310,
       "KIDATTEN": 1032396,
       "YAATTEN": 76959,
-      "OTHMAT": 5826728.0
+      "OTHMAT": 5826728.0,
+      "POPU": 5451079
     },
     "2015": {
       "STABR": "MN",
@@ -25753,7 +26299,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1485319,
       "KIDATTEN": 1068458,
       "YAATTEN": 93750,
-      "OTHMAT": 6405451
+      "OTHMAT": 6405451,
+      "POPU": 5482032
     },
     "2016": {
       "STABR": "MN",
@@ -25800,7 +26347,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1558883,
       "KIDATTEN": 1190375,
       "YAATTEN": 81442,
-      "OTHMAT": 7373510
+      "OTHMAT": 7373510,
+      "POPU": 5522744
     },
     "2017": {
       "STABR": "MN",
@@ -25847,7 +26395,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1640764,
       "KIDATTEN": 1228068,
       "YAATTEN": 95577,
-      "OTHMAT": 8070773
+      "OTHMAT": 8070773,
+      "POPU": 5566230
     },
     "2018": {
       "STABR": "MN",
@@ -25894,7 +26443,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1601716,
       "KIDATTEN": 1184651,
       "YAATTEN": 91973,
-      "OTHMAT": 8806992
+      "OTHMAT": 8806992,
+      "POPU": 5606249
     },
     "2019": {
       "STABR": "MN",
@@ -25941,7 +26491,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1586037,
       "KIDATTEN": 1169305,
       "YAATTEN": 79030,
-      "OTHMAT": 9246428
+      "OTHMAT": 9246428,
+      "POPU": 5639632
     },
     "2020": {
       "STABR": "MN",
@@ -25988,7 +26539,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 402863,
       "KIDATTEN": 263086,
       "YAATTEN": 16569,
-      "OTHMAT": 8273075
+      "OTHMAT": 8273075,
+      "POPU": 5706494
     }
   },
   "Missouri": {
@@ -26037,7 +26589,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 834566,
       "YAATTEN": -1,
-      "OTHMAT": 971341
+      "OTHMAT": 971341,
+      "POPU": 5521765
     },
     "1999": {
       "STABR": "MO",
@@ -26084,7 +26637,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 829874,
       "YAATTEN": -1,
-      "OTHMAT": 1079110
+      "OTHMAT": 1079110,
+      "POPU": 5561948
     },
     "2000": {
       "STABR": "MO",
@@ -26131,7 +26685,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 895163,
       "YAATTEN": -1,
-      "OTHMAT": 1136406
+      "OTHMAT": 1136406,
+      "POPU": 5607285
     },
     "2001": {
       "STABR": "MO",
@@ -26178,7 +26733,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 902633,
       "YAATTEN": -1,
-      "OTHMAT": 1104445
+      "OTHMAT": 1104445,
+      "POPU": 5641142
     },
     "2002": {
       "STABR": "MO",
@@ -26225,7 +26781,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 889665,
       "YAATTEN": -1,
-      "OTHMAT": 1311069
+      "OTHMAT": 1311069,
+      "POPU": 5674825
     },
     "2003": {
       "STABR": "MO",
@@ -26272,7 +26829,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 869170,
       "YAATTEN": -1,
-      "OTHMAT": 1320591
+      "OTHMAT": 1320591,
+      "POPU": 5709403
     },
     "2004": {
       "STABR": "MO",
@@ -26319,7 +26877,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1187924,
       "KIDATTEN": 911249,
       "YAATTEN": -1,
-      "OTHMAT": 1583105
+      "OTHMAT": 1583105,
+      "POPU": 5747741
     },
     "2005": {
       "STABR": "MO",
@@ -26366,7 +26925,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1245285,
       "KIDATTEN": 988144,
       "YAATTEN": -1,
-      "OTHMAT": 1719512
+      "OTHMAT": 1719512,
+      "POPU": 5790300
     },
     "2006": {
       "STABR": "MO",
@@ -26413,7 +26973,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1289079,
       "KIDATTEN": 994706,
       "YAATTEN": -1,
-      "OTHMAT": 1955056
+      "OTHMAT": 1955056,
+      "POPU": 5842704
     },
     "2007": {
       "STABR": "MO",
@@ -26460,7 +27021,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1382071,
       "KIDATTEN": 1025483,
       "YAATTEN": -1,
-      "OTHMAT": 1851793
+      "OTHMAT": 1851793,
+      "POPU": 5887612
     },
     "2008": {
       "STABR": "MO",
@@ -26507,7 +27069,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1399203,
       "KIDATTEN": 1068773,
       "YAATTEN": -1,
-      "OTHMAT": 1920345
+      "OTHMAT": 1920345,
+      "POPU": 5923916
     },
     "2009": {
       "STABR": "MO",
@@ -26554,7 +27117,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1541350,
       "KIDATTEN": 1101432,
       "YAATTEN": 61443,
-      "OTHMAT": 2027427
+      "OTHMAT": 2027427,
+      "POPU": 5961088
     },
     "2010": {
       "STABR": "MO",
@@ -26601,7 +27165,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1508173,
       "KIDATTEN": 1071346,
       "YAATTEN": 91507,
-      "OTHMAT": 2079954
+      "OTHMAT": 2079954,
+      "POPU": 5995974
     },
     "2011": {
       "STABR": "MO",
@@ -26648,7 +27213,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1719726,
       "KIDATTEN": 1229198,
       "YAATTEN": 97871,
-      "OTHMAT": 2158102
+      "OTHMAT": 2158102,
+      "POPU": 6010275
     },
     "2012": {
       "STABR": "MO",
@@ -26695,7 +27261,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1929407,
       "KIDATTEN": 1417257,
       "YAATTEN": 111409,
-      "OTHMAT": 2539697
+      "OTHMAT": 2539697,
+      "POPU": 6024367
     },
     "2013": {
       "STABR": "MO",
@@ -26742,7 +27309,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2189476,
       "KIDATTEN": 1577813,
       "YAATTEN": 157237,
-      "OTHMAT": 2462990
+      "OTHMAT": 2462990,
+      "POPU": 6040715
     },
     "2014": {
       "STABR": "MO",
@@ -26789,7 +27357,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2268611,
       "KIDATTEN": 1646678,
       "YAATTEN": 171055,
-      "OTHMAT": 2476779.0
+      "OTHMAT": 2476779.0,
+      "POPU": 6056202
     },
     "2015": {
       "STABR": "MO",
@@ -26836,7 +27405,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2335768,
       "KIDATTEN": 1659684,
       "YAATTEN": 170899,
-      "OTHMAT": 4824962
+      "OTHMAT": 4824962,
+      "POPU": 6071732
     },
     "2016": {
       "STABR": "MO",
@@ -26883,7 +27453,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2338514,
       "KIDATTEN": 1658503,
       "YAATTEN": 155837,
-      "OTHMAT": 6659150
+      "OTHMAT": 6659150,
+      "POPU": 6087135
     },
     "2017": {
       "STABR": "MO",
@@ -26930,7 +27501,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2558202,
       "KIDATTEN": 1861540,
       "YAATTEN": 137294,
-      "OTHMAT": 7808324
+      "OTHMAT": 7808324,
+      "POPU": 6106670
     },
     "2018": {
       "STABR": "MO",
@@ -26977,7 +27549,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2541451,
       "KIDATTEN": 1863916,
       "YAATTEN": 129596,
-      "OTHMAT": 10398317
+      "OTHMAT": 10398317,
+      "POPU": 6121623
     },
     "2019": {
       "STABR": "MO",
@@ -27024,7 +27597,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2660804,
       "KIDATTEN": 1949910,
       "YAATTEN": 152683,
-      "OTHMAT": 14707144
+      "OTHMAT": 14707144,
+      "POPU": 6137428
     },
     "2020": {
       "STABR": "MO",
@@ -27071,7 +27645,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2145182,
       "KIDATTEN": 1518840,
       "YAATTEN": 131265,
-      "OTHMAT": 13393531
+      "OTHMAT": 13393531,
+      "POPU": 6154913
     }
   },
   "Mississippi": {
@@ -27120,7 +27695,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 347259,
       "YAATTEN": -1,
-      "OTHMAT": 256139
+      "OTHMAT": 256139,
+      "POPU": 2804834
     },
     "1999": {
       "STABR": "MS",
@@ -27167,7 +27743,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 360920,
       "YAATTEN": -1,
-      "OTHMAT": 271519
+      "OTHMAT": 271519,
+      "POPU": 2828408
     },
     "2000": {
       "STABR": "MS",
@@ -27214,7 +27791,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 355621,
       "YAATTEN": -1,
-      "OTHMAT": 285749
+      "OTHMAT": 285749,
+      "POPU": 2848353
     },
     "2001": {
       "STABR": "MS",
@@ -27261,7 +27839,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 333633,
       "YAATTEN": -1,
-      "OTHMAT": 312927
+      "OTHMAT": 312927,
+      "POPU": 2852994
     },
     "2002": {
       "STABR": "MS",
@@ -27308,7 +27887,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 301786,
       "YAATTEN": -1,
-      "OTHMAT": 337937
+      "OTHMAT": 337937,
+      "POPU": 2858681
     },
     "2003": {
       "STABR": "MS",
@@ -27355,7 +27935,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 318600,
       "YAATTEN": -1,
-      "OTHMAT": 354319
+      "OTHMAT": 354319,
+      "POPU": 2868312
     },
     "2004": {
       "STABR": "MS",
@@ -27402,7 +27983,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 554089,
       "KIDATTEN": 361165,
       "YAATTEN": -1,
-      "OTHMAT": 404731
+      "OTHMAT": 404731,
+      "POPU": 2889010
     },
     "2005": {
       "STABR": "MS",
@@ -27449,7 +28031,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 559218,
       "KIDATTEN": 416075,
       "YAATTEN": -1,
-      "OTHMAT": 417270
+      "OTHMAT": 417270,
+      "POPU": 2905943
     },
     "2006": {
       "STABR": "MS",
@@ -27496,7 +28079,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 498283,
       "KIDATTEN": 371676,
       "YAATTEN": -1,
-      "OTHMAT": 441352
+      "OTHMAT": 441352,
+      "POPU": 2904978
     },
     "2007": {
       "STABR": "MS",
@@ -27543,7 +28127,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 536223,
       "KIDATTEN": 355783,
       "YAATTEN": -1,
-      "OTHMAT": 473812
+      "OTHMAT": 473812,
+      "POPU": 2928350
     },
     "2008": {
       "STABR": "MS",
@@ -27590,7 +28175,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 545074,
       "KIDATTEN": 353118,
       "YAATTEN": -1,
-      "OTHMAT": 509983
+      "OTHMAT": 509983,
+      "POPU": 2947806
     },
     "2009": {
       "STABR": "MS",
@@ -27637,7 +28223,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 522016,
       "KIDATTEN": 332167,
       "YAATTEN": 9247,
-      "OTHMAT": 530033
+      "OTHMAT": 530033,
+      "POPU": 2958774
     },
     "2010": {
       "STABR": "MS",
@@ -27684,7 +28271,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 607594,
       "KIDATTEN": 395276,
       "YAATTEN": 19008,
-      "OTHMAT": 533930
+      "OTHMAT": 533930,
+      "POPU": 2970548
     },
     "2011": {
       "STABR": "MS",
@@ -27731,7 +28319,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 620170,
       "KIDATTEN": 394600,
       "YAATTEN": 38799,
-      "OTHMAT": 570303
+      "OTHMAT": 570303,
+      "POPU": 2978731
     },
     "2012": {
       "STABR": "MS",
@@ -27778,7 +28367,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 601178,
       "KIDATTEN": 415674,
       "YAATTEN": 26301,
-      "OTHMAT": 589444
+      "OTHMAT": 589444,
+      "POPU": 2983816
     },
     "2013": {
       "STABR": "MS",
@@ -27825,7 +28415,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 625700,
       "KIDATTEN": 432874,
       "YAATTEN": 26258,
-      "OTHMAT": 562299
+      "OTHMAT": 562299,
+      "POPU": 2988711
     },
     "2014": {
       "STABR": "MS",
@@ -27872,7 +28463,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 637635,
       "KIDATTEN": 424681,
       "YAATTEN": 29858,
-      "OTHMAT": 613200.0
+      "OTHMAT": 613200.0,
+      "POPU": 2990468
     },
     "2015": {
       "STABR": "MS",
@@ -27919,7 +28511,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 655091,
       "KIDATTEN": 467860,
       "YAATTEN": 34315,
-      "OTHMAT": 763519
+      "OTHMAT": 763519,
+      "POPU": 2988471
     },
     "2016": {
       "STABR": "MS",
@@ -27966,7 +28559,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 658249,
       "KIDATTEN": 457918,
       "YAATTEN": 33293,
-      "OTHMAT": 1113864
+      "OTHMAT": 1113864,
+      "POPU": 2987938
     },
     "2017": {
       "STABR": "MS",
@@ -28013,7 +28607,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 706846,
       "KIDATTEN": 448465,
       "YAATTEN": 39511,
-      "OTHMAT": 1331541
+      "OTHMAT": 1331541,
+      "POPU": 2988510
     },
     "2018": {
       "STABR": "MS",
@@ -28060,7 +28655,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 797284,
       "KIDATTEN": 425954,
       "YAATTEN": 41153,
-      "OTHMAT": 2200779
+      "OTHMAT": 2200779,
+      "POPU": 2981020
     },
     "2019": {
       "STABR": "MS",
@@ -28107,7 +28703,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 775647,
       "KIDATTEN": 370401,
       "YAATTEN": 34092,
-      "OTHMAT": 2365055
+      "OTHMAT": 2365055,
+      "POPU": 2976149
     },
     "2020": {
       "STABR": "MS",
@@ -28154,7 +28751,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 678930,
       "KIDATTEN": 378924,
       "YAATTEN": 17765,
-      "OTHMAT": 1684502
+      "OTHMAT": 1684502,
+      "POPU": 2961279
     }
   },
   "Montana": {
@@ -28203,7 +28801,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 123619,
       "YAATTEN": -1,
-      "OTHMAT": 87925
+      "OTHMAT": 87925,
+      "POPU": 892431
     },
     "1999": {
       "STABR": "MT",
@@ -28250,7 +28849,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 124598,
       "YAATTEN": -1,
-      "OTHMAT": 93790
+      "OTHMAT": 93790,
+      "POPU": 897507
     },
     "2000": {
       "STABR": "MT",
@@ -28297,7 +28897,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 115757,
       "YAATTEN": -1,
-      "OTHMAT": 109340
+      "OTHMAT": 109340,
+      "POPU": 903773
     },
     "2001": {
       "STABR": "MT",
@@ -28344,7 +28945,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 131613,
       "YAATTEN": -1,
-      "OTHMAT": 127336
+      "OTHMAT": 127336,
+      "POPU": 906961
     },
     "2002": {
       "STABR": "MT",
@@ -28391,7 +28993,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 133957,
       "YAATTEN": -1,
-      "OTHMAT": 149512
+      "OTHMAT": 149512,
+      "POPU": 911667
     },
     "2003": {
       "STABR": "MT",
@@ -28438,7 +29041,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 149280,
       "YAATTEN": -1,
-      "OTHMAT": 167077
+      "OTHMAT": 167077,
+      "POPU": 919630
     },
     "2004": {
       "STABR": "MT",
@@ -28485,7 +29089,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 174578,
       "KIDATTEN": 134453,
       "YAATTEN": -1,
-      "OTHMAT": 180060
+      "OTHMAT": 180060,
+      "POPU": 930009
     },
     "2005": {
       "STABR": "MT",
@@ -28532,7 +29137,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 178250,
       "KIDATTEN": 137773,
       "YAATTEN": -1,
-      "OTHMAT": 203533
+      "OTHMAT": 203533,
+      "POPU": 940102
     },
     "2006": {
       "STABR": "MT",
@@ -28579,7 +29185,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 195925,
       "KIDATTEN": 149685,
       "YAATTEN": -1,
-      "OTHMAT": 427798
+      "OTHMAT": 427798,
+      "POPU": 952692
     },
     "2007": {
       "STABR": "MT",
@@ -28626,7 +29233,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 215926,
       "KIDATTEN": 152414,
       "YAATTEN": -1,
-      "OTHMAT": 481578
+      "OTHMAT": 481578,
+      "POPU": 964706
     },
     "2008": {
       "STABR": "MT",
@@ -28673,7 +29281,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 229853,
       "KIDATTEN": 158630,
       "YAATTEN": -1,
-      "OTHMAT": 510757
+      "OTHMAT": 510757,
+      "POPU": 976415
     },
     "2009": {
       "STABR": "MT",
@@ -28720,7 +29329,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 254559,
       "KIDATTEN": 169993,
       "YAATTEN": 20625,
-      "OTHMAT": 569516
+      "OTHMAT": 569516,
+      "POPU": 983982
     },
     "2010": {
       "STABR": "MT",
@@ -28767,7 +29377,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 252773,
       "KIDATTEN": 165195,
       "YAATTEN": 20964,
-      "OTHMAT": 721025
+      "OTHMAT": 721025,
+      "POPU": 990697
     },
     "2011": {
       "STABR": "MT",
@@ -28814,7 +29425,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 268480,
       "KIDATTEN": 171773,
       "YAATTEN": 23128,
-      "OTHMAT": 890417
+      "OTHMAT": 890417,
+      "POPU": 997316
     },
     "2012": {
       "STABR": "MT",
@@ -28861,7 +29473,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 285601,
       "KIDATTEN": 183865,
       "YAATTEN": 22283,
-      "OTHMAT": 1506456
+      "OTHMAT": 1506456,
+      "POPU": 1003783
     },
     "2013": {
       "STABR": "MT",
@@ -28908,7 +29521,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 301115,
       "KIDATTEN": 193456,
       "YAATTEN": 21513,
-      "OTHMAT": 1685950
+      "OTHMAT": 1685950,
+      "POPU": 1013569
     },
     "2014": {
       "STABR": "MT",
@@ -28955,7 +29569,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 311284,
       "KIDATTEN": 208543,
       "YAATTEN": 21168,
-      "OTHMAT": 1954235.0
+      "OTHMAT": 1954235.0,
+      "POPU": 1021869
     },
     "2015": {
       "STABR": "MT",
@@ -29002,7 +29617,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 313886,
       "KIDATTEN": 211546,
       "YAATTEN": 20541,
-      "OTHMAT": 2138526
+      "OTHMAT": 2138526,
+      "POPU": 1030475
     },
     "2016": {
       "STABR": "MT",
@@ -29049,7 +29665,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 356845,
       "KIDATTEN": 241768,
       "YAATTEN": 17787,
-      "OTHMAT": 2558205
+      "OTHMAT": 2558205,
+      "POPU": 1040859
     },
     "2017": {
       "STABR": "MT",
@@ -29096,7 +29713,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 354468,
       "KIDATTEN": 226542,
       "YAATTEN": 19839,
-      "OTHMAT": 2735114
+      "OTHMAT": 2735114,
+      "POPU": 1052482
     },
     "2018": {
       "STABR": "MT",
@@ -29143,7 +29761,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 365965,
       "KIDATTEN": 235423,
       "YAATTEN": 21375,
-      "OTHMAT": 3147544
+      "OTHMAT": 3147544,
+      "POPU": 1060665
     },
     "2019": {
       "STABR": "MT",
@@ -29190,7 +29809,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 369734,
       "KIDATTEN": 232929,
       "YAATTEN": 23884,
-      "OTHMAT": 4207890
+      "OTHMAT": 4207890,
+      "POPU": 1068778
     },
     "2020": {
       "STABR": "MT",
@@ -29237,7 +29857,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 251059,
       "KIDATTEN": 150665,
       "YAATTEN": 18827,
-      "OTHMAT": 5786237
+      "OTHMAT": 5786237,
+      "POPU": 1084225
     }
   },
   "North Carolina": {
@@ -29286,7 +29907,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1829465,
       "YAATTEN": -1,
-      "OTHMAT": 703960
+      "OTHMAT": 703960,
+      "POPU": 7809121
     },
     "1999": {
       "STABR": "NC",
@@ -29333,7 +29955,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1947911,
       "YAATTEN": -1,
-      "OTHMAT": 790283
+      "OTHMAT": 790283,
+      "POPU": 7949361
     },
     "2000": {
       "STABR": "NC",
@@ -29380,7 +30003,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1852085,
       "YAATTEN": -1,
-      "OTHMAT": 848924
+      "OTHMAT": 848924,
+      "POPU": 8081614
     },
     "2001": {
       "STABR": "NC",
@@ -29427,7 +30051,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2218357,
       "YAATTEN": -1,
-      "OTHMAT": 1027666
+      "OTHMAT": 1027666,
+      "POPU": 8210122
     },
     "2002": {
       "STABR": "NC",
@@ -29474,7 +30099,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2127522,
       "YAATTEN": -1,
-      "OTHMAT": 1014861
+      "OTHMAT": 1014861,
+      "POPU": 8326201
     },
     "2003": {
       "STABR": "NC",
@@ -29521,7 +30147,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2108620,
       "YAATTEN": -1,
-      "OTHMAT": 989447
+      "OTHMAT": 989447,
+      "POPU": 8422501
     },
     "2004": {
       "STABR": "NC",
@@ -29568,7 +30195,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2656145,
       "KIDATTEN": 2239682,
       "YAATTEN": -1,
-      "OTHMAT": 1077278
+      "OTHMAT": 1077278,
+      "POPU": 8553152
     },
     "2005": {
       "STABR": "NC",
@@ -29615,7 +30243,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2794278,
       "KIDATTEN": 2286586,
       "YAATTEN": -1,
-      "OTHMAT": 1220536
+      "OTHMAT": 1220536,
+      "POPU": 8705407
     },
     "2006": {
       "STABR": "NC",
@@ -29662,7 +30291,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2715888,
       "KIDATTEN": 2264788,
       "YAATTEN": -1,
-      "OTHMAT": 1377651
+      "OTHMAT": 1377651,
+      "POPU": 8917270
     },
     "2007": {
       "STABR": "NC",
@@ -29709,7 +30339,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2879796,
       "KIDATTEN": 2479272,
       "YAATTEN": -1,
-      "OTHMAT": 1517307
+      "OTHMAT": 1517307,
+      "POPU": 9118037
     },
     "2008": {
       "STABR": "NC",
@@ -29756,7 +30387,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2595473,
       "KIDATTEN": 2195059,
       "YAATTEN": -1,
-      "OTHMAT": 1621278
+      "OTHMAT": 1621278,
+      "POPU": 9309449
     },
     "2009": {
       "STABR": "NC",
@@ -29803,7 +30435,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2697634,
       "KIDATTEN": 2202183,
       "YAATTEN": -1,
-      "OTHMAT": 1681283
+      "OTHMAT": 1681283,
+      "POPU": 9449566
     },
     "2010": {
       "STABR": "NC",
@@ -29850,7 +30483,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2508482,
       "KIDATTEN": 1987385,
       "YAATTEN": 113526,
-      "OTHMAT": 1755095
+      "OTHMAT": 1755095,
+      "POPU": 9574323
     },
     "2011": {
       "STABR": "NC",
@@ -29897,7 +30531,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2374817,
       "KIDATTEN": 1859739,
       "YAATTEN": 140870,
-      "OTHMAT": 2060429
+      "OTHMAT": 2060429,
+      "POPU": 9657592
     },
     "2012": {
       "STABR": "NC",
@@ -29944,7 +30579,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2426516,
       "KIDATTEN": 1937405,
       "YAATTEN": 123758,
-      "OTHMAT": 4621359
+      "OTHMAT": 4621359,
+      "POPU": 9749476
     },
     "2013": {
       "STABR": "NC",
@@ -29991,7 +30627,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2604165,
       "KIDATTEN": 2105336,
       "YAATTEN": 132328,
-      "OTHMAT": 4850525
+      "OTHMAT": 4850525,
+      "POPU": 9843336
     },
     "2014": {
       "STABR": "NC",
@@ -30038,7 +30675,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2605492,
       "KIDATTEN": 2112685,
       "YAATTEN": 129165,
-      "OTHMAT": 5416521.0
+      "OTHMAT": 5416521.0,
+      "POPU": 9932887
     },
     "2015": {
       "STABR": "NC",
@@ -30085,7 +30723,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2697793,
       "KIDATTEN": 2173057,
       "YAATTEN": 148596,
-      "OTHMAT": 18723982
+      "OTHMAT": 18723982,
+      "POPU": 10031646
     },
     "2016": {
       "STABR": "NC",
@@ -30132,7 +30771,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2976041,
       "KIDATTEN": 2369272,
       "YAATTEN": 180719,
-      "OTHMAT": 6875851
+      "OTHMAT": 6875851,
+      "POPU": 10154788
     },
     "2017": {
       "STABR": "NC",
@@ -30179,7 +30819,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3039798,
       "KIDATTEN": 2408521,
       "YAATTEN": 152748,
-      "OTHMAT": 9084778
+      "OTHMAT": 9084778,
+      "POPU": 10268233
     },
     "2018": {
       "STABR": "NC",
@@ -30226,7 +30867,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3145468,
       "KIDATTEN": 2484099,
       "YAATTEN": 151614,
-      "OTHMAT": 11022059
+      "OTHMAT": 11022059,
+      "POPU": 10381615
     },
     "2019": {
       "STABR": "NC",
@@ -30273,7 +30915,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3366256,
       "KIDATTEN": 2595295,
       "YAATTEN": 179204,
-      "OTHMAT": 13050305
+      "OTHMAT": 13050305,
+      "POPU": 10488084
     },
     "2020": {
       "STABR": "NC",
@@ -30320,7 +30963,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2680789,
       "KIDATTEN": 1971775,
       "YAATTEN": 145824,
-      "OTHMAT": 13724712
+      "OTHMAT": 13724712,
+      "POPU": 10439388
     }
   },
   "North Dakota": {
@@ -30369,7 +31013,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 308579,
       "YAATTEN": -1,
-      "OTHMAT": 89370
+      "OTHMAT": 89370,
+      "POPU": 647532
     },
     "1999": {
       "STABR": "ND",
@@ -30416,7 +31061,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 312268,
       "YAATTEN": -1,
-      "OTHMAT": 95815
+      "OTHMAT": 95815,
+      "POPU": 644259
     },
     "2000": {
       "STABR": "ND",
@@ -30463,7 +31109,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 311705,
       "YAATTEN": -1,
-      "OTHMAT": 109788
+      "OTHMAT": 109788,
+      "POPU": 642023
     },
     "2001": {
       "STABR": "ND",
@@ -30510,7 +31157,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 309335,
       "YAATTEN": -1,
-      "OTHMAT": 119109
+      "OTHMAT": 119109,
+      "POPU": 639062
     },
     "2002": {
       "STABR": "ND",
@@ -30557,7 +31205,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 98882,
       "YAATTEN": -1,
-      "OTHMAT": 133610
+      "OTHMAT": 133610,
+      "POPU": 638168
     },
     "2003": {
       "STABR": "ND",
@@ -30604,7 +31253,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 103085,
       "YAATTEN": -1,
-      "OTHMAT": 134473
+      "OTHMAT": 134473,
+      "POPU": 638817
     },
     "2004": {
       "STABR": "ND",
@@ -30651,7 +31301,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 104130,
       "YAATTEN": -1,
-      "OTHMAT": 156364
+      "OTHMAT": 156364,
+      "POPU": 644705
     },
     "2005": {
       "STABR": "ND",
@@ -30698,7 +31349,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 101569,
       "KIDATTEN": 96638,
       "YAATTEN": -1,
-      "OTHMAT": 192494
+      "OTHMAT": 192494,
+      "POPU": 646089
     },
     "2006": {
       "STABR": "ND",
@@ -30745,7 +31397,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 121657,
       "KIDATTEN": 103415,
       "YAATTEN": -1,
-      "OTHMAT": 205720
+      "OTHMAT": 205720,
+      "POPU": 649422
     },
     "2007": {
       "STABR": "ND",
@@ -30792,7 +31445,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 113234,
       "KIDATTEN": 86866,
       "YAATTEN": -1,
-      "OTHMAT": 224982
+      "OTHMAT": 224982,
+      "POPU": 652822
     },
     "2008": {
       "STABR": "ND",
@@ -30839,7 +31493,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 113603,
       "KIDATTEN": 94293,
       "YAATTEN": -1,
-      "OTHMAT": 243639
+      "OTHMAT": 243639,
+      "POPU": 657569
     },
     "2009": {
       "STABR": "ND",
@@ -30886,7 +31541,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 133148,
       "KIDATTEN": 95817,
       "YAATTEN": 6004,
-      "OTHMAT": 257892
+      "OTHMAT": 257892,
+      "POPU": 664968
     },
     "2010": {
       "STABR": "ND",
@@ -30933,7 +31589,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 149254,
       "KIDATTEN": 103323,
       "YAATTEN": 11079,
-      "OTHMAT": 277539
+      "OTHMAT": 277539,
+      "POPU": 674715
     },
     "2011": {
       "STABR": "ND",
@@ -30980,7 +31637,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 152969,
       "KIDATTEN": 104823,
       "YAATTEN": 12290,
-      "OTHMAT": 368301
+      "OTHMAT": 368301,
+      "POPU": 685225
     },
     "2012": {
       "STABR": "ND",
@@ -31027,7 +31685,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 164718,
       "KIDATTEN": 119002,
       "YAATTEN": 10986,
-      "OTHMAT": 541847
+      "OTHMAT": 541847,
+      "POPU": 701176
     },
     "2013": {
       "STABR": "ND",
@@ -31074,7 +31733,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 161667,
       "KIDATTEN": 127632,
       "YAATTEN": 11175,
-      "OTHMAT": 639584
+      "OTHMAT": 639584,
+      "POPU": 722036
     },
     "2014": {
       "STABR": "ND",
@@ -31121,7 +31781,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 183507,
       "KIDATTEN": 145049,
       "YAATTEN": 12589,
-      "OTHMAT": 726455.0
+      "OTHMAT": 726455.0,
+      "POPU": 737401
     },
     "2015": {
       "STABR": "ND",
@@ -31168,7 +31829,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 201212,
       "KIDATTEN": 154405,
       "YAATTEN": 13558,
-      "OTHMAT": 879518
+      "OTHMAT": 879518,
+      "POPU": 754066
     },
     "2016": {
       "STABR": "ND",
@@ -31215,7 +31877,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 212522,
       "KIDATTEN": 163828,
       "YAATTEN": 13351,
-      "OTHMAT": 1309416
+      "OTHMAT": 1309416,
+      "POPU": 754434
     },
     "2017": {
       "STABR": "ND",
@@ -31262,7 +31925,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 231343,
       "KIDATTEN": 170303,
       "YAATTEN": 20568,
-      "OTHMAT": 1990608
+      "OTHMAT": 1990608,
+      "POPU": 754942
     },
     "2018": {
       "STABR": "ND",
@@ -31309,7 +31973,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 248931,
       "KIDATTEN": 176830,
       "YAATTEN": 22882,
-      "OTHMAT": 2304903
+      "OTHMAT": 2304903,
+      "POPU": 758080
     },
     "2019": {
       "STABR": "ND",
@@ -31356,7 +32021,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 266750,
       "KIDATTEN": 189720,
       "YAATTEN": 20457,
-      "OTHMAT": 2606041
+      "OTHMAT": 2606041,
+      "POPU": 762062
     },
     "2020": {
       "STABR": "ND",
@@ -31403,7 +32069,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 264151,
       "KIDATTEN": 196892,
       "YAATTEN": 9962,
-      "OTHMAT": 2560760
+      "OTHMAT": 2560760,
+      "POPU": 779094
     }
   },
   "Nebraska": {
@@ -31452,7 +32119,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 320507,
       "YAATTEN": -1,
-      "OTHMAT": 292758
+      "OTHMAT": 292758,
+      "POPU": 1695816
     },
     "1999": {
       "STABR": "NE",
@@ -31499,7 +32167,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 363020,
       "YAATTEN": -1,
-      "OTHMAT": 318154
+      "OTHMAT": 318154,
+      "POPU": 1704764
     },
     "2000": {
       "STABR": "NE",
@@ -31546,7 +32215,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 359621,
       "YAATTEN": -1,
-      "OTHMAT": 348133
+      "OTHMAT": 348133,
+      "POPU": 1713820
     },
     "2001": {
       "STABR": "NE",
@@ -31593,7 +32263,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 344149,
       "YAATTEN": -1,
-      "OTHMAT": 398566
+      "OTHMAT": 398566,
+      "POPU": 1719836
     },
     "2002": {
       "STABR": "NE",
@@ -31640,7 +32311,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 350505,
       "YAATTEN": -1,
-      "OTHMAT": 435547
+      "OTHMAT": 435547,
+      "POPU": 1728292
     },
     "2003": {
       "STABR": "NE",
@@ -31687,7 +32359,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 390321,
       "YAATTEN": -1,
-      "OTHMAT": 453465
+      "OTHMAT": 453465,
+      "POPU": 1738643
     },
     "2004": {
       "STABR": "NE",
@@ -31734,7 +32407,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 481258,
       "KIDATTEN": 438777,
       "YAATTEN": -1,
-      "OTHMAT": 668637
+      "OTHMAT": 668637,
+      "POPU": 1749370
     },
     "2005": {
       "STABR": "NE",
@@ -31781,7 +32455,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 567310,
       "KIDATTEN": 539378,
       "YAATTEN": -1,
-      "OTHMAT": 773876
+      "OTHMAT": 773876,
+      "POPU": 1761497
     },
     "2006": {
       "STABR": "NE",
@@ -31828,7 +32503,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 594423,
       "KIDATTEN": 479165,
       "YAATTEN": -1,
-      "OTHMAT": 853049
+      "OTHMAT": 853049,
+      "POPU": 1772693
     },
     "2007": {
       "STABR": "NE",
@@ -31875,7 +32551,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 659090,
       "KIDATTEN": 446488,
       "YAATTEN": -1,
-      "OTHMAT": 887745
+      "OTHMAT": 887745,
+      "POPU": 1783440
     },
     "2008": {
       "STABR": "NE",
@@ -31922,7 +32599,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 596705,
       "KIDATTEN": 500705,
       "YAATTEN": -1,
-      "OTHMAT": 968243
+      "OTHMAT": 968243,
+      "POPU": 1796378
     },
     "2009": {
       "STABR": "NE",
@@ -31969,7 +32647,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 617347,
       "KIDATTEN": 512759,
       "YAATTEN": 25714,
-      "OTHMAT": 1002788
+      "OTHMAT": 1002788,
+      "POPU": 1812683
     },
     "2010": {
       "STABR": "NE",
@@ -32016,7 +32695,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 627292,
       "KIDATTEN": 514700,
       "YAATTEN": 33662,
-      "OTHMAT": 985380
+      "OTHMAT": 985380,
+      "POPU": 1829542
     },
     "2011": {
       "STABR": "NE",
@@ -32063,7 +32743,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 651726,
       "KIDATTEN": 514413,
       "YAATTEN": 41634,
-      "OTHMAT": 1058246
+      "OTHMAT": 1058246,
+      "POPU": 1840672
     },
     "2012": {
       "STABR": "NE",
@@ -32110,7 +32791,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 702371,
       "KIDATTEN": 557543,
       "YAATTEN": 37296,
-      "OTHMAT": 1952054
+      "OTHMAT": 1952054,
+      "POPU": 1853303
     },
     "2013": {
       "STABR": "NE",
@@ -32157,7 +32839,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 672108,
       "KIDATTEN": 508786,
       "YAATTEN": 38604,
-      "OTHMAT": 3226000
+      "OTHMAT": 3226000,
+      "POPU": 1865279
     },
     "2014": {
       "STABR": "NE",
@@ -32204,7 +32887,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 726967,
       "KIDATTEN": 563590,
       "YAATTEN": 43840,
-      "OTHMAT": 4533228.0
+      "OTHMAT": 4533228.0,
+      "POPU": 1879321
     },
     "2015": {
       "STABR": "NE",
@@ -32251,7 +32935,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 773034,
       "KIDATTEN": 600481,
       "YAATTEN": 47764,
-      "OTHMAT": 5510555
+      "OTHMAT": 5510555,
+      "POPU": 1891277
     },
     "2016": {
       "STABR": "NE",
@@ -32298,7 +32983,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 816773,
       "KIDATTEN": 645205,
       "YAATTEN": 50808,
-      "OTHMAT": 6681188
+      "OTHMAT": 6681188,
+      "POPU": 1905616
     },
     "2017": {
       "STABR": "NE",
@@ -32345,7 +33031,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 860535,
       "KIDATTEN": 672222,
       "YAATTEN": 52875,
-      "OTHMAT": 7579857
+      "OTHMAT": 7579857,
+      "POPU": 1915947
     },
     "2018": {
       "STABR": "NE",
@@ -32392,7 +33079,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 889232,
       "KIDATTEN": 700291,
       "YAATTEN": 52631,
-      "OTHMAT": 8088842
+      "OTHMAT": 8088842,
+      "POPU": 1925614
     },
     "2019": {
       "STABR": "NE",
@@ -32439,7 +33127,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 858008,
       "KIDATTEN": 684099,
       "YAATTEN": 41763,
-      "OTHMAT": 8755842
+      "OTHMAT": 8755842,
+      "POPU": 1934408
     },
     "2020": {
       "STABR": "NE",
@@ -32486,7 +33175,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 488311,
       "KIDATTEN": 368904,
       "YAATTEN": 24745,
-      "OTHMAT": 9770637
+      "OTHMAT": 9770637,
+      "POPU": 1961504
     }
   },
   "New Hampshire": {
@@ -32535,7 +33225,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 340023,
       "YAATTEN": -1,
-      "OTHMAT": 251894
+      "OTHMAT": 251894,
+      "POPU": 1205940
     },
     "1999": {
       "STABR": "NH",
@@ -32582,7 +33273,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 375561,
       "YAATTEN": -1,
-      "OTHMAT": 275386
+      "OTHMAT": 275386,
+      "POPU": 1222014
     },
     "2000": {
       "STABR": "NH",
@@ -32629,7 +33321,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 369061,
       "YAATTEN": -1,
-      "OTHMAT": 304680
+      "OTHMAT": 304680,
+      "POPU": 1239882
     },
     "2001": {
       "STABR": "NH",
@@ -32676,7 +33369,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 365820,
       "YAATTEN": -1,
-      "OTHMAT": 347459
+      "OTHMAT": 347459,
+      "POPU": 1255517
     },
     "2002": {
       "STABR": "NH",
@@ -32723,7 +33417,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 387886,
       "YAATTEN": -1,
-      "OTHMAT": 389249
+      "OTHMAT": 389249,
+      "POPU": 1269089
     },
     "2003": {
       "STABR": "NH",
@@ -32770,7 +33465,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 391563,
       "YAATTEN": -1,
-      "OTHMAT": 419647
+      "OTHMAT": 419647,
+      "POPU": 1279840
     },
     "2004": {
       "STABR": "NH",
@@ -32817,7 +33513,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 504846,
       "KIDATTEN": 418534,
       "YAATTEN": -1,
-      "OTHMAT": 466697
+      "OTHMAT": 466697,
+      "POPU": 1290121
     },
     "2005": {
       "STABR": "NH",
@@ -32864,7 +33561,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 528794,
       "KIDATTEN": 424053,
       "YAATTEN": -1,
-      "OTHMAT": 515033
+      "OTHMAT": 515033,
+      "POPU": 1298492
     },
     "2006": {
       "STABR": "NH",
@@ -32911,7 +33609,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 565794,
       "KIDATTEN": 444889,
       "YAATTEN": -1,
-      "OTHMAT": 594887
+      "OTHMAT": 594887,
+      "POPU": 1308389
     },
     "2007": {
       "STABR": "NH",
@@ -32958,7 +33657,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 587563,
       "KIDATTEN": 442081,
       "YAATTEN": -1,
-      "OTHMAT": 596049
+      "OTHMAT": 596049,
+      "POPU": 1312540
     },
     "2008": {
       "STABR": "NH",
@@ -33005,7 +33705,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 576422,
       "KIDATTEN": 438152,
       "YAATTEN": -1,
-      "OTHMAT": 632196
+      "OTHMAT": 632196,
+      "POPU": 1315906
     },
     "2009": {
       "STABR": "NH",
@@ -33052,7 +33753,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 627192,
       "KIDATTEN": 469209,
       "YAATTEN": 22160,
-      "OTHMAT": 637194
+      "OTHMAT": 637194,
+      "POPU": 1316102
     },
     "2010": {
       "STABR": "NH",
@@ -33099,7 +33801,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 676465,
       "KIDATTEN": 487662,
       "YAATTEN": 22851,
-      "OTHMAT": 1503686
+      "OTHMAT": 1503686,
+      "POPU": 1316762
     },
     "2011": {
       "STABR": "NH",
@@ -33146,7 +33849,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 654405,
       "KIDATTEN": 463761,
       "YAATTEN": 22606,
-      "OTHMAT": 2452139
+      "OTHMAT": 2452139,
+      "POPU": 1320202
     },
     "2012": {
       "STABR": "NH",
@@ -33193,7 +33897,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 684280,
       "KIDATTEN": 477985,
       "YAATTEN": 25709,
-      "OTHMAT": 3918283
+      "OTHMAT": 3918283,
+      "POPU": 1324232
     },
     "2013": {
       "STABR": "NH",
@@ -33240,7 +33945,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 693368,
       "KIDATTEN": 476088,
       "YAATTEN": 27286,
-      "OTHMAT": 5261995
+      "OTHMAT": 5261995,
+      "POPU": 1326622
     },
     "2014": {
       "STABR": "NH",
@@ -33287,7 +33993,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 749247,
       "KIDATTEN": 490198,
       "YAATTEN": 32649,
-      "OTHMAT": 6572710.0
+      "OTHMAT": 6572710.0,
+      "POPU": 1333341
     },
     "2015": {
       "STABR": "NH",
@@ -33334,7 +34041,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 748908,
       "KIDATTEN": 494825,
       "YAATTEN": 28624,
-      "OTHMAT": 6038858
+      "OTHMAT": 6038858,
+      "POPU": 1336350
     },
     "2016": {
       "STABR": "NH",
@@ -33381,7 +34089,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 809834,
       "KIDATTEN": 516361,
       "YAATTEN": 29576,
-      "OTHMAT": 7760944
+      "OTHMAT": 7760944,
+      "POPU": 1342307
     },
     "2017": {
       "STABR": "NH",
@@ -33428,7 +34137,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 824204,
       "KIDATTEN": 523454,
       "YAATTEN": 33906,
-      "OTHMAT": 9525522
+      "OTHMAT": 9525522,
+      "POPU": 1348787
     },
     "2018": {
       "STABR": "NH",
@@ -33475,7 +34185,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 855332,
       "KIDATTEN": 527694,
       "YAATTEN": 49789,
-      "OTHMAT": 11148855
+      "OTHMAT": 11148855,
+      "POPU": 1353465
     },
     "2019": {
       "STABR": "NH",
@@ -33522,7 +34233,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 882793,
       "KIDATTEN": 558473,
       "YAATTEN": 49262,
-      "OTHMAT": 13551855
+      "OTHMAT": 13551855,
+      "POPU": 1359711
     },
     "2020": {
       "STABR": "NH",
@@ -33569,7 +34281,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 465903,
       "KIDATTEN": 306465,
       "YAATTEN": 29686,
-      "OTHMAT": 17805691
+      "OTHMAT": 17805691,
+      "POPU": 1377529
     }
   },
   "New Jersey": {
@@ -33618,7 +34331,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1497628,
       "YAATTEN": -1,
-      "OTHMAT": 1461949
+      "OTHMAT": 1461949,
+      "POPU": 8287418
     },
     "1999": {
       "STABR": "NJ",
@@ -33665,7 +34379,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1524291,
       "YAATTEN": -1,
-      "OTHMAT": 1600166
+      "OTHMAT": 1600166,
+      "POPU": 8359592
     },
     "2000": {
       "STABR": "NJ",
@@ -33712,7 +34427,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1541737,
       "YAATTEN": -1,
-      "OTHMAT": 1713137
+      "OTHMAT": 1713137,
+      "POPU": 8430621
     },
     "2001": {
       "STABR": "NJ",
@@ -33759,7 +34475,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1665468,
       "YAATTEN": -1,
-      "OTHMAT": 1908355
+      "OTHMAT": 1908355,
+      "POPU": 8492671
     },
     "2002": {
       "STABR": "NJ",
@@ -33806,7 +34523,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1665439,
       "YAATTEN": -1,
-      "OTHMAT": 2042002
+      "OTHMAT": 2042002,
+      "POPU": 8552643
     },
     "2003": {
       "STABR": "NJ",
@@ -33853,7 +34571,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1654040,
       "YAATTEN": -1,
-      "OTHMAT": 2197490
+      "OTHMAT": 2197490,
+      "POPU": 8601402
     },
     "2004": {
       "STABR": "NJ",
@@ -33900,7 +34619,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1696040,
       "YAATTEN": -1,
-      "OTHMAT": 2346558
+      "OTHMAT": 2346558,
+      "POPU": 8634561
     },
     "2005": {
       "STABR": "NJ",
@@ -33947,7 +34667,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2196500,
       "KIDATTEN": 1504208,
       "YAATTEN": -1,
-      "OTHMAT": 2573100
+      "OTHMAT": 2573100,
+      "POPU": 8651974
     },
     "2006": {
       "STABR": "NJ",
@@ -33994,7 +34715,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2492754,
       "KIDATTEN": 1712088,
       "YAATTEN": -1,
-      "OTHMAT": 2726055
+      "OTHMAT": 2726055,
+      "POPU": 8661679
     },
     "2007": {
       "STABR": "NJ",
@@ -34041,7 +34763,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2516299,
       "KIDATTEN": 1689978,
       "YAATTEN": -1,
-      "OTHMAT": 2963377
+      "OTHMAT": 2963377,
+      "POPU": 8677885
     },
     "2008": {
       "STABR": "NJ",
@@ -34088,7 +34811,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2813059,
       "KIDATTEN": 1882513,
       "YAATTEN": -1,
-      "OTHMAT": 3107465
+      "OTHMAT": 3107465,
+      "POPU": 8711090
     },
     "2009": {
       "STABR": "NJ",
@@ -34135,7 +34859,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2921302,
       "KIDATTEN": 1918969,
       "YAATTEN": 0,
-      "OTHMAT": 3331620
+      "OTHMAT": 3331620,
+      "POPU": 8755602
     },
     "2010": {
       "STABR": "NJ",
@@ -34182,7 +34907,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2902367,
       "KIDATTEN": 1858432,
       "YAATTEN": 0,
-      "OTHMAT": 3751180
+      "OTHMAT": 3751180,
+      "POPU": 8799446
     },
     "2011": {
       "STABR": "NJ",
@@ -34229,7 +34955,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2965597,
       "KIDATTEN": 1808540,
       "YAATTEN": 137846,
-      "OTHMAT": 4646552
+      "OTHMAT": 4646552,
+      "POPU": 8828117
     },
     "2012": {
       "STABR": "NJ",
@@ -34276,7 +35003,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3083018,
       "KIDATTEN": 1872094,
       "YAATTEN": 171398,
-      "OTHMAT": 5698755
+      "OTHMAT": 5698755,
+      "POPU": 8844942
     },
     "2013": {
       "STABR": "NJ",
@@ -34323,7 +35051,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3186380,
       "KIDATTEN": 1895174,
       "YAATTEN": 182247,
-      "OTHMAT": 7864498
+      "OTHMAT": 7864498,
+      "POPU": 8856972
     },
     "2014": {
       "STABR": "NJ",
@@ -34370,7 +35099,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3335649,
       "KIDATTEN": 2000242,
       "YAATTEN": 207662,
-      "OTHMAT": 9728904.657821152
+      "OTHMAT": 9728904.657821152,
+      "POPU": 8864525
     },
     "2015": {
       "STABR": "NJ",
@@ -34417,7 +35147,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3355114,
       "KIDATTEN": 2000705,
       "YAATTEN": 210161,
-      "OTHMAT": 10478705
+      "OTHMAT": 10478705,
+      "POPU": 8867949
     },
     "2016": {
       "STABR": "NJ",
@@ -34464,7 +35195,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3519091,
       "KIDATTEN": 2108363,
       "YAATTEN": 215839,
-      "OTHMAT": 12481127
+      "OTHMAT": 12481127,
+      "POPU": 8870827
     },
     "2017": {
       "STABR": "NJ",
@@ -34511,7 +35243,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3653867,
       "KIDATTEN": 2174614,
       "YAATTEN": 245543,
-      "OTHMAT": 15693331
+      "OTHMAT": 15693331,
+      "POPU": 8885525
     },
     "2018": {
       "STABR": "NJ",
@@ -34558,7 +35291,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3754074,
       "KIDATTEN": 2241018,
       "YAATTEN": 254291,
-      "OTHMAT": 21654749
+      "OTHMAT": 21654749,
+      "POPU": 8886025
     },
     "2019": {
       "STABR": "NJ",
@@ -34605,7 +35339,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3948416,
       "KIDATTEN": 2309085,
       "YAATTEN": 285220,
-      "OTHMAT": 28601155
+      "OTHMAT": 28601155,
+      "POPU": 8882190
     },
     "2020": {
       "STABR": "NJ",
@@ -34652,7 +35387,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2938777,
       "KIDATTEN": 1751214,
       "YAATTEN": 191950,
-      "OTHMAT": 54124665
+      "OTHMAT": 54124665,
+      "POPU": 9288994
     }
   },
   "New Mexico": {
@@ -34701,7 +35437,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 264902,
       "YAATTEN": -1,
-      "OTHMAT": 136608
+      "OTHMAT": 136608,
+      "POPU": 1793484
     },
     "1999": {
       "STABR": "NM",
@@ -34748,7 +35485,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 272179,
       "YAATTEN": -1,
-      "OTHMAT": 148133
+      "OTHMAT": 148133,
+      "POPU": 1808082
     },
     "2000": {
       "STABR": "NM",
@@ -34795,7 +35533,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 279096,
       "YAATTEN": -1,
-      "OTHMAT": 152460
+      "OTHMAT": 152460,
+      "POPU": 1821204
     },
     "2001": {
       "STABR": "NM",
@@ -34842,7 +35581,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 313113,
       "YAATTEN": -1,
-      "OTHMAT": 159065
+      "OTHMAT": 159065,
+      "POPU": 1831690
     },
     "2002": {
       "STABR": "NM",
@@ -34889,7 +35629,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 336120,
       "YAATTEN": -1,
-      "OTHMAT": 193102
+      "OTHMAT": 193102,
+      "POPU": 1855309
     },
     "2003": {
       "STABR": "NM",
@@ -34936,7 +35677,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 323354,
       "YAATTEN": -1,
-      "OTHMAT": 243819
+      "OTHMAT": 243819,
+      "POPU": 1877574
     },
     "2004": {
       "STABR": "NM",
@@ -34983,7 +35725,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 266991,
       "YAATTEN": -1,
-      "OTHMAT": 284136
+      "OTHMAT": 284136,
+      "POPU": 1903808
     },
     "2005": {
       "STABR": "NM",
@@ -35030,7 +35773,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 298918,
       "KIDATTEN": 267527,
       "YAATTEN": -1,
-      "OTHMAT": 328759
+      "OTHMAT": 328759,
+      "POPU": 1932274
     },
     "2006": {
       "STABR": "NM",
@@ -35077,7 +35821,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 374915,
       "KIDATTEN": 323423,
       "YAATTEN": -1,
-      "OTHMAT": 368256
+      "OTHMAT": 368256,
+      "POPU": 1962137
     },
     "2007": {
       "STABR": "NM",
@@ -35124,7 +35869,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 359978,
       "KIDATTEN": 288990,
       "YAATTEN": -1,
-      "OTHMAT": 402247
+      "OTHMAT": 402247,
+      "POPU": 1990070
     },
     "2008": {
       "STABR": "NM",
@@ -35171,7 +35917,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 363145,
       "KIDATTEN": 292951,
       "YAATTEN": -1,
-      "OTHMAT": 427196
+      "OTHMAT": 427196,
+      "POPU": 2010662
     },
     "2009": {
       "STABR": "NM",
@@ -35218,7 +35965,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 412603,
       "KIDATTEN": 303868,
       "YAATTEN": 38337,
-      "OTHMAT": 446761
+      "OTHMAT": 446761,
+      "POPU": 2036802
     },
     "2010": {
       "STABR": "NM",
@@ -35265,7 +36013,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 411018,
       "KIDATTEN": 310811,
       "YAATTEN": 35408,
-      "OTHMAT": 500952
+      "OTHMAT": 500952,
+      "POPU": 2064552
     },
     "2011": {
       "STABR": "NM",
@@ -35312,7 +36061,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 443704,
       "KIDATTEN": 332119,
       "YAATTEN": 37656,
-      "OTHMAT": 520521
+      "OTHMAT": 520521,
+      "POPU": 2080450
     },
     "2012": {
       "STABR": "NM",
@@ -35359,7 +36109,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 432727,
       "KIDATTEN": 316900,
       "YAATTEN": 30666,
-      "OTHMAT": 596769
+      "OTHMAT": 596769,
+      "POPU": 2087309
     },
     "2013": {
       "STABR": "NM",
@@ -35406,7 +36157,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 415612,
       "KIDATTEN": 304941,
       "YAATTEN": 28937,
-      "OTHMAT": 648256
+      "OTHMAT": 648256,
+      "POPU": 2092273
     },
     "2014": {
       "STABR": "NM",
@@ -35453,7 +36205,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 469943,
       "KIDATTEN": 335275,
       "YAATTEN": 37130,
-      "OTHMAT": 805701.0
+      "OTHMAT": 805701.0,
+      "POPU": 2089568
     },
     "2015": {
       "STABR": "NM",
@@ -35500,7 +36253,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 485827,
       "KIDATTEN": 341454,
       "YAATTEN": 51273,
-      "OTHMAT": 997434
+      "OTHMAT": 997434,
+      "POPU": 2089291
     },
     "2016": {
       "STABR": "NM",
@@ -35547,7 +36301,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 521273,
       "KIDATTEN": 359828,
       "YAATTEN": 43424,
-      "OTHMAT": 1341480
+      "OTHMAT": 1341480,
+      "POPU": 2091630
     },
     "2017": {
       "STABR": "NM",
@@ -35594,7 +36349,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 495315,
       "KIDATTEN": 346470,
       "YAATTEN": 33408,
-      "OTHMAT": 1734589
+      "OTHMAT": 1734589,
+      "POPU": 2091784
     },
     "2018": {
       "STABR": "NM",
@@ -35641,7 +36397,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 466015,
       "KIDATTEN": 322760,
       "YAATTEN": 31049,
-      "OTHMAT": 1991056
+      "OTHMAT": 1991056,
+      "POPU": 2092741
     },
     "2019": {
       "STABR": "NM",
@@ -35688,7 +36445,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 440409,
       "KIDATTEN": 300883,
       "YAATTEN": 30789,
-      "OTHMAT": 1940791
+      "OTHMAT": 1940791,
+      "POPU": 2096829
     },
     "2020": {
       "STABR": "NM",
@@ -35735,7 +36493,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 324236,
       "KIDATTEN": 218555,
       "YAATTEN": 20805,
-      "OTHMAT": 2139943
+      "OTHMAT": 2139943,
+      "POPU": 2117522
     }
   },
   "Nevada": {
@@ -35784,7 +36543,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 609178,
       "YAATTEN": -1,
-      "OTHMAT": 276214
+      "OTHMAT": 276214,
+      "POPU": 1853191
     },
     "1999": {
       "STABR": "NV",
@@ -35831,7 +36591,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 505488,
       "YAATTEN": -1,
-      "OTHMAT": 294038
+      "OTHMAT": 294038,
+      "POPU": 1934718
     },
     "2000": {
       "STABR": "NV",
@@ -35878,7 +36639,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 516675,
       "YAATTEN": -1,
-      "OTHMAT": 306750
+      "OTHMAT": 306750,
+      "POPU": 2018741
     },
     "2001": {
       "STABR": "NV",
@@ -35925,7 +36687,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 487496,
       "YAATTEN": -1,
-      "OTHMAT": 383706
+      "OTHMAT": 383706,
+      "POPU": 2098399
     },
     "2002": {
       "STABR": "NV",
@@ -35972,7 +36735,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 540937,
       "YAATTEN": -1,
-      "OTHMAT": 451153
+      "OTHMAT": 451153,
+      "POPU": 2173791
     },
     "2003": {
       "STABR": "NV",
@@ -36019,7 +36783,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 525786,
       "YAATTEN": -1,
-      "OTHMAT": 467352
+      "OTHMAT": 467352,
+      "POPU": 2248850
     },
     "2004": {
       "STABR": "NV",
@@ -36066,7 +36831,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 746928,
       "KIDATTEN": 432421,
       "YAATTEN": -1,
-      "OTHMAT": 530015
+      "OTHMAT": 530015,
+      "POPU": 2346222
     },
     "2005": {
       "STABR": "NV",
@@ -36113,7 +36879,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 767879,
       "KIDATTEN": 405694,
       "YAATTEN": -1,
-      "OTHMAT": 620349
+      "OTHMAT": 620349,
+      "POPU": 2432143
     },
     "2006": {
       "STABR": "NV",
@@ -36160,7 +36927,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 740127,
       "KIDATTEN": 393841,
       "YAATTEN": -1,
-      "OTHMAT": 806158
+      "OTHMAT": 806158,
+      "POPU": 2522658
     },
     "2007": {
       "STABR": "NV",
@@ -36207,7 +36975,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 751451,
       "KIDATTEN": 405565,
       "YAATTEN": -1,
-      "OTHMAT": 879190
+      "OTHMAT": 879190,
+      "POPU": 2601072
     },
     "2008": {
       "STABR": "NV",
@@ -36254,7 +37023,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 750761,
       "KIDATTEN": 411037,
       "YAATTEN": -1,
-      "OTHMAT": 960131
+      "OTHMAT": 960131,
+      "POPU": 2653630
     },
     "2009": {
       "STABR": "NV",
@@ -36301,7 +37071,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 756474,
       "KIDATTEN": 420699,
       "YAATTEN": 3475,
-      "OTHMAT": 1003896
+      "OTHMAT": 1003896,
+      "POPU": 2684665
     },
     "2010": {
       "STABR": "NV",
@@ -36348,7 +37119,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 758320,
       "KIDATTEN": 403054,
       "YAATTEN": 8583,
-      "OTHMAT": 1083184
+      "OTHMAT": 1083184,
+      "POPU": 2702405
     },
     "2011": {
       "STABR": "NV",
@@ -36395,7 +37167,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 654806,
       "KIDATTEN": 469910,
       "YAATTEN": 15388,
-      "OTHMAT": 1166910
+      "OTHMAT": 1166910,
+      "POPU": 2712730
     },
     "2012": {
       "STABR": "NV",
@@ -36442,7 +37215,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 778798,
       "KIDATTEN": 494168,
       "YAATTEN": 18056,
-      "OTHMAT": 1111370
+      "OTHMAT": 1111370,
+      "POPU": 2743996
     },
     "2013": {
       "STABR": "NV",
@@ -36489,7 +37263,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 769285,
       "KIDATTEN": 478960,
       "YAATTEN": 19104,
-      "OTHMAT": 1114345
+      "OTHMAT": 1114345,
+      "POPU": 2775970
     },
     "2014": {
       "STABR": "NV",
@@ -36536,7 +37311,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 814150,
       "KIDATTEN": 486550,
       "YAATTEN": 24376,
-      "OTHMAT": 1306167.0
+      "OTHMAT": 1306167.0,
+      "POPU": 2817628
     },
     "2015": {
       "STABR": "NV",
@@ -36583,7 +37359,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 862023,
       "KIDATTEN": 501770,
       "YAATTEN": 34385,
-      "OTHMAT": 2120478
+      "OTHMAT": 2120478,
+      "POPU": 2866939
     },
     "2016": {
       "STABR": "NV",
@@ -36630,7 +37407,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 855996,
       "KIDATTEN": 497770,
       "YAATTEN": 31830,
-      "OTHMAT": 1967744
+      "OTHMAT": 1967744,
+      "POPU": 2917563
     },
     "2017": {
       "STABR": "NV",
@@ -36677,7 +37455,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 675593,
       "KIDATTEN": 400848,
       "YAATTEN": 56668,
-      "OTHMAT": 2412776
+      "OTHMAT": 2412776,
+      "POPU": 2969905
     },
     "2018": {
       "STABR": "NV",
@@ -36724,7 +37503,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 770547,
       "KIDATTEN": 493301,
       "YAATTEN": 66338,
-      "OTHMAT": 1786719
+      "OTHMAT": 1786719,
+      "POPU": 3027341
     },
     "2019": {
       "STABR": "NV",
@@ -36771,7 +37551,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 753380,
       "KIDATTEN": 463960,
       "YAATTEN": 64888,
-      "OTHMAT": 2050618
+      "OTHMAT": 2050618,
+      "POPU": 3080156
     },
     "2020": {
       "STABR": "NV",
@@ -36818,7 +37599,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 595414,
       "KIDATTEN": 370152,
       "YAATTEN": 54058,
-      "OTHMAT": 2251348
+      "OTHMAT": 2251348,
+      "POPU": 3104614
     }
   },
   "New York": {
@@ -36867,7 +37649,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3337600,
       "YAATTEN": -1,
-      "OTHMAT": 5745043
+      "OTHMAT": 5745043,
+      "POPU": 18755906
     },
     "1999": {
       "STABR": "NY",
@@ -36914,7 +37697,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3436309,
       "YAATTEN": -1,
-      "OTHMAT": 5969681
+      "OTHMAT": 5969681,
+      "POPU": 18882725
     },
     "2000": {
       "STABR": "NY",
@@ -36961,7 +37745,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3581614,
       "YAATTEN": -1,
-      "OTHMAT": 6515749
+      "OTHMAT": 6515749,
+      "POPU": 19001780
     },
     "2001": {
       "STABR": "NY",
@@ -37008,7 +37793,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3602385,
       "YAATTEN": -1,
-      "OTHMAT": 7150585
+      "OTHMAT": 7150585,
+      "POPU": 19082838
     },
     "2002": {
       "STABR": "NY",
@@ -37055,7 +37841,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3508376,
       "YAATTEN": -1,
-      "OTHMAT": 7082730
+      "OTHMAT": 7082730,
+      "POPU": 19137800
     },
     "2003": {
       "STABR": "NY",
@@ -37102,7 +37889,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3419611,
       "YAATTEN": -1,
-      "OTHMAT": 7199366
+      "OTHMAT": 7199366,
+      "POPU": 19175939
     },
     "2004": {
       "STABR": "NY",
@@ -37149,7 +37937,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5791715,
       "KIDATTEN": 3471176,
       "YAATTEN": -1,
-      "OTHMAT": 7591026
+      "OTHMAT": 7591026,
+      "POPU": 19171567
     },
     "2005": {
       "STABR": "NY",
@@ -37196,7 +37985,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5861269,
       "KIDATTEN": 3455272,
       "YAATTEN": -1,
-      "OTHMAT": 7943532
+      "OTHMAT": 7943532,
+      "POPU": 19132610
     },
     "2006": {
       "STABR": "NY",
@@ -37243,7 +38033,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6136596,
       "KIDATTEN": 3661240,
       "YAATTEN": -1,
-      "OTHMAT": 8503442
+      "OTHMAT": 8503442,
+      "POPU": 19104631
     },
     "2007": {
       "STABR": "NY",
@@ -37290,7 +38081,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6444672,
       "KIDATTEN": 3721057,
       "YAATTEN": -1,
-      "OTHMAT": 9539506
+      "OTHMAT": 9539506,
+      "POPU": 19132335
     },
     "2008": {
       "STABR": "NY",
@@ -37337,7 +38129,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6827978,
       "KIDATTEN": 3828403,
       "YAATTEN": -1,
-      "OTHMAT": 9801391
+      "OTHMAT": 9801391,
+      "POPU": 19212436
     },
     "2009": {
       "STABR": "NY",
@@ -37384,7 +38177,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7270424,
       "KIDATTEN": 4096991,
       "YAATTEN": 591371,
-      "OTHMAT": 10365465
+      "OTHMAT": 10365465,
+      "POPU": 19307066
     },
     "2010": {
       "STABR": "NY",
@@ -37431,7 +38225,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7329280,
       "KIDATTEN": 3925996,
       "YAATTEN": 583720,
-      "OTHMAT": 10495309
+      "OTHMAT": 10495309,
+      "POPU": 19399878
     },
     "2011": {
       "STABR": "NY",
@@ -37478,7 +38273,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7686391,
       "KIDATTEN": 4002200,
       "YAATTEN": 658218,
-      "OTHMAT": 12594357
+      "OTHMAT": 12594357,
+      "POPU": 19499241
     },
     "2012": {
       "STABR": "NY",
@@ -37525,7 +38321,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8241302,
       "KIDATTEN": 4419395,
       "YAATTEN": 671190,
-      "OTHMAT": 15735689
+      "OTHMAT": 15735689,
+      "POPU": 19572932
     },
     "2013": {
       "STABR": "NY",
@@ -37572,7 +38369,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8226149,
       "KIDATTEN": 4346287,
       "YAATTEN": 658222,
-      "OTHMAT": 20596667
+      "OTHMAT": 20596667,
+      "POPU": 19624447
     },
     "2014": {
       "STABR": "NY",
@@ -37619,7 +38417,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 8951644,
       "KIDATTEN": 4630849,
       "YAATTEN": 725295,
-      "OTHMAT": 27459192.0
+      "OTHMAT": 27459192.0,
+      "POPU": 19651049
     },
     "2015": {
       "STABR": "NY",
@@ -37666,7 +38465,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 9400433,
       "KIDATTEN": 4973625,
       "YAATTEN": 780499,
-      "OTHMAT": 30159232
+      "OTHMAT": 30159232,
+      "POPU": 19654666
     },
     "2016": {
       "STABR": "NY",
@@ -37713,7 +38513,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 10441671,
       "KIDATTEN": 5461712,
       "YAATTEN": 865758,
-      "OTHMAT": 39428817
+      "OTHMAT": 39428817,
+      "POPU": 19633428
     },
     "2017": {
       "STABR": "NY",
@@ -37760,7 +38561,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 11121961,
       "KIDATTEN": 5761758,
       "YAATTEN": 901005,
-      "OTHMAT": 43635155
+      "OTHMAT": 43635155,
+      "POPU": 19589572
     },
     "2018": {
       "STABR": "NY",
@@ -37807,7 +38609,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 11580024,
       "KIDATTEN": 5904084,
       "YAATTEN": 921869,
-      "OTHMAT": 51205814
+      "OTHMAT": 51205814,
+      "POPU": 19530351
     },
     "2019": {
       "STABR": "NY",
@@ -37854,7 +38657,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 12040899,
       "KIDATTEN": 5996834,
       "YAATTEN": 984262,
-      "OTHMAT": 57765622
+      "OTHMAT": 57765622,
+      "POPU": 19453561
     },
     "2020": {
       "STABR": "NY",
@@ -37901,7 +38705,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6612372,
       "KIDATTEN": 3391403,
       "YAATTEN": 486591,
-      "OTHMAT": 74326477
+      "OTHMAT": 74326477,
+      "POPU": 20201249
     }
   },
   "Ohio": {
@@ -37950,7 +38755,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2738471,
       "YAATTEN": -1,
-      "OTHMAT": 4819775
+      "OTHMAT": 4819775,
+      "POPU": 11311536
     },
     "1999": {
       "STABR": "OH",
@@ -37997,7 +38803,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3005455,
       "YAATTEN": -1,
-      "OTHMAT": 5288123
+      "OTHMAT": 5288123,
+      "POPU": 11335454
     },
     "2000": {
       "STABR": "OH",
@@ -38044,7 +38851,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3273196,
       "YAATTEN": -1,
-      "OTHMAT": 5643985
+      "OTHMAT": 5643985,
+      "POPU": 11363543
     },
     "2001": {
       "STABR": "OH",
@@ -38091,7 +38899,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3545753,
       "YAATTEN": -1,
-      "OTHMAT": 6260776
+      "OTHMAT": 6260776,
+      "POPU": 11387404
     },
     "2002": {
       "STABR": "OH",
@@ -38138,7 +38947,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3341042,
       "YAATTEN": -1,
-      "OTHMAT": 6724783
+      "OTHMAT": 6724783,
+      "POPU": 11407889
     },
     "2003": {
       "STABR": "OH",
@@ -38185,7 +38995,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3310732,
       "YAATTEN": -1,
-      "OTHMAT": 7023570
+      "OTHMAT": 7023570,
+      "POPU": 11434788
     },
     "2004": {
       "STABR": "OH",
@@ -38232,7 +39043,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4184248,
       "KIDATTEN": 3208896,
       "YAATTEN": -1,
-      "OTHMAT": 7074029
+      "OTHMAT": 7074029,
+      "POPU": 11452251
     },
     "2005": {
       "STABR": "OH",
@@ -38279,7 +39091,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4385511,
       "KIDATTEN": 3192247,
       "YAATTEN": -1,
-      "OTHMAT": 7797287
+      "OTHMAT": 7797287,
+      "POPU": 11463320
     },
     "2006": {
       "STABR": "OH",
@@ -38326,7 +39139,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4735820,
       "KIDATTEN": 3589295,
       "YAATTEN": -1,
-      "OTHMAT": 8287516
+      "OTHMAT": 8287516,
+      "POPU": 11481213
     },
     "2007": {
       "STABR": "OH",
@@ -38373,7 +39187,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5125926,
       "KIDATTEN": 3891598,
       "YAATTEN": -1,
-      "OTHMAT": 8754303
+      "OTHMAT": 8754303,
+      "POPU": 11500468
     },
     "2008": {
       "STABR": "OH",
@@ -38420,7 +39235,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5671422,
       "KIDATTEN": 4175272,
       "YAATTEN": -1,
-      "OTHMAT": 9319440
+      "OTHMAT": 9319440,
+      "POPU": 11515391
     },
     "2009": {
       "STABR": "OH",
@@ -38467,7 +39283,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5449510,
       "KIDATTEN": 3904785,
       "YAATTEN": 367881,
-      "OTHMAT": 10602402
+      "OTHMAT": 10602402,
+      "POPU": 11528896
     },
     "2010": {
       "STABR": "OH",
@@ -38514,7 +39331,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4824259,
       "KIDATTEN": 3541292,
       "YAATTEN": 334860,
-      "OTHMAT": 12971907
+      "OTHMAT": 12971907,
+      "POPU": 11539336
     },
     "2011": {
       "STABR": "OH",
@@ -38561,7 +39379,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5216552,
       "KIDATTEN": 3796462,
       "YAATTEN": 363707,
-      "OTHMAT": 18066617
+      "OTHMAT": 18066617,
+      "POPU": 11544663
     },
     "2012": {
       "STABR": "OH",
@@ -38608,7 +39427,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5492691,
       "KIDATTEN": 4088321,
       "YAATTEN": 382834,
-      "OTHMAT": 31777563
+      "OTHMAT": 31777563,
+      "POPU": 11548923
     },
     "2013": {
       "STABR": "OH",
@@ -38655,7 +39475,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6012299,
       "KIDATTEN": 4465641,
       "YAATTEN": 418862,
-      "OTHMAT": 46736524
+      "OTHMAT": 46736524,
+      "POPU": 11576684
     },
     "2014": {
       "STABR": "OH",
@@ -38702,7 +39523,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6106582,
       "KIDATTEN": 4513893,
       "YAATTEN": 456598,
-      "OTHMAT": 60268829.76193748
+      "OTHMAT": 60268829.76193748,
+      "POPU": 11602700
     },
     "2015": {
       "STABR": "OH",
@@ -38749,7 +39571,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6365241,
       "KIDATTEN": 4472015,
       "YAATTEN": 447064,
-      "OTHMAT": 83705287
+      "OTHMAT": 83705287,
+      "POPU": 11617527
     },
     "2016": {
       "STABR": "OH",
@@ -38796,7 +39619,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6419152,
       "KIDATTEN": 4677239,
       "YAATTEN": 494486,
-      "OTHMAT": 118548540
+      "OTHMAT": 118548540,
+      "POPU": 11634370
     },
     "2017": {
       "STABR": "OH",
@@ -38843,7 +39667,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6820141,
       "KIDATTEN": 5026856,
       "YAATTEN": 531312,
-      "OTHMAT": 127931616
+      "OTHMAT": 127931616,
+      "POPU": 11659650
     },
     "2018": {
       "STABR": "OH",
@@ -38890,7 +39715,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6872012,
       "KIDATTEN": 5045028,
       "YAATTEN": 497540,
-      "OTHMAT": 155214555
+      "OTHMAT": 155214555,
+      "POPU": 11676341
     },
     "2019": {
       "STABR": "OH",
@@ -38937,7 +39763,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7197722,
       "KIDATTEN": 5170798,
       "YAATTEN": 465767,
-      "OTHMAT": 173511885
+      "OTHMAT": 173511885,
+      "POPU": 11689100
     },
     "2020": {
       "STABR": "OH",
@@ -38984,7 +39811,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2542940,
       "KIDATTEN": 1862716,
       "YAATTEN": 152674,
-      "OTHMAT": 196633906
+      "OTHMAT": 196633906,
+      "POPU": 11799448
     }
   },
   "Oklahoma": {
@@ -39033,7 +39861,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 529560,
       "YAATTEN": -1,
-      "OTHMAT": 202531
+      "OTHMAT": 202531,
+      "POPU": 3405194
     },
     "1999": {
       "STABR": "OK",
@@ -39080,7 +39909,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 544837,
       "YAATTEN": -1,
-      "OTHMAT": 230060
+      "OTHMAT": 230060,
+      "POPU": 3437147
     },
     "2000": {
       "STABR": "OK",
@@ -39127,7 +39957,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 484920,
       "YAATTEN": -1,
-      "OTHMAT": 290810
+      "OTHMAT": 290810,
+      "POPU": 3454365
     },
     "2001": {
       "STABR": "OK",
@@ -39174,7 +40005,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 523923,
       "YAATTEN": -1,
-      "OTHMAT": 330432
+      "OTHMAT": 330432,
+      "POPU": 3467100
     },
     "2002": {
       "STABR": "OK",
@@ -39221,7 +40053,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 517760,
       "YAATTEN": -1,
-      "OTHMAT": 426787
+      "OTHMAT": 426787,
+      "POPU": 3489080
     },
     "2003": {
       "STABR": "OK",
@@ -39268,7 +40101,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 535082,
       "YAATTEN": -1,
-      "OTHMAT": 516894
+      "OTHMAT": 516894,
+      "POPU": 3504892
     },
     "2004": {
       "STABR": "OK",
@@ -39315,7 +40149,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 802073,
       "KIDATTEN": 633534,
       "YAATTEN": -1,
-      "OTHMAT": 524284
+      "OTHMAT": 524284,
+      "POPU": 3525233
     },
     "2005": {
       "STABR": "OK",
@@ -39362,7 +40197,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 805642,
       "KIDATTEN": 615058,
       "YAATTEN": -1,
-      "OTHMAT": 523172
+      "OTHMAT": 523172,
+      "POPU": 3548597
     },
     "2006": {
       "STABR": "OK",
@@ -39409,7 +40245,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 854682,
       "KIDATTEN": 665167,
       "YAATTEN": -1,
-      "OTHMAT": 572752
+      "OTHMAT": 572752,
+      "POPU": 3594090
     },
     "2007": {
       "STABR": "OK",
@@ -39456,7 +40293,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 834274,
       "KIDATTEN": 648199,
       "YAATTEN": -1,
-      "OTHMAT": 600161
+      "OTHMAT": 600161,
+      "POPU": 3634349
     },
     "2008": {
       "STABR": "OK",
@@ -39503,7 +40341,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 810325,
       "KIDATTEN": 638930,
       "YAATTEN": -1,
-      "OTHMAT": 629403
+      "OTHMAT": 629403,
+      "POPU": 3668976
     },
     "2009": {
       "STABR": "OK",
@@ -39550,7 +40389,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 933622,
       "KIDATTEN": 682071,
       "YAATTEN": 59516,
-      "OTHMAT": 680811
+      "OTHMAT": 680811,
+      "POPU": 3717572
     },
     "2010": {
       "STABR": "OK",
@@ -39597,7 +40437,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 964322,
       "KIDATTEN": 664541,
       "YAATTEN": 60477,
-      "OTHMAT": 778342
+      "OTHMAT": 778342,
+      "POPU": 3759944
     },
     "2011": {
       "STABR": "OK",
@@ -39644,7 +40485,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 981615,
       "KIDATTEN": 722551,
       "YAATTEN": 66282,
-      "OTHMAT": 862722
+      "OTHMAT": 862722,
+      "POPU": 3788379
     },
     "2012": {
       "STABR": "OK",
@@ -39691,7 +40533,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1030216,
       "KIDATTEN": 739625,
       "YAATTEN": 66597,
-      "OTHMAT": 1115566
+      "OTHMAT": 1115566,
+      "POPU": 3818814
     },
     "2013": {
       "STABR": "OK",
@@ -39738,7 +40581,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1165974,
       "KIDATTEN": 790308,
       "YAATTEN": 66258,
-      "OTHMAT": 2114621
+      "OTHMAT": 2114621,
+      "POPU": 3853214
     },
     "2014": {
       "STABR": "OK",
@@ -39785,7 +40629,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1161528,
       "KIDATTEN": 757565,
       "YAATTEN": 79888,
-      "OTHMAT": 2984479.0
+      "OTHMAT": 2984479.0,
+      "POPU": 3878187
     },
     "2015": {
       "STABR": "OK",
@@ -39832,7 +40677,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1101015,
       "KIDATTEN": 743655,
       "YAATTEN": 81792,
-      "OTHMAT": 3977047
+      "OTHMAT": 3977047,
+      "POPU": 3909500
     },
     "2016": {
       "STABR": "OK",
@@ -39879,7 +40725,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1120353,
       "KIDATTEN": 754440,
       "YAATTEN": 85041,
-      "OTHMAT": 4509277
+      "OTHMAT": 4509277,
+      "POPU": 3926331
     },
     "2017": {
       "STABR": "OK",
@@ -39926,7 +40773,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1259994,
       "KIDATTEN": 859182,
       "YAATTEN": 102194,
-      "OTHMAT": 5253846
+      "OTHMAT": 5253846,
+      "POPU": 3931316
     },
     "2018": {
       "STABR": "OK",
@@ -39973,7 +40821,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1336275,
       "KIDATTEN": 918750,
       "YAATTEN": 106046,
-      "OTHMAT": 7021336
+      "OTHMAT": 7021336,
+      "POPU": 3940235
     },
     "2019": {
       "STABR": "OK",
@@ -40020,7 +40869,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1444264,
       "KIDATTEN": 967949,
       "YAATTEN": 106641,
-      "OTHMAT": 8774920
+      "OTHMAT": 8774920,
+      "POPU": 3956971
     },
     "2020": {
       "STABR": "OK",
@@ -40067,7 +40917,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 954205,
       "KIDATTEN": 562485,
       "YAATTEN": 60013,
-      "OTHMAT": 10873336
+      "OTHMAT": 10873336,
+      "POPU": 3959353
     }
   },
   "Oregon": {
@@ -40116,7 +40967,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 599722,
       "YAATTEN": -1,
-      "OTHMAT": 562269
+      "OTHMAT": 562269,
+      "POPU": 3352449
     },
     "1999": {
       "STABR": "OR",
@@ -40163,7 +41015,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 780080,
       "YAATTEN": -1,
-      "OTHMAT": 651065
+      "OTHMAT": 651065,
+      "POPU": 3393941
     },
     "2000": {
       "STABR": "OR",
@@ -40210,7 +41063,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 996450,
       "YAATTEN": -1,
-      "OTHMAT": 745447
+      "OTHMAT": 745447,
+      "POPU": 3429708
     },
     "2001": {
       "STABR": "OR",
@@ -40257,7 +41111,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 911816,
       "YAATTEN": -1,
-      "OTHMAT": 843984
+      "OTHMAT": 843984,
+      "POPU": 3467937
     },
     "2002": {
       "STABR": "OR",
@@ -40304,7 +41159,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1206778,
       "YAATTEN": -1,
-      "OTHMAT": 997599
+      "OTHMAT": 997599,
+      "POPU": 3513424
     },
     "2003": {
       "STABR": "OR",
@@ -40351,7 +41207,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1066327,
       "YAATTEN": -1,
-      "OTHMAT": 1062538
+      "OTHMAT": 1062538,
+      "POPU": 3547376
     },
     "2004": {
       "STABR": "OR",
@@ -40398,7 +41255,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1286542,
       "KIDATTEN": 1189691,
       "YAATTEN": -1,
-      "OTHMAT": 1133014
+      "OTHMAT": 1133014,
+      "POPU": 3569463
     },
     "2005": {
       "STABR": "OR",
@@ -40445,7 +41303,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1192361,
       "KIDATTEN": 1084510,
       "YAATTEN": -1,
-      "OTHMAT": 1255664
+      "OTHMAT": 1255664,
+      "POPU": 3613202
     },
     "2006": {
       "STABR": "OR",
@@ -40492,7 +41351,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1293915,
       "KIDATTEN": 1134506,
       "YAATTEN": -1,
-      "OTHMAT": 1330698
+      "OTHMAT": 1330698,
+      "POPU": 3670883
     },
     "2007": {
       "STABR": "OR",
@@ -40539,7 +41399,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1217580,
       "KIDATTEN": 1096018,
       "YAATTEN": -1,
-      "OTHMAT": 1421432
+      "OTHMAT": 1421432,
+      "POPU": 3722417
     },
     "2008": {
       "STABR": "OR",
@@ -40586,7 +41447,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1266714,
       "KIDATTEN": 1119035,
       "YAATTEN": -1,
-      "OTHMAT": 1670990
+      "OTHMAT": 1670990,
+      "POPU": 3768748
     },
     "2009": {
       "STABR": "OR",
@@ -40633,7 +41495,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1357519,
       "KIDATTEN": 1124225,
       "YAATTEN": 61490,
-      "OTHMAT": 2044776
+      "OTHMAT": 2044776,
+      "POPU": 3808600
     },
     "2010": {
       "STABR": "OR",
@@ -40680,7 +41543,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1416898,
       "KIDATTEN": 1152666,
       "YAATTEN": 66445,
-      "OTHMAT": 2797833
+      "OTHMAT": 2797833,
+      "POPU": 3837491
     },
     "2011": {
       "STABR": "OR",
@@ -40727,7 +41591,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1401620,
       "KIDATTEN": 1152419,
       "YAATTEN": 59740,
-      "OTHMAT": 3655319
+      "OTHMAT": 3655319,
+      "POPU": 3872036
     },
     "2012": {
       "STABR": "OR",
@@ -40774,7 +41639,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1411283,
       "KIDATTEN": 1160547,
       "YAATTEN": 75064,
-      "OTHMAT": 5516883
+      "OTHMAT": 5516883,
+      "POPU": 3899001
     },
     "2013": {
       "STABR": "OR",
@@ -40821,7 +41687,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1445195,
       "KIDATTEN": 1176326,
       "YAATTEN": 72732,
-      "OTHMAT": 7272627
+      "OTHMAT": 7272627,
+      "POPU": 3922468
     },
     "2014": {
       "STABR": "OR",
@@ -40868,7 +41735,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1518406,
       "KIDATTEN": 1227929,
       "YAATTEN": 74656,
-      "OTHMAT": 8286740.245735303
+      "OTHMAT": 8286740.245735303,
+      "POPU": 3963244
     },
     "2015": {
       "STABR": "OR",
@@ -40915,7 +41783,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1652925,
       "KIDATTEN": 1318999,
       "YAATTEN": 78834,
-      "OTHMAT": 8002922
+      "OTHMAT": 8002922,
+      "POPU": 4015792
     },
     "2016": {
       "STABR": "OR",
@@ -40962,7 +41831,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1748249,
       "KIDATTEN": 1355002,
       "YAATTEN": 95151,
-      "OTHMAT": 10436131
+      "OTHMAT": 10436131,
+      "POPU": 4089976
     },
     "2017": {
       "STABR": "OR",
@@ -41009,7 +41879,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1726488,
       "KIDATTEN": 1363990,
       "YAATTEN": 100947,
-      "OTHMAT": 13217228
+      "OTHMAT": 13217228,
+      "POPU": 4143625
     },
     "2018": {
       "STABR": "OR",
@@ -41056,7 +41927,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1778679,
       "KIDATTEN": 1389725,
       "YAATTEN": 90283,
-      "OTHMAT": 13436478
+      "OTHMAT": 13436478,
+      "POPU": 4181886
     },
     "2019": {
       "STABR": "OR",
@@ -41103,7 +41975,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1751477,
       "KIDATTEN": 1332100,
       "YAATTEN": 101304,
-      "OTHMAT": 15360271
+      "OTHMAT": 15360271,
+      "POPU": 4217737
     },
     "2020": {
       "STABR": "OR",
@@ -41150,7 +42023,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1187974,
       "KIDATTEN": 921579,
       "YAATTEN": 67243,
-      "OTHMAT": 20113605
+      "OTHMAT": 20113605,
+      "POPU": 4237256
     }
   },
   "Pennsylvania": {
@@ -41199,7 +42073,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1732406,
       "YAATTEN": -1,
-      "OTHMAT": 1948289
+      "OTHMAT": 1948289,
+      "POPU": 12245672
     },
     "1999": {
       "STABR": "PA",
@@ -41246,7 +42121,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1765068,
       "YAATTEN": -1,
-      "OTHMAT": 2258749
+      "OTHMAT": 2258749,
+      "POPU": 12263805
     },
     "2000": {
       "STABR": "PA",
@@ -41293,7 +42169,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1835898,
       "YAATTEN": -1,
-      "OTHMAT": 2394624
+      "OTHMAT": 2394624,
+      "POPU": 12284173
     },
     "2001": {
       "STABR": "PA",
@@ -41340,7 +42217,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2057223,
       "YAATTEN": -1,
-      "OTHMAT": 2816991
+      "OTHMAT": 2816991,
+      "POPU": 12298970
     },
     "2002": {
       "STABR": "PA",
@@ -41387,7 +42265,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2138729,
       "YAATTEN": -1,
-      "OTHMAT": 3081215
+      "OTHMAT": 3081215,
+      "POPU": 12331031
     },
     "2003": {
       "STABR": "PA",
@@ -41434,7 +42313,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2097188,
       "YAATTEN": -1,
-      "OTHMAT": 3370343
+      "OTHMAT": 3370343,
+      "POPU": 12374658
     },
     "2004": {
       "STABR": "PA",
@@ -41481,7 +42361,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2374747,
       "KIDATTEN": 1967461,
       "YAATTEN": -1,
-      "OTHMAT": 3270541
+      "OTHMAT": 3270541,
+      "POPU": 12410722
     },
     "2005": {
       "STABR": "PA",
@@ -41528,7 +42409,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2988266,
       "KIDATTEN": 2424501,
       "YAATTEN": -1,
-      "OTHMAT": 3463835
+      "OTHMAT": 3463835,
+      "POPU": 12449990
     },
     "2006": {
       "STABR": "PA",
@@ -41575,7 +42457,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3345407,
       "KIDATTEN": 2678977,
       "YAATTEN": -1,
-      "OTHMAT": 3738376
+      "OTHMAT": 3738376,
+      "POPU": 12510809
     },
     "2007": {
       "STABR": "PA",
@@ -41622,7 +42505,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3540931,
       "KIDATTEN": 2797089,
       "YAATTEN": -1,
-      "OTHMAT": 4505263
+      "OTHMAT": 4505263,
+      "POPU": 12563937
     },
     "2008": {
       "STABR": "PA",
@@ -41669,7 +42553,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3827228,
       "KIDATTEN": 3013302,
       "YAATTEN": -1,
-      "OTHMAT": 4633448
+      "OTHMAT": 4633448,
+      "POPU": 12612285
     },
     "2009": {
       "STABR": "PA",
@@ -41716,7 +42601,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3947143,
       "KIDATTEN": 2986882,
       "YAATTEN": 195421,
-      "OTHMAT": 5180905
+      "OTHMAT": 5180905,
+      "POPU": 12666858
     },
     "2010": {
       "STABR": "PA",
@@ -41763,7 +42649,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3622572,
       "KIDATTEN": 2734722,
       "YAATTEN": 179679,
-      "OTHMAT": 4985896
+      "OTHMAT": 4985896,
+      "POPU": 12711160
     },
     "2011": {
       "STABR": "PA",
@@ -41810,7 +42697,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3906550,
       "KIDATTEN": 2874668,
       "YAATTEN": 181301,
-      "OTHMAT": 5937108
+      "OTHMAT": 5937108,
+      "POPU": 12745815
     },
     "2012": {
       "STABR": "PA",
@@ -41857,7 +42745,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3974630,
       "KIDATTEN": 2884792,
       "YAATTEN": 189940,
-      "OTHMAT": 7378870
+      "OTHMAT": 7378870,
+      "POPU": 12767118
     },
     "2013": {
       "STABR": "PA",
@@ -41904,7 +42793,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4230723,
       "KIDATTEN": 3030797,
       "YAATTEN": 265085,
-      "OTHMAT": 9376865
+      "OTHMAT": 9376865,
+      "POPU": 12776309
     },
     "2014": {
       "STABR": "PA",
@@ -41951,7 +42841,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4101104,
       "KIDATTEN": 2955004,
       "YAATTEN": 270086,
-      "OTHMAT": 11999268.20208671
+      "OTHMAT": 11999268.20208671,
+      "POPU": 12788313
     },
     "2015": {
       "STABR": "PA",
@@ -41998,7 +42889,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4072625,
       "KIDATTEN": 2967834,
       "YAATTEN": 242055,
-      "OTHMAT": 15832726
+      "OTHMAT": 15832726,
+      "POPU": 12784826
     },
     "2016": {
       "STABR": "PA",
@@ -42045,7 +42937,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4494880,
       "KIDATTEN": 3171800,
       "YAATTEN": 298358,
-      "OTHMAT": 69594524
+      "OTHMAT": 69594524,
+      "POPU": 12782275
     },
     "2017": {
       "STABR": "PA",
@@ -42092,7 +42985,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4776769,
       "KIDATTEN": 3315112,
       "YAATTEN": 289888,
-      "OTHMAT": 80906600
+      "OTHMAT": 80906600,
+      "POPU": 12787641
     },
     "2018": {
       "STABR": "PA",
@@ -42139,7 +43033,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4571725,
       "KIDATTEN": 3249087,
       "YAATTEN": 261409,
-      "OTHMAT": 96165231
+      "OTHMAT": 96165231,
+      "POPU": 12800922
     },
     "2019": {
       "STABR": "PA",
@@ -42186,7 +43081,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4878313,
       "KIDATTEN": 3439128,
       "YAATTEN": 283707,
-      "OTHMAT": 23628955
+      "OTHMAT": 23628955,
+      "POPU": 12801989
     },
     "2020": {
       "STABR": "PA",
@@ -42233,7 +43129,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3567463,
       "KIDATTEN": 2684855,
       "YAATTEN": 209654,
-      "OTHMAT": 22561840
+      "OTHMAT": 22561840,
+      "POPU": 13002700
     }
   },
   "Rhode Island": {
@@ -42282,7 +43179,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 165043,
       "YAATTEN": -1,
-      "OTHMAT": 167266
+      "OTHMAT": 167266,
+      "POPU": 1031155
     },
     "1999": {
       "STABR": "RI",
@@ -42329,7 +43227,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 161257,
       "YAATTEN": -1,
-      "OTHMAT": 183582
+      "OTHMAT": 183582,
+      "POPU": 1040402
     },
     "2000": {
       "STABR": "RI",
@@ -42376,7 +43275,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 175491,
       "YAATTEN": -1,
-      "OTHMAT": 207112
+      "OTHMAT": 207112,
+      "POPU": 1050268
     },
     "2001": {
       "STABR": "RI",
@@ -42423,7 +43323,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 199178,
       "YAATTEN": -1,
-      "OTHMAT": 231946
+      "OTHMAT": 231946,
+      "POPU": 1057142
     },
     "2002": {
       "STABR": "RI",
@@ -42470,7 +43371,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 213969,
       "YAATTEN": -1,
-      "OTHMAT": 253156
+      "OTHMAT": 253156,
+      "POPU": 1065995
     },
     "2003": {
       "STABR": "RI",
@@ -42517,7 +43419,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 203211,
       "YAATTEN": -1,
-      "OTHMAT": 270452
+      "OTHMAT": 270452,
+      "POPU": 1071342
     },
     "2004": {
       "STABR": "RI",
@@ -42564,7 +43467,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 317750,
       "KIDATTEN": 204141,
       "YAATTEN": -1,
-      "OTHMAT": 290426
+      "OTHMAT": 290426,
+      "POPU": 1074579
     },
     "2005": {
       "STABR": "RI",
@@ -42611,7 +43515,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 313644,
       "KIDATTEN": 206890,
       "YAATTEN": -1,
-      "OTHMAT": 318733
+      "OTHMAT": 318733,
+      "POPU": 1067916
     },
     "2006": {
       "STABR": "RI",
@@ -42658,7 +43563,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 343727,
       "KIDATTEN": 221299,
       "YAATTEN": -1,
-      "OTHMAT": 343953
+      "OTHMAT": 343953,
+      "POPU": 1063096
     },
     "2007": {
       "STABR": "RI",
@@ -42705,7 +43611,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 354498,
       "KIDATTEN": 219918,
       "YAATTEN": -1,
-      "OTHMAT": 362674
+      "OTHMAT": 362674,
+      "POPU": 1057315
     },
     "2008": {
       "STABR": "RI",
@@ -42752,7 +43659,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 358820,
       "KIDATTEN": 208063,
       "YAATTEN": -1,
-      "OTHMAT": 375906
+      "OTHMAT": 375906,
+      "POPU": 1055003
     },
     "2009": {
       "STABR": "RI",
@@ -42799,7 +43707,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 349954,
       "KIDATTEN": 199487,
       "YAATTEN": 26096,
-      "OTHMAT": 379576
+      "OTHMAT": 379576,
+      "POPU": 1053646
     },
     "2010": {
       "STABR": "RI",
@@ -42846,7 +43755,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 350828,
       "KIDATTEN": 200213,
       "YAATTEN": 21721,
-      "OTHMAT": 660764
+      "OTHMAT": 660764,
+      "POPU": 1053959
     },
     "2011": {
       "STABR": "RI",
@@ -42893,7 +43803,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 358386,
       "KIDATTEN": 201203,
       "YAATTEN": 23252,
-      "OTHMAT": 912593
+      "OTHMAT": 912593,
+      "POPU": 1053649
     },
     "2012": {
       "STABR": "RI",
@@ -42940,7 +43851,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 372135,
       "KIDATTEN": 191879,
       "YAATTEN": 22836,
-      "OTHMAT": 1097940
+      "OTHMAT": 1097940,
+      "POPU": 1054621
     },
     "2013": {
       "STABR": "RI",
@@ -42987,7 +43899,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 378434,
       "KIDATTEN": 196439,
       "YAATTEN": 19628,
-      "OTHMAT": 1832826
+      "OTHMAT": 1832826,
+      "POPU": 1055081
     },
     "2014": {
       "STABR": "RI",
@@ -43034,7 +43947,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 407511,
       "KIDATTEN": 207300,
       "YAATTEN": 22971,
-      "OTHMAT": 2077463.0
+      "OTHMAT": 2077463.0,
+      "POPU": 1055936
     },
     "2015": {
       "STABR": "RI",
@@ -43081,7 +43995,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 421168,
       "KIDATTEN": 196840,
       "YAATTEN": 22051,
-      "OTHMAT": 2608504
+      "OTHMAT": 2608504,
+      "POPU": 1056065
     },
     "2016": {
       "STABR": "RI",
@@ -43128,7 +44043,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 474248,
       "KIDATTEN": 217427,
       "YAATTEN": 26237,
-      "OTHMAT": 3113040
+      "OTHMAT": 3113040,
+      "POPU": 1056770
     },
     "2017": {
       "STABR": "RI",
@@ -43175,7 +44091,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 503686,
       "KIDATTEN": 231517,
       "YAATTEN": 35254,
-      "OTHMAT": 3916947
+      "OTHMAT": 3916947,
+      "POPU": 1055673
     },
     "2018": {
       "STABR": "RI",
@@ -43222,7 +44139,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 532624,
       "KIDATTEN": 234718,
       "YAATTEN": 42940,
-      "OTHMAT": 4619620
+      "OTHMAT": 4619620,
+      "POPU": 1058287
     },
     "2019": {
       "STABR": "RI",
@@ -43269,7 +44187,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 556915,
       "KIDATTEN": 250915,
       "YAATTEN": 48437,
-      "OTHMAT": 5195861
+      "OTHMAT": 5195861,
+      "POPU": 1059361
     },
     "2020": {
       "STABR": "RI",
@@ -43316,7 +44235,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 435323,
       "KIDATTEN": 164862,
       "YAATTEN": 31635,
-      "OTHMAT": 7054269
+      "OTHMAT": 7054269,
+      "POPU": 1097379
     }
   },
   "South Carolina": {
@@ -43365,7 +44285,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 505725,
       "YAATTEN": -1,
-      "OTHMAT": 350048
+      "OTHMAT": 350048,
+      "POPU": 3919235
     },
     "1999": {
       "STABR": "SC",
@@ -43412,7 +44333,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 476467,
       "YAATTEN": -1,
-      "OTHMAT": 415793
+      "OTHMAT": 415793,
+      "POPU": 3974682
     },
     "2000": {
       "STABR": "SC",
@@ -43459,7 +44381,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 511780,
       "YAATTEN": -1,
-      "OTHMAT": 471602
+      "OTHMAT": 471602,
+      "POPU": 4024223
     },
     "2001": {
       "STABR": "SC",
@@ -43506,7 +44429,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 556284,
       "YAATTEN": -1,
-      "OTHMAT": 544358
+      "OTHMAT": 544358,
+      "POPU": 4064995
     },
     "2002": {
       "STABR": "SC",
@@ -43553,7 +44477,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 555087,
       "YAATTEN": -1,
-      "OTHMAT": 606028
+      "OTHMAT": 606028,
+      "POPU": 4107795
     },
     "2003": {
       "STABR": "SC",
@@ -43600,7 +44525,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 559637,
       "YAATTEN": -1,
-      "OTHMAT": 651413
+      "OTHMAT": 651413,
+      "POPU": 4150297
     },
     "2004": {
       "STABR": "SC",
@@ -43647,7 +44573,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 636058,
       "KIDATTEN": 560710,
       "YAATTEN": -1,
-      "OTHMAT": 713685
+      "OTHMAT": 713685,
+      "POPU": 4210921
     },
     "2005": {
       "STABR": "SC",
@@ -43694,7 +44621,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 693182,
       "KIDATTEN": 599543,
       "YAATTEN": -1,
-      "OTHMAT": 776781
+      "OTHMAT": 776781,
+      "POPU": 4270150
     },
     "2006": {
       "STABR": "SC",
@@ -43741,7 +44669,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 739126,
       "KIDATTEN": 664312,
       "YAATTEN": -1,
-      "OTHMAT": 862098
+      "OTHMAT": 862098,
+      "POPU": 4357847
     },
     "2007": {
       "STABR": "SC",
@@ -43788,7 +44717,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 741126,
       "KIDATTEN": 619414,
       "YAATTEN": -1,
-      "OTHMAT": 927333
+      "OTHMAT": 927333,
+      "POPU": 4444110
     },
     "2008": {
       "STABR": "SC",
@@ -43835,7 +44765,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 809395,
       "KIDATTEN": 670725,
       "YAATTEN": -1,
-      "OTHMAT": 982546
+      "OTHMAT": 982546,
+      "POPU": 4528996
     },
     "2009": {
       "STABR": "SC",
@@ -43882,7 +44813,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 862202,
       "KIDATTEN": 721518,
       "YAATTEN": 49619,
-      "OTHMAT": 1047707
+      "OTHMAT": 1047707,
+      "POPU": 4589872
     },
     "2010": {
       "STABR": "SC",
@@ -43929,7 +44861,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 914403,
       "KIDATTEN": 744854,
       "YAATTEN": 57989,
-      "OTHMAT": 1098734
+      "OTHMAT": 1098734,
+      "POPU": 4635649
     },
     "2011": {
       "STABR": "SC",
@@ -43976,7 +44909,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1007729,
       "KIDATTEN": 780369,
       "YAATTEN": 71175,
-      "OTHMAT": 1151031
+      "OTHMAT": 1151031,
+      "POPU": 4671994
     },
     "2012": {
       "STABR": "SC",
@@ -44023,7 +44957,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1050144,
       "KIDATTEN": 832874,
       "YAATTEN": 73405,
-      "OTHMAT": 1327633
+      "OTHMAT": 1327633,
+      "POPU": 4717354
     },
     "2013": {
       "STABR": "SC",
@@ -44070,7 +45005,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 993746,
       "KIDATTEN": 736003,
       "YAATTEN": 103329,
-      "OTHMAT": 1505193
+      "OTHMAT": 1505193,
+      "POPU": 4764080
     },
     "2014": {
       "STABR": "SC",
@@ -44117,7 +45053,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1005858,
       "KIDATTEN": 692762,
       "YAATTEN": 99007,
-      "OTHMAT": 1963359.0
+      "OTHMAT": 1963359.0,
+      "POPU": 4823617
     },
     "2015": {
       "STABR": "SC",
@@ -44164,7 +45101,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1070478,
       "KIDATTEN": 742597,
       "YAATTEN": 93400,
-      "OTHMAT": 2202113
+      "OTHMAT": 2202113,
+      "POPU": 4891938
     },
     "2016": {
       "STABR": "SC",
@@ -44211,7 +45149,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1185620,
       "KIDATTEN": 789382,
       "YAATTEN": 121282,
-      "OTHMAT": 3162092
+      "OTHMAT": 3162092,
+      "POPU": 4957968
     },
     "2017": {
       "STABR": "SC",
@@ -44258,7 +45197,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1284438,
       "KIDATTEN": 868897,
       "YAATTEN": 120873,
-      "OTHMAT": 4504858
+      "OTHMAT": 4504858,
+      "POPU": 5021268
     },
     "2018": {
       "STABR": "SC",
@@ -44305,7 +45245,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1473293,
       "KIDATTEN": 860696,
       "YAATTEN": 135426,
-      "OTHMAT": 6069472
+      "OTHMAT": 6069472,
+      "POPU": 5084156
     },
     "2019": {
       "STABR": "SC",
@@ -44352,7 +45293,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1274633,
       "KIDATTEN": 875869,
       "YAATTEN": 132654,
-      "OTHMAT": 8559804
+      "OTHMAT": 8559804,
+      "POPU": 5148714
     },
     "2020": {
       "STABR": "SC",
@@ -44399,7 +45341,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 887152,
       "KIDATTEN": 613115,
       "YAATTEN": 82213,
-      "OTHMAT": 10544027
+      "OTHMAT": 10544027,
+      "POPU": 5118425
     }
   },
   "South Dakota": {
@@ -44448,7 +45391,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 146163,
       "YAATTEN": -1,
-      "OTHMAT": 83668
+      "OTHMAT": 83668,
+      "POPU": 746058
     },
     "1999": {
       "STABR": "SD",
@@ -44495,7 +45439,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 157286,
       "YAATTEN": -1,
-      "OTHMAT": 95821
+      "OTHMAT": 95821,
+      "POPU": 750412
     },
     "2000": {
       "STABR": "SD",
@@ -44542,7 +45487,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 167276,
       "YAATTEN": -1,
-      "OTHMAT": 117621
+      "OTHMAT": 117621,
+      "POPU": 755844
     },
     "2001": {
       "STABR": "SD",
@@ -44589,7 +45535,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 175492,
       "YAATTEN": -1,
-      "OTHMAT": 152675
+      "OTHMAT": 152675,
+      "POPU": 757972
     },
     "2002": {
       "STABR": "SD",
@@ -44636,7 +45583,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 173401,
       "YAATTEN": -1,
-      "OTHMAT": 168129
+      "OTHMAT": 168129,
+      "POPU": 760020
     },
     "2003": {
       "STABR": "SD",
@@ -44683,7 +45631,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 184038,
       "YAATTEN": -1,
-      "OTHMAT": 208230
+      "OTHMAT": 208230,
+      "POPU": 763729
     },
     "2004": {
       "STABR": "SD",
@@ -44730,7 +45679,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 191134,
       "KIDATTEN": 185494,
       "YAATTEN": -1,
-      "OTHMAT": 244499
+      "OTHMAT": 244499,
+      "POPU": 770396
     },
     "2005": {
       "STABR": "SD",
@@ -44777,7 +45727,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 202155,
       "KIDATTEN": 198269,
       "YAATTEN": -1,
-      "OTHMAT": 286017
+      "OTHMAT": 286017,
+      "POPU": 775493
     },
     "2006": {
       "STABR": "SD",
@@ -44824,7 +45775,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 251687,
       "KIDATTEN": 203622,
       "YAATTEN": -1,
-      "OTHMAT": 310573
+      "OTHMAT": 310573,
+      "POPU": 783033
     },
     "2007": {
       "STABR": "SD",
@@ -44871,7 +45823,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 251320,
       "KIDATTEN": 211561,
       "YAATTEN": -1,
-      "OTHMAT": 331114
+      "OTHMAT": 331114,
+      "POPU": 791623
     },
     "2008": {
       "STABR": "SD",
@@ -44918,7 +45871,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 262829,
       "KIDATTEN": 227820,
       "YAATTEN": -1,
-      "OTHMAT": 345379
+      "OTHMAT": 345379,
+      "POPU": 799124
     },
     "2009": {
       "STABR": "SD",
@@ -44965,7 +45919,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 252019,
       "KIDATTEN": 214153,
       "YAATTEN": 9683,
-      "OTHMAT": 343382
+      "OTHMAT": 343382,
+      "POPU": 807067
     },
     "2010": {
       "STABR": "SD",
@@ -45012,7 +45967,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 274045,
       "KIDATTEN": 250885,
       "YAATTEN": 9176,
-      "OTHMAT": 368229
+      "OTHMAT": 368229,
+      "POPU": 816166
     },
     "2011": {
       "STABR": "SD",
@@ -45059,7 +46015,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 255328,
       "KIDATTEN": 229549,
       "YAATTEN": 9059,
-      "OTHMAT": 338056
+      "OTHMAT": 338056,
+      "POPU": 823579
     },
     "2012": {
       "STABR": "SD",
@@ -45106,7 +46063,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 240161,
       "KIDATTEN": 209018,
       "YAATTEN": 11577,
-      "OTHMAT": 333912
+      "OTHMAT": 333912,
+      "POPU": 833566
     },
     "2013": {
       "STABR": "SD",
@@ -45153,7 +46111,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 265294,
       "KIDATTEN": 226843,
       "YAATTEN": 13563,
-      "OTHMAT": 1213869
+      "OTHMAT": 1213869,
+      "POPU": 842316
     },
     "2014": {
       "STABR": "SD",
@@ -45200,7 +46159,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 274433,
       "KIDATTEN": 234741,
       "YAATTEN": 15229,
-      "OTHMAT": 1549136.0
+      "OTHMAT": 1549136.0,
+      "POPU": 849129
     },
     "2015": {
       "STABR": "SD",
@@ -45247,7 +46207,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 277266,
       "KIDATTEN": 233811,
       "YAATTEN": 16331,
-      "OTHMAT": 1829301
+      "OTHMAT": 1829301,
+      "POPU": 853988
     },
     "2016": {
       "STABR": "SD",
@@ -45294,7 +46255,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 300814,
       "KIDATTEN": 246509,
       "YAATTEN": 22012,
-      "OTHMAT": 1893082
+      "OTHMAT": 1893082,
+      "POPU": 862996
     },
     "2017": {
       "STABR": "SD",
@@ -45341,7 +46303,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 317209,
       "KIDATTEN": 250535,
       "YAATTEN": 24019,
-      "OTHMAT": 2049322
+      "OTHMAT": 2049322,
+      "POPU": 872868
     },
     "2018": {
       "STABR": "SD",
@@ -45388,7 +46351,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 336769,
       "KIDATTEN": 269031,
       "YAATTEN": 22886,
-      "OTHMAT": 2550914
+      "OTHMAT": 2550914,
+      "POPU": 878698
     },
     "2019": {
       "STABR": "SD",
@@ -45435,7 +46399,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 332099,
       "KIDATTEN": 256955,
       "YAATTEN": 22325,
-      "OTHMAT": 3250337
+      "OTHMAT": 3250337,
+      "POPU": 884659
     },
     "2020": {
       "STABR": "SD",
@@ -45482,7 +46447,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 113755,
       "KIDATTEN": 83791,
       "YAATTEN": 8659,
-      "OTHMAT": 3520459
+      "OTHMAT": 3520459,
+      "POPU": 886667
     }
   },
   "Tennessee": {
@@ -45531,7 +46497,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 596933,
       "YAATTEN": -1,
-      "OTHMAT": 494455
+      "OTHMAT": 494455,
+      "POPU": 5570045
     },
     "1999": {
       "STABR": "TN",
@@ -45578,7 +46545,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 626964,
       "YAATTEN": -1,
-      "OTHMAT": 534397
+      "OTHMAT": 534397,
+      "POPU": 5638706
     },
     "2000": {
       "STABR": "TN",
@@ -45625,7 +46593,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 659095,
       "YAATTEN": -1,
-      "OTHMAT": 581632
+      "OTHMAT": 581632,
+      "POPU": 5703719
     },
     "2001": {
       "STABR": "TN",
@@ -45672,7 +46641,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 685753,
       "YAATTEN": -1,
-      "OTHMAT": 643065
+      "OTHMAT": 643065,
+      "POPU": 5750789
     },
     "2002": {
       "STABR": "TN",
@@ -45719,7 +46689,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 731298,
       "YAATTEN": -1,
-      "OTHMAT": 711873
+      "OTHMAT": 711873,
+      "POPU": 5795918
     },
     "2003": {
       "STABR": "TN",
@@ -45766,7 +46737,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 745005,
       "YAATTEN": -1,
-      "OTHMAT": 738714
+      "OTHMAT": 738714,
+      "POPU": 5847812
     },
     "2004": {
       "STABR": "TN",
@@ -45813,7 +46785,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 920771,
       "KIDATTEN": 796644,
       "YAATTEN": -1,
-      "OTHMAT": 836418
+      "OTHMAT": 836418,
+      "POPU": 5910809
     },
     "2005": {
       "STABR": "TN",
@@ -45860,7 +46833,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 948773,
       "KIDATTEN": 774202,
       "YAATTEN": -1,
-      "OTHMAT": 859816
+      "OTHMAT": 859816,
+      "POPU": 5991057
     },
     "2006": {
       "STABR": "TN",
@@ -45907,7 +46881,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 956746,
       "KIDATTEN": 831688,
       "YAATTEN": -1,
-      "OTHMAT": 1086090
+      "OTHMAT": 1086090,
+      "POPU": 6088766
     },
     "2007": {
       "STABR": "TN",
@@ -45954,7 +46929,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 955406,
       "KIDATTEN": 818351,
       "YAATTEN": -1,
-      "OTHMAT": 1754455
+      "OTHMAT": 1754455,
+      "POPU": 6175727
     },
     "2008": {
       "STABR": "TN",
@@ -46001,7 +46977,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 996781,
       "KIDATTEN": 852429,
       "YAATTEN": -1,
-      "OTHMAT": 1085168
+      "OTHMAT": 1085168,
+      "POPU": 6247411
     },
     "2009": {
       "STABR": "TN",
@@ -46048,7 +47025,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1042365,
       "KIDATTEN": 846658,
       "YAATTEN": 39026,
-      "OTHMAT": 1104780
+      "OTHMAT": 1104780,
+      "POPU": 6306019
     },
     "2010": {
       "STABR": "TN",
@@ -46095,7 +47073,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1036516,
       "KIDATTEN": 843706,
       "YAATTEN": 51145,
-      "OTHMAT": 1211588
+      "OTHMAT": 1211588,
+      "POPU": 6355311
     },
     "2011": {
       "STABR": "TN",
@@ -46142,7 +47121,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1079534,
       "KIDATTEN": 850225,
       "YAATTEN": 58115,
-      "OTHMAT": 1259714
+      "OTHMAT": 1259714,
+      "POPU": 6399291
     },
     "2012": {
       "STABR": "TN",
@@ -46189,7 +47169,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1133575,
       "KIDATTEN": 865903,
       "YAATTEN": 78582,
-      "OTHMAT": 1331944
+      "OTHMAT": 1331944,
+      "POPU": 6453898
     },
     "2013": {
       "STABR": "TN",
@@ -46236,7 +47217,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1185116,
       "KIDATTEN": 890573,
       "YAATTEN": 91190,
-      "OTHMAT": 1437837
+      "OTHMAT": 1437837,
+      "POPU": 6494340
     },
     "2014": {
       "STABR": "TN",
@@ -46283,7 +47265,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1318056,
       "KIDATTEN": 928990,
       "YAATTEN": 112756,
-      "OTHMAT": 22968315.0
+      "OTHMAT": 22968315.0,
+      "POPU": 6541223
     },
     "2015": {
       "STABR": "TN",
@@ -46330,7 +47313,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1348283,
       "KIDATTEN": 966819,
       "YAATTEN": 108958,
-      "OTHMAT": 31413679
+      "OTHMAT": 31413679,
+      "POPU": 6591170
     },
     "2016": {
       "STABR": "TN",
@@ -46377,7 +47361,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1508665,
       "KIDATTEN": 1039314,
       "YAATTEN": 138691,
-      "OTHMAT": 36226028
+      "OTHMAT": 36226028,
+      "POPU": 6646010
     },
     "2017": {
       "STABR": "TN",
@@ -46424,7 +47409,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1602359,
       "KIDATTEN": 1106831,
       "YAATTEN": 156609,
-      "OTHMAT": 32559531
+      "OTHMAT": 32559531,
+      "POPU": 6708799
     },
     "2018": {
       "STABR": "TN",
@@ -46471,7 +47457,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1705956,
       "KIDATTEN": 1148656,
       "YAATTEN": 151979,
-      "OTHMAT": 34638561
+      "OTHMAT": 34638561,
+      "POPU": 6771631
     },
     "2019": {
       "STABR": "TN",
@@ -46518,7 +47505,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1749093,
       "KIDATTEN": 1162969,
       "YAATTEN": 147356,
-      "OTHMAT": 39021810
+      "OTHMAT": 39021810,
+      "POPU": 6829174
     },
     "2020": {
       "STABR": "TN",
@@ -46565,7 +47553,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1426810,
       "KIDATTEN": 958700,
       "YAATTEN": 116804,
-      "OTHMAT": 41847507
+      "OTHMAT": 41847507,
+      "POPU": 6910840
     }
   },
   "Texas": {
@@ -46614,7 +47603,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2744438,
       "YAATTEN": -1,
-      "OTHMAT": 1969567
+      "OTHMAT": 1969567,
+      "POPU": 20157531
     },
     "1999": {
       "STABR": "TX",
@@ -46661,7 +47651,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2864721,
       "YAATTEN": -1,
-      "OTHMAT": 2027277
+      "OTHMAT": 2027277,
+      "POPU": 20558220
     },
     "2000": {
       "STABR": "TX",
@@ -46708,7 +47699,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2911638,
       "YAATTEN": -1,
-      "OTHMAT": 2279207
+      "OTHMAT": 2279207,
+      "POPU": 20944499
     },
     "2001": {
       "STABR": "TX",
@@ -46755,7 +47747,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2888765,
       "YAATTEN": -1,
-      "OTHMAT": 2588708
+      "OTHMAT": 2588708,
+      "POPU": 21319622
     },
     "2002": {
       "STABR": "TX",
@@ -46802,7 +47795,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 2938101,
       "YAATTEN": -1,
-      "OTHMAT": 2879564
+      "OTHMAT": 2879564,
+      "POPU": 21690325
     },
     "2003": {
       "STABR": "TX",
@@ -46849,7 +47843,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 3150721,
       "YAATTEN": -1,
-      "OTHMAT": 3101367
+      "OTHMAT": 3101367,
+      "POPU": 22030931
     },
     "2004": {
       "STABR": "TX",
@@ -46896,7 +47891,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4185533,
       "KIDATTEN": 3308746,
       "YAATTEN": -1,
-      "OTHMAT": 3320029
+      "OTHMAT": 3320029,
+      "POPU": 22394023
     },
     "2005": {
       "STABR": "TX",
@@ -46943,7 +47939,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4106617,
       "KIDATTEN": 3284737,
       "YAATTEN": -1,
-      "OTHMAT": 3779600
+      "OTHMAT": 3779600,
+      "POPU": 22778123
     },
     "2006": {
       "STABR": "TX",
@@ -46990,7 +47987,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4147089,
       "KIDATTEN": 3352653,
       "YAATTEN": -1,
-      "OTHMAT": 4211746
+      "OTHMAT": 4211746,
+      "POPU": 23359580
     },
     "2007": {
       "STABR": "TX",
@@ -47037,7 +48035,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4375256,
       "KIDATTEN": 3256531,
       "YAATTEN": -1,
-      "OTHMAT": 4467635
+      "OTHMAT": 4467635,
+      "POPU": 23831983
     },
     "2008": {
       "STABR": "TX",
@@ -47084,7 +48083,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4643068,
       "KIDATTEN": 3440418,
       "YAATTEN": -1,
-      "OTHMAT": 4662658
+      "OTHMAT": 4662658,
+      "POPU": 24309039
     },
     "2009": {
       "STABR": "TX",
@@ -47131,7 +48131,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4810376,
       "KIDATTEN": 3379914,
       "YAATTEN": 335534,
-      "OTHMAT": 4535619
+      "OTHMAT": 4535619,
+      "POPU": 24801761
     },
     "2010": {
       "STABR": "TX",
@@ -47178,7 +48179,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4876546,
       "KIDATTEN": 3364612,
       "YAATTEN": 368298,
-      "OTHMAT": 4715177
+      "OTHMAT": 4715177,
+      "POPU": 25241971
     },
     "2011": {
       "STABR": "TX",
@@ -47225,7 +48227,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4961487,
       "KIDATTEN": 3397562,
       "YAATTEN": 346018,
-      "OTHMAT": 5208197
+      "OTHMAT": 5208197,
+      "POPU": 25645629
     },
     "2012": {
       "STABR": "TX",
@@ -47272,7 +48275,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 4853945,
       "KIDATTEN": 3585902,
       "YAATTEN": 314276,
-      "OTHMAT": 6126502
+      "OTHMAT": 6126502,
+      "POPU": 26084481
     },
     "2013": {
       "STABR": "TX",
@@ -47319,7 +48323,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 5272145,
       "KIDATTEN": 3838485,
       "YAATTEN": 331281,
-      "OTHMAT": 7163771
+      "OTHMAT": 7163771,
+      "POPU": 26480266
     },
     "2014": {
       "STABR": "TX",
@@ -47366,7 +48371,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6071883,
       "KIDATTEN": 4179684,
       "YAATTEN": 350617,
-      "OTHMAT": 9300758.0
+      "OTHMAT": 9300758.0,
+      "POPU": 26964333
     },
     "2015": {
       "STABR": "TX",
@@ -47413,7 +48419,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6085525,
       "KIDATTEN": 4324401,
       "YAATTEN": 428080,
-      "OTHMAT": 11678620
+      "OTHMAT": 11678620,
+      "POPU": 27470056
     },
     "2016": {
       "STABR": "TX",
@@ -47460,7 +48467,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6616702,
       "KIDATTEN": 4714790,
       "YAATTEN": 430372,
-      "OTHMAT": 16754368
+      "OTHMAT": 16754368,
+      "POPU": 27914410
     },
     "2017": {
       "STABR": "TX",
@@ -47507,7 +48515,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6985526,
       "KIDATTEN": 4964741,
       "YAATTEN": 462767,
-      "OTHMAT": 21588202
+      "OTHMAT": 21588202,
+      "POPU": 28295273
     },
     "2018": {
       "STABR": "TX",
@@ -47554,7 +48563,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 6865496,
       "KIDATTEN": 4866492,
       "YAATTEN": 459383,
-      "OTHMAT": 26134486
+      "OTHMAT": 26134486,
+      "POPU": 28628666
     },
     "2019": {
       "STABR": "TX",
@@ -47601,7 +48611,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 7310988,
       "KIDATTEN": 5009937,
       "YAATTEN": 495476,
-      "OTHMAT": 24146091
+      "OTHMAT": 24146091,
+      "POPU": 28995881
     },
     "2020": {
       "STABR": "TX",
@@ -47648,7 +48659,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3928661,
       "KIDATTEN": 2618928,
       "YAATTEN": 248976,
-      "OTHMAT": 28715932
+      "OTHMAT": 28715932,
+      "POPU": 29145505
     }
   },
   "Utah": {
@@ -47697,7 +48709,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 276259,
       "YAATTEN": -1,
-      "OTHMAT": 439197
+      "OTHMAT": 439197,
+      "POPU": 2165960
     },
     "1999": {
       "STABR": "UT",
@@ -47744,7 +48757,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 311630,
       "YAATTEN": -1,
-      "OTHMAT": 522523
+      "OTHMAT": 522523,
+      "POPU": 2203482
     },
     "2000": {
       "STABR": "UT",
@@ -47791,7 +48805,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 326495,
       "YAATTEN": -1,
-      "OTHMAT": 570958
+      "OTHMAT": 570958,
+      "POPU": 2244502
     },
     "2001": {
       "STABR": "UT",
@@ -47838,7 +48853,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 353512,
       "YAATTEN": -1,
-      "OTHMAT": 649590
+      "OTHMAT": 649590,
+      "POPU": 2283715
     },
     "2002": {
       "STABR": "UT",
@@ -47885,7 +48901,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 381087,
       "YAATTEN": -1,
-      "OTHMAT": 717411
+      "OTHMAT": 717411,
+      "POPU": 2324815
     },
     "2003": {
       "STABR": "UT",
@@ -47932,7 +48949,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 424416,
       "YAATTEN": -1,
-      "OTHMAT": 775902
+      "OTHMAT": 775902,
+      "POPU": 2360137
     },
     "2004": {
       "STABR": "UT",
@@ -47979,7 +48997,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 648526,
       "KIDATTEN": 485913,
       "YAATTEN": -1,
-      "OTHMAT": 781978
+      "OTHMAT": 781978,
+      "POPU": 2401580
     },
     "2005": {
       "STABR": "UT",
@@ -48026,7 +49045,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 682925,
       "KIDATTEN": 524459,
       "YAATTEN": -1,
-      "OTHMAT": 805705
+      "OTHMAT": 805705,
+      "POPU": 2457719
     },
     "2006": {
       "STABR": "UT",
@@ -48073,7 +49093,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 748301,
       "KIDATTEN": 520184,
       "YAATTEN": -1,
-      "OTHMAT": 1065811
+      "OTHMAT": 1065811,
+      "POPU": 2525507
     },
     "2007": {
       "STABR": "UT",
@@ -48120,7 +49141,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 750143,
       "KIDATTEN": 638920,
       "YAATTEN": -1,
-      "OTHMAT": 1145696
+      "OTHMAT": 1145696,
+      "POPU": 2597746
     },
     "2008": {
       "STABR": "UT",
@@ -48167,7 +49189,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 835228,
       "KIDATTEN": 705634,
       "YAATTEN": -1,
-      "OTHMAT": 1370015
+      "OTHMAT": 1370015,
+      "POPU": 2663029
     },
     "2009": {
       "STABR": "UT",
@@ -48214,7 +49237,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 853942,
       "KIDATTEN": 717806,
       "YAATTEN": 30808,
-      "OTHMAT": 1284777
+      "OTHMAT": 1284777,
+      "POPU": 2723421
     },
     "2010": {
       "STABR": "UT",
@@ -48261,7 +49285,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 930550,
       "KIDATTEN": 773222,
       "YAATTEN": 40594,
-      "OTHMAT": 1437541
+      "OTHMAT": 1437541,
+      "POPU": 2775332
     },
     "2011": {
       "STABR": "UT",
@@ -48308,7 +49333,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 972054,
       "KIDATTEN": 812687,
       "YAATTEN": 42673,
-      "OTHMAT": 1321072
+      "OTHMAT": 1321072,
+      "POPU": 2814384
     },
     "2012": {
       "STABR": "UT",
@@ -48355,7 +49381,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1092464,
       "KIDATTEN": 848233,
       "YAATTEN": 44210,
-      "OTHMAT": 2214340
+      "OTHMAT": 2214340,
+      "POPU": 2853375
     },
     "2013": {
       "STABR": "UT",
@@ -48402,7 +49429,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1053114,
       "KIDATTEN": 876908,
       "YAATTEN": 45400,
-      "OTHMAT": 2355325
+      "OTHMAT": 2355325,
+      "POPU": 2897640
     },
     "2014": {
       "STABR": "UT",
@@ -48449,7 +49477,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1260052,
       "KIDATTEN": 962393,
       "YAATTEN": 59339,
-      "OTHMAT": 2608369.0
+      "OTHMAT": 2608369.0,
+      "POPU": 2936879
     },
     "2015": {
       "STABR": "UT",
@@ -48496,7 +49525,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1644847,
       "KIDATTEN": 1280739,
       "YAATTEN": 72187,
-      "OTHMAT": 3715982
+      "OTHMAT": 3715982,
+      "POPU": 2981835
     },
     "2016": {
       "STABR": "UT",
@@ -48543,7 +49573,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1911363,
       "KIDATTEN": 1422201,
       "YAATTEN": 83019,
-      "OTHMAT": 4337174
+      "OTHMAT": 4337174,
+      "POPU": 3041868
     },
     "2017": {
       "STABR": "UT",
@@ -48590,7 +49621,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1929187,
       "KIDATTEN": 921996,
       "YAATTEN": 87946,
-      "OTHMAT": 4725822
+      "OTHMAT": 4725822,
+      "POPU": 3101042
     },
     "2018": {
       "STABR": "UT",
@@ -48637,7 +49669,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2087519,
       "KIDATTEN": 1017835,
       "YAATTEN": 92673,
-      "OTHMAT": 7177099
+      "OTHMAT": 7177099,
+      "POPU": 3153550
     },
     "2019": {
       "STABR": "UT",
@@ -48684,7 +49717,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1539068,
       "KIDATTEN": 1097285,
       "YAATTEN": 97032,
-      "OTHMAT": 8481231
+      "OTHMAT": 8481231,
+      "POPU": 3205958
     },
     "2020": {
       "STABR": "UT",
@@ -48731,7 +49765,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 817670,
       "KIDATTEN": 557394,
       "YAATTEN": 81128,
-      "OTHMAT": 19665046
+      "OTHMAT": 19665046,
+      "POPU": 3271616
     }
   },
   "Virginia": {
@@ -48780,7 +49815,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1092344,
       "YAATTEN": -1,
-      "OTHMAT": 973341
+      "OTHMAT": 973341,
+      "POPU": 6900918
     },
     "1999": {
       "STABR": "VA",
@@ -48827,7 +49863,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1203307,
       "YAATTEN": -1,
-      "OTHMAT": 1076866
+      "OTHMAT": 1076866,
+      "POPU": 7000174
     },
     "2000": {
       "STABR": "VA",
@@ -48874,7 +49911,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1212195,
       "YAATTEN": -1,
-      "OTHMAT": 1165776
+      "OTHMAT": 1165776,
+      "POPU": 7105817
     },
     "2001": {
       "STABR": "VA",
@@ -48921,7 +49959,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1228357,
       "YAATTEN": -1,
-      "OTHMAT": 1270560
+      "OTHMAT": 1270560,
+      "POPU": 7198362
     },
     "2002": {
       "STABR": "VA",
@@ -48968,7 +50007,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1351202,
       "YAATTEN": -1,
-      "OTHMAT": 1391810
+      "OTHMAT": 1391810,
+      "POPU": 7286873
     },
     "2003": {
       "STABR": "VA",
@@ -49015,7 +50055,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1493882,
       "YAATTEN": -1,
-      "OTHMAT": 1470456
+      "OTHMAT": 1470456,
+      "POPU": 7366977
     },
     "2004": {
       "STABR": "VA",
@@ -49062,7 +50103,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1771975,
       "KIDATTEN": 1437750,
       "YAATTEN": -1,
-      "OTHMAT": 2024138
+      "OTHMAT": 2024138,
+      "POPU": 7475575
     },
     "2005": {
       "STABR": "VA",
@@ -49109,7 +50151,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1772480,
       "KIDATTEN": 1414722,
       "YAATTEN": -1,
-      "OTHMAT": 2289130
+      "OTHMAT": 2289130,
+      "POPU": 7577105
     },
     "2006": {
       "STABR": "VA",
@@ -49156,7 +50199,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1855779,
       "KIDATTEN": 1440666,
       "YAATTEN": -1,
-      "OTHMAT": 2453371
+      "OTHMAT": 2453371,
+      "POPU": 7673725
     },
     "2007": {
       "STABR": "VA",
@@ -49203,7 +50247,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1855439,
       "KIDATTEN": 1408103,
       "YAATTEN": -1,
-      "OTHMAT": 2602587
+      "OTHMAT": 2602587,
+      "POPU": 7751000
     },
     "2008": {
       "STABR": "VA",
@@ -49250,7 +50295,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1828360,
       "KIDATTEN": 1354834,
       "YAATTEN": -1,
-      "OTHMAT": 2929242
+      "OTHMAT": 2929242,
+      "POPU": 7833496
     },
     "2009": {
       "STABR": "VA",
@@ -49297,7 +50343,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1851788,
       "KIDATTEN": 784120,
       "YAATTEN": 103020,
-      "OTHMAT": 2897337
+      "OTHMAT": 2897337,
+      "POPU": 7925937
     },
     "2010": {
       "STABR": "VA",
@@ -49344,7 +50391,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1818594,
       "KIDATTEN": 720410,
       "YAATTEN": 95095,
-      "OTHMAT": 3046493
+      "OTHMAT": 3046493,
+      "POPU": 8023699
     },
     "2011": {
       "STABR": "VA",
@@ -49391,7 +50439,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1990917,
       "KIDATTEN": 1407688,
       "YAATTEN": 95477,
-      "OTHMAT": 3269167
+      "OTHMAT": 3269167,
+      "POPU": 8101155
     },
     "2012": {
       "STABR": "VA",
@@ -49438,7 +50487,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2085360,
       "KIDATTEN": 1487171,
       "YAATTEN": 109756,
-      "OTHMAT": 3417054
+      "OTHMAT": 3417054,
+      "POPU": 8185080
     },
     "2013": {
       "STABR": "VA",
@@ -49485,7 +50535,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2164521,
       "KIDATTEN": 1507804,
       "YAATTEN": 116613,
-      "OTHMAT": 3933823
+      "OTHMAT": 3933823,
+      "POPU": 8252427
     },
     "2014": {
       "STABR": "VA",
@@ -49532,7 +50583,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2335862,
       "KIDATTEN": 1660050,
       "YAATTEN": 138023,
-      "OTHMAT": 4578996.0
+      "OTHMAT": 4578996.0,
+      "POPU": 8310993
     },
     "2015": {
       "STABR": "VA",
@@ -49579,7 +50631,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2562861,
       "KIDATTEN": 1727384,
       "YAATTEN": 139964,
-      "OTHMAT": 7542062
+      "OTHMAT": 7542062,
+      "POPU": 8361808
     },
     "2016": {
       "STABR": "VA",
@@ -49626,7 +50679,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2634302,
       "KIDATTEN": 1806826,
       "YAATTEN": 172241,
-      "OTHMAT": 10165434
+      "OTHMAT": 10165434,
+      "POPU": 8410106
     },
     "2017": {
       "STABR": "VA",
@@ -49673,7 +50727,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2872107,
       "KIDATTEN": 1931835,
       "YAATTEN": 183415,
-      "OTHMAT": 17535138
+      "OTHMAT": 17535138,
+      "POPU": 8463587
     },
     "2018": {
       "STABR": "VA",
@@ -49720,7 +50775,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3164884,
       "KIDATTEN": 2094455,
       "YAATTEN": 197650,
-      "OTHMAT": 41481604
+      "OTHMAT": 41481604,
+      "POPU": 8501286
     },
     "2019": {
       "STABR": "VA",
@@ -49767,7 +50823,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 3211194,
       "KIDATTEN": 2124890,
       "YAATTEN": 202884,
-      "OTHMAT": 27634949
+      "OTHMAT": 27634949,
+      "POPU": 8535519
     },
     "2020": {
       "STABR": "VA",
@@ -49814,7 +50871,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2051132,
       "KIDATTEN": 1302839,
       "YAATTEN": 142473,
-      "OTHMAT": 35803778
+      "OTHMAT": 35803778,
+      "POPU": 8631393
     }
   },
   "Vermont": {
@@ -49863,7 +50921,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 123080,
       "YAATTEN": -1,
-      "OTHMAT": 94387
+      "OTHMAT": 94387,
+      "POPU": 600416
     },
     "1999": {
       "STABR": "VT",
@@ -49910,7 +50969,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 150241,
       "YAATTEN": -1,
-      "OTHMAT": 114260
+      "OTHMAT": 114260,
+      "POPU": 604683
     },
     "2000": {
       "STABR": "VT",
@@ -49957,7 +51017,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 151281,
       "YAATTEN": -1,
-      "OTHMAT": 130425
+      "OTHMAT": 130425,
+      "POPU": 609618
     },
     "2001": {
       "STABR": "VT",
@@ -50004,7 +51065,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 169536,
       "YAATTEN": -1,
-      "OTHMAT": 145916
+      "OTHMAT": 145916,
+      "POPU": 612223
     },
     "2002": {
       "STABR": "VT",
@@ -50051,7 +51113,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 183651,
       "YAATTEN": -1,
-      "OTHMAT": 166386
+      "OTHMAT": 166386,
+      "POPU": 615442
     },
     "2003": {
       "STABR": "VT",
@@ -50098,7 +51161,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 208468,
       "YAATTEN": -1,
-      "OTHMAT": 181170
+      "OTHMAT": 181170,
+      "POPU": 617858
     },
     "2004": {
       "STABR": "VT",
@@ -50145,7 +51209,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 272655,
       "KIDATTEN": 221581,
       "YAATTEN": -1,
-      "OTHMAT": 210319
+      "OTHMAT": 210319,
+      "POPU": 619920
     },
     "2005": {
       "STABR": "VT",
@@ -50192,7 +51257,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 295275,
       "KIDATTEN": 235984,
       "YAATTEN": -1,
-      "OTHMAT": 234581
+      "OTHMAT": 234581,
+      "POPU": 621215
     },
     "2006": {
       "STABR": "VT",
@@ -50239,7 +51305,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 328616,
       "KIDATTEN": 243764,
       "YAATTEN": -1,
-      "OTHMAT": 253616
+      "OTHMAT": 253616,
+      "POPU": 622892
     },
     "2007": {
       "STABR": "VT",
@@ -50286,7 +51353,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 361256,
       "KIDATTEN": 274351,
       "YAATTEN": -1,
-      "OTHMAT": 295008
+      "OTHMAT": 295008,
+      "POPU": 623481
     },
     "2008": {
       "STABR": "VT",
@@ -50333,7 +51401,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 368625,
       "KIDATTEN": 279599,
       "YAATTEN": -1,
-      "OTHMAT": 285483
+      "OTHMAT": 285483,
+      "POPU": 624151
     },
     "2009": {
       "STABR": "VT",
@@ -50380,7 +51449,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 371135,
       "KIDATTEN": 269067,
       "YAATTEN": 14310,
-      "OTHMAT": 321262
+      "OTHMAT": 321262,
+      "POPU": 624817
     },
     "2010": {
       "STABR": "VT",
@@ -50427,7 +51497,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 365304,
       "KIDATTEN": 258614,
       "YAATTEN": 12024,
-      "OTHMAT": 319338
+      "OTHMAT": 319338,
+      "POPU": 625879
     },
     "2011": {
       "STABR": "VT",
@@ -50474,7 +51545,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 377984,
       "KIDATTEN": 255382,
       "YAATTEN": 23274,
-      "OTHMAT": 342587
+      "OTHMAT": 342587,
+      "POPU": 627049
     },
     "2012": {
       "STABR": "VT",
@@ -50521,7 +51593,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 373463,
       "KIDATTEN": 275178,
       "YAATTEN": 13245,
-      "OTHMAT": 453397
+      "OTHMAT": 453397,
+      "POPU": 626090
     },
     "2013": {
       "STABR": "VT",
@@ -50568,7 +51641,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 355954,
       "KIDATTEN": 252451,
       "YAATTEN": 12105,
-      "OTHMAT": 492037
+      "OTHMAT": 492037,
+      "POPU": 626210
     },
     "2014": {
       "STABR": "VT",
@@ -50615,7 +51689,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 382193,
       "KIDATTEN": 264223,
       "YAATTEN": 15460,
-      "OTHMAT": 530829.164486122
+      "OTHMAT": 530829.164486122,
+      "POPU": 625214
     },
     "2015": {
       "STABR": "VT",
@@ -50662,7 +51737,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 399967,
       "KIDATTEN": 269004,
       "YAATTEN": 18650,
-      "OTHMAT": 510907
+      "OTHMAT": 510907,
+      "POPU": 625216
     },
     "2016": {
       "STABR": "VT",
@@ -50709,7 +51785,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 439521,
       "KIDATTEN": 281853,
       "YAATTEN": 26534,
-      "OTHMAT": 606204
+      "OTHMAT": 606204,
+      "POPU": 623657
     },
     "2017": {
       "STABR": "VT",
@@ -50756,7 +51833,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 451439,
       "KIDATTEN": 291825,
       "YAATTEN": 21847,
-      "OTHMAT": 790548
+      "OTHMAT": 790548,
+      "POPU": 624344
     },
     "2018": {
       "STABR": "VT",
@@ -50803,7 +51881,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 476621,
       "KIDATTEN": 292322,
       "YAATTEN": 18285,
-      "OTHMAT": 2625635
+      "OTHMAT": 2625635,
+      "POPU": 624358
     },
     "2019": {
       "STABR": "VT",
@@ -50850,7 +51929,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 448576,
       "KIDATTEN": 285143,
       "YAATTEN": 17089,
-      "OTHMAT": 3270736
+      "OTHMAT": 3270736,
+      "POPU": 623989
     },
     "2020": {
       "STABR": "VT",
@@ -50897,7 +51977,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 394951,
       "KIDATTEN": 247722,
       "YAATTEN": 12185,
-      "OTHMAT": 4073059
+      "OTHMAT": 4073059,
+      "POPU": 643077
     }
   },
   "Washington": {
@@ -50946,7 +52027,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 865924,
       "YAATTEN": -1,
-      "OTHMAT": 1273076
+      "OTHMAT": 1273076,
+      "POPU": 5769562
     },
     "1999": {
       "STABR": "WA",
@@ -50993,7 +52075,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 984817,
       "YAATTEN": -1,
-      "OTHMAT": 1362219
+      "OTHMAT": 1362219,
+      "POPU": 5842564
     },
     "2000": {
       "STABR": "WA",
@@ -51040,7 +52123,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1055192,
       "YAATTEN": -1,
-      "OTHMAT": 1475808
+      "OTHMAT": 1475808,
+      "POPU": 5910512
     },
     "2001": {
       "STABR": "WA",
@@ -51087,7 +52171,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1084995,
       "YAATTEN": -1,
-      "OTHMAT": 1623778
+      "OTHMAT": 1623778,
+      "POPU": 5985722
     },
     "2002": {
       "STABR": "WA",
@@ -51134,7 +52219,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1108164,
       "YAATTEN": -1,
-      "OTHMAT": 1724189
+      "OTHMAT": 1724189,
+      "POPU": 6052349
     },
     "2003": {
       "STABR": "WA",
@@ -51181,7 +52267,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1146517,
       "YAATTEN": -1,
-      "OTHMAT": 1807957
+      "OTHMAT": 1807957,
+      "POPU": 6104115
     },
     "2004": {
       "STABR": "WA",
@@ -51228,7 +52315,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1447764,
       "KIDATTEN": 1179627,
       "YAATTEN": -1,
-      "OTHMAT": 1953311
+      "OTHMAT": 1953311,
+      "POPU": 6178645
     },
     "2005": {
       "STABR": "WA",
@@ -51275,7 +52363,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1255864,
       "KIDATTEN": 1018640,
       "YAATTEN": -1,
-      "OTHMAT": 2103901
+      "OTHMAT": 2103901,
+      "POPU": 6257305
     },
     "2006": {
       "STABR": "WA",
@@ -51322,7 +52411,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1376755,
       "KIDATTEN": 1114018,
       "YAATTEN": -1,
-      "OTHMAT": 2326725
+      "OTHMAT": 2326725,
+      "POPU": 6370753
     },
     "2007": {
       "STABR": "WA",
@@ -51369,7 +52459,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1579686,
       "KIDATTEN": 1258473,
       "YAATTEN": -1,
-      "OTHMAT": 2317702
+      "OTHMAT": 2317702,
+      "POPU": 6461587
     },
     "2008": {
       "STABR": "WA",
@@ -51416,7 +52507,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1659601,
       "KIDATTEN": 1331850,
       "YAATTEN": -1,
-      "OTHMAT": 2591802
+      "OTHMAT": 2591802,
+      "POPU": 6562231
     },
     "2009": {
       "STABR": "WA",
@@ -51463,7 +52555,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1852221,
       "KIDATTEN": 1425222,
       "YAATTEN": 97205,
-      "OTHMAT": 2889214
+      "OTHMAT": 2889214,
+      "POPU": 6667426
     },
     "2010": {
       "STABR": "WA",
@@ -51510,7 +52603,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1878826,
       "KIDATTEN": 1477708,
       "YAATTEN": 124386,
-      "OTHMAT": 2887223
+      "OTHMAT": 2887223,
+      "POPU": 6742830
     },
     "2011": {
       "STABR": "WA",
@@ -51557,7 +52651,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1979109,
       "KIDATTEN": 1543786,
       "YAATTEN": 141859,
-      "OTHMAT": 3259381
+      "OTHMAT": 3259381,
+      "POPU": 6826627
     },
     "2012": {
       "STABR": "WA",
@@ -51604,7 +52699,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1970967,
       "KIDATTEN": 1522151,
       "YAATTEN": 130881,
-      "OTHMAT": 3843496
+      "OTHMAT": 3843496,
+      "POPU": 6897058
     },
     "2013": {
       "STABR": "WA",
@@ -51651,7 +52747,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2183614,
       "KIDATTEN": 1649181,
       "YAATTEN": 143707,
-      "OTHMAT": 4987957
+      "OTHMAT": 4987957,
+      "POPU": 6963985
     },
     "2014": {
       "STABR": "WA",
@@ -51698,7 +52795,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2153202,
       "KIDATTEN": 1609938,
       "YAATTEN": 213483,
-      "OTHMAT": 5323035.0
+      "OTHMAT": 5323035.0,
+      "POPU": 7054655
     },
     "2015": {
       "STABR": "WA",
@@ -51745,7 +52843,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2327178,
       "KIDATTEN": 1677860,
       "YAATTEN": 213366,
-      "OTHMAT": 6140284
+      "OTHMAT": 6140284,
+      "POPU": 7163657
     },
     "2016": {
       "STABR": "WA",
@@ -51792,7 +52891,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2502733,
       "KIDATTEN": 1774773,
       "YAATTEN": 238847,
-      "OTHMAT": 7047475
+      "OTHMAT": 7047475,
+      "POPU": 7294771
     },
     "2017": {
       "STABR": "WA",
@@ -51839,7 +52939,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2411297,
       "KIDATTEN": 1766818,
       "YAATTEN": 199962,
-      "OTHMAT": 7919935
+      "OTHMAT": 7919935,
+      "POPU": 7423362
     },
     "2018": {
       "STABR": "WA",
@@ -51886,7 +52987,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2592833,
       "KIDATTEN": 1928046,
       "YAATTEN": 230142,
-      "OTHMAT": 8707689
+      "OTHMAT": 8707689,
+      "POPU": 7523869
     },
     "2019": {
       "STABR": "WA",
@@ -51933,7 +53035,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2463752,
       "KIDATTEN": 1656203,
       "YAATTEN": 358647,
-      "OTHMAT": 9914937
+      "OTHMAT": 9914937,
+      "POPU": 7614893
     },
     "2020": {
       "STABR": "WA",
@@ -51980,7 +53083,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 731625,
       "KIDATTEN": 547633,
       "YAATTEN": 73782,
-      "OTHMAT": 10588859
+      "OTHMAT": 10588859,
+      "POPU": 7705281
     }
   },
   "Wisconsin": {
@@ -52029,7 +53133,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1122308,
       "YAATTEN": -1,
-      "OTHMAT": 1258070
+      "OTHMAT": 1258070,
+      "POPU": 5297672
     },
     "1999": {
       "STABR": "WI",
@@ -52076,7 +53181,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1142509,
       "YAATTEN": -1,
-      "OTHMAT": 1392191
+      "OTHMAT": 1392191,
+      "POPU": 5332666
     },
     "2000": {
       "STABR": "WI",
@@ -52123,7 +53229,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1167812,
       "YAATTEN": -1,
-      "OTHMAT": 1570748
+      "OTHMAT": 1570748,
+      "POPU": 5373999
     },
     "2001": {
       "STABR": "WI",
@@ -52170,7 +53277,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1217750,
       "YAATTEN": -1,
-      "OTHMAT": 1747750
+      "OTHMAT": 1747750,
+      "POPU": 5406835
     },
     "2002": {
       "STABR": "WI",
@@ -52217,7 +53325,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1278101,
       "YAATTEN": -1,
-      "OTHMAT": 1933842
+      "OTHMAT": 1933842,
+      "POPU": 5445162
     },
     "2003": {
       "STABR": "WI",
@@ -52264,7 +53373,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 1321051,
       "YAATTEN": -1,
-      "OTHMAT": 3262039
+      "OTHMAT": 3262039,
+      "POPU": 5479203
     },
     "2004": {
       "STABR": "WI",
@@ -52311,7 +53421,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1556772,
       "KIDATTEN": 1376802,
       "YAATTEN": -1,
-      "OTHMAT": 4553545
+      "OTHMAT": 4553545,
+      "POPU": 5514026
     },
     "2005": {
       "STABR": "WI",
@@ -52358,7 +53469,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1631986,
       "KIDATTEN": 1417728,
       "YAATTEN": -1,
-      "OTHMAT": 5086163
+      "OTHMAT": 5086163,
+      "POPU": 5546166
     },
     "2006": {
       "STABR": "WI",
@@ -52405,7 +53517,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1674919,
       "KIDATTEN": 1467687,
       "YAATTEN": -1,
-      "OTHMAT": 5719693
+      "OTHMAT": 5719693,
+      "POPU": 5577655
     },
     "2007": {
       "STABR": "WI",
@@ -52452,7 +53565,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1696535,
       "KIDATTEN": 1467434,
       "YAATTEN": -1,
-      "OTHMAT": 5944149
+      "OTHMAT": 5944149,
+      "POPU": 5610775
     },
     "2008": {
       "STABR": "WI",
@@ -52499,7 +53613,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1810234,
       "KIDATTEN": 1555453,
       "YAATTEN": -1,
-      "OTHMAT": 7228124
+      "OTHMAT": 7228124,
+      "POPU": 5640996
     },
     "2009": {
       "STABR": "WI",
@@ -52546,7 +53661,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1855221,
       "KIDATTEN": 1507861,
       "YAATTEN": 69199,
-      "OTHMAT": 8095513
+      "OTHMAT": 8095513,
+      "POPU": 5669264
     },
     "2010": {
       "STABR": "WI",
@@ -52593,7 +53709,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1978636,
       "KIDATTEN": 1571242,
       "YAATTEN": 89553,
-      "OTHMAT": 5794017
+      "OTHMAT": 5794017,
+      "POPU": 5690475
     },
     "2011": {
       "STABR": "WI",
@@ -52640,7 +53757,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2040254,
       "KIDATTEN": 1612439,
       "YAATTEN": 92571,
-      "OTHMAT": 13431083
+      "OTHMAT": 13431083,
+      "POPU": 5705288
     },
     "2012": {
       "STABR": "WI",
@@ -52687,7 +53805,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2109641,
       "KIDATTEN": 1656637,
       "YAATTEN": 87913,
-      "OTHMAT": 27927757
+      "OTHMAT": 27927757,
+      "POPU": 5719960
     },
     "2013": {
       "STABR": "WI",
@@ -52734,7 +53853,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2166210,
       "KIDATTEN": 1652396,
       "YAATTEN": 101954,
-      "OTHMAT": 37317969
+      "OTHMAT": 37317969,
+      "POPU": 5736754
     },
     "2014": {
       "STABR": "WI",
@@ -52781,7 +53901,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2226932,
       "KIDATTEN": 1683696,
       "YAATTEN": 104324,
-      "OTHMAT": 62001415.0
+      "OTHMAT": 62001415.0,
+      "POPU": 5751525
     },
     "2015": {
       "STABR": "WI",
@@ -52828,7 +53949,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2355286,
       "KIDATTEN": 1769739,
       "YAATTEN": 131941,
-      "OTHMAT": 71685056
+      "OTHMAT": 71685056,
+      "POPU": 5760940
     },
     "2016": {
       "STABR": "WI",
@@ -52875,7 +53997,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2509803,
       "KIDATTEN": 1830239,
       "YAATTEN": 128925,
-      "OTHMAT": 69271033
+      "OTHMAT": 69271033,
+      "POPU": 5772628
     },
     "2017": {
       "STABR": "WI",
@@ -52922,7 +54045,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2689574,
       "KIDATTEN": 1948424,
       "YAATTEN": 134847,
-      "OTHMAT": 85544233
+      "OTHMAT": 85544233,
+      "POPU": 5790186
     },
     "2018": {
       "STABR": "WI",
@@ -52969,7 +54093,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2854764,
       "KIDATTEN": 2008705,
       "YAATTEN": 149946,
-      "OTHMAT": 82946940
+      "OTHMAT": 82946940,
+      "POPU": 5807406
     },
     "2019": {
       "STABR": "WI",
@@ -53016,7 +54141,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 2851692,
       "KIDATTEN": 2007222,
       "YAATTEN": 137826,
-      "OTHMAT": 87281675
+      "OTHMAT": 87281675,
+      "POPU": 5822434
     },
     "2020": {
       "STABR": "WI",
@@ -53063,7 +54189,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 1037471,
       "KIDATTEN": 690029,
       "YAATTEN": 51375,
-      "OTHMAT": 88788005
+      "OTHMAT": 88788005,
+      "POPU": 5893718
     }
   },
   "West Virginia": {
@@ -53112,7 +54239,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 238657,
       "YAATTEN": -1,
-      "OTHMAT": 205180
+      "OTHMAT": 205180,
+      "POPU": 1815609
     },
     "1999": {
       "STABR": "WV",
@@ -53159,7 +54287,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 236470,
       "YAATTEN": -1,
-      "OTHMAT": 239903
+      "OTHMAT": 239903,
+      "POPU": 1811799
     },
     "2000": {
       "STABR": "WV",
@@ -53206,7 +54335,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 247648,
       "YAATTEN": -1,
-      "OTHMAT": 269290
+      "OTHMAT": 269290,
+      "POPU": 1807021
     },
     "2001": {
       "STABR": "WV",
@@ -53253,7 +54383,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 300820,
       "YAATTEN": -1,
-      "OTHMAT": 287340
+      "OTHMAT": 287340,
+      "POPU": 1801481
     },
     "2002": {
       "STABR": "WV",
@@ -53300,7 +54431,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 270291,
       "YAATTEN": -1,
-      "OTHMAT": 295184
+      "OTHMAT": 295184,
+      "POPU": 1805414
     },
     "2003": {
       "STABR": "WV",
@@ -53347,7 +54479,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 240474,
       "YAATTEN": -1,
-      "OTHMAT": 312506
+      "OTHMAT": 312506,
+      "POPU": 1812295
     },
     "2004": {
       "STABR": "WV",
@@ -53394,7 +54527,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 301182,
       "KIDATTEN": 230560,
       "YAATTEN": -1,
-      "OTHMAT": 332114
+      "OTHMAT": 332114,
+      "POPU": 1816438
     },
     "2005": {
       "STABR": "WV",
@@ -53441,7 +54575,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 340765,
       "KIDATTEN": 220888,
       "YAATTEN": -1,
-      "OTHMAT": 363057
+      "OTHMAT": 363057,
+      "POPU": 1820492
     },
     "2006": {
       "STABR": "WV",
@@ -53488,7 +54623,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 379745,
       "KIDATTEN": 247058,
       "YAATTEN": -1,
-      "OTHMAT": 390833
+      "OTHMAT": 390833,
+      "POPU": 1827912
     },
     "2007": {
       "STABR": "WV",
@@ -53535,7 +54671,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 397048,
       "KIDATTEN": 274851,
       "YAATTEN": -1,
-      "OTHMAT": 413650
+      "OTHMAT": 413650,
+      "POPU": 1834052
     },
     "2008": {
       "STABR": "WV",
@@ -53582,7 +54719,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 421695,
       "KIDATTEN": 283494,
       "YAATTEN": -1,
-      "OTHMAT": 448459
+      "OTHMAT": 448459,
+      "POPU": 1840310
     },
     "2009": {
       "STABR": "WV",
@@ -53629,7 +54767,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 409537,
       "KIDATTEN": 294029,
       "YAATTEN": 19292,
-      "OTHMAT": 479758
+      "OTHMAT": 479758,
+      "POPU": 1847775
     },
     "2010": {
       "STABR": "WV",
@@ -53676,7 +54815,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 389136,
       "KIDATTEN": 301741,
       "YAATTEN": 17176,
-      "OTHMAT": 516391
+      "OTHMAT": 516391,
+      "POPU": 1854239
     },
     "2011": {
       "STABR": "WV",
@@ -53723,7 +54863,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 391872,
       "KIDATTEN": 299981,
       "YAATTEN": 11775,
-      "OTHMAT": 606609
+      "OTHMAT": 606609,
+      "POPU": 1856301
     },
     "2012": {
       "STABR": "WV",
@@ -53770,7 +54911,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 432303,
       "KIDATTEN": 324379,
       "YAATTEN": 28889,
-      "OTHMAT": 486425
+      "OTHMAT": 486425,
+      "POPU": 1856872
     },
     "2013": {
       "STABR": "WV",
@@ -53817,7 +54959,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 407286,
       "KIDATTEN": 310898,
       "YAATTEN": 28588,
-      "OTHMAT": 3832932
+      "OTHMAT": 3832932,
+      "POPU": 1853914
     },
     "2014": {
       "STABR": "WV",
@@ -53864,7 +55007,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 419781,
       "KIDATTEN": 317745,
       "YAATTEN": 28023,
-      "OTHMAT": 5728684.0
+      "OTHMAT": 5728684.0,
+      "POPU": 1849489
     },
     "2015": {
       "STABR": "WV",
@@ -53911,7 +55055,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 456933,
       "KIDATTEN": 339141,
       "YAATTEN": 35151,
-      "OTHMAT": 5425514
+      "OTHMAT": 5425514,
+      "POPU": 1842050
     },
     "2016": {
       "STABR": "WV",
@@ -53958,7 +55103,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 472346,
       "KIDATTEN": 352146,
       "YAATTEN": 37562,
-      "OTHMAT": 4937795
+      "OTHMAT": 4937795,
+      "POPU": 1831023
     },
     "2017": {
       "STABR": "WV",
@@ -54005,7 +55151,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 483528,
       "KIDATTEN": 358919,
       "YAATTEN": 36182,
-      "OTHMAT": 18792116
+      "OTHMAT": 18792116,
+      "POPU": 1817004
     },
     "2018": {
       "STABR": "WV",
@@ -54052,7 +55199,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 493588,
       "KIDATTEN": 363758,
       "YAATTEN": 37591,
-      "OTHMAT": 23078089
+      "OTHMAT": 23078089,
+      "POPU": 1804291
     },
     "2019": {
       "STABR": "WV",
@@ -54099,7 +55247,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 485704,
       "KIDATTEN": 366833,
       "YAATTEN": 28380,
-      "OTHMAT": 29753563
+      "OTHMAT": 29753563,
+      "POPU": 1792147
     },
     "2020": {
       "STABR": "WV",
@@ -54146,7 +55295,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 392129,
       "KIDATTEN": 262617,
       "YAATTEN": 16793,
-      "OTHMAT": 17845406
+      "OTHMAT": 17845406,
+      "POPU": 1793716
     }
   },
   "Wyoming": {
@@ -54195,7 +55345,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 141350,
       "YAATTEN": -1,
-      "OTHMAT": 109266
+      "OTHMAT": 109266,
+      "POPU": 490787
     },
     "1999": {
       "STABR": "WY",
@@ -54242,7 +55393,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 164079,
       "YAATTEN": -1,
-      "OTHMAT": 115094
+      "OTHMAT": 115094,
+      "POPU": 491780
     },
     "2000": {
       "STABR": "WY",
@@ -54289,7 +55441,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 157087,
       "YAATTEN": -1,
-      "OTHMAT": 135295
+      "OTHMAT": 135295,
+      "POPU": 494300
     },
     "2001": {
       "STABR": "WY",
@@ -54336,7 +55489,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 153476,
       "YAATTEN": -1,
-      "OTHMAT": 151008
+      "OTHMAT": 151008,
+      "POPU": 494657
     },
     "2002": {
       "STABR": "WY",
@@ -54383,7 +55537,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 169599,
       "YAATTEN": -1,
-      "OTHMAT": 170027
+      "OTHMAT": 170027,
+      "POPU": 500017
     },
     "2003": {
       "STABR": "WY",
@@ -54430,7 +55585,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": -1,
       "KIDATTEN": 199352,
       "YAATTEN": -1,
-      "OTHMAT": 184186
+      "OTHMAT": 184186,
+      "POPU": 503453
     },
     "2004": {
       "STABR": "WY",
@@ -54477,7 +55633,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 252693,
       "KIDATTEN": 196793,
       "YAATTEN": -1,
-      "OTHMAT": 205040
+      "OTHMAT": 205040,
+      "POPU": 509106
     },
     "2005": {
       "STABR": "WY",
@@ -54524,7 +55681,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 304613,
       "KIDATTEN": 222240,
       "YAATTEN": -1,
-      "OTHMAT": 230341
+      "OTHMAT": 230341,
+      "POPU": 514157
     },
     "2006": {
       "STABR": "WY",
@@ -54571,7 +55729,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 300769,
       "KIDATTEN": 230768,
       "YAATTEN": -1,
-      "OTHMAT": 247078
+      "OTHMAT": 247078,
+      "POPU": 522667
     },
     "2007": {
       "STABR": "WY",
@@ -54618,7 +55777,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 306087,
       "KIDATTEN": 251762,
       "YAATTEN": -1,
-      "OTHMAT": 264884
+      "OTHMAT": 264884,
+      "POPU": 534876
     },
     "2008": {
       "STABR": "WY",
@@ -54665,7 +55825,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 316853,
       "KIDATTEN": 261842,
       "YAATTEN": -1,
-      "OTHMAT": 333064
+      "OTHMAT": 333064,
+      "POPU": 546043
     },
     "2009": {
       "STABR": "WY",
@@ -54712,7 +55873,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 333857,
       "KIDATTEN": 274144,
       "YAATTEN": 26801,
-      "OTHMAT": 379040
+      "OTHMAT": 379040,
+      "POPU": 559851
     },
     "2010": {
       "STABR": "WY",
@@ -54759,7 +55921,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 354514,
       "KIDATTEN": 287097,
       "YAATTEN": 28131,
-      "OTHMAT": 410017
+      "OTHMAT": 410017,
+      "POPU": 564487
     },
     "2011": {
       "STABR": "WY",
@@ -54806,7 +55969,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 356823,
       "KIDATTEN": 280872,
       "YAATTEN": 29247,
-      "OTHMAT": 449679
+      "OTHMAT": 449679,
+      "POPU": 567299
     },
     "2012": {
       "STABR": "WY",
@@ -54853,7 +56017,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 373094,
       "KIDATTEN": 292296,
       "YAATTEN": 39548,
-      "OTHMAT": 421652
+      "OTHMAT": 421652,
+      "POPU": 576305
     },
     "2013": {
       "STABR": "WY",
@@ -54900,7 +56065,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 378202,
       "KIDATTEN": 296475,
       "YAATTEN": 35166,
-      "OTHMAT": 578100
+      "OTHMAT": 578100,
+      "POPU": 582122
     },
     "2014": {
       "STABR": "WY",
@@ -54947,7 +56113,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 374605,
       "KIDATTEN": 291431,
       "YAATTEN": 34766,
-      "OTHMAT": 669328.0
+      "OTHMAT": 669328.0,
+      "POPU": 582531
     },
     "2015": {
       "STABR": "WY",
@@ -54994,7 +56161,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 403130,
       "KIDATTEN": 307797,
       "YAATTEN": 34067,
-      "OTHMAT": 971902
+      "OTHMAT": 971902,
+      "POPU": 585613
     },
     "2016": {
       "STABR": "WY",
@@ -55041,7 +56209,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 365775,
       "KIDATTEN": 279864,
       "YAATTEN": 30399,
-      "OTHMAT": 1165516
+      "OTHMAT": 1165516,
+      "POPU": 584215
     },
     "2017": {
       "STABR": "WY",
@@ -55088,7 +56257,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 376426,
       "KIDATTEN": 287363,
       "YAATTEN": 24811,
-      "OTHMAT": 1141429
+      "OTHMAT": 1141429,
+      "POPU": 578931
     },
     "2018": {
       "STABR": "WY",
@@ -55135,7 +56305,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 377133,
       "KIDATTEN": 278301,
       "YAATTEN": 26782,
-      "OTHMAT": 1709298
+      "OTHMAT": 1709298,
+      "POPU": 577601
     },
     "2019": {
       "STABR": "WY",
@@ -55182,7 +56353,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 360437,
       "KIDATTEN": 263316,
       "YAATTEN": 24682,
-      "OTHMAT": 2841874
+      "OTHMAT": 2841874,
+      "POPU": 578759
     },
     "2020": {
       "STABR": "WY",
@@ -55229,7 +56401,8 @@ PLS_SUM_DATA = {
       "TOTATTEN": 267696,
       "KIDATTEN": 200974,
       "YAATTEN": 19341,
-      "OTHMAT": 3248665
+      "OTHMAT": 3248665,
+      "POPU": 576851
     }
   }
 }
