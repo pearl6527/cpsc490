@@ -95,11 +95,18 @@ p {
 #hide-state {
   top: 350px;
 }
-#stat-name, #year-text {
+.purple {
   color: rgb(109, 72, 187);
 }
 .hidden {
   display: none;
+}
+#side-state-info {
+  position: absolute;
+  top: 380px;
+}
+#side-state-info p{
+  font-size: 1em;
 }
 #side-statetooltip {
   position: absolute;

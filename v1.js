@@ -5,8 +5,8 @@ let padding = 40;
 let AE_SET = new Set(AE_LIST);
 let v1_w = 800;
 let v1_h = 600;
-let state_w = 300;
-let state_h = 300;
+let state_w = 275;
+let state_h = 275;
 
 let projScale = v1_w + 100;
 let projection = d3.geoAlbersUsa()
@@ -105,12 +105,11 @@ let magnifyState = function(event, d) {
   v2.selectAll(".individual-state").remove();
   let [[left, top], [right, bottom]] = path.bounds(d);
 
-  let width = right - left;
   let height = bottom - top;
-  let factor = state_w / (width > height ? width : height);
+  let factor = state_w / height;
 
   let stateProjection = d3.geoAlbersUsa()
-    .translate([25 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
+    .translate([20 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
     .scale([projScale * factor]);
   let statePath = d3.geoPath().projection(stateProjection);
   
@@ -126,14 +125,15 @@ let magnifyState = function(event, d) {
     .attr("stroke", "#444")
     .attr("stroke-width", 0.5)
     .attr("fill", "#eee")
-    .on("click", () => {
-      hold_lib_tooltip = !hold_lib_tooltip;
-    });
+    // .on("click", () => {
+    //   hold_lib_tooltip = !hold_lib_tooltip;
+    // });
   
   updateSideStateTooltip(d.properties.name);
   d3.select("#side-statetooltip").classed("hidden", false);
+  d3.select("#side-state-popu").text(PLS_SUM_DATA[d.properties.name][2020]['POPU'].toLocaleString());
   overlayLibraries(d, stateProjection);
-  console.log(PLS_SUM_DATA[d.properties.name]);
+  // console.log(PLS_SUM_DATA[d.properties.name]);
 }
 
 let overlayLibraries = function (d, stateProjection) {
@@ -187,10 +187,6 @@ let overlayLibraries = function (d, stateProjection) {
           .attr("stroke-width", 0)
           .attr("opacity", 0.8)
           .attr("r", 9);
-        
-        if (AE_SET.has(dd.id)) {
-          // console.log(dd.LIBNAME);
-        }
         displayLibraryTooltip(dd, d.properties.name, d3.select(this));
       })
       .on("mouseout", function (event, dd) {
@@ -248,12 +244,12 @@ let updateSideStateTooltip = function (state) {
   statetool.select("#side-statename").text(state);
 }
 
-let buildId = function(idBase, prefix) {
-  return "#" + prefix + idBase;
-}
+// let buildId = function(idBase, prefix) {
+//   return "#" + prefix + idBase;
+// }
 let displayLibraryTooltip = function(d, state, circ) {
   const xPos = parseFloat(circ.attr("cx"));
-  const yPos = parseFloat(circ.attr("cy")) + 210;
+  const yPos = parseFloat(circ.attr("cy")) + 200;
 
   let toolt = d3.select("#tooltip").style("top", yPos + "px");;
   if (xPos > 1000) {
@@ -267,21 +263,21 @@ let displayLibraryTooltip = function(d, state, circ) {
   let addrCol = d['C_OUT_TY'] === 'CE' ? centralOutline : branchOutline;
   toolt.select("#address").text(d.ADDRESS.toLowerCase() + ", " + d.CITY.toLowerCase() + ",")
     .style("color", addrCol);
-  toolt.select("#address2").text(state + " " + d.ZIP + (d.ZIP4 !== "M" ? "-" + d.ZIP4 : ""))
+  toolt.select("#address2").text(STATE_ABBR_MAP[state] + " " + d.ZIP + (d.ZIP4 !== "M" ? "-" + d.ZIP4 : ""))
     .style("color", addrCol);
 
   d3.select("#tooltip").classed("hidden", false);
 }
 
-let formatTooltipString = function (d) {
-  let string = d.properties.name + "\n";
-  if (PLS_SUM_DATA[d.properties.name][curr_year][curr_stat] === undefined) {
-    string += "-- " + curr_stat_unit;
-  } else {
-    string += PLS_SUM_DATA[d.properties.name][curr_year][curr_stat].toLocaleString() + " " + curr_stat_unit;
-  }
-  return string;
-}
+// let formatTooltipString = function (d) {
+//   let string = d.properties.name + "\n";
+//   if (PLS_SUM_DATA[d.properties.name][curr_year][curr_stat] === undefined) {
+//     string += "-- " + curr_stat_unit;
+//   } else {
+//     string += PLS_SUM_DATA[d.properties.name][curr_year][curr_stat].toLocaleString() + " " + curr_stat_unit;
+//   }
+//   return string;
+// }
 
 let getStatValue = function (state, year, statistic) {
   if (stat_per_capita) {
@@ -318,11 +314,6 @@ let changeStatistic = function (statistic) {
   curr_stat_unit = STAT_UNIT_MAP[curr_stat];
   curr_total = sumStatistic(statistic, curr_year);
   updateStateTooltip("United States", curr_total);
-  // v1.selectAll(".us-map")
-  //   .append("title")
-  //   .text((d) => {
-  //     return formatTooltipString(d);
-  //   })
 }
 
 let changeYear = function (year) {
@@ -343,11 +334,6 @@ let changeYear = function (year) {
   curr_total = sumStatistic(curr_stat, year);
   updateStateTooltip("United States", curr_total);
   v1.selectAll(".us-map").selectAll("title").remove();
-  // v1.selectAll(".us-map")
-  //   .append("title")
-  //   .text((d) => {
-  //     return formatTooltipString(d);
-  //   })
 }
 
 d3.selectAll("input.perCapitaToggle").on("click", function () {
