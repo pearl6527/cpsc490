@@ -1,4 +1,4 @@
-PLS_DATA_BY_COUNTY = [
+PLS_DATA_BY_COUNTY_2020 = [
   {
     "CNTY_KEY": "AK-Kenai Peninsula",
     "POV_PERCENT": 10.6,
