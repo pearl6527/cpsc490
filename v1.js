@@ -186,7 +186,7 @@ let overlayLibraries = function (d, stateProjection) {
           .duration(100)
           .attr("stroke-width", 0)
           .attr("opacity", 0.8)
-          .attr("r", 9);
+          .attr("r", 6);
         displayLibraryTooltip(dd, d.properties.name, d3.select(this));
       })
       .on("mouseout", function (event, dd) {
