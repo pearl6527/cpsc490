@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CPSC 490</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="module">
+      import { transition } from "https://cdn.skypack.dev/d3-transition@3";
+
+      const t = transition();
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rs-style.css">
+  </head>
+  <body>
+    <h1>CPSC 490</h1>
+    <div class="caption">
+      <p>
+        Public Libraries Survey data from 1998 to 2020 from the
+        <a href="https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey"
+          >Public Libraries Survey</a> conducted by the <a href="https://www.imls.gov/">Institute of Museum and Library Services</a>.
+      </p>
+    </div>
+    <p>
+      <input
+        class="stateCountyToggle"
+        type="radio"
+        name="filterPreset"
+        value="state"
+        checked="true"
+      />
+      By state
+      <input
+        class="perCapitaToggle"
+        type="radio"
+        name="filterPreset"
+        value="county"
+      />
+      By county
+    </p>
+    <script type="text/javascript" src="pls-stats-by-state-2020.js"></script>
+    <script type="text/javascript" src="pls-stats-by-county-2020.js"></script>
+    
+    <select name="statistic" id="map-dropdown">
+      <option value="VISITS" selected>Visits</option>
+      <option value="REFERENC">Reference Transactions</option>
+      <option value="REGBOR">Registered Borrowers</option>
+      <option value="BKVOL">Print Materials</option>
+      <option value="OTHMAT">Other Materials (electronic/audio/video)</option>
+      <option value="TOTINCM">Income</option>
+      <option value="TOTOPEXP">Operating Expenditure</option>
+      <option value="TOTCIR">Circulation</option>
+      <option value="HRS_OPEN">Service Hours</option>
+    </select>
+    <script type="text/javascript">
+      let statSelector = document.getElementById("map-dropdown");
+      statSelector.addEventListener("input", toggleStatistic, false);
+      function toggleStatistic() {
+        let statNameElt = document.getElementById("stat-name");
+        switch (statSelector.value) {
+          case 'VISITS': statNameElt.innerHTML = 'visit(s)'; break;
+          case 'REFERENC': statNameElt.innerHTML = 'reference transaction(s)'; break;
+          case 'REGBOR': statNameElt.innerHTML = 'registered borrower(s)'; break;
+          case 'BKVOL': statNameElt.innerHTML = 'print material(s)'; break;
+          case 'TOTINCM': statNameElt.innerHTML = 'dollar(s) in income'; break;
+          case 'TOTOPEXP': statNameElt.innerHTML = 'dollar(s) in expenditure'; break;
+          case 'TOTCIR': statNameElt.innerHTML = 'circulation transaction(s)'; break;
+          case 'HRS_OPEN': statNameElt.innerHTML = 'service hour(s)'; break;
+          case 'OTHMAT': statNameElt.innerHTML = 'non-print material(s)'; break;
+        }
+        changeStatistic(statSelector.value);
+      }
+
+    </script>
+    <script type="text/javascript" src="v2.js"></script>
+    
+  </body>
+</html>
