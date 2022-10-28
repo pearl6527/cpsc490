@@ -4,7 +4,7 @@ let padding = 40;
 
 let AE_SET = new Set(AE_LIST);
 let v1_w = 800;
-let v1_h = 600;
+let v1_h = 500;
 let state_w = 275;
 let state_h = 275;
 
@@ -14,8 +14,6 @@ let projection = d3.geoAlbersUsa()
   .scale([projScale]);
 let path = d3.geoPath().projection(projection);
 
-// 95821437
-// 182181408
 const logScale = d3.scaleLog().domain(PLS_SUM_DATA_RANGE.VISITS);
 const linScale = d3.scaleLinear().domain([0, 10]);
 let curr_scale = logScale;
@@ -71,7 +69,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
       }
     })
     .on("mouseover", function (event, d) {
-      d3.select(this).attr("stroke-width", 1.5).attr("fill", "#DEDEDE");
+      d3.select(this).attr("stroke-width", 2).attr("fill", "#DEDEDE");
       d3.select(this).raise();
       updateStateTooltip(d.properties.name, d.currVal);
       
@@ -106,7 +104,9 @@ let magnifyState = function(event, d) {
   let [[left, top], [right, bottom]] = path.bounds(d);
 
   let height = bottom - top;
+  let width = right - left;
   let factor = state_w / height;
+  factor = width * factor > 500 ? 500 / width : factor;
 
   let stateProjection = d3.geoAlbersUsa()
     .translate([20 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
@@ -142,6 +142,13 @@ let overlayLibraries = function (d, stateProjection) {
     v2.selectAll("circle")
       .data(stateLibs)
       .enter()
+      .append("svg:a")
+      .attr("xlink:href", (dd) => {
+        let fullName = dd.LIBNAME.replace(/[,.]/, '').replace(' ', '+')
+          + '+' + dd.CITY + '+' + d.properties.name + '+' + dd.ZIP;
+        return 'https://www.google.com/maps/search/?api=1&query=' + fullName;
+      })
+      .attr("target", '_blank')
       .append("circle")
       .attr("id", (dd) => {
         return dd.id
@@ -247,6 +254,16 @@ let updateSideStateTooltip = function (state) {
 // let buildId = function(idBase, prefix) {
 //   return "#" + prefix + idBase;
 // }
+let formatPhoneNum = (n) => {
+  let str = n.toString();
+  let match = str.match(/^(\d{3})(\d{3})(\d{4})$/);
+
+  if (match) {
+    return '(' + match[1] + ') ' + match[2] + '-' + match[3];
+  };
+  return 'PHONE # NOT AVAILABLE';
+};
+
 let displayLibraryTooltip = function(d, state, circ) {
   const xPos = parseFloat(circ.attr("cx"));
   const yPos = parseFloat(circ.attr("cy")) + 200;
@@ -265,6 +282,8 @@ let displayLibraryTooltip = function(d, state, circ) {
     .style("color", addrCol);
   toolt.select("#address2").text(STATE_ABBR_MAP[state] + " " + d.ZIP + (d.ZIP4 !== "M" ? "-" + d.ZIP4 : ""))
     .style("color", addrCol);
+  toolt.select("#phone-num").text(formatPhoneNum(d.PHONE))
+    .style("color", "black");
 
   d3.select("#tooltip").classed("hidden", false);
 }

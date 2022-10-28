@@ -31,13 +31,14 @@
       />
       By state
       <input
-        class="perCapitaToggle"
+        class="stateCountyToggle"
         type="radio"
         name="filterPreset"
         value="county"
       />
       By county
     </p>
+    <script type="text/javascript" src="abbr-name.js"></script>
     <script type="text/javascript" src="pls-stats-by-state-2020.js"></script>
     <script type="text/javascript" src="pls-stats-by-county-2020.js"></script>
     
@@ -47,27 +48,33 @@
       <option value="REGBOR">Registered Borrowers</option>
       <option value="BKVOL">Print Materials</option>
       <option value="OTHMAT">Other Materials (electronic/audio/video)</option>
-      <option value="TOTINCM">Income</option>
+      <option value="TOTINCM">Library Income</option>
       <option value="TOTOPEXP">Operating Expenditure</option>
       <option value="TOTCIR">Circulation</option>
+      <option value="KIDCIRCL">Children's Material Circulation</option>
       <option value="HRS_OPEN">Service Hours</option>
+      <option value="TOTPRO">Programs</option>
     </select>
     <script type="text/javascript">
       let statSelector = document.getElementById("map-dropdown");
       statSelector.addEventListener("input", toggleStatistic, false);
       function toggleStatistic() {
-        let statNameElt = document.getElementById("stat-name");
+        let statNameElt = document.getElementById("x-axis-label");
+        let label = '';
         switch (statSelector.value) {
-          case 'VISITS': statNameElt.innerHTML = 'visit(s)'; break;
-          case 'REFERENC': statNameElt.innerHTML = 'reference transaction(s)'; break;
-          case 'REGBOR': statNameElt.innerHTML = 'registered borrower(s)'; break;
-          case 'BKVOL': statNameElt.innerHTML = 'print material(s)'; break;
-          case 'TOTINCM': statNameElt.innerHTML = 'dollar(s) in income'; break;
-          case 'TOTOPEXP': statNameElt.innerHTML = 'dollar(s) in expenditure'; break;
-          case 'TOTCIR': statNameElt.innerHTML = 'circulation transaction(s)'; break;
-          case 'HRS_OPEN': statNameElt.innerHTML = 'service hour(s)'; break;
-          case 'OTHMAT': statNameElt.innerHTML = 'non-print material(s)'; break;
+          case 'VISITS': label += 'visit(s)'; break;
+          case 'REFERENC': label += 'reference transaction(s)'; break;
+          case 'REGBOR': label += 'registered borrower(s)'; break;
+          case 'BKVOL': label += 'print material(s)'; break;
+          case 'TOTINCM': label += 'dollar(s) in library income'; break;
+          case 'TOTOPEXP': label += 'dollar(s) in expenditure'; break;
+          case 'TOTCIR': label += 'circulation transaction(s)'; break;
+          case 'HRS_OPEN': label += 'service hour(s)'; break;
+          case 'OTHMAT': label += 'non-print material(s)'; break;
+          case 'KIDCIRCL': label += 'children\'s circulation transations'; break;
+          case 'TOTPRO': label += 'programs'; break;
         }
+        statNameElt.innerHTML = label + ' per person';
         changeStatistic(statSelector.value);
       }
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
   <head>
     <meta charset="utf-8" />
     <title>CPSC 490</title>
@@ -9,6 +9,7 @@
 
       const t = transition();
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="rs-style.css">
   </head>
@@ -72,7 +73,7 @@
       <option value="REGBOR">Registered Borrowers</option>
       <option value="BKVOL">Print Materials</option>
       <option value="OTHMAT">Other Materials (electronic/audio/video)</option>
-      <option value="TOTINCM">Income</option>
+      <option value="TOTINCM">Library Income</option>
       <option value="TOTOPEXP">Operating Expenditure</option>
       <option value="TOTCIR">Circulation</option>
       <option value="HRS_OPEN">Service Hours</option>
@@ -87,7 +88,7 @@
           case 'REFERENC': statNameElt.innerHTML = 'reference transaction(s)'; break;
           case 'REGBOR': statNameElt.innerHTML = 'registered borrower(s)'; break;
           case 'BKVOL': statNameElt.innerHTML = 'print material(s)'; break;
-          case 'TOTINCM': statNameElt.innerHTML = 'dollar(s) in income'; break;
+          case 'TOTINCM': statNameElt.innerHTML = 'dollar(s) in library income'; break;
           case 'TOTOPEXP': statNameElt.innerHTML = 'dollar(s) in expenditure'; break;
           case 'TOTCIR': statNameElt.innerHTML = 'circulation transaction(s)'; break;
           case 'HRS_OPEN': statNameElt.innerHTML = 'service hour(s)'; break;
@@ -124,6 +125,9 @@
       <p class="addr">
         <span id="address">0000 XXX Rd</span>
         <span id="address2">City, State</span>
+      </p>
+      <p id="phone-num">
+        (000) 000-0000
       </p>
     </div>
     <!-- <div id="perm-tooltip" class="hidden">
