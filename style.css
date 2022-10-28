@@ -116,6 +116,11 @@ p {
 .axis.rescalable text {
   cursor: ew-resize;
 }
+.zoom {
+  cursor: move;
+  fill: none;
+  pointer-events: all;
+}
 /* #tooltip3.hidden,
 #tooltip2.hidden {
   display: none;

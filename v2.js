@@ -5,39 +5,49 @@ let v1_w = 800;
 let v1_h = 500;
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
-let v1 = d3.select("svg").append("g").attr("id", "v1");
+let v1 = d3.select("svg").append("g").attr("id", "v1").attr("clip-path", "url(#clip)");
 
 let curr_stat = 'VISITS';
 let curr_level = 'state';
-let minVal = d3.min(PLS_DATA_BY_STATE_2020, (d) => d[curr_stat] / d.POPU_EST);
-let maxVal = d3.max(PLS_DATA_BY_STATE_2020, (d) => d[curr_stat] / d.POPU_EST);
-let xScale = d3.scaleLinear()
-  .domain([
+let focus_state = 'none';
+let getXDomain = function (data) {
+  let minVal = d3.min(data, (d) => getStatVal(d, curr_stat) / d.POPU_EST);
+  let maxVal = d3.max(data, (d) => getStatVal(d, curr_stat) / d.POPU_EST);
+  return [
     minVal - (maxVal - minVal) * 0.02, 
     maxVal + (maxVal - minVal) * 0.02
-  ])
+  ];
+}
+
+let xScale = d3.scaleLinear()
+  .domain(getXDomain(PLS_DATA_BY_STATE_2020))
   .range([padding, v1_w - padding]);
 
 let yScale = d3.scaleLinear()
-  .domain([
-    0,// d3.min(PLS_DATA_BY_STATE_2020, (d) => d.POV_PERCENT) - 1,
-    d3.max(PLS_DATA_BY_STATE_2020, (d) => d.POV_PERCENT) + 1
-  ])
+  .domain([ 0, d3.max(PLS_DATA_BY_STATE_2020, (d) => d.POV_PERCENT) + 1 ])
   .range([v1_h - padding, padding]);
 
-// Based on http://jsfiddle.net/colin_young/VvAaQ/4/
-// var downx = Math.NaN;
-// var downscalex;
-// function dragX(event) {
-//     var p = d3.pointer(event);
-//     downx = xScale.invert(p[0]);
-//     downscalex = xScale;
-// };
+let clip = svg.append("defs").append("svg:clipPath")
+  .attr("id", "clip")
+  .append("svg:rect")
+  .attr("width", v1_w - padding * 1.5)
+  .attr("height", v1_h - padding * 2)
+  .attr("x", padding)
+  .attr("y", padding);
+
+const brush = d3.brushX()                     // Add the brush feature using the d3.brush function
+  .extent( [ [-10, 0], [v1_w, v1_h + 10] ] )   // initialise the brush area: start at 0,0 and finishes at width, height
+  .on("end", (event) => updateChart(event));  // Each time the brush selection changes, trigger 'updateChart' function
+
+v1.append("g")
+  .attr("class", "brush")
+  .call(brush);
 
 v1.selectAll("circle.state")
   .data(PLS_DATA_BY_STATE_2020)
   .enter()
   .append("circle")
+  .attr("clip-path", clip)
   .attr("id", (d) => d.STABR)
   .attr("class", "state")
   .attr("cx", (d) => { return xScale(d.VISITS / d.POPU_EST) })
@@ -77,11 +87,23 @@ v1.selectAll("circle.county")
       .attr("fill", "purple");
   })
   .on("mouseout", (event, d) => {
-    d3.selectAll("circle.county." + d.CNTY_KEY.split('-')[0])
+    const state = d.CNTY_KEY.split('-')[0];
+    d3.selectAll("circle.county." + state)
       .transition()
-      .attr("stroke", "red")
+      .attr("stroke", () => { return state !== focus_state ? "red" : "black" })
       .attr("r", 2.5)
-      .attr("fill", "red");
+      .attr("fill", () => { return state !== focus_state ? "red" : "purple" });
+    d3.selectAll("circle.county." + focus_state).raise();
+  })
+  .on("click", (event, d) => {
+    const state = d.CNTY_KEY.split('-')[0];
+    if (focus_state === state) {
+      focus_state = 'none';
+      d3.selectAll("circle.county")
+        .classed("hidden", false);
+    } else {
+      showOneState(d.CNTY_KEY.split('-')[0])
+    }
   })
   .append("title")
   .text((d) => d.CNTY_KEY);
@@ -94,46 +116,19 @@ const yAxis = d3.axisLeft()
   .scale(yScale)
   .ticks(10);
 
-v1.append("g")
-  .attr("class", "x axis rescalable")
+svg.append("g")
+  .attr("class", "x axis")
   .style("font-size", "12px")
   .attr("transform", "translate(0," + (v1_h - padding) + ")")
-  .call(xAxis)
-  // .on("mousedown", function (event) {
-  //   dragX(event);
-  // });
-// svg.select('.x.axis text')
-//   .on("mousedown", function (event) {
-//   dragX(event);
-// });
-  v1.append("g")
+  .call(xAxis);
+
+svg.append("g")
   .attr("class", "y axis")
   .style("font-size", "12px")
   .attr("transform", "translate(" + padding + ", 0)")
   .call(yAxis);
-// d3.select('#v1')
-//   .on("mousemove", function (event, d) {
-//     if (!isNaN(downx)) {
-//         var p = d3.pointer(event);
-//         var rupx = p[0];
-//         if (rupx != 0) {
-//             xScale.domain([downscalex.domain()[0], v1_w * (downx - downscalex.domain()[0]) / rupx + downscalex.domain()[0]]);
-//         }
-//         svg.select('.x.axis').call(xAxis);
-//     }
-//     d3.selectAll("circle." + curr_level)
-//       .transition()
-//       .duration(200)
-//       .attr("cx", (d) => xScale(getStatVal(d, curr_stat) / d.POPU_EST))
-//       .attr("opacity", (d) => {
-//         return xScale(getStatVal(d, curr_stat) / d.POPU_EST) > v1_w - padding ? 0 : 1;
-//       });
 
-//   })
-//   .on("mouseup", function (event, d) {
-//     downx = Math.NaN;
-//   });
-v1.append("text")
+svg.append("text")
   .attr("id", "x-axis-label")
   .attr("class", "x axis label")
   .attr("font-size", "14px")
@@ -143,33 +138,35 @@ v1.append("text")
   .attr("text-anchor", "middle")
   .text("visits per person");
 
-let getStatVal = function (d, statistic) {
+function getStatVal(d, statistic) {
   if (statistic === 'OTHMAT' && curr_level === 'county') {
     return d.ELMATS + d.AUDIO + d.VIDEO + d.EBOOK;
   }
   return d[statistic];
 }
+
 let changeStatistic = function (statistic) {
+  curr_stat = statistic;
   const data = curr_level === "state" ? PLS_DATA_BY_STATE_2020 : PLS_DATA_BY_COUNTY_2020;
-  let minVal = d3.min(data, (d) => getStatVal(d, statistic) / d.POPU_EST);
-  let maxVal = d3.max(data, (d) => getStatVal(d, statistic) / d.POPU_EST);
-  xScale.domain([
-    minVal - (maxVal - minVal) * 0.02, 
-    maxVal + (maxVal - minVal) * 0.02
-  ]);
+  xScale.domain(getXDomain(data));
   yScale.domain([0, d3.max(data, (d) => d.POV_PERCENT) + 1])
 
   v1.selectAll("circle." + curr_level)
     .transition()
     .attr("cx", (d) => { return xScale(getStatVal(d, statistic) / d.POPU_EST) })
     .attr("cy", (d) => { return yScale(d.POV_PERCENT) });
-  v1.select(".x.axis")
+  svg.select(".x.axis")
     .transition()
     .call(xAxis);
-  v1.select(".y.axis")
+  svg.select(".y.axis")
     .transition()
     .call(yAxis);
-  curr_stat = statistic;
+}
+
+function showOneState(state) {
+  d3.selectAll("circle.county").classed("hidden", true);
+  d3.selectAll("circle.county." + state).classed("hidden", false);
+  focus_state = state;
 }
 
 let toggleLevels = function (level) {
@@ -183,3 +180,25 @@ d3.selectAll("input.stateCountyToggle").on("click", function () {
   toggleLevels(curr_level);
 });
 
+// Referencing https://d3-graph-gallery.com/graph/interactivity_zoom.html#brushingforzoom
+// A function that set idleTimeOut to null
+var idleTimeout;
+function idled() { idleTimeout = null; }
+function updateChart(event) {
+  extent = event.selection;
+
+    // if no selection, back to initial coordinate; otherwise update x axis domain
+    if (!extent) {
+      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+      xScale.domain(getXDomain(curr_level === "state" ? PLS_DATA_BY_STATE_2020 : PLS_DATA_BY_COUNTY_2020));
+    } else {
+      xScale.domain([ xScale.invert(extent[0]), xScale.invert(extent[1]) ])
+      v1.select(".brush").call(brush.move, null); // remove grey brush area as soon as the selection has been done
+    }
+
+    d3.select(".x.axis").transition().duration(1000).call(xAxis);
+    v1.selectAll("circle." + curr_level)
+      .transition()
+      .duration(1000)
+      .attr("cx", function (d) { return xScale(getStatVal(d, curr_stat) / d.POPU_EST) } );
+}
