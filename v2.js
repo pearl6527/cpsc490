@@ -43,6 +43,11 @@ v1.append("g")
   .attr("class", "brush")
   .call(brush);
 
+const stateFill = 'rgba(27, 41, 195, 0.9)';
+const stateHoverFill = 'rgba(249, 25, 137, 0.9)';
+const cntyFill = 'rgba(249, 25, 137, 0.7)';
+const selectedFill = 'rgba(20, 35, 190, 0.9)';
+
 v1.selectAll("circle.state")
   .data(PLS_DATA_BY_STATE_2020)
   .enter()
@@ -52,13 +57,28 @@ v1.selectAll("circle.state")
   .attr("class", "state")
   .attr("cx", (d) => { return xScale(d.VISITS / d.POPU_EST) })
   .attr("cy", (d) => { return yScale(d.POV_PERCENT) })
-  .attr("r", 3)
-  .attr("stroke", "#444")
-  .attr("fill", "blue")
+  .attr("r", 4)
+  .attr("fill", stateFill)
   .attr("opacity", 1)
   .style("cursor", "crosshair")
-  .append("title")
-  .text((d) => ABBR_STATE_MAP[d.STABR]);
+  .on("mouseover", function (event, d) {
+    d3.select(this)
+      .transition()
+      .duration(100)
+      .attr("fill", stateHoverFill)
+      .attr("r", 7);
+    displayPointInfo(d, d.STABR, d3.select(this));
+  })
+  .on("mouseout", function () {
+    hidePointInfo();
+    d3.select(this)
+      .transition()
+      .duration(100)
+      .attr("r", 4)
+      .attr("fill", stateFill);
+  })
+  // .append("title")
+  // .text((d) => ABBR_STATE_MAP[d.STABR]);
 
 v1.selectAll("circle.county")
   .data(PLS_DATA_BY_COUNTY_2020)
@@ -72,28 +92,32 @@ v1.selectAll("circle.county")
   })
   .attr("cx", (d) => { return xScale(d.VISITS / d.POPU_EST) })
   .attr("cy", (d) => { return yScale(d.POV_PERCENT) })
-  .attr("r", 2.5)
-  .attr("stroke", "red")
-  .attr("fill", "red")
+  .attr("r", 3)
+  .attr("fill", cntyFill)
   .attr("opacity", 1)
   .style("cursor", "crosshair")
-  .on("mouseover", (event, d) => {
+  .on("mouseover", function (event, d) {
     d3.selectAll("circle.county." + d.CNTY_KEY.split('-')[0])
       .raise()
       .transition()
       .duration(100)
-      .attr("stroke", "black")
-      .attr("r", 3.5)
-      .attr("fill", "purple");
+      .attr("r", 4)
+      .attr("fill", selectedFill);
+    d3.select(this)
+      .transition()
+      .duration(100)
+      .attr("fill", selectedFill)
+      .attr("r", 6);
+    displayPointInfo(d, d.CNTY_KEY, d3.select(this));
   })
-  .on("mouseout", (event, d) => {
+  .on("mouseout", function (event, d) {
     const state = d.CNTY_KEY.split('-')[0];
     d3.selectAll("circle.county." + state)
       .transition()
-      .attr("stroke", () => { return state !== focus_state ? "red" : "black" })
-      .attr("r", 2.5)
-      .attr("fill", () => { return state !== focus_state ? "red" : "purple" });
+      .attr("r", 3)
+      .attr("fill", () => { return state !== focus_state ? cntyFill : selectedFill });
     d3.selectAll("circle.county." + focus_state).raise();
+    hidePointInfo();
   })
   .on("click", (event, d) => {
     const state = d.CNTY_KEY.split('-')[0];
@@ -104,9 +128,9 @@ v1.selectAll("circle.county")
     } else {
       showOneState(d.CNTY_KEY.split('-')[0])
     }
-  })
-  .append("title")
-  .text((d) => d.CNTY_KEY);
+  });
+  // .append("title")
+  // .text((d) => d.CNTY_KEY);
 
 const xAxis = d3.axisBottom()
   .scale(xScale)
@@ -145,6 +169,33 @@ function getStatVal(d, statistic) {
   return d[statistic];
 }
 
+let hidePointInfo = function() {
+  d3.select("#tooltip").classed("hidden", true);
+};
+
+let displayPointInfo = function(d, region, circ) {
+  const xPos = parseFloat(circ.attr("cx")) + 25;
+  const yPos = parseFloat(circ.attr("cy")) + 225;
+
+  let toolt = d3.select("#tooltip").style("top", yPos + "px");;
+  toolt.style("left", xPos + "px");
+
+  if (curr_level === 'state') {
+    region = ABBR_STATE_MAP[region];
+  } else {
+    const parsed = region.split('-');
+    region = parsed[1] + ", " + parsed[0];
+  }
+  toolt.select("#tooltipname").text(region);
+
+  toolt.select("#pov").text(d.POV_PERCENT.toFixed(1))
+    .style("color", "black");
+  toolt.select("#stat").text(getStatVal(d, curr_stat).toLocaleString() + " " + STAT_UNIT_MAP[curr_stat])
+    .style("color", "black");
+
+  d3.select("#tooltip").classed("hidden", false);
+}
+
 let changeStatistic = function (statistic) {
   curr_stat = statistic;
   const data = curr_level === "state" ? PLS_DATA_BY_STATE_2020 : PLS_DATA_BY_COUNTY_2020;
@@ -152,7 +203,7 @@ let changeStatistic = function (statistic) {
   yScale.domain([0, d3.max(data, (d) => d.POV_PERCENT) + 1])
 
   v1.selectAll("circle." + curr_level)
-    .transition()
+    .transition("reposition")
     .attr("cx", (d) => { return xScale(getStatVal(d, statistic) / d.POPU_EST) })
     .attr("cy", (d) => { return yScale(d.POV_PERCENT) });
   svg.select(".x.axis")
@@ -198,7 +249,7 @@ function updateChart(event) {
 
     d3.select(".x.axis").transition().duration(1000).call(xAxis);
     v1.selectAll("circle." + curr_level)
-      .transition()
+      .transition("recalibrate")
       .duration(1000)
       .attr("cx", function (d) { return xScale(getStatVal(d, curr_stat) / d.POPU_EST) } );
 }

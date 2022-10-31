@@ -270,7 +270,7 @@ let displayLibraryTooltip = function(d, state, circ) {
 
   let toolt = d3.select("#tooltip").style("top", yPos + "px");;
   if (xPos > 1000) {
-    toolt.style("right", xPos + "px")
+    toolt.style("left", (xPos - 180) + "px")
   } else {
     toolt.style("left", xPos + "px")
   }
