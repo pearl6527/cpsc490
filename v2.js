@@ -162,6 +162,16 @@ svg.append("text")
   .attr("text-anchor", "middle")
   .text("visits per person");
 
+svg.append("text")
+  .attr("class", "y axis label")
+  .attr("text-anchor", "middle")
+  .attr("font-family", "sans-serif")
+  .attr("font-size", "14px")
+  .attr("x", 480)
+  .attr("y", h - 30)
+  .attr("transform", "rotate(270, " + padding +  ", " + h + ")")
+  .text("Poverty (%)");
+
 function getStatVal(d, statistic) {
   if (statistic === 'OTHMAT' && curr_level === 'county') {
     return d.ELMATS + d.AUDIO + d.VIDEO + d.EBOOK;
@@ -190,10 +200,19 @@ let displayPointInfo = function(d, region, circ) {
 
   toolt.select("#pov").text(d.POV_PERCENT.toFixed(1))
     .style("color", "black");
-  toolt.select("#stat").text(getStatVal(d, curr_stat).toLocaleString() + " " + STAT_UNIT_MAP[curr_stat])
+  toolt.select("#stat")
+    .text(() => {
+      const val = getStatVal(d, curr_stat) / d.POPU_EST;
+      return val < 0.1 ? val.toPrecision(2) : val.toFixed(1) + " " + STAT_UNIT_MAP[curr_stat];
+    })
     .style("color", "black");
 
   d3.select("#tooltip").classed("hidden", false);
+}
+
+function roundDecimal(n, place) {
+  const pow = Math.pow(10, place);
+  return Math.round(pow * n, 1) / pow;
 }
 
 let changeStatistic = function (statistic) {
