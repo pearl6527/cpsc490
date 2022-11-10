@@ -2,11 +2,11 @@ STAT_UNIT_MAP = {
   VISITS: 'visit(s)',
   REFERENC: 'transaction(s)',
   REGBOR: 'borrower(s)',
-  BKVOL: 'print material(s)',
-  AUDIO: 'audio material(s)',
-  VIDEO: 'video material(s)',
-  ELMATS: 'electronic material(s)',
-  EBOOK: 'ebook(s)',
+  BKVOL: 'count',
+  AUDIO: 'count',
+  VIDEO: 'count',
+  ELMATS: 'count',
+  EBOOK: 'count',
   AUDIO_PH: 'unit(s)',
   AUDIO_DL: 'unit(s)',
   VIDEO_PH: 'unit(s)',
@@ -42,5 +42,5 @@ STAT_UNIT_MAP = {
   TOTATTEN: 'people',
   KIDATTEN: 'people',
   YAATTEN: 'people',
-  OTHMAT: 'non-print material(s)'
+  OTHMAT: 'count'
 }

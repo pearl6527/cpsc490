@@ -10,6 +10,7 @@
       const t = transition();
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="rs-style.css">
   </head>
@@ -53,7 +54,7 @@
       <!-- courtesy of https://codepen.io/mayuMPH/pen/ZjxGEY -->
       <input id="rs-range-line" class="rs-range" type="range" value="2020" min="1998" max="2020">
     </div>
-    <div class="box-minmax">
+    <div class="box-minmax range-slider">
       <span>1998</span><span>2020</span>
     </div>
     <script type="text/javascript">
@@ -106,16 +107,17 @@
       </p>
       <p>
         <span id="stat-value">732,356,964</span>
-        <span id="stat-name" class="purple">visits</span><br> <span id="per-cap-label">total</span>
+        <span id="stat-name" class="purple">visit(s)</span><br> <span id="per-cap-label">total</span>
          in <span id="year-text" class="purple">2020</span>
       </p>
     </div>
     <div id="side-statetooltip" class="hidden">
       <p> <strong><span id="side-statename">STATE</span></strong> from 1998 - 2020<br>
         <button id="hide-state" onclick="hideStateInfo()">Hide</button></p>
-      <div id="side-state-info">
+      <!-- <div id="side-state-info">
         <p>Population in 2020: <span id="side-state-popu" class="purple">---</span></p>
-      </div>
+      </div> -->
+      <div id="visits-plot"></div>
     </div>
     <script type="text/javascript" src="state-pls-ae-data.js"></script>
     <div id="tooltip" class="hidden">

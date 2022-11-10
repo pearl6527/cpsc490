@@ -1,6 +1,6 @@
 .box-minmax {
   margin-top: 10px;
-  width: 625px;
+  width: 630px;
   display: flex;
   justify-content: space-between;
   font-size: 14px;
@@ -8,7 +8,7 @@
   font-family: "Roboto", sans-serif;
 }
 .box-minmax span:first-child {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .rs-range {

@@ -43,43 +43,25 @@ p {
   pointer-events: none;
   opacity: 0.95;
 }
-#tooltip3 {
-  position: absolute;
-  width: 80px;
-  height: auto;
-  padding: 5px 7px;
-  background-color: white;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-  opacity: 0.9;
-}
-#tooltip2 {
-  position: absolute;
-  width: 80px;
-  height: auto;
-  padding: 5px 7px;
-  background-color: white;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
-  pointer-events: none;
-  opacity: 0.9;
-}
 #statetooltip {
   position: absolute;
   width: 375px;
   height: auto;
   padding: 5px 7px;
-  left: 210px;
-  top: 275px;
+  left: 175px;
+  top: 310px;
+}
+#side-statetooltip {
+  position: absolute;
+  top: 300px;
+  left: 725px;
+}
+#visits-plot {
+  position: absolute;
+  top: 325px;
+  /* left: -50px; */
+  width: 550px;
+  height: 300px;
 }
 #statetooltip p, #side-statetooltip p {
   margin: 0;
@@ -104,15 +86,12 @@ p {
 #side-state-info {
   position: absolute;
   top: 380px;
+  width: 350px;
 }
 #side-state-info p{
   font-size: 1em;
 }
-#side-statetooltip {
-  position: absolute;
-  top: 275px;
-  left: 825px;
-}
+
 .axis.rescalable text {
   cursor: ew-resize;
 }
@@ -137,16 +116,9 @@ p {
 #phone-num {
   font-style: italic;
 }
-#tooltip3 p {
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 12px;
-  line-height: 16px;
+.range-slider {
+  margin-left: 3em;
 }
-#tooltip2 p {
-  margin: 0;
-  font-family: sans-serif;
-  font-size: 12px;
-  line-height: 16px;
+select {
+  margin-left: 3em;
 }
-
