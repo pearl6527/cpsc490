@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>CPSC 490</title>
+    <title>Libraries & Education</title>
     <script type="text/javascript" src="d3.js"></script>
     <script type="module">
       import { transition } from "https://cdn.skypack.dev/d3-transition@3";
@@ -13,7 +13,14 @@
     <link rel="stylesheet" href="rs-style.css">
   </head>
   <body>
-    <h1>CPSC 490</h1>
+    <h1>Libraries & Education</h1>
+    <header>
+      <div class="topnav">
+        <a href="index.html">Public Libraries Survey</a>
+        <a href="poverty.html">Libraries & Poverty</a>
+        <a href="education.html" class="active">Libraries & Education</a>
+      </div>
+    </header>
     <div class="caption">
       <p>
         Public Libraries Survey data from 1998 to 2020 from the
@@ -63,6 +70,7 @@
       statSelector.addEventListener("input", toggleStatistic, false);
       function toggleStatistic() {
         let statNameElt = document.getElementById("x-axis-label");
+        let statNameElt2 = document.getElementById("x-axis-label-right");
         let label = '';
         switch (statSelector.value) {
           case 'VISITS': label += 'visit(s)'; break;
@@ -78,6 +86,7 @@
           case 'TOTPRO': label += 'programs'; break;
         }
         statNameElt.innerHTML = label + ' per person';
+        statNameElt2.innerHTML = label + ' per person';
         changeStatistic(statSelector.value);
       }
 

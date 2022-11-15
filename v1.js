@@ -4,7 +4,7 @@ let padding = 40;
 
 let AE_SET = new Set(AE_LIST);
 let v1_w = 700;
-let v1_h = 450;
+let v1_h = 435;
 let state_w = 240;
 let state_h = 240;
 
@@ -112,10 +112,20 @@ let magnifyState = function(event, d) {
   factor = width * factor > 500 ? 500 / width : factor;
 
   let stateProjection = d3.geoAlbersUsa()
-    .translate([20 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
+    .translate([70 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
     .scale([projScale * factor]);
   let statePath = d3.geoPath().projection(stateProjection);
   
+  v2.append("rect")
+    .attr("fill", "#ccc")
+    .attr("class", "individual-state")
+    .attr("x", 725)
+    .attr("y", 40)
+    .attr("rx", 7)
+    .attr("ry", 7)
+    .attr("width", 590)
+    .attr("height", 275);
+
   v2.selectAll("path.outlines.state")
     .data([d])
     .enter()
@@ -127,7 +137,7 @@ let magnifyState = function(event, d) {
     })
     .attr("stroke", "#444")
     .attr("stroke-width", 0.5)
-    .attr("fill", "#eee")
+    .attr("fill", "#fff")
     // .on("click", () => {
     //   hold_lib_tooltip = !hold_lib_tooltip;
     // });
@@ -243,7 +253,7 @@ let buildViz = function(state) {
     .outerRadius(radius * 0.9)
 
   let chart = v2.append("g")
-    .attr("transform", "translate(" + (v1_w + radius + 60) + "," + (state_h * 1.8 + 340) + ")");
+    .attr("transform", "translate(" + (v1_w + radius + 110) + "," + (state_h * 1.8 + 340) + ")");
 
   chart.selectAll('allSlices')
     .data(data_ready)

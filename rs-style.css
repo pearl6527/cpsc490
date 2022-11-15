@@ -1,20 +1,20 @@
 .box-minmax {
   margin-top: 10px;
-  width: 630px;
+  width: 420px;
   display: flex;
   justify-content: space-between;
   font-size: 14px;
   color: #363636;
-  font-family: "Roboto", sans-serif;
+  font-family: sans-serif;
 }
 .box-minmax span:first-child {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .rs-range {
   margin-top: 29px;
-  margin-left: 15px;
-  width: 600px;
+  margin-left: 5px;
+  width: 400px;
   -webkit-appearance: none;
 }
 .rs-range:focus {

@@ -185,7 +185,7 @@ let hidePointInfo = function() {
 
 let displayPointInfo = function(d, region, circ) {
   const xPos = parseFloat(circ.attr("cx")) + 25;
-  const yPos = parseFloat(circ.attr("cy")) + 225;
+  const yPos = parseFloat(circ.attr("cy")) + 275;
 
   let toolt = d3.select("#tooltip").style("top", yPos + "px");;
   toolt.style("left", xPos + "px");
