@@ -429,11 +429,11 @@ let formatPhoneNum = (n) => {
 };
 
 let displayLibraryTooltip = function(d, state, circ) {
-  const xPos = parseFloat(circ.attr("cx"));
-  const yPos = parseFloat(circ.attr("cy")) + 225;
+  const xPos = parseFloat(circ.attr("cx")) + 30;
+  const yPos = parseFloat(circ.attr("cy")) + 390;
 
   let toolt = d3.select("#tooltip").style("top", yPos + "px");;
-  if (xPos > 1000) {
+  if (xPos > 1200) {
     toolt.style("left", (xPos - 180) + "px")
   } else {
     toolt.style("left", xPos + "px")

@@ -1,10 +1,10 @@
 let w = 1400;
 let h = 700;
 let padding = 40;
-let v1_w = 800;
-let v1_h = 500;
+let v1_w = 900;
+let v1_h = 550;
 
-let svg = d3.select("body").append("svg").attr("width", w).attr("height", h);
+let svg = d3.select("body").append("svg").attr("width", w).attr("height", h).attr("transform", "translate(250, 0)");
 let v1 = d3.select("svg").append("g").attr("id", "v1").attr("clip-path", "url(#clip)");
 
 let curr_stat = 'VISITS';
@@ -76,9 +76,7 @@ v1.selectAll("circle.state")
       .duration(100)
       .attr("r", 4)
       .attr("fill", stateFill);
-  })
-  // .append("title")
-  // .text((d) => ABBR_STATE_MAP[d.STABR]);
+  });
 
 v1.selectAll("circle.county")
   .data(PLS_DATA_BY_COUNTY_2020)
@@ -109,6 +107,7 @@ v1.selectAll("circle.county")
       .attr("fill", selectedFill)
       .attr("r", 6);
     displayPointInfo(d, d.CNTY_KEY, d3.select(this));
+    displayStateInfo(d);
   })
   .on("mouseout", function (event, d) {
     const state = d.CNTY_KEY.split('-')[0];
@@ -116,8 +115,10 @@ v1.selectAll("circle.county")
       .transition()
       .attr("r", 3)
       .attr("fill", () => { return state !== focus_state ? cntyFill : selectedFill });
-    d3.selectAll("circle.county." + focus_state).raise();
     hidePointInfo();
+    if (state !== focus_state) {
+      hideStateInfo();
+    }
   })
   .on("click", (event, d) => {
     const state = d.CNTY_KEY.split('-')[0];
@@ -125,12 +126,12 @@ v1.selectAll("circle.county")
       focus_state = 'none';
       d3.selectAll("circle.county")
         .classed("hidden", false);
+      hideStateInfo();
     } else {
-      showOneState(d.CNTY_KEY.split('-')[0])
+      showOneState(d.CNTY_KEY.split('-')[0]);
+      displayStateInfo(d);
     }
   });
-  // .append("title")
-  // .text((d) => d.CNTY_KEY);
 
 const xAxis = d3.axisBottom()
   .scale(xScale)
@@ -183,11 +184,27 @@ let hidePointInfo = function() {
   d3.select("#tooltip").classed("hidden", true);
 };
 
-let displayPointInfo = function(d, region, circ) {
-  const xPos = parseFloat(circ.attr("cx")) + 25;
-  const yPos = parseFloat(circ.attr("cy")) + 275;
+let displayStateInfo = function(d) {
+  let toolt = d3.select("#state-tooltip-pov");
+  const state = d.CNTY_KEY.split('-')[0];
+  toolt.select("#state-tooltipname").text(ABBR_STATE_MAP[state]);
+  const stateInfo = PLS_DATA_BY_STATE_2020.find(elt => elt.STABR === state);
+  toolt.select("#state-pov").text(stateInfo.POV_PERCENT.toFixed(1));
+  toolt.select("#state-stat").text(() => {
+    const val = stateInfo[curr_stat] / stateInfo.POPU_EST;
+    return val < 0.1 ? val.toPrecision(2) : val.toFixed(1) + " " + STAT_UNIT_MAP[curr_stat];
+  });
+  d3.select("#state-tooltip-pov").classed("hidden", false);
+}
+let hideStateInfo = function() {
+  d3.select("#state-tooltip-pov").classed("hidden", true);
+}
 
-  let toolt = d3.select("#tooltip").style("top", yPos + "px");;
+let displayPointInfo = function(d, region, circ) {
+  const xPos = parseFloat(circ.attr("cx")) + 285;
+  const yPos = parseFloat(circ.attr("cy")) + 355;
+
+  let toolt = d3.select("#tooltip").style("top", yPos + "px");
   toolt.style("left", xPos + "px");
 
   if (curr_level === 'state') {

@@ -10,22 +10,29 @@
       const t = transition();
     </script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="rs-style.css">
   </head>
   <body>
-    <h1>Libraries & Education</h1>
+    <h1>Libraries & Education (2020)</h1>
     <header>
       <div class="topnav">
         <a href="index.html">Public Libraries Survey</a>
-        <a href="poverty.html">Libraries & Poverty</a>
-        <a href="education.html" class="active">Libraries & Education</a>
+        <a href="poverty.html">Libraries & Poverty (2020)</a>
+        <a href="education.html" class="active">Libraries & Education (2020)</a>
       </div>
     </header>
     <div class="caption">
       <p>
-        Public Libraries Survey data from 1998 to 2020 from the
-        <a href="https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey"
-          >Public Libraries Survey</a> conducted by the <a href="https://www.imls.gov/">Institute of Museum and Library Services</a>.
+        The following visualization makes use of data from the
+            <a href="https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey">
+            Public Libraries Survey</a> conducted by the <a href="https://www.imls.gov/">Institute of Museum and Library Services</a>, and
+            2020 education data from the <a href="https://www.census.gov/programs-surveys/acs">American Community Survey (ACS)</a>.
+      </p>
+      <p>
+        <strong>
+          Use the <span class="orange">radio buttons</span> to select state/county level views and the <span class="orange">dropdown</span> to select various statistics.<br>
+          <span class="orange">Hover</span> over data points for more information.<br>
+          <span class="orange">Click</span> on the legend to hide and show age groups.
+        </strong>
       </p>
     </div>
     <p>
@@ -96,7 +103,11 @@
     <!-- county tooltip -->
     <div id="tooltip" class="hidden">
       <p><strong><span id="tooltipname">County, State</span></strong></p>
-      <p>Poverty rate: <span id="pov">0.0</span>%</p>
+      <p>
+        <span id="edu">0.0</span>% of those aged 
+        <span id="age-group">xxx</span> have a 
+        <span id="edu-level">xxx</span> or above
+      </p>
       <p><span id="stat">0.0 unit(s)</span> per person</p>
     </div>
     <!-- state tooltip -->

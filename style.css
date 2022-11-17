@@ -9,6 +9,7 @@ div.caption {
   margin-left: 3em;
   font-family: monospace;
   font-size: 1em;
+  width: 1325px;
 }
 input[type="radio"] {
   margin-left: 3em;
@@ -26,7 +27,10 @@ p {
   font-family: Helvetica, sans-serif;
   margin-top: none;
   margin-bottom: none;
-  line-height: 0.9em;
+  line-height: 1.1em;
+}
+p.caption {
+  width: 1325px;
 }
 #tooltip, #perm-tooltip {
   position: absolute;
@@ -49,12 +53,20 @@ p {
   height: auto;
   padding: 5px 7px;
   left: 175px;
-  top: 320px;
+  top: 365px;
+}
+#state-tooltip-pov {
+  position: absolute;
+  width: 200px;
+  left: 60px;
+  height: auto;
+  top: 360px;
 }
 #side-statetooltip {
   position: absolute;
-  top: 320px;
+  top: 365px;
   left: 750px;
+  width: 400px;
 }
 #visits-plot {
   position: absolute;
@@ -63,7 +75,7 @@ p {
   width: 550px;
   height: 300px;
 }
-#statetooltip p, #side-statetooltip p {
+#statetooltip p, #side-statetooltip p, #state-tooltip-pov p {
   margin: 0;
   /* width: 300px; */
   font-family: sans-serif;
@@ -83,14 +95,6 @@ p {
 .hidden {
   display: none;
 }
-#side-state-info {
-  position: absolute;
-  top: 380px;
-  width: 350px;
-}
-#side-state-info p{
-  font-size: 1em;
-}
 
 .axis.rescalable text {
   cursor: ew-resize;
@@ -100,10 +104,6 @@ p {
   fill: none;
   pointer-events: all;
 }
-/* #tooltip3.hidden,
-#tooltip2.hidden {
-  display: none;
-} */
 #tooltip p, #perm-tooltip p {
   margin: 0;
   font-family: sans-serif;
@@ -126,6 +126,7 @@ select {
   overflow: hidden;
   background-color: #435356;
   vertical-align: middle;
+  width: 1400px;
 }
 .topnav a {
   float: left;
@@ -154,6 +155,16 @@ select {
 div#toggle {
   position: absolute;
   left: 480px;
-  top: 205px;
+  top: 245px;
   font-size: 14px;
+  width: 500px;
+}
+.green {
+  color: rgb(249, 25, 137);
+}
+.orange {
+  color: rgb(239, 108, 46);
+}
+.pink {
+  color: rgb(121, 75, 219);
 }
