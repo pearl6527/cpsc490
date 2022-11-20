@@ -32,9 +32,24 @@ p {
 p.caption {
   width: 1325px;
 }
-#tooltip, #perm-tooltip {
+#tooltip {
   position: absolute;
   width: 180px;
+  height: auto;
+  padding: 5px 7px;
+  background-color: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  opacity: 0.95;
+}
+#pie-tooltip {
+  position: absolute;
+  width: auto;
   height: auto;
   padding: 5px 7px;
   background-color: white;
@@ -70,9 +85,16 @@ p.caption {
 }
 #visits-plot {
   position: absolute;
-  top: 325px;
+  top: 420px;
   /* left: -50px; */
-  width: 550px;
+  width: 560px;
+  height: 300px;
+}
+#us-plot {
+  position: absolute;
+  top: 785px;
+  left: 50px;
+  width: 560px;
   height: 300px;
 }
 #statetooltip p, #side-statetooltip p, #state-tooltip-pov p {
@@ -86,8 +108,32 @@ p.caption {
 #statetooltip p {
   text-align: center; 
 }
-#hide-state {
-  top: 350px;
+/* #hide-state {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+} */
+/* CSS */
+button {
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
 .purple {
   color: rgb(109, 72, 187);
@@ -104,7 +150,7 @@ p.caption {
   fill: none;
   pointer-events: all;
 }
-#tooltip p, #perm-tooltip p {
+#tooltip p, #pie-tooltip p {
   margin: 0;
   font-family: sans-serif;
   font-size: 12px;
@@ -121,6 +167,7 @@ p.caption {
 }
 select {
   margin-left: 3em;
+  width: 200px;
 }
 .topnav {
   overflow: hidden;
@@ -154,9 +201,9 @@ select {
 } */
 div#toggle {
   position: absolute;
-  left: 480px;
-  top: 245px;
-  font-size: 14px;
+  left: 275px;
+  top: 303px;
+  font-size: 16px;
   width: 500px;
 }
 .green {

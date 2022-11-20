@@ -5,8 +5,8 @@ let padding = 40;
 let AE_SET = new Set(AE_LIST);
 let v1_w = 700;
 let v1_h = 435;
-let state_w = 240;
-let state_h = 240;
+let state_w = 250;
+let state_h = 250;
 
 let projScale = v1_w + 100;
 let projection = d3.geoAlbersUsa()
@@ -26,6 +26,7 @@ let curr_stat_unit = STAT_UNIT_MAP[curr_stat];
 let curr_year = 2020;
 let curr_total = sumStatistic(curr_stat, curr_year);
 let focus_state = 'none';
+let focus_state_d = {};
 
 let svg = d3.select("body").append("svg").attr("width", w).attr("height", h).attr("transform", "translate(0, 25)");
 let v1 = d3.select("svg").append("g").attr("id", "v1");
@@ -39,7 +40,7 @@ function sumStatistic(statistic, year) {
   let total = 0;
   let popu = 0;
   for (state in STATE_ABBR_MAP) {
-    total += PLS_SUM_DATA[state][year][statistic];
+    total += PLS_SUM_DATA[state][year][statistic] !== -1 ? PLS_SUM_DATA[state][year][statistic] : 0;
     popu += PLS_SUM_DATA[state][year]['POPU'];
   }
   return stat_per_capita ? roundDecimal(total / popu, 1) : total;
@@ -80,7 +81,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
       updateStateTooltip("United States", curr_total);
     })
     .on("click", magnifyState);
-
+  buildPlotUS()
 });
 
 let hideStateInfo = function() {
@@ -104,6 +105,7 @@ let centralFill = "rgba(89, 74, 212, 0.8)";
 let magnifyState = function(event, d) {
   v2.selectAll(".individual-state").remove();
   focus_state = d.properties.name;
+  focus_state_d = d;
   let [[left, top], [right, bottom]] = path.bounds(d);
 
   let height = bottom - top;
@@ -111,8 +113,9 @@ let magnifyState = function(event, d) {
   let factor = state_w / height;
   factor = width * factor > 500 ? 500 / width : factor;
 
+  let vertical = 70;
   let stateProjection = d3.geoAlbersUsa()
-    .translate([70 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + 60])
+    .translate([70 + v1_w + factor * (v1_w / 2 - left), factor * (v1_h / 2 - top) + vertical + 30])
     .scale([projScale * factor]);
   let statePath = d3.geoPath().projection(stateProjection);
   
@@ -120,11 +123,11 @@ let magnifyState = function(event, d) {
     .attr("fill", "#ccc")
     .attr("class", "individual-state")
     .attr("x", 725)
-    .attr("y", 40)
+    .attr("y", vertical)
     .attr("rx", 7)
     .attr("ry", 7)
     .attr("width", 590)
-    .attr("height", 275);
+    .attr("height", 325);
 
   v2.selectAll("path.outlines.state")
     .data([d])
@@ -138,11 +141,8 @@ let magnifyState = function(event, d) {
     .attr("stroke", "#444")
     .attr("stroke-width", 0.5)
     .attr("fill", "#fff")
-    // .on("click", () => {
-    //   hold_lib_tooltip = !hold_lib_tooltip;
-    // });
   
-  updateSideStateTooltip(d.properties.name);
+  updateSideStateTooltip(d.properties.name, d.currVal);
   d3.select("#side-statetooltip").classed("hidden", false);
   // d3.select("#side-state-popu").text(PLS_SUM_DATA[d.properties.name][2020]['POPU'].toLocaleString());
   overlayLibraries(d, stateProjection);
@@ -228,8 +228,10 @@ let buildViz = function(state) {
   // get data
   let data = {BKVOL: 0, AUDIO: 0, VIDEO: 0, EBOOK: 0};
   let labels = {BKVOL: 'Print', AUDIO: 'Audio', VIDEO: 'Video', EBOOK: 'Ebooks'};
+  let total = 0;
   for (key of Object.keys(data)) {
     data[key] += PLS_SUM_DATA[state]["2020"][key] != -1 ? PLS_SUM_DATA[state]["2020"][key] : 0;
+    total += PLS_SUM_DATA[state]["2020"][key] != -1 ? PLS_SUM_DATA[state]["2020"][key] : 0;
   }
 
   // set color scale
@@ -252,21 +254,52 @@ let buildViz = function(state) {
     .innerRadius(radius * 0.9)
     .outerRadius(radius * 0.9)
 
+  let vertical = 450;
   let chart = v2.append("g")
-    .attr("transform", "translate(" + (v1_w + radius + 110) + "," + (state_h * 1.8 + 340) + ")");
+    .attr("transform", "translate(" + (v1_w + radius + 110) + "," + (state_h * 1.8 + vertical) + ")");
+  
+  // chart title
+  chart.append("text")
+    .attr("id", "subplot-title")
+    .attr("class", "individual-state")
+    .attr("font-size", "20px")
+    .attr("font-family", "sans-serif")
+    .attr("x", -radius - 65)
+    .attr("y", -radius - 5)
+    .text("Library Materials in " + state + " (2020)");
 
   chart.selectAll('allSlices')
     .data(data_ready)
     .enter()
     .append('path')
     .attr('d', arc)
-    .attr("class", "individual-state")
+    .attr("class", "individual-state slices")
+    .attr("id", (d) => d.data[0])
     .attr('fill', (d) => { return(color(d.data[0])) })
     .attr("stroke", "white")
     .style("stroke-width", "2px")
     .attr("opacity", 0)
+    .on("mouseover", function(event, d) {
+      const xPos = event.pageX + 5;
+      const yPos = event.pageY - 30;
+      let toolt = d3.select("#pie-tooltip").style("top", yPos + "px").style("left", xPos + "px");
+      toolt.select("#pie-value").text(d.data[1].toLocaleString());
+      toolt.select("#pie-percent").text((100 * d.data[1] / total).toFixed(1));
+      d3.select("#pie-tooltip").classed("hidden", false);
+      d3.selectAll("path.slices").transition().attr("opacity", (dd) => d.data[0] === dd.data[0] ? 1 : 0.5);
+      // d3.select(this).transition().attr("opacity", 1);
+    })
+    .on("mouseout", function() {
+      d3.select("#pie-tooltip").classed("hidden", true);
+      d3.selectAll("path.slices").transition().attr("opacity", 0.8);
+    })
+    .on("mousemove", function(event, d) {
+      const xPos = event.pageX + 5;
+      const yPos = event.pageY - 30;
+      d3.select("#pie-tooltip").style("top", yPos + "px").style("left", xPos + "px");
+    })
     .transition()
-    .attr("opacity", 1)
+    .attr("opacity", 0.8);
 
   // polylines between chart and labels:
   chart.selectAll('allPolylines')
@@ -294,7 +327,10 @@ let buildViz = function(state) {
     .enter()
     .append('text')
     .attr("class", "individual-state")
-    .text((d) => { return labels[d.data[0]] })
+    .text((d) => {
+      // let percent = (100 * d.data[1] / total).toFixed(1);
+      return labels[d.data[0]] //+ ' (' + percent + '%)';
+    })
     .attr('transform', (d) => {
         var pos = outerArc.centroid(d);
         var midangle = d.startAngle + (d.endAngle - d.startAngle) / 2
@@ -311,28 +347,17 @@ let buildViz = function(state) {
     .attr("opacity", 1);
 }
 
-let buildPlot = function(state) {
-  if (curr_stat === 'OTHMAT' || curr_stat === 'BKVOL') {
-    buildViz(state);
-  }
-  var trace = {
-    x: [],
-    y: [],
-    mode: 'lines+markers',
-    type: 'scatter'
-  };
-  for (let i = 1998; i <= 2020; i++) {
-    trace.x.push(i);
-    trace.y.push(PLS_SUM_DATA[state][i][curr_stat] / PLS_SUM_DATA[state][i]['POPU']);
-  }
-  const multTraces = curr_stat === 'OTHMAT';
-  var properties = multTraces ? ['EBOOK', 'AUDIO', 'VIDEO'] : [curr_stat];
-  var data = getTraces(state, properties);
-  var layout = {
-    margin: { l: 60, r: 0, b: 40, t: 50, pad: 5 },
+let generateLayout = function(title, yAxisTitle) {
+  return {
+    margin: { l: 60, r: 0, b: 40, t: 40, pad: 5 },
     title: {
-      text: $('#map-dropdown option[value="' + curr_stat + '"]').text() + ' (1998-2020)',
-      x: 0
+      text: title,
+      x: 0,
+      font: {
+        family: 'sans-serif',
+        size: 20,
+        color: '#000'
+      }
     },
     xaxis: {title: {
       text: 'YEAR',
@@ -342,14 +367,27 @@ let buildPlot = function(state) {
       }
     }},
     yaxis: {title: {
-      text: STAT_UNIT_MAP[curr_stat].toUpperCase(),
+      text: yAxisTitle,
       font: {
         size: 12,
         color: '#AAA'
       },
       x: 0
     }}
-  };
+  }; 
+}
+
+let buildPlot = function(state) {
+  if (curr_stat === 'OTHMAT' || curr_stat === 'BKVOL') {
+    buildViz(state);
+  }
+  const multTraces = curr_stat === 'OTHMAT';
+  var properties = multTraces ? ['EBOOK', 'AUDIO', 'VIDEO'] : [curr_stat];
+  var data = getTraces(state, properties);
+  var layout = generateLayout(
+    $('#map-dropdown option[value="' + curr_stat + '"]').text() + ' in ' + state + ' (1998-2020)',
+    STAT_UNIT_MAP[curr_stat].toUpperCase()
+  );
   
   Plotly.newPlot('visits-plot', data, layout, {displayModeBar: false});
 }
@@ -366,7 +404,11 @@ let getTraces = function(state, properties) {
     };
     for (let i = 1998; i <= 2020; i++) {
       trace.x.push(i);
-      trace.y.push(PLS_SUM_DATA[state][i][p] != -1 ? PLS_SUM_DATA[state][i][p] : 0);
+      if (state === 'all') {
+        trace.y.push(sumStatistic(p, i));
+      } else{
+        trace.y.push(PLS_SUM_DATA[state][i][p] != -1 ? PLS_SUM_DATA[state][i][p] : 0);
+      }
     }
     traces.push(trace);
   }
@@ -374,33 +416,18 @@ let getTraces = function(state, properties) {
   
 }
 
-// let findBoundingBox = function (coords) {
-//   let min_x = coords[0][0];
-//   let min_y = coords[0][1];
-//   let max_x = min_x;
-//   let max_y = min_y;
-//   for (let coord of coords) {
-//     min_x = coord[0] < min_x ? coord[0] : min_x;
-//     max_x = coord[0] > max_x ? coord[0] : max_x;
-//     min_y = coord[0] < min_y ? coord[0] : min_y;
-//     max_y = coord[0] > max_y ? coord[0] : max_y;
-//   }
-//   return {left: min_x, right: max_x, top: max_y, bottom: min_y, width: max_x - min_x, height: max_y - min_y};
-// }
+let buildPlotUS = function() {
+  const multTraces = curr_stat === 'OTHMAT';
+  var properties = multTraces ? ['EBOOK', 'AUDIO', 'VIDEO'] : [curr_stat];
+  var data = getTraces('all', properties);
 
-// let getProjectedCoords = function (vals) {
-//   let coords = []
-//   for (const e of vals) {
-//     if (Array.isArray(e[0])) {
-//       for (const f of e) {
-//         coords.push(projection(f));
-//       }
-//     } else {
-//       coords.push(projection(e));
-//     }
-//   }
-//   return coords;
-// }
+  var layout = generateLayout(
+    $('#map-dropdown option[value="' + curr_stat + '"]').text() + ' in the U.S. (1998-2020)',
+    STAT_UNIT_MAP[curr_stat].toUpperCase()
+  );
+  
+  Plotly.newPlot('us-plot', data, layout, {displayModeBar: false});
+}
 
 let updateStateTooltip = function (state, value) {
   let statetool = d3.select("#statetooltip");
@@ -410,14 +437,14 @@ let updateStateTooltip = function (state, value) {
     .text(value && value >= 0 ? value.toLocaleString() : "--");
 }
 
-let updateSideStateTooltip = function (state) {
+let updateSideStateTooltip = function (state, value) {
   let statetool = d3.select("#side-statetooltip");
-  statetool.select("#side-statename").text(state);
+  statetool.select("#side-statename")
+    .text(state);
+  statetool.select("#side-stat-value")
+    .text(value && value >= 0 ? value.toLocaleString() : "--");
 }
 
-// let buildId = function(idBase, prefix) {
-//   return "#" + prefix + idBase;
-// }
 let formatPhoneNum = (n) => {
   let str = n.toString();
   let match = str.match(/^(\d{3})(\d{3})(\d{4})$/);
@@ -432,7 +459,7 @@ let displayLibraryTooltip = function(d, state, circ) {
   const xPos = parseFloat(circ.attr("cx")) + 30;
   const yPos = parseFloat(circ.attr("cy")) + 390;
 
-  let toolt = d3.select("#tooltip").style("top", yPos + "px");;
+  let toolt = d3.select("#tooltip").style("top", yPos + "px");
   if (xPos > 1200) {
     toolt.style("left", (xPos - 180) + "px")
   } else {
@@ -487,7 +514,11 @@ let changeStatistic = function (statistic) {
   curr_stat_unit = STAT_UNIT_MAP[curr_stat];
   curr_total = sumStatistic(statistic, curr_year);
   updateStateTooltip("United States", curr_total);
-  buildPlot(focus_state);
+  buildPlotUS();
+  if (focus_state !== 'none') {
+    buildPlot(focus_state);
+    updateSideStateTooltip(focus_state, focus_state_d.currVal);
+  }
 }
 
 let changeYear = function (year) {
@@ -516,9 +547,11 @@ d3.selectAll("input.perCapitaToggle").on("click", function () {
   if (cat == "total" && stat_per_capita) {
     stat_per_capita = false;
     d3.select("#per-cap-label").text("total");
+    d3.select("#side-per-cap-label").text("total");
   } else if (cat == "percapita" && !stat_per_capita) {
     stat_per_capita = true;
     d3.select("#per-cap-label").text("per person");
+    d3.select("#side-per-cap-label").text("per person");
   }
   changeStatistic(curr_stat);
 });

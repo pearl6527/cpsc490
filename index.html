@@ -73,7 +73,7 @@
 
       function showSliderValue() {
         document.getElementById("year-text").innerHTML = yearSlider.value;
-        // document.getElementById("side-year-text").innerHTML = yearSlider.value;
+        document.getElementById("side-year-text").innerHTML = yearSlider.value;
         changeYear(yearSlider.value);
       }
 
@@ -83,7 +83,7 @@
       <option value="REFERENC">Reference Transactions</option>
       <option value="REGBOR">Registered Borrowers</option>
       <option value="BKVOL">Print Materials</option>
-      <option value="OTHMAT">Other Materials (electronic/audio/video)</option>
+      <option value="OTHMAT">Non-Print Materials</option>
       <option value="TOTINCM">Library Income</option>
       <option value="TOTOPEXP">Operating Expenditure</option>
       <option value="TOTCIR">Circulation</option>
@@ -93,24 +93,26 @@
       let statSelector = document.getElementById("map-dropdown");
       statSelector.addEventListener("input", toggleStatistic, false);
       function toggleStatistic() {
-        let statNameElt = document.getElementById("stat-name");
+        let label = '';
         switch (statSelector.value) {
-          case 'VISITS': statNameElt.innerHTML = 'visit(s)'; break;
-          case 'REFERENC': statNameElt.innerHTML = 'reference transaction(s)'; break;
-          case 'REGBOR': statNameElt.innerHTML = 'registered borrower(s)'; break;
-          case 'BKVOL': statNameElt.innerHTML = 'print material(s)'; break;
-          case 'TOTINCM': statNameElt.innerHTML = 'dollar(s) in library income'; break;
-          case 'TOTOPEXP': statNameElt.innerHTML = 'dollar(s) in expenditure'; break;
-          case 'TOTCIR': statNameElt.innerHTML = 'circulation transaction(s)'; break;
-          case 'HRS_OPEN': statNameElt.innerHTML = 'service hour(s)'; break;
-          case 'OTHMAT': statNameElt.innerHTML = 'non-print material(s)'; break;
+          case 'VISITS': label += 'visit(s)'; break;
+          case 'REFERENC': label += 'reference transaction(s)'; break;
+          case 'REGBOR': label += 'registered borrower(s)'; break;
+          case 'BKVOL': label += 'print material(s)'; break;
+          case 'TOTINCM': label += 'dollar(s) in library income'; break;
+          case 'TOTOPEXP': label += 'dollar(s) in expenditure'; break;
+          case 'TOTCIR': label += 'circulation transaction(s)'; break;
+          case 'HRS_OPEN': label += 'service hour(s)'; break;
+          case 'OTHMAT': label += 'non-print material(s)'; break;
         }
+        document.getElementById("stat-name").innerHTML = label;
+        document.getElementById("side-stat-name").innerHTML = label;
         changeStatistic(statSelector.value);
       }
 
     </script>
     <script type="text/javascript" src="v1.js"></script>
-    
+    <div id="us-plot"></div>
     <div id="statetooltip">
       <p>
         <strong><span id="statename">United States</span></strong>
@@ -122,8 +124,12 @@
       </p>
     </div>
     <div id="side-statetooltip" class="hidden">
-      <p> <strong><span id="side-statename">STATE</span></strong> from 1998 - 2020<br>
-        <button id="hide-state" onclick="hideStateInfo()">Hide</button></p>
+      <p> <strong><span id="side-statename">STATE</span></strong>    
+        <button id="hide-state" onclick="hideStateInfo()">Hide</button><br>
+        <span id="side-stat-value">0</span>
+        <span id="side-stat-name" class="purple">visit(s)</span><br> <span id="side-per-cap-label">total</span>
+        in <span id="side-year-text" class="purple">2020</span>
+      </p>
       <div id="visits-plot"></div>
     </div>
     <script type="text/javascript" src="state-pls-ae-data.js"></script>
@@ -138,6 +144,11 @@
       <p id="phone-num">
         (000) 000-0000
       </p>
-    </div>    
+    </div>   
+    <div id="pie-tooltip" class="hidden">
+      <p>
+        <strong><span id="pie-percent">0.0</span>%</strong> (<span id="pie-value">0</span>)
+      </p>
+    </div>
   </body>
 </html>
