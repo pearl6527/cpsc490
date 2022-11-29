@@ -35,23 +35,25 @@
         </strong>
       </p>
     </div>
-    <p>
-      <input
-        class="stateCountyToggle"
-        type="radio"
-        name="filterPreset"
-        value="state"
-        checked="true"
-      />
-      By state
-      <input
-        class="stateCountyToggle"
-        type="radio"
-        name="filterPreset"
-        value="county"
-      />
-      By county
-    </p>
+    <div id="toggle-pov">
+      <p>
+        <input
+          class="stateCountyToggle"
+          type="radio"
+          name="filterPreset"
+          value="state"
+          checked="true"
+        />
+        By state
+        <input
+          class="stateCountyToggle"
+          type="radio"
+          name="filterPreset"
+          value="county"
+        />
+        By county
+      </p>
+    </div>
     <script type="text/javascript" src="abbr-name.js"></script>
     <script type="text/javascript" src="pls-stat-units.js"></script>
     <script type="text/javascript" src="pls-stats-by-state-2020.js"></script>
@@ -59,12 +61,12 @@
     <script type="text/javascript" src="pls-stats-by-county-2020.js"></script>
     <script type="text/javascript" src="edu-data-by-county-2020.js"></script>
     
-    <select name="statistic" id="map-dropdown">
+    <select name="statistic" id="map-dropdown-pov">
       <option value="VISITS" selected>Visits</option>
       <option value="REFERENC">Reference Transactions</option>
       <option value="REGBOR">Registered Borrowers</option>
       <option value="BKVOL">Print Materials</option>
-      <option value="OTHMAT">Other Materials (electronic/audio/video)</option>
+      <option value="OTHMAT">Non-Print Materials</option>
       <option value="TOTINCM">Library Income</option>
       <option value="TOTOPEXP">Operating Expenditure</option>
       <option value="TOTCIR">Circulation</option>
@@ -73,7 +75,7 @@
       <option value="TOTPRO">Programs</option>
     </select>
     <script type="text/javascript">
-      let statSelector = document.getElementById("map-dropdown");
+      let statSelector = document.getElementById("map-dropdown-pov");
       statSelector.addEventListener("input", toggleStatistic, false);
       function toggleStatistic() {
         let statNameElt = document.getElementById("x-axis-label");

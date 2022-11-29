@@ -1,5 +1,5 @@
-let w = 1400;
-let h = 700;
+let w = 1000;
+let h = 600;
 let padding = 40;
 let v1_w = 900;
 let v1_h = 550;
@@ -47,6 +47,9 @@ const stateFill = 'rgba(27, 41, 195, 0.9)';
 const stateHoverFill = 'rgba(249, 25, 137, 0.9)';
 const cntyFill = 'rgba(249, 25, 137, 0.7)';
 const selectedFill = 'rgba(20, 35, 190, 0.9)';
+const defLabelOp = 0.3;
+const defLabelWidth = 0;
+const selLabelWidth = 0.75;
 
 v1.selectAll("circle.state")
   .data(PLS_DATA_BY_STATE_2020)
@@ -66,16 +69,60 @@ v1.selectAll("circle.state")
       .transition()
       .duration(100)
       .attr("fill", stateHoverFill)
-      .attr("r", 7);
+      .attr("r", 6);
     displayPointInfo(d, d.STABR, d3.select(this));
+    d3.select(".state#" + d.STABR + "-label")
+      .attr("stroke-width", selLabelWidth)
+      .attr("opacity", 1);
   })
-  .on("mouseout", function () {
+  .on("mouseout", function (event, d) {
     hidePointInfo();
     d3.select(this)
       .transition()
       .duration(100)
       .attr("r", 4)
       .attr("fill", stateFill);
+    d3.select(".state#" + d.STABR + "-label")
+      .attr("stroke-width", defLabelWidth)
+      .attr("opacity", defLabelOp);
+  });
+
+v1.selectAll("circleLabels")
+  .data(PLS_DATA_BY_STATE_2020)
+  .enter()
+  .append("text")
+  .attr("clip-path", clip)
+  .attr("id", (d) => d.STABR + "-label")
+  .attr("class", "state circleLabel")
+  .attr("x", (d) => { return xScale(d.VISITS / d.POPU_EST) + 8 })
+  .attr("y", (d) => { return yScale(d.POV_PERCENT) + 4 })
+  .attr("opacity", defLabelOp)
+  .attr("font-size", "12px")
+  .attr("stroke-width", defLabelWidth)
+  .attr("stroke", "black")
+  .attr("font-family", "sans-serif")
+  .text((d) => d.STABR)
+  .on("mouseover", function (event, d) {
+    d3.select("circle.state#" + d.STABR)
+      .transition()
+      .duration(100)
+      .attr("fill", stateHoverFill)
+      .attr("r", 6);
+    displayPointInfo(d, d.STABR, d3.select("circle.state#" + d.STABR));
+    d3.select(this)
+      .attr("stroke-width", selLabelWidth)
+      .attr("opacity", 1);
+  })
+  .on("mouseout", function (event, d) {
+    hidePointInfo();
+    d3.select("circle.state#" + d.STABR)
+      .transition()
+      .duration(100)
+      .attr("r", 4)
+      .attr("fill", stateFill);
+    d3.select(this)
+      .attr("stroke-width", defLabelWidth)
+      .attr("opacity", defLabelOp);
   });
 
 v1.selectAll("circle.county")
@@ -107,7 +154,7 @@ v1.selectAll("circle.county")
       .attr("fill", selectedFill)
       .attr("r", 6);
     displayPointInfo(d, d.CNTY_KEY, d3.select(this));
-    displayStateInfo(d);
+    displayStateInfo(d.CNTY_KEY.split('-')[0]);
   })
   .on("mouseout", function (event, d) {
     const state = d.CNTY_KEY.split('-')[0];
@@ -129,7 +176,7 @@ v1.selectAll("circle.county")
       hideStateInfo();
     } else {
       showOneState(d.CNTY_KEY.split('-')[0]);
-      displayStateInfo(d);
+      displayStateInfo(d.CNTY_KEY.split('-')[0]);
     }
   });
 
@@ -168,7 +215,7 @@ svg.append("text")
   .attr("text-anchor", "middle")
   .attr("font-family", "sans-serif")
   .attr("font-size", "14px")
-  .attr("x", 480)
+  .attr("x", 370)
   .attr("y", h - 30)
   .attr("transform", "rotate(270, " + padding +  ", " + h + ")")
   .text("Poverty (%)");
@@ -184,9 +231,9 @@ let hidePointInfo = function() {
   d3.select("#tooltip").classed("hidden", true);
 };
 
-let displayStateInfo = function(d) {
+let displayStateInfo = function(state) {
   let toolt = d3.select("#state-tooltip-pov");
-  const state = d.CNTY_KEY.split('-')[0];
+  // const state = d.CNTY_KEY.split('-')[0];
   toolt.select("#state-tooltipname").text(ABBR_STATE_MAP[state]);
   const stateInfo = PLS_DATA_BY_STATE_2020.find(elt => elt.STABR === state);
   toolt.select("#state-pov").text(stateInfo.POV_PERCENT.toFixed(1));
@@ -202,7 +249,7 @@ let hideStateInfo = function() {
 
 let displayPointInfo = function(d, region, circ) {
   const xPos = parseFloat(circ.attr("cx")) + 285;
-  const yPos = parseFloat(circ.attr("cy")) + 355;
+  const yPos = parseFloat(circ.attr("cy")) + 280;
 
   let toolt = d3.select("#tooltip").style("top", yPos + "px");
   toolt.style("left", xPos + "px");
@@ -248,6 +295,15 @@ let changeStatistic = function (statistic) {
   svg.select(".y.axis")
     .transition()
     .call(yAxis);
+  if (curr_level === 'county' && focus_state !== 'none') {
+    displayStateInfo(focus_state);
+  }
+  if (curr_level === 'state') {
+    v1.selectAll(".circleLabel")
+      .transition("recalibrateLabels")
+      .attr("opacity", defLabelOp)
+      .attr("x", function (d) { return xScale(getStatVal(d, curr_stat) / d.POPU_EST) + 8 } );
+  }
 }
 
 function showOneState(state) {
@@ -257,9 +313,17 @@ function showOneState(state) {
 }
 
 let toggleLevels = function (level) {
+  v1.selectAll("circle.county").attr("fill", cntyFill);
   d3.selectAll("circle." + (level === "state" ? "county" : "state")).classed("hidden", true);
   d3.selectAll("circle." + level).classed("hidden", false);
+  if (level === 'county') {
+    d3.selectAll(".state.circleLabel").classed("hidden", true);
+  } else {
+    d3.selectAll(".state.circleLabel").classed("hidden", false);
+  }
   changeStatistic(curr_stat);
+  focus_state = 'none';
+  hideStateInfo();
 }
 
 d3.selectAll("input.stateCountyToggle").on("click", function () {
@@ -288,4 +352,11 @@ function updateChart(event) {
       .transition("recalibrate")
       .duration(1000)
       .attr("cx", function (d) { return xScale(getStatVal(d, curr_stat) / d.POPU_EST) } );
+    if (curr_level === 'state') {
+      v1.selectAll(".circleLabel")
+        .transition("recalibrateLabels")
+        .duration(1000)
+        .attr("opacity", defLabelOp)
+        .attr("x", function (d) { return xScale(getStatVal(d, curr_stat) / d.POPU_EST) + 8 } );
+    }
 }

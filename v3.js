@@ -4,7 +4,7 @@ let padding = 40;
 let v1_w = 675;
 let v1_h = 475;
 
-let svg = d3.select("body").append("svg").attr("width", w).attr("height", h).attr("transform", "translate(20, 20)");
+let svg = d3.select("body").append("svg").attr("width", w).attr("height", h).attr("transform", "translate(20, 40)");
 let v1 = d3.select("svg").append("g").attr("id", "v1").attr("clip-path", "url(#clip)");
 let v2 = d3.select("svg").append("g").attr("id", "v2").attr("clip-path", "url(#clip2)")
   .attr("transform", "translate(" + v1_w + ", 0)");
@@ -496,7 +496,7 @@ let displayPointInfoState = function(d, age, edu, circ, xAdj = 0) {
     .attr("stroke-width", 2)
     .attr("r", hoverRadius);
   const xPos = parseFloat(circ.attr("cx")) + 50 + xAdj;
-  const yPos = parseFloat(circ.attr("cy")) + 290;
+  const yPos = parseFloat(circ.attr("cy")) + 320;
 
   const color = age === '18-24' ? youngOutline : oldOutline;
 
@@ -527,7 +527,7 @@ let displayPointInfoCounty = function(d, age, edu, circ, xAdj = 0) {
     .attr("stroke-width", 2)
     .attr("r", hoverRadius);
   const xPos = parseFloat(circ.attr("cx")) + 50 + xAdj;
-  const yPos = parseFloat(circ.attr("cy")) + 290;
+  const yPos = parseFloat(circ.attr("cy")) + 320;
 
   const color = age === '18-24' ? youngOutline : oldOutline;
 

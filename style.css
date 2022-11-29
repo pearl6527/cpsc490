@@ -75,7 +75,7 @@ p.caption {
   width: 200px;
   left: 60px;
   height: auto;
-  top: 360px;
+  top: 325px;
 }
 #side-statetooltip {
   position: absolute;
@@ -168,6 +168,16 @@ button {
 select {
   margin-left: 3em;
   width: 200px;
+}
+select#map-dropdown-pov {
+  position: absolute;
+  top: 245px;
+  width: auto;
+}
+div#toggle-pov {
+  position: absolute;
+  top: 245px;
+  left: 280px;
 }
 .topnav {
   overflow: hidden;
