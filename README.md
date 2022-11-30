@@ -1,6 +1,6 @@
 # cpsc490
 CPSC 490 Senior Project: Exploring Public Libraries in the United States
-The interactive visualizations can be found at (https://exploring-public-libraries-in-the-united.onrender.com/)[https://exploring-public-libraries-in-the-united.onrender.com/].
+The interactive visualizations can be found at https://exploring-public-libraries-in-the-united.onrender.com/.
 
 ## Implementation Details
 * HTML/CSS/JavaScript
