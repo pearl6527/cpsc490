@@ -6,6 +6,7 @@ The interactive visualizations can be found at https://exploring-public-librarie
 * HTML/CSS/JavaScript
 * [d3.js](https://d3js.org/)
 * [Plotly](https://plotly.com/javascript/)
+* [JQuery](https://jquery.com/)
 
 ## Data Sources
 * Institute of Museum and Library Services: [Public Libraries Survey](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey) (library data from 1998 to 2020)
