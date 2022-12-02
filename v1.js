@@ -81,7 +81,7 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
       updateStateTooltip("United States", curr_total);
     })
     .on("click", magnifyState);
-  buildPlotUS()
+  buildPlotUS();
 });
 
 let branchOutline = "rgba(23, 148, 155, 1)";
@@ -151,7 +151,7 @@ let magnifyState = function(event, d) {
 }
 
 let overlayLibraries = function (d, stateProjection) {
-  d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/pls-outlet-data-by-state.json").then((json) => {
+  d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/vis_data/pls-outlet-data-by-state.json").then((json) => {
     const stateLibs = json[d.properties.name];
     v2.selectAll("circle")
       .data(stateLibs)

@@ -188,7 +188,7 @@ div#toggle-pov {
   overflow: hidden;
   background-color: #435356;
   vertical-align: middle;
-  width: 1400px;
+  width: fit-content;
 }
 .topnav a {
   float: left;
