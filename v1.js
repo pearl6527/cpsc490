@@ -84,6 +84,11 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
   buildPlotUS()
 });
 
+let branchOutline = "rgba(23, 148, 155, 1)";
+let branchFill = "rgba(20, 175, 183, 0.8)";
+let centralOutline = "rgba(85, 70, 105, 1)";
+let centralFill = "rgba(89, 74, 212, 0.8)";
+
 let hideStateInfo = function() {
   focus_state = 'none';
   v2.selectAll(".individual-state")
@@ -96,11 +101,6 @@ let hideStateInfo = function() {
 let hideLibraryInfo = function() {
   d3.select("#tooltip").classed("hidden", true);
 };
-
-let branchOutline = "rgba(23, 148, 155, 1)";
-let branchFill = "rgba(20, 175, 183, 0.8)";
-let centralOutline = "rgba(85, 70, 105, 1)";
-let centralFill = "rgba(89, 74, 212, 0.8)";
 
 let magnifyState = function(event, d) {
   v2.selectAll(".individual-state").remove();
@@ -261,7 +261,7 @@ let buildViz = function(state) {
   // chart title
   chart.append("text")
     .attr("id", "subplot-title")
-    .attr("class", "individual-state")
+    .attr("class", "individual-state pie")
     .attr("font-size", "20px")
     .attr("font-family", "sans-serif")
     .attr("x", -radius - 65)
@@ -273,7 +273,7 @@ let buildViz = function(state) {
     .enter()
     .append('path')
     .attr('d', arc)
-    .attr("class", "individual-state slices")
+    .attr("class", "individual-state slices pie")
     .attr("id", (d) => d.data[0])
     .attr('fill', (d) => { return(color(d.data[0])) })
     .attr("stroke", "white")
@@ -307,7 +307,7 @@ let buildViz = function(state) {
     .enter()
     .append('polyline')
     .attr("stroke", "black")
-    .attr("class", "individual-state")
+    .attr("class", "individual-state pie")
     .style("fill", "none")
     .attr("stroke-width", 1)
     .attr('points', function(d) {
@@ -326,7 +326,7 @@ let buildViz = function(state) {
     .data(data_ready)
     .enter()
     .append('text')
-    .attr("class", "individual-state")
+    .attr("class", "individual-state pie")
     .text((d) => {
       // let percent = (100 * d.data[1] / total).toFixed(1);
       return labels[d.data[0]] //+ ' (' + percent + '%)';
@@ -380,6 +380,8 @@ let generateLayout = function(title, yAxisTitle) {
 let buildPlot = function(state) {
   if (curr_stat === 'OTHMAT' || curr_stat === 'BKVOL') {
     buildViz(state);
+  } else {
+    d3.selectAll(".individual-state.pie").classed("hidden", true);
   }
   const multTraces = curr_stat === 'OTHMAT';
   var properties = multTraces ? ['EBOOK', 'AUDIO', 'VIDEO'] : [curr_stat];

@@ -111,7 +111,7 @@
       }
 
     </script>
-    <script type="text/javascript" src="v1.js"></script>
+    <div><script type="text/javascript" src="v1.js"></script></div>
     <div id="us-plot"></div>
     <div id="statetooltip">
       <p>
@@ -130,6 +130,47 @@
         <span id="side-stat-name" class="purple">visit(s)</span><br> <span id="side-per-cap-label">total</span>
         in <span id="side-year-text" class="purple">2020</span>
       </p>
+      <div id="overlay-key"></div>
+      <script type="text/javascript">
+        const legendSize = 15;
+        const legendTextY = 12;
+        const circleY = 7;
+        const offsetX = 2;
+        const legend = d3.select("#overlay-key").append("svg").attr("width", 250).attr("height", 20);
+
+        legend.append("circle")
+          .attr("class", "legend old box")
+          .attr("cx", 5 + offsetX)
+          .attr("cy", circleY)
+          .attr("r", 4.5)
+          .attr("fill", centralFill)
+          .attr("stroke", centralOutline)
+          .attr("opacity", 0.7);
+        legend.append("text")
+          .attr("class", "legend old")
+          .attr("font-size", "14px")
+          .attr("font-family", "sans-serif")
+          .attr("x", 15 + offsetX)
+          .attr("y", legendTextY)
+          .text("Central library");
+        legend.append("circle")
+          .attr("class", "legend branch box")
+          .attr("cx", 120 + offsetX)
+          .attr("cy", circleY)
+          .attr("r", 4.5)
+          .attr("fill", branchFill)
+          .attr("stroke", branchOutline)
+          .attr("opacity", 0.7);
+        legend.append("text")
+          .attr("class", "legend branch")
+          .attr("font-size", "14px")
+          .attr("font-family", "sans-serif")
+          .attr("x", 130 + offsetX)
+          .attr("y", legendTextY)
+          .text("Branch library");
+        
+      </script>
+
       <div id="visits-plot"></div>
     </div>
     <script type="text/javascript" src="state-pls-ae-data.js"></script>

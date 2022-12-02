@@ -204,6 +204,9 @@ v1.selectAll("circle.county.young.hs")
   .on("mouseout", function (event, d) {
     deselectSameState(d, "circle.county.young.hs.", youngFill);
     hidePointInfo(d3.select(this), youngFill, rCounty);
+  })
+  .on("click", (event, d) => {
+    onClickCounty(d);
   });
 
 v2.selectAll("circle.county.young.ba")
@@ -237,6 +240,9 @@ v2.selectAll("circle.county.young.ba")
   .on("mouseout", function (event, d) {
     deselectSameState(d, "circle.county.young.ba.", youngFill);
     hidePointInfo(d3.select(this), youngFill, rCounty);
+  })
+  .on("click", (event, d) => {
+    onClickCounty(d);
   });
 
 v1.selectAll("circle.county.old.hs")
@@ -270,6 +276,9 @@ v1.selectAll("circle.county.old.hs")
   .on("mouseout", function (event, d) {
     deselectSameState(d, "circle.county.old.hs.", oldFill);
     hidePointInfo(d3.select(this), oldFill, rCounty);
+  })
+  .on("click", (event, d) => {
+    onClickCounty(d);
   });
 
 v2.selectAll("circle.county.old.ba")
@@ -303,6 +312,9 @@ v2.selectAll("circle.county.old.ba")
   .on("mouseout", function (event, d) {
     deselectSameState(d, "circle.county.old.ba.", oldFill);
     hidePointInfo(d3.select(this), oldFill, rCounty);
+  })
+  .on("click", (event, d) => {
+    onClickCounty(d);
   });
 
 const xAxis = d3.axisBottom()
@@ -439,7 +451,8 @@ d3.selectAll(".legend.young")
       .attr("opacity", 1);
   })
   .on("click", function() {
-    d3.selectAll("circle.young." + curr_level).raise().classed("hidden", showYoung);
+    let toShow = "circle.young." + curr_level + (focus_state !== 'none' ? "." + focus_state : "");
+    d3.selectAll(toShow).raise().classed("hidden", showYoung);
     showYoung = !showYoung;
   });
 d3.selectAll(".legend.old")
@@ -454,7 +467,8 @@ d3.selectAll(".legend.old")
       .attr("opacity", 1);
   })
   .on("click", function() {
-    d3.selectAll("circle.old." + curr_level).raise().classed("hidden", showOld);
+    let toShow = "circle.old." + curr_level + (focus_state !== 'none' ? "." + focus_state : "");
+    d3.selectAll(toShow).raise().classed("hidden", showOld);
     showOld = !showOld;
   });
 
@@ -465,17 +479,43 @@ function getStatVal(d, statistic) {
   return d[statistic];
 }
 
+let onClickCounty = function(d) {
+  const state = d.CNTY_KEY.split('-')[0];
+  if (focus_state === state) {
+    focus_state = 'none';
+    let ageGroup = showYoung && showOld ? "" : showYoung ? ".young" : showOld ? ".old" : "XX";
+    d3.selectAll("circle.county" + ageGroup)
+      .classed("hidden", false);
+  } else {
+    showOneState(d.CNTY_KEY.split('-')[0]);
+  }
+}
+
+function showOneState(state) {
+  d3.selectAll("circle.county").classed("hidden", true);
+  if (showYoung) {
+    d3.selectAll("circle.county.young." + state).classed("hidden", false);
+  }
+  if (showOld) {
+    d3.selectAll("circle.county.old." + state).classed("hidden", false);
+  }
+  focus_state = state;
+}
+
 let selectSameState = function(d, selector, color) {
-  d3.selectAll(selector + d.CNTY_KEY.split('-')[0])
+  const state = d.CNTY_KEY.split('-')[0];
+  d3.selectAll(selector + state)
     .raise()
-    .transition("highlightState")
-    .duration(100)
+    // .transition("highlightState" + state)
+    // .duration(100)
     .attr("r", 4)
     .attr("fill", color);
 }
 let deselectSameState = function(d, selector, color) {
-  d3.selectAll(selector + d.CNTY_KEY.split('-')[0])
-    .transition("unhighlightState")
+  const state = d.CNTY_KEY.split('-')[0];
+  d3.selectAll(selector + state)
+    // .transition("unhighlightState" + state)
+    // .duration(50)
     .attr("r", rCounty)
     .attr("fill", color);
 }
@@ -577,16 +617,11 @@ let changeStatistic = function (statistic) {
     .call(xAxis2);
 }
 
-function showOneState(state) {
-  d3.selectAll("circle.county").classed("hidden", true);
-  d3.selectAll("circle.county." + state).classed("hidden", false);
-  focus_state = state;
-}
-
 let toggleLevels = function (level) {
   d3.selectAll("circle." + (level === "state" ? "county" : "state")).classed("hidden", true);
   d3.selectAll("circle." + level).classed("hidden", false);
   changeStatistic(curr_stat);
+  focus_state = 'none';
 }
 
 d3.selectAll("input.stateCountyToggle").on("click", function () {

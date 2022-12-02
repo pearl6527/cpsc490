@@ -83,6 +83,11 @@ p.caption {
   left: 750px;
   width: 400px;
 }
+div#overlay-key {
+  position: absolute;
+  top: 55px;
+  left: 350px;
+}
 #visits-plot {
   position: absolute;
   top: 420px;
@@ -225,3 +230,10 @@ div#toggle {
 .pink {
   color: rgb(121, 75, 219);
 }
+.branch {
+  color: rgba(23, 148, 155, 1);
+}
+.central {
+  color: rgba(85, 70, 105, 1);
+}
+
