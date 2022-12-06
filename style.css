@@ -147,6 +147,13 @@ button {
   display: none;
 }
 
+/* Legend Position Style */
+.legend {
+	position:absolute;
+	left: 500px;
+	top: 350px;
+}
+
 .axis.rescalable text {
   cursor: ew-resize;
 }
@@ -189,6 +196,7 @@ div#toggle-pov {
   background-color: #435356;
   vertical-align: middle;
   width: fit-content;
+  margin-left: 20px;
 }
 .topnav a {
   float: left;

@@ -15,10 +15,16 @@ let projection = d3.geoAlbersUsa()
 let path = d3.geoPath().projection(projection);
 
 const logScale = d3.scaleLog().domain(PLS_SUM_DATA_RANGE.VISITS);
-const linScale = d3.scaleLinear().domain([0, 10]);
+const linScale = d3.scaleLinear().domain(PLS_SUM_DATA_RANGE.VISITS_percap);
 let curr_scale = logScale;
 let color = d3.scaleSequential().domain([0, 1])
   .interpolator(d3.interpolatePurples);
+  
+let legendW = 150;
+let legendH = 40;
+const logScaleLegend = d3.scaleLog().range([0, legendW]).domain(PLS_SUM_DATA_RANGE.VISITS);
+const linScaleLegend = d3.scaleLinear().range([0, legendW]).domain(PLS_SUM_DATA_RANGE.VISITS_percap);
+let curr_scaleLegend = logScaleLegend;
 
 let stat_per_capita = false;
 let curr_stat = 'VISITS';
@@ -43,7 +49,7 @@ function sumStatistic(statistic, year) {
     total += PLS_SUM_DATA[state][year][statistic] !== -1 ? PLS_SUM_DATA[state][year][statistic] : 0;
     popu += PLS_SUM_DATA[state][year]['POPU'];
   }
-  return stat_per_capita ? roundDecimal(total / popu, 1) : total;
+  return stat_per_capita ? roundDecimal(total / popu, 2) : total;
 }
 
 d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.json").then(function (geojson) {
@@ -83,6 +89,51 @@ d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.js
     .on("click", magnifyState);
   buildPlotUS();
 });
+
+// const key = d3.select("body")
+//   .append("svg")
+//   .attr("width", legendW + 15)
+//   .attr("height", legendH + 10)
+//   .attr("class", "legend")
+//   .attr("id", "map-legend");
+
+// let mapLegend = key.append("defs")
+//   .append("svg:linearGradient")
+//   .attr("id", "gradient")
+//   .attr("x1", "100%")
+//   .attr("y1", "100%")
+//   .attr("x2", "0%")
+//   .attr("y2", "100%")
+//   .attr("spreadMethod", "pad");
+
+// mapLegend.append("stop")
+//   .attr("offset", "0%")
+//   .attr("stop-color", color(1))
+//   .attr("stop-opacity", 1);
+  
+// mapLegend.append("stop")
+//   .attr("offset", "100%")
+//   .attr("stop-color", color(0))
+//   .attr("stop-opacity", 1);
+
+// key.append("rect")
+//   .attr("x", 15)
+//   .attr("width", legendW)
+//   .attr("height", 10)
+//   .style("fill", "url(#gradient)")
+//   .attr("transform", "translate(0,10)");
+
+// key.append("text")
+//   .attr("id", "map-legend-min-label")
+//   .attr("x", 15)
+//   .attr("y", 30)
+//   .attr("text-anchor", "middle")
+//   .attr("font-size", "7pt")
+//   .attr("font-family", "sans-serif")
+//   .text(
+//     (Math.round(PLS_SUM_DATA_RANGE[stat_per_capita ? curr_stat + '_percap' : curr_stat][0] / 100000) * 100000)
+//   .toExponential());
+
 
 let branchOutline = "rgba(23, 148, 155, 1)";
 let branchFill = "rgba(20, 175, 183, 0.8)";
@@ -484,7 +535,7 @@ let displayLibraryTooltip = function(d, state, circ) {
 let getStatValue = function (state, year, statistic) {
   if (stat_per_capita) {
     // console.log(roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 1));
-    return roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 1);
+    return roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 2);
   }
   return PLS_SUM_DATA[state][year][statistic];
 }
@@ -493,10 +544,15 @@ let changeStatistic = function (statistic) {
   if (stat_per_capita) {
     linScale.domain(PLS_SUM_DATA_RANGE[statistic + '_percap']);
     curr_scale = linScale;
+    linScaleLegend.domain(PLS_SUM_DATA_RANGE[statistic + '_percap']);
+    curr_scaleLegend = linScaleLegend;
   } else {
     logScale.domain(PLS_SUM_DATA_RANGE[statistic]);
     curr_scale = logScale;
+    logScaleLegend.domain(PLS_SUM_DATA_RANGE[statistic]);
+    curr_scaleLegend = logScaleLegend;
   }
+
   v1.selectAll(".us-map").selectAll("title").remove();
   v1.selectAll(".us-map")
     .transition()
@@ -541,6 +597,9 @@ let changeYear = function (year) {
   curr_total = sumStatistic(curr_stat, year);
   updateStateTooltip("United States", curr_total);
   v1.selectAll(".us-map").selectAll("title").remove();
+  if (focus_state !== 'none') {
+    updateSideStateTooltip(focus_state, focus_state_d.currVal);
+  }
 }
 
 d3.selectAll("input.perCapitaToggle").on("click", function () {
