@@ -20,11 +20,11 @@ let curr_scale = logScale;
 let color = d3.scaleSequential().domain([0, 1])
   .interpolator(d3.interpolatePurples);
   
-let legendW = 150;
-let legendH = 40;
-const logScaleLegend = d3.scaleLog().range([0, legendW]).domain(PLS_SUM_DATA_RANGE.VISITS);
-const linScaleLegend = d3.scaleLinear().range([0, legendW]).domain(PLS_SUM_DATA_RANGE.VISITS_percap);
-let curr_scaleLegend = logScaleLegend;
+// let legendW = 150;
+// let legendH = 40;
+// const logScaleLegend = d3.scaleLog().range([0, legendW]).domain(PLS_SUM_DATA_RANGE.VISITS);
+// const linScaleLegend = d3.scaleLinear().range([0, legendW]).domain(PLS_SUM_DATA_RANGE.VISITS_percap);
+// let curr_scaleLegend = logScaleLegend;
 
 let stat_per_capita = false;
 let curr_stat = 'VISITS';
@@ -544,13 +544,13 @@ let changeStatistic = function (statistic) {
   if (stat_per_capita) {
     linScale.domain(PLS_SUM_DATA_RANGE[statistic + '_percap']);
     curr_scale = linScale;
-    linScaleLegend.domain(PLS_SUM_DATA_RANGE[statistic + '_percap']);
-    curr_scaleLegend = linScaleLegend;
+    // linScaleLegend.domain(PLS_SUM_DATA_RANGE[statistic + '_percap']);
+    // curr_scaleLegend = linScaleLegend;
   } else {
     logScale.domain(PLS_SUM_DATA_RANGE[statistic]);
     curr_scale = logScale;
-    logScaleLegend.domain(PLS_SUM_DATA_RANGE[statistic]);
-    curr_scaleLegend = logScaleLegend;
+    // logScaleLegend.domain(PLS_SUM_DATA_RANGE[statistic]);
+    // curr_scaleLegend = logScaleLegend;
   }
 
   v1.selectAll(".us-map").selectAll("title").remove();

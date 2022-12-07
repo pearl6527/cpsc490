@@ -620,6 +620,11 @@ let changeStatistic = function (statistic) {
 let toggleLevels = function (level) {
   d3.selectAll("circle." + (level === "state" ? "county" : "state")).classed("hidden", true);
   d3.selectAll("circle." + level).classed("hidden", false);
+  if (level === 'county') {
+    d3.selectAll(".noCounty").property("disabled", true);
+  } else {
+    d3.selectAll(".noCounty").property("disabled", false);
+  }
   changeStatistic(curr_stat);
   focus_state = 'none';
 }
