@@ -11,6 +11,17 @@ div.caption {
   font-size: 1em;
   width: 1325px;
 }
+div#about-caption {
+  margin-left: 3em;
+  font-family: monospace;
+  font-size: 1em;
+  width: 1100px;
+  left: 25px;
+  position: absolute;
+}
+h2 {
+  padding-top: 1em;
+}
 input[type="radio"] {
   margin-left: 3em;
 }
@@ -193,30 +204,37 @@ div#toggle-pov {
 }
 .topnav {
   overflow: hidden;
-  background-color: #435356;
+  background-color: #fff;
   vertical-align: middle;
   width: max-content;
   margin-left: 20px;
 }
 .topnav a {
   float: left;
-  color: #f0f0f0;
+  color: #435356;
   text-align: center;
   /* padding: 12px 14px; */
   line-height: 1.3em;
-  padding: 0.6em 1em;
+  padding: 0.45em 0.85em;
+  margin: 0.15em 0.15em;
   text-decoration: none;
   font-size: 1.1em;
   font-family: Helvetica, sans-serif;
   height: 1.2em;
+  border: 1px solid #435356;
+  border-radius: 2px;
 }
 .topnav a:hover {
-  background-color: rgb(202, 229, 231);
+  background-color: rgb(236, 236, 236);
   color: black;
 }
 .topnav a.active {
-  background-color: rgb(20, 175, 183);
+  background-color: rgb(61, 61, 61);
   color: white;
+  border: 1px solid rgb(61, 61, 61);
+}
+p a {
+  color:rgb(108, 114, 114);
 }
 /* div.topnav {
   margin-top: 5%;
