@@ -438,7 +438,9 @@ let buildPlot = function(state) {
   var properties = multTraces ? ['EBOOK', 'AUDIO', 'VIDEO'] : [curr_stat];
   var data = getTraces(state, properties);
   var layout = generateLayout(
-    $('#map-dropdown option[value="' + curr_stat + '"]').text() + ' in ' + state + ' (1998-2020)',
+    $('#map-dropdown option[value="' + curr_stat + '"]').text() 
+      + (stat_per_capita ? ' (per person)' : ' (total)') 
+      + ' in ' + STATE_ABBR_MAP[state] + ' (1998-2020)',
     STAT_UNIT_MAP[curr_stat].toUpperCase()
   );
   
@@ -459,8 +461,12 @@ let getTraces = function(state, properties) {
       trace.x.push(i);
       if (state === 'all') {
         trace.y.push(sumStatistic(p, i));
-      } else{
-        trace.y.push(PLS_SUM_DATA[state][i][p] != -1 ? PLS_SUM_DATA[state][i][p] : 0);
+      } else {
+        if (stat_per_capita) {
+          trace.y.push(PLS_SUM_DATA[state][i][p] != -1 ? PLS_SUM_DATA[state][i][p] / PLS_SUM_DATA[state][i]['POPU'] : 0);
+        } else {
+          trace.y.push(PLS_SUM_DATA[state][i][p] != -1 ? PLS_SUM_DATA[state][i][p] : 0);
+        }
       }
     }
     traces.push(trace);
@@ -475,7 +481,9 @@ let buildPlotUS = function() {
   var data = getTraces('all', properties);
 
   var layout = generateLayout(
-    $('#map-dropdown option[value="' + curr_stat + '"]').text() + ' in the U.S. (1998-2020)',
+    $('#map-dropdown option[value="' + curr_stat + '"]').text() 
+      + (stat_per_capita ? ' (per person)' : ' (total)') 
+      + ' in the U.S. (1998-2020)',
     STAT_UNIT_MAP[curr_stat].toUpperCase()
   );
   

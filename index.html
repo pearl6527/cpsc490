@@ -92,6 +92,7 @@
       <option value="ELMATEXP">E-Material Expenditure</option>
       <option value="PRMATEXP">Print Material Expenditure</option>
       <option value="TOTPRO">Library Programs</option>
+      <option value="POPU_LSA">Population Served</option>
     </select>
     <script type="text/javascript">
       let statSelector = document.getElementById("map-dropdown");
@@ -112,6 +113,7 @@
           case 'PRMATEXP': label += 'dollar(s) spent on print materials'; break;
           case 'KIDCIRCL': label += 'kids\' circulation transactions(s)'; break;
           case 'TOTPRO': label += 'program(s)'; break;
+          case 'POPU_LSA': label += 'people served'; break;
         }
         document.getElementById("stat-name").innerHTML = label;
         document.getElementById("side-stat-name").innerHTML = label;
