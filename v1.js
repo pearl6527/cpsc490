@@ -42,14 +42,14 @@ function roundDecimal(n, place) {
   const pow = Math.pow(10, place);
   return Math.round(pow * n, 1) / pow;
 }
-function sumStatistic(statistic, year) {
+function sumStatistic(statistic, year, round=true) {
   let total = 0;
   let popu = 0;
   for (state in STATE_ABBR_MAP) {
     total += PLS_SUM_DATA[state][year][statistic] !== -1 ? PLS_SUM_DATA[state][year][statistic] : 0;
     popu += PLS_SUM_DATA[state][year]['POPU'];
   }
-  return stat_per_capita ? roundDecimal(total / popu, 2) : total;
+  return stat_per_capita ? (round ? roundDecimal(total / popu, 2) : total / popu) : total;
 }
 
 d3.json("https://raw.githubusercontent.com/pearl6527/cpsc490/master/us-states.json").then(function (geojson) {
@@ -276,9 +276,19 @@ let overlayLibraries = function (d, stateProjection) {
 }
 
 let buildViz = function(state) {
+  d3.selectAll(".individual-state.pie").remove()
   // get data
   let data = {BKVOL: 0, AUDIO: 0, VIDEO: 0, EBOOK: 0};
   let labels = {BKVOL: 'Print', AUDIO: 'Audio', VIDEO: 'Video', EBOOK: 'Ebooks'};
+  let colors = {BKVOL: '#1f77b4', AUDIO: '#ff7f0e', VIDEO: '#2ca02c', EBOOK: '#1f77b4'};
+  const unhighlighted = '#bbb';
+  if (curr_stat === 'OTHMAT') {
+    colors.BKVOL = unhighlighted;
+  } else {
+    colors.AUDIO = unhighlighted;
+    colors.VIDEO = unhighlighted;
+    colors.EBOOK = unhighlighted;
+  }
   let total = 0;
   for (key of Object.keys(data)) {
     data[key] += PLS_SUM_DATA[state]["2020"][key] != -1 ? PLS_SUM_DATA[state]["2020"][key] : 0;
@@ -326,7 +336,10 @@ let buildViz = function(state) {
     .attr('d', arc)
     .attr("class", "individual-state slices pie")
     .attr("id", (d) => d.data[0])
-    .attr('fill', (d) => { return(color(d.data[0])) })
+    .attr('fill', (d) => { 
+      // return(color(d.data[0]));
+      return colors[d.data[0]];
+    })
     .attr("stroke", "white")
     .style("stroke-width", "2px")
     .attr("opacity", 0)
@@ -460,7 +473,7 @@ let getTraces = function(state, properties) {
     for (let i = 1998; i <= 2020; i++) {
       trace.x.push(i);
       if (state === 'all') {
-        trace.y.push(sumStatistic(p, i));
+        trace.y.push(sumStatistic(p, i, false));
       } else {
         if (stat_per_capita) {
           trace.y.push(PLS_SUM_DATA[state][i][p] != -1 ? PLS_SUM_DATA[state][i][p] / PLS_SUM_DATA[state][i]['POPU'] : 0);
