@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    <meta charset="utf-8" />
+    <title>Public Libraries in the United States</title>
+    <script type="text/javascript" src="d3.js"></script>
+    <script type="module">
+      import { transition } from "https://cdn.skypack.dev/d3-transition@3";
+      const t = transition();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-2.16.1.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/rs-style.css">
+  </head>
+  <body>
+    <h1>Public Libraries in the United States</h1>
+    <header>
+      <div class="topnav">
+        <a href="index.html" class="active">Public Libraries Survey</a>
+        <a href="poverty.html">Libraries & Poverty (2020)</a>
+        <a href="education.html">Libraries & Education (2020)</a>
+        <a href="about.html">About This Project</a>
+      </div>
+    </header>
+    <div class="caption">
+      <p>
+        The following visualizations make use of data from 1998 to 2020 from the
+        <a href="https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey"
+          >Public Libraries Survey</a> conducted by the <a href="https://www.imls.gov/">Institute of Museum and Library Services</a>.
+      </p>
+      <p>
+        <strong>
+          Use the <span class="pink">slider</span> to view data from different years and the <span class="pink">dropdown</span> to select various statistics.<br>
+          <span class="pink">Click</span> on each state for a map of its libraries and other information.<br>
+          <span class="pink">Hover</span> over individual libraries for more information; <span class="pink">click</span> to view in Google Maps.
+        </strong>
+      </p>
+    </div>
+    <div id="toggle">
+      <p><input
+        class="perCapitaToggle"
+        type="radio"
+        name="filterPreset"
+        value="total"
+        checked="true"
+      />
+      Total count
+      <input
+        class="perCapitaToggle"
+        type="radio"
+        name="filterPreset"
+        value="percapita"
+      />
+      Normalized by population
+    </p>  
+    </div>
+    <script type="text/javascript" src="vis_data/state-pls-sum-data.js"></script>
+    <script type="text/javascript" src="vis_data/state-pls-sum-data-range.js"></script>
+    <script type="text/javascript" src="vis_data/pls-stat-units.js"></script>
+    <script type="text/javascript" src="vis_data/name-abbr.js"></script>
+    <script type="text/javascript" src="vis_data/ae-ids.js"></script>
+    <div class="range-slider">
+      <!-- courtesy of https://codepen.io/mayuMPH/pen/ZjxGEY -->
+      <input id="rs-range-line" class="rs-range" type="range" value="2020" min="1998" max="2020">
+    </div>
+    <div class="box-minmax range-slider">
+      <span>1998</span><span>2020</span>
+    </div>
+    <script type="text/javascript">
+      let yearSlider = document.getElementById("rs-range-line");
+      yearSlider.addEventListener("input", showSliderValue, false);
+
+      function showSliderValue() {
+        document.getElementById("year-text").innerHTML = yearSlider.value;
+        document.getElementById("side-year-text").innerHTML = yearSlider.value;
+        changeYear(yearSlider.value);
+      }
+
+    </script>
+    <select name="statistic" id="map-dropdown">
+      <option value="VISITS" selected>Visits</option>
+      <option value="REFERENC">Reference Transactions</option>
+      <option value="REGBOR">Registered Borrowers</option>
+      <option value="BKVOL">Print Materials</option>
+      <option value="OTHMAT">Non-Print Materials</option>
+      <option value="TOTINCM">Library Income</option>
+      <option value="TOTOPEXP">Operating Expenditure</option>
+      <option value="TOTCIR">Circulation</option>
+      <option value="KIDCIRCL">Kids' Material Circulation</option>
+      <option value="HRS_OPEN">Service Hours</option>
+      <option value="ELMATEXP">E-Material Expenditure</option>
+      <option value="PRMATEXP">Print Material Expenditure</option>
+      <option value="TOTPRO">Library Programs</option>
+      <option value="POPU_LSA">Population Served</option>
+    </select>
+    <script type="text/javascript">
+      let statSelector = document.getElementById("map-dropdown");
+      statSelector.addEventListener("input", toggleStatistic, false);
+      function toggleStatistic() {
+        let label = '';
+        switch (statSelector.value) {
+          case 'VISITS': label += 'visit(s)'; break;
+          case 'REFERENC': label += 'reference transaction(s)'; break;
+          case 'REGBOR': label += 'registered borrower(s)'; break;
+          case 'BKVOL': label += 'print material(s)'; break;
+          case 'TOTINCM': label += 'dollar(s) in library income'; break;
+          case 'TOTOPEXP': label += 'dollar(s) in expenditure'; break;
+          case 'TOTCIR': label += 'circulation transaction(s)'; break;
+          case 'HRS_OPEN': label += 'service hour(s)'; break;
+          case 'OTHMAT': label += 'non-print material(s)'; break;
+          case 'ELMATEXP': label += 'dollar(s) spent on e-materials'; break;
+          case 'PRMATEXP': label += 'dollar(s) spent on print materials'; break;
+          case 'KIDCIRCL': label += 'kids\' circulation transactions(s)'; break;
+          case 'TOTPRO': label += 'program(s)'; break;
+          case 'POPU_LSA': label += 'people served'; break;
+        }
+        document.getElementById("stat-name").innerHTML = label;
+        document.getElementById("side-stat-name").innerHTML = label;
+        changeStatistic(statSelector.value);
+      }
+
+    </script>
+    <div><script type="text/javascript" src="v1.js"></script></div>
+    <div id="us-plot"></div>
+    <div id="statetooltip">
+      <p>
+        <strong><span id="statename">United States</span></strong>
+      </p>
+      <p>
+        <span id="stat-value">732,356,964</span>
+        <span id="stat-name" class="purple">visit(s)</span><br> <span id="per-cap-label">total</span>
+         in <span id="year-text" class="purple">2020</span>
+      </p>
+    </div>
+    <div id="side-statetooltip" class="hidden">
+      <p> <strong><span id="side-statename">STATE</span></strong>    
+        <button id="hide-state" onclick="hideStateInfo()">Hide</button><br>
+        <span id="side-stat-value">0</span>
+        <span id="side-stat-name" class="purple">visit(s)</span><br> <span id="side-per-cap-label">total</span>
+        in <span id="side-year-text" class="purple">2020</span>
+      </p>
+      <div id="overlay-key"></div>
+      <script type="text/javascript">
+        const legendSize = 15;
+        const legendTextY = 12;
+        const circleY = 7;
+        const offsetX = 2;
+        const legend = d3.select("#overlay-key").append("svg").attr("width", 250).attr("height", 20);
+
+        legend.append("circle")
+          .attr("class", "legend old box")
+          .attr("cx", 5 + offsetX)
+          .attr("cy", circleY)
+          .attr("r", 4.5)
+          .attr("fill", centralFill)
+          .attr("stroke", centralOutline)
+          .attr("opacity", 0.7);
+        legend.append("text")
+          .attr("class", "legend old")
+          .attr("font-size", "14px")
+          .attr("font-family", "sans-serif")
+          .attr("x", 15 + offsetX)
+          .attr("y", legendTextY)
+          .text("Central library");
+        legend.append("circle")
+          .attr("class", "legend branch box")
+          .attr("cx", 120 + offsetX)
+          .attr("cy", circleY)
+          .attr("r", 4.5)
+          .attr("fill", branchFill)
+          .attr("stroke", branchOutline)
+          .attr("opacity", 0.7);
+        legend.append("text")
+          .attr("class", "legend branch")
+          .attr("font-size", "14px")
+          .attr("font-family", "sans-serif")
+          .attr("x", 130 + offsetX)
+          .attr("y", legendTextY)
+          .text("Branch library");
+        
+      </script>
+
+      <div id="visits-plot"></div>
+    </div>
+    <script type="text/javascript" src="vis_data/state-pls-ae-data.js"></script>
+    <div id="tooltip" class="hidden">
+      <p>
+        <strong><span id="tooltipname">Library Name</span></strong>
+      </p>
+      <p class="addr">
+        <span id="address">0000 XXX Rd</span>
+        <span id="address2">City, State</span>
+      </p>
+      <p id="phone-num">
+        (000) 000-0000
+      </p>
+    </div>   
+    <div id="pie-tooltip" class="hidden">
+      <p>
+        <strong><span id="pie-percent">0.0</span>%</strong> (<span id="pie-value">0</span>)
+      </p>
+    </div>
+  </body>
+</html>
