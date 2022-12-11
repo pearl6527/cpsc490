@@ -35,9 +35,9 @@ let clip = svg.append("defs").append("svg:clipPath")
   .attr("x", padding)
   .attr("y", padding);
 
-const brush = d3.brushX()                     // Add the brush feature using the d3.brush function
-  .extent( [ [-10, 0], [v1_w, v1_h + 10] ] )   // initialise the brush area: start at 0,0 and finishes at width, height
-  .on("end", (event) => updateChart(event));  // Each time the brush selection changes, trigger 'updateChart' function
+const brush = d3.brushX()                       // add the brush feature using the d3.brush function
+  .extent( [ [-10, 0], [v1_w, v1_h + 10] ] )    // initialise the brush area: start at 0,0 and finishes at width, height
+  .on("end", (event) => updateChart(event));    // each time the brush selection changes, trigger 'updateChart' function
 
 v1.append("g")
   .attr("class", "brush")
@@ -333,8 +333,8 @@ d3.selectAll("input.stateCountyToggle").on("click", function () {
   toggleLevels(curr_level);
 });
 
-// Referencing https://d3-graph-gallery.com/graph/interactivity_zoom.html#brushingforzoom
-// A function that set idleTimeOut to null
+// referencing https://d3-graph-gallery.com/graph/interactivity_zoom.html#brushingforzoom
+// a function that sets idleTimeOut to null
 var idleTimeout;
 function idled() { idleTimeout = null; }
 function updateChart(event) {
@@ -342,11 +342,11 @@ function updateChart(event) {
 
     // if no selection, back to initial coordinate; otherwise update x axis domain
     if (!extent) {
-      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // allows to wait a little bit
       xScale.domain(getXDomain(curr_level === "state" ? PLS_DATA_BY_STATE_2020 : PLS_DATA_BY_COUNTY_2020));
     } else {
       xScale.domain([ xScale.invert(extent[0]), xScale.invert(extent[1]) ])
-      v1.select(".brush").call(brush.move, null); // remove grey brush area as soon as the selection has been done
+      v1.select(".brush").call(brush.move, null); // removes grey brush area as soon as the selection has been done
     }
 
     d3.select(".x.axis").transition().duration(1000).call(xAxis);

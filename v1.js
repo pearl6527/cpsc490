@@ -555,7 +555,6 @@ let displayLibraryTooltip = function(d, state, circ) {
 
 let getStatValue = function (state, year, statistic) {
   if (stat_per_capita) {
-    // console.log(roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 1));
     return roundDecimal(PLS_SUM_DATA[state][year][statistic] / PLS_SUM_DATA[state][year]['POPU'], 2);
   }
   return PLS_SUM_DATA[state][year][statistic];

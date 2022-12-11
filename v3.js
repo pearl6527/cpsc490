@@ -52,9 +52,9 @@ let clip2 = svg.append("defs").append("svg:clipPath")
   .attr("x", padding)
   .attr("y", padding);
 
-const brush = d3.brush()                       // Add the brush feature using the d3.brush function
+const brush = d3.brush()                       // add the brush feature using the d3.brush function
   .extent( [ [-10, 0], [v1_w, v1_h + 10] ] )   // initialise the brush area: start at 0,0 and finishes at width, height
-  .on("end", (event) => updateChart(event));   // Each time the brush selection changes, trigger 'updateChart' function
+  .on("end", (event) => updateChart(event));   // each time the brush selection changes, trigger 'updateChart' function
 
 v1.append("g")
   .attr("class", "brush")
@@ -506,16 +506,12 @@ let selectSameState = function(d, selector, color) {
   const state = d.CNTY_KEY.split('-')[0];
   d3.selectAll(selector + state)
     .raise()
-    // .transition("highlightState" + state)
-    // .duration(100)
     .attr("r", 4)
     .attr("fill", color);
 }
 let deselectSameState = function(d, selector, color) {
   const state = d.CNTY_KEY.split('-')[0];
   d3.selectAll(selector + state)
-    // .transition("unhighlightState" + state)
-    // .duration(50)
     .attr("r", rCounty)
     .attr("fill", color);
 }
@@ -641,8 +637,8 @@ function getEduStat(level, d) {
   return EDU_DATA_BY_COUNTY[d.CNTY_KEY];
 }
 
-// Referencing https://d3-graph-gallery.com/graph/interactivity_zoom.html#brushingforzoom
-// A function that set idleTimeOut to null
+// referencing https://d3-graph-gallery.com/graph/interactivity_zoom.html#brushingforzoom
+// a function that sets idleTimeOut to null
 var idleTimeout;
 function idled() { idleTimeout = null; }
 function updateChart(event) {
@@ -650,13 +646,13 @@ function updateChart(event) {
 
     // if no selection, back to initial coordinate; otherwise update x axis domain
     if (!extent) {
-      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350);
       xScale.domain(getXDomain(curr_level === "state" ? PLS_DATA_BY_STATE_2020 : PLS_DATA_BY_COUNTY_2020));
       yScale.domain(yScaleDomain);
     } else {
       xScale.domain([ xScale.invert(extent[0][0]), xScale.invert(extent[1][0]) ]);
       yScale.domain([ yScale.invert(extent[1][1]), yScale.invert(extent[0][1]) ]);
-      v1.select(".brush").call(brush.move, null); // remove grey brush area as soon as the selection has been done
+      v1.select(".brush").call(brush.move, null);
     }
 
     d3.select(".x.axis").transition().duration(1000).call(xAxis);
@@ -684,13 +680,13 @@ function updateChart2(event) {
 
     // if no selection, back to initial coordinate; otherwise update x axis domain
     if (!extent) {
-      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350); // This allows to wait a little bit
+      if (!idleTimeout) return idleTimeout = setTimeout(idled, 350);
       xScale2.domain(getXDomain(curr_level === "state" ? PLS_DATA_BY_STATE_2020 : PLS_DATA_BY_COUNTY_2020));
       yScale2.domain(yScale2Domain);
     } else {
       xScale2.domain([ xScale2.invert(extent[0][0]), xScale2.invert(extent[1][0]) ]);
       yScale2.domain([ yScale2.invert(extent[1][1]), yScale2.invert(extent[0][1]) ]);
-      v2.select(".brush").call(brush2.move, null); // remove grey brush area as soon as the selection has been done
+      v2.select(".brush").call(brush2.move, null);
     }
 
     d3.select(".x.axis.right").transition().duration(1000).call(xAxis2);
