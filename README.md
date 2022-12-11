@@ -1,5 +1,8 @@
 # Beyond Books: Exploring the Role of Public Libraries in the U.S. Through Data Visualization
-CPSC 490 Senior Project: Exploring Public Libraries in the United States
+CPSC 490 Senior Project
+Pearl Hwang
+Adviser: Prof. Holly Rushmeier
+
 The interactive visualizations can be found at https://exploring-public-libraries-in-the-united.onrender.com/.
 
 ## Abstract
